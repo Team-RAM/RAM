@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "RAM",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Yamza_",
   "files": [
     {
@@ -70,11 +70,6 @@
       "required": true
     },
     {
-      "projectID": 303657,
-      "fileID": 2850187,
-      "required": true
-    },
-    {
       "projectID": 353794,
       "fileID": 2837182,
       "required": true
@@ -87,11 +82,6 @@
     {
       "projectID": 355458,
       "fileID": 2846133,
-      "required": true
-    },
-    {
-      "projectID": 355467,
-      "fileID": 2850193,
       "required": true
     },
     {
