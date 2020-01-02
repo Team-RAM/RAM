@@ -1,0 +1,5 @@
+# no private config
+overrides/config/dcintegration-common.toml
+
+# no mod binaries
+*.jar
