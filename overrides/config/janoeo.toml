@@ -1,0 +1,22 @@
+
+#Common config for janoeo
+[janoeo]
+	#Nether ore generation: disable / enable
+	netherOreGen = true
+	#Zombie pigman anger on nether ore harvest: disable / enable
+	pigmanAnger = true
+	#Nether dense ore generation: disable / enable
+	denseOreGen = true
+	#Enderman anger range on end ore harvest: disable / enable
+	#Range: 0 ~ 128
+	endermanAngerRange = 10
+	#End ore generation: disable / enable
+	endOreGen = true
+	#Enderman anger on end ore harvest: disable / enable
+	endermanAnger = true
+	#Zombie pigman anger range on nether ore harvest: disable / enable
+	#Range: 0 ~ 128
+	pigmanAngerRange = 10
+	#Extra ore generation: disable / enable
+	extraOreGen = true
+

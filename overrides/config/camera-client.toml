@@ -1,0 +1,4 @@
+#The format the date will be displayed on the image
+image_date_format = "MM/dd/yyyy HH:mm"
+last_image_path = ""
+
