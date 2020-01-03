@@ -1,0 +1,15 @@
+
+[modules]
+
+	[modules.fruittrees]
+		test = false
+
+[client]
+	#Show item tags and nbt in advanced tooltips
+	debugTooltip = true
+	#Max line width shown in description of tooltips
+	#Range: > 50
+	tooltipWrapWidth = 100
+	#Tooltips require pressing shift to be shown
+	tooltipRequiresShift = false
+
