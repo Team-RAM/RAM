@@ -83,7 +83,7 @@
 		tinMaxVeinSize = 8
 		#Chance that copper generates in a chunk. (0 to Disable)
 		#Range: > 0
-		copperPerChunk = 0
+		copperPerChunk = 16
 		#Max number of blocks in a copper vein.
 		#Range: > 1
 		copperMaxVeinSize = 8
@@ -97,7 +97,7 @@
 		userWorldGenVersion = 0
 		#Chance that tin generates in a chunk. (0 to Disable)
 		#Range: > 0
-		tinPerChunk = 0
+		tinPerChunk = 14
 		#Max number of blocks in a salt vein.
 		#Range: > 1
 		saltMaxVeinSize = 6
