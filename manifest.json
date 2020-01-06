@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Randomly Added Mods",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "Yamza_",
   "files": [
     {
@@ -141,7 +141,7 @@
     },
     {
       "projectID": 220318,
-      "fileID": 2855618,
+      "fileID": 2855755,
       "required": true
     },
     {
@@ -185,13 +185,13 @@
       "required": true
     },
     {
-      "projectID": 268560,
-      "fileID": 2855629,
+      "projectID": 250832,
+      "fileID": 2844803,
       "required": true
     },
     {
-      "projectID": 250832,
-      "fileID": 2844803,
+      "projectID": 268560,
+      "fileID": 2855629,
       "required": true
     },
     {
@@ -210,13 +210,13 @@
       "required": true
     },
     {
-      "projectID": 268567,
-      "fileID": 2855632,
+      "projectID": 351113,
+      "fileID": 2846861,
       "required": true
     },
     {
-      "projectID": 351113,
-      "fileID": 2846861,
+      "projectID": 268567,
+      "fileID": 2855632,
       "required": true
     },
     {
@@ -237,11 +237,6 @@
     {
       "projectID": 334778,
       "fileID": 2850254,
-      "required": true
-    },
-    {
-      "projectID": 336728,
-      "fileID": 2845113,
       "required": true
     },
     {
@@ -325,13 +320,13 @@
       "required": true
     },
     {
-      "projectID": 273640,
-      "fileID": 2846139,
+      "projectID": 325716,
+      "fileID": 2855208,
       "required": true
     },
     {
-      "projectID": 325716,
-      "fileID": 2855208,
+      "projectID": 273640,
+      "fileID": 2846139,
       "required": true
     },
     {
@@ -360,23 +355,23 @@
       "required": true
     },
     {
-      "projectID": 227409,
-      "fileID": 2846899,
-      "required": true
-    },
-    {
       "projectID": 342087,
       "fileID": 2854708,
       "required": true
     },
     {
-      "projectID": 345135,
-      "fileID": 2848888,
+      "projectID": 227409,
+      "fileID": 2846899,
       "required": true
     },
     {
       "projectID": 263420,
       "fileID": 2850220,
+      "required": true
+    },
+    {
+      "projectID": 345135,
+      "fileID": 2848888,
       "required": true
     }
   ],
