@@ -2,7 +2,7 @@
 #Discord RichPresence Config File
 [Rich-Presence]
 	#First line of Rich Presence
-	Client-Name = "Forge 1.15"
+	Client-Name = "Randomly Added Mods"
 	#Placeholders:
 	#%ip%  Server IP
 	Server-Text = "Playing on %ip%"
