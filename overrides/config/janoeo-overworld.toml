@@ -6,11 +6,11 @@
 	#Sapphire ore generation: disable / enable
 	sapphireOreGen = true
 	#Copper ore generation: disable / enable
-	copperOreGen = false
+	copperOreGen = true
 	#Tin ore generation: disable / enable
-	tinOreGen = false
+	tinOreGen = true
 	#Dense tin ore generation: disable / enable
-	denseTinOreGen = false
+	denseTinOreGen = true
 	#Lead ore generation: disable / enable
 	leadOreGen = true
 	#Dense gold ore generation: disable / enable
