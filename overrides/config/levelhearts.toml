@@ -3,7 +3,7 @@
 	#When enabled, the player's health will get reset back to default on death.
 	Hardcore = false
 	#When disabled, LevelHearts' items' functionality will be disabled.
-	Items = true
+	Items = false
 	#When disabled, LevelHearts will not spawn heart pieces and heart containers in chests around the world.
 	Loot = true
 	#When enabled, an extra level of debugging output will be provided to the logs.
@@ -12,7 +12,7 @@
 [Health]
 	#The maximum amount of health LevelHearts will allow a user to have. -1 to disable.
 	#Range: -1 ~ 1024
-	"Maximum Health" = -1
+	"Maximum Health" = 40
 	#The amount of health a user will have in a new game or after death.
 	#Range: 1 ~ 200
 	"Default Health" = 20

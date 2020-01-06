@@ -3,7 +3,7 @@
     "version": "1.15.1",
     "modLoaders": [
       {
-        "id": "forge-30.0.26",
+        "id": "forge-30.0.30",
         "primary": true
       }
     ]
@@ -11,12 +11,22 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "RAM",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Yamza_",
   "files": [
     {
       "projectID": 318551,
       "fileID": 2851109,
+      "required": true
+    },
+    {
+      "projectID": 238222,
+      "fileID": 2855456,
+      "required": true
+    },
+    {
+      "projectID": 325492,
+      "fileID": 2844756,
       "required": true
     },
     {
@@ -57,6 +67,11 @@
     {
       "projectID": 324973,
       "fileID": 2850251,
+      "required": true
+    },
+    {
+      "projectID": 348521,
+      "fileID": 2844737,
       "required": true
     },
     {
@@ -126,12 +141,12 @@
     },
     {
       "projectID": 220318,
-      "fileID": 2853789,
+      "fileID": 2855618,
       "required": true
     },
     {
       "projectID": 254677,
-      "fileID": 2852205,
+      "fileID": 2855475,
       "required": true
     },
     {
@@ -165,6 +180,11 @@
       "required": true
     },
     {
+      "projectID": 239197,
+      "fileID": 2855472,
+      "required": true
+    },
+    {
       "projectID": 250832,
       "fileID": 2844803,
       "required": true
@@ -172,6 +192,11 @@
     {
       "projectID": 355542,
       "fileID": 2848837,
+      "required": true
+    },
+    {
+      "projectID": 353051,
+      "fileID": 2855444,
       "required": true
     },
     {
@@ -250,13 +275,13 @@
       "required": true
     },
     {
-      "projectID": 250898,
-      "fileID": 2853169,
+      "projectID": 353942,
+      "fileID": 2844915,
       "required": true
     },
     {
-      "projectID": 353942,
-      "fileID": 2844915,
+      "projectID": 250898,
+      "fileID": 2853169,
       "required": true
     },
     {
@@ -286,7 +311,7 @@
     },
     {
       "projectID": 325716,
-      "fileID": 2854710,
+      "fileID": 2855208,
       "required": true
     },
     {
