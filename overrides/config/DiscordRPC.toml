@@ -1,0 +1,19 @@
+
+#Discord RichPresence Config File
+[Rich-Presence]
+	#First line of Rich Presence
+	Client-Name = "Randomly Added Mods"
+	#Placeholders:
+	#%ip%  Server IP
+	Server-Text = "Playing on %ip%"
+	#Setting this to true disables name changing through GUI
+	Disable-Name-changing = false
+	#No placeholders supported, Text that shows when you are in the main menu
+	Main-Menu = "In Main Menu"
+	#Placeholders:
+	#%coords% (X:??? Y:??? Z:???)
+	#%world% World name
+	Singleplayer-Text = "Playing in %world% (%coords%)"
+	#Do you want to use development commands?
+	Dev-Commands = false
+

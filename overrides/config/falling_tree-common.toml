@@ -1,0 +1,20 @@
+#Additional list of blocks (those marked with the log tag will already be whitelisted) considered as logs and that will be destroyed all at once
+logs_whitelisted = []
+#Additional list of tools (those marked with the axe tag will already be whitelisted) that can be used to chop down a tree
+tools_whitelisted = []
+#List of blocks that should not be considered as logs (this wins over the whitelist)
+logs_blacklisted = []
+#List of tools that should not be considered as tools (this wins over the whitelist)
+tools_blacklisted = []
+#Ignore the durability loss of breaking all the logs. If set to true, no harm will be done to the tool
+ignore_durability = false
+#The maximum size of a tree. If there's more logs than this value the tree won't be cut.
+#Range: > 1
+max_log_count = 100
+#When set to true, when a tree is broken and the tool is about to break we will just break one block and not the whole tree.
+preserve_tools = false
+#When set to true, a tree will only be chopped down if the player is sneaking
+reverse_sneaking = false
+#When set to true, leaves will be broken instantly
+break_leaves = false
+

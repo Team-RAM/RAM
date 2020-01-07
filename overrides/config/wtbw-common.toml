@@ -1,0 +1,162 @@
+
+#WTBW common config
+[debug]
+	#Show debug output
+	output = false
+
+[blocks]
+
+	[blocks.furnace]
+
+		[blocks.furnace.Gold]
+			#Gold furnace smelting speed, in how many ticks it takes to smelt
+			#Range: 1 ~ 500
+			speed = 80
+
+		[blocks.furnace.DIAMOND]
+			#DIAMOND furnace smelting speed, in how many ticks it takes to smelt
+			#Range: 1 ~ 500
+			speed = 40
+
+		[blocks.furnace.Iron]
+			#Iron furnace smelting speed, in how many ticks it takes to smelt
+			#Range: 1 ~ 500
+			speed = 160
+
+		[blocks.furnace.End]
+			#End furnace smelting speed, in how many ticks it takes to smelt
+			#Range: 1 ~ 500
+			speed = 10
+
+	[blocks.vacuum]
+		#The radius in which the vacuum can check
+		#default: 6
+		#Range: 1 ~ 16
+		range = 6
+		#The time in ticks between trying to suck up items
+		#default: 10
+		#Range: 1 ~ 100
+		tick_rate = 10
+
+	[blocks.pusher_puller]
+		#Strength of pull/push
+		#default: 0.8
+		#Range: 0.01 ~ 5.0
+		strength = 0.8
+		#Range of pusher/puller
+		#default: 6
+		#Range: 1 ~ 16
+		range = 6
+		#Ticks between pulls/pushes
+		#default: 10
+		#Range: 1 ~ 100
+		tick_rate = 10
+
+	[blocks.redstone]
+
+		[blocks.redstone.timer]
+			#The duration of the redstone pulse for the timer
+			#Range: 1 ~ 100
+			duration = 6
+			#The time in ticks for the delay between pulses
+			#Range: 5 ~ 100
+			repeat = 10
+
+[tools]
+
+	[tools.hammer]
+		#The multiplier for the tools durability.
+		#The durability is calculated by the equivalant tools durability
+		#multiplied by this multiplier
+		#Range: 1 ~ 15
+		multiplier = 7
+
+	[tools.swapping]
+		#The blacklisted blocks
+		blacklist = "minecraft:bedrock"
+		#Maximum hardness that can be swapped
+		#Range: 0.0 ~ 1.7976931348623157E308
+		max_hardness = 49.0
+
+	[tools.wateringCans]
+		#Can the watering cans spread grass faster
+		canSpreadGrass = true
+		#The refill rate of water/tick
+		#Range: 1 ~ 100000
+		refillRate = 30
+		#Moisterize farm land
+		moisterize = true
+
+		[tools.wateringCans.diamond]
+			#The chance to further a growth stage
+			#Range: 1 ~ 100
+			chance = 35
+			#The amount of water consumed per tick
+			#Range: 1 ~ 10000
+			drainRate = 5
+			#The maximum amount of water the watering can can hold
+			#Range: 100 ~ 100000
+			maxWater = 10000
+			#The radius of effect for the watering can
+			#Number MUST be uneven
+			#Range: 1 ~ 15
+			radius = 5
+
+		[tools.wateringCans.quartz]
+			#The chance to further a growth stage
+			#Range: 1 ~ 100
+			chance = 25
+			#The amount of water consumed per tick
+			#Range: 1 ~ 10000
+			drainRate = 5
+			#The maximum amount of water the watering can can hold
+			#Range: 100 ~ 100000
+			maxWater = 5000
+			#The radius of effect for the watering can
+			#Number MUST be uneven
+			#Range: 1 ~ 15
+			radius = 3
+
+		[tools.wateringCans.ender]
+			#The chance to further a growth stage
+			#Range: 1 ~ 100
+			chance = 50
+			#The amount of water consumed per tick
+			#Range: 1 ~ 10000
+			drainRate = 5
+			#The maximum amount of water the watering can can hold
+			#Range: 100 ~ 100000
+			maxWater = 10000
+			#The radius of effect for the watering can
+			#Number MUST be uneven
+			#Range: 1 ~ 15
+			radius = 7
+
+		[tools.wateringCans.basic]
+			#The chance to further a growth stage
+			#Range: 1 ~ 100
+			chance = 10
+			#The amount of water consumed per tick
+			#Range: 1 ~ 10000
+			drainRate = 5
+			#The maximum amount of water the watering can can hold
+			#Range: 100 ~ 100000
+			maxWater = 1000
+			#The radius of effect for the watering can
+			#Number MUST be uneven
+			#Range: 1 ~ 15
+			radius = 3
+
+	[tools.magnet]
+		#Should the magnet only pickup items that fit into the inventory
+		#default: true
+		pick_up = true
+		#The radius (cube) that items can be magnetized
+		#default: 6
+		#Range: 1 ~ 16
+		radius = 6
+		#How often the magnet needs to check to magnetize, in ticks
+		#default: 10
+		#Range: 1 ~ 60
+		tick_rate = 10
+

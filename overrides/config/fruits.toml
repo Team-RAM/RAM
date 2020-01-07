@@ -1,0 +1,6 @@
+#Range: 0 ~ 100
+growingSpeed = 15
+fruitDrops = true
+#Range: 0.0 ~ 1.0
+oakLeavesDropsAppleSapling = 0.20000000298023224
+
