@@ -1,0 +1,151 @@
+~~~~~~~~~~~~~~~~~Added by toolkit~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+/tk devenv <boolan>
+true
+Sets GameRules "doDaylightCycle", "doMobSpawning" and "doWeatherCycle" to falseSets time to 6000 and weather to clear
+false
+Sets GameRules "doDaylightCycle", "doMobSpawning" and "doWeatherCycle" back to true
+
+
+/tk hand <string>
+No argument given
+Prints registry name + nbt of held items/blocks in chat and copies it to clipboard
+nocopy
+Prints registry name + nbt of held item
+
+
+/tk hotbar
+Copies registry name + nbt of all items/blocks in hotbar to clipboard
+
+
+/tk inventory
+Copies registry name + nbt of all items/blocks in inventory to clipboard
+
+
+/tk oredist <dimension> <int>
+Counts ores in given radius ( 16x16 * int ) around the player in given dimensenion and prints in the chat how many of each ore there was in the radius, and its percentes of all ores in the that radius
+
+
+/tk clear <int>
+Removes all vanilla blocks that isnt ores in given radius ( 16x16 * int ) around the player
+
+
+/tk structure_clean <string>
+Removes all air block in the given structure file
+ 
+
+/tk killAll
+Removes/kills entities
+ 
+
+/tk killAllAnimals
+Kills all animals
+ 
+
+/tk killAllExpOrbs
+Kills all experience orbs
+ 
+
+/tk killAllMonsters
+Kills all monsters
+
+
+
+~~~~~~~~~~~~~~~Added by: MaEssentials~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Time commands:
+
+Command  	  Arguments 	  Descrption	              Player 	  Operator
+/day	      -	            Set time to day	 	          x
+/night	    -	            Set time to night	 	        x
+ 
+
+Weather commands:
+
+Command  	  Arguments 	  Descrption	              Player 	  Operator
+/sun	      -	            Set weather to sun	 	                x
+/rain	      -	            Set weather to rain	 	                x
+/thunder	  -	            Set weather to thunder	 	            x
+ 
+
+Spawn commands:
+
+Command  	  Arguments 	  Descrption	              Player 	  Operator
+/spawn	    -	            Teleport to spawn	          x	        x
+/setspawn	  -	            Set spawn location	 	                x
+ 
+
+Player commands:
+
+Command  	  Arguments 	  Descrption	                              Player 	  Operator
+/back	      -	            Teleport to last location or death place	  x	          x
+/suicide	  -	            Suicide yourself	                          x	          x
+/rndtp	    -	            Teleport player to random location	        x	          x
+/trash	    -	            Open trash inventory, all items will be deleted when close	 x	 x
+/afk	      -	            Tell other players that you are going afk	  x	          x
+ 
+
+Home commands:
+
+Command  	Arguments 	Descrption	Player 	Operator
+ /delhome	 <homeName>	 Delete home	 x	 x
+ /sethome	 <none, homeName>	 Set home	 x	 x
+ /home	 <none, homeName>	 Teleport to home	 x	 x
+ 
+
+Warp commands:
+
+Command  	Arguments 	Descrption	Player 	Operator
+/delwarp 	 <warpName>	 Delete warp	 	 x
+/setwarp	 <warpName>	Set warp	 	 x
+/warp	 <none, warpName>	Teleport to warp or show warps available	 x	 x
+/warps	 -	List of available warps	 x	 x
+ 
+
+Teleport request commands:
+
+Command  	Arguments 	Descrption	Player 	Operator
+ /tpa	 <targetPlayer>	 Teleport to player	 x	 x
+ /tpahere	 <targetPlayer>	 Teleport player to you	 x	 x
+ /tpaccept	 <none, targetPlayer>	 Accept first or specific teleport request	 x	 x
+ /tpdeny	 <none, targetPlayer>	 Deny first or specific teleport request	 x	 x
+ 
+
+Kits:
+
+Command  	Arguments 	Descrption	Player 	Operator
+/kit	<kitName> 	Give kit to player	  x	 x
+/kits	-	List of available kits	  x	 x
+ 
+
+Admin commands:
+
+Command  	Arguments 	Descrption	Player 	Operator
+/mute	<targerPlayer> <time> <reason>	Mute player on chat	 	 x
+/unmute	<targerPlayer>	Unmute player on chat	 	 x
+/tpall	-	Teleports all players to you	 	 x
+/kickall	<none, reason>	Kick all players from server	 	 x
+/broadcast 	<message>	Broadcast message to all players 	 	 x
+/endc	<none, targetPlayer>	Open your or other players enderchest	 	 x
+/suicide	<targetPlayer>	Suicide other players	 	 x
+/heal	<none, targetPlayer>	 Heal yourself or other players	 	 x
+/gm	<0,1,2,3> <none, targetPlayer>	Change gamemode to yourself or others	 	 x
+/fly	<none, targetPlayer>	Change flying to yourself or others 	 	 x
+/god	<none, targetPlayer>	Enable or disable player god mode	 	 x
+/top	-	Teleport to the highest block at your current position	 	 x
+/speed	<speed> <none, targetPlayer>	Change player walk or fly speed	 	 x
+/up	<number>	Teleports you x blocks up or down	 	 x
+/tempban	<targetPlayer> <time> <reaon>	Ban player	 	 x
+/unban	<targetPlayer>	Unban player	 	 x
+/check	<bans,mutes>	Check players bans/mutes	 	 x
+/head	<targetPlayer> <none, amount>	Gives you player head	 	 x
+/invsee	<targetPlayer>	See player inventory	 	 x
+ 
+
+Other: 
+
+Command  	Arguments 	Descrption	Player 	Operator
+/maereload	-	Reload mod data 	 	 x
