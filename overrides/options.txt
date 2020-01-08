@@ -1,3 +1,0 @@
-autoJump:false
-bobView:false
-renderDistance:10
