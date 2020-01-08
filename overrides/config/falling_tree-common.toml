@@ -10,7 +10,7 @@ tools_blacklisted = []
 ignore_durability = false
 #The maximum size of a tree. If there's more logs than this value the tree won't be cut.
 #Range: > 1
-max_log_count = 100
+max_log_count = 350
 #When set to true, when a tree is broken and the tool is about to break we will just break one block and not the whole tree.
 preserve_tools = false
 #When set to true, a tree will only be chopped down if the player is sneaking
