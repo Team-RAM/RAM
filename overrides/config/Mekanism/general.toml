@@ -1,5 +1,5 @@
 
-#General Config
+#General Config. This config is synced from server to client.
 [general]
 	#Maximum Joules per mB of Steam. Also affects Thermoelectric Boiler.
 	maxEnergyPerSteam = 100.0
@@ -16,8 +16,6 @@
 	laserEnergyNeededPerHardness = 100000
 	#Amount of heat produced per fuel tick of a fuel's burn time in the Fuelwood Heater.
 	heatPerFuelTick = 4.0
-	#Allows chunks to retrogen Mekanism ore blocks.
-	enableWorldRegeneration = false
 	#Scuba Tank Gas Tank capacity in mB.
 	maxScubaGas = 24000
 	#How far (in blocks) a laser can travel.
@@ -72,35 +70,6 @@
 	maxJetpackGas = 24000
 	#Delay in ticks before a player is teleported after clicking the Teleport button in the portable teleporter.
 	portableTeleporterDelay = 0
-
-	#World Generation Settings
-	[general.world_generation]
-		#Chance that osmium generates in a chunk. (0 to Disable)
-		#Range: > 0
-		osmiumPerChunk = 12
-		#Max number of blocks in a tin vein.
-		#Range: > 1
-		tinMaxVeinSize = 8
-		#Chance that copper generates in a chunk. (0 to Disable)
-		#Range: > 0
-		copperPerChunk = 16
-		#Max number of blocks in a copper vein.
-		#Range: > 1
-		copperMaxVeinSize = 8
-		#Max number of blocks in an osmium vein.
-		#Range: > 1
-		osmiumMaxVeinSize = 8
-		#Chance that salt generates in a chunk. (0 to Disable)
-		#Range: > 0
-		saltPerChunk = 2
-		#Change this value to cause Mekanism to regen its ore in all loaded chunks.
-		userWorldGenVersion = 0
-		#Chance that tin generates in a chunk. (0 to Disable)
-		#Range: > 0
-		tinPerChunk = 14
-		#Max number of blocks in a salt vein.
-		#Range: > 1
-		saltMaxVeinSize = 6
 
 	#Thermal Evaporation Plant Settings
 	[general.thermal_evaporation]

@@ -14,10 +14,10 @@
 		#Range: > 0
 		delay = 3
 		#Enable command: /back
-		enable = true
+		enable = false
 		#Range: > 0
 		cooldown = 0
-		enable_on_death = true
+		enable_on_death = false
 
 	[Commands.speed]
 		#Range: 0 ~ 50

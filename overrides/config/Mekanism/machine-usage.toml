@@ -1,5 +1,5 @@
 
-#Machine Energy Usage Config
+#Machine Energy Usage Config. This config is synced from server to client.
 [usage]
 	#Energy per operation tick (Joules).
 	chemicalInfuser = 200.0
