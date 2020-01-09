@@ -2,3 +2,4 @@ autoJump:false
 bobView:false
 renderDistance:10
 tutorialStep:none
+key_Toggle on/off:key.keyboard.backslash
