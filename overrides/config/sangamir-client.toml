@@ -1,0 +1,19 @@
+
+[general]
+	#Biome/Location/Other data HUD (true to enable, false to disable)
+	DataHUD = false
+	#Potions HUD (true to enable, false to disable)
+	PotionsHUD = false
+	#Auto Repair (true to enable, false to disable)
+	AutoRepair = true
+	#Small sized Armor HUD (true to enable, false to disable)
+	SmallArmorHUD = false
+	#Armor HUD (true to enable, false to disable)
+	ArmorHUD = false
+	#Time HUD (true to enable, false to disable)
+	TimeHUD = false
+	#Large sized Armor HUD (true to enable, false to disable)
+	LargeArmorHUD = false
+	#Looking At HUD (true to enable, false to disable)
+	LookingAtHUD = false
+

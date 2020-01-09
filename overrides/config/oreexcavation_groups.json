@@ -36,6 +36,53 @@
       "minecraft:infested_mossy_stone_bricks"
     ],
     [
+      "tag:forge:ores/copper",
+      "janoeo:dense_copper_ore"
+    ],
+    [
+      "tag:forge:ores/quartz",
+      "janoeo:dense_quartz_nether_ore"
+    ],
+    [
+      "tag:forge:ores/tin",
+      "janoeo:dense_tin_ore"
+    ],
+    [
+      "tag:forge:ores/coal",
+      "janoeo:dense_coal_nether_ore",
+      "janoeo:dense_coal_ore"
+    ],
+    [
+      "tag:forge:ores/diamond",
+      "janoeo:dense_diamond_nether_ore",
+      "janoeo:dense_diamond_ore"
+    ],
+    [
+      "tag:forge:ores/emerald",
+      "janoeo:dense_emerald_nether_ore",
+      "janoeo:dense_emerald_ore"
+    ],
+    [
+      "tag:forge:ores/gold",
+      "janoeo:dense_gold_nether_ore",
+      "janoeo:dense_gold_ore"
+    ],
+    [
+      "tag:forge:ores/iron",
+      "janoeo:dense_iron_nether_ore",
+      "janoeo:dense_iron_ore"
+    ],
+    [
+      "tag:forge:ores/lapis",
+      "janoeo:dense_lapis_nether_ore",
+      "janoeo:dense_lapis_ore"
+    ],
+    [
+      "tag:forge:ores/redstone",
+      "janoeo:dense_redstone_nether_ore",
+      "janoeo:dense_redstone_ore"
+    ],
+    [
       "minecraft:chiseled_stone_bricks",
       "minecraft:infested_chiseled_stone_bricks"
     ]

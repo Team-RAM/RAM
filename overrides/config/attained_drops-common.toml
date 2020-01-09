@@ -1,0 +1,16 @@
+
+#Server Configuration
+[server]
+	#The 1/n chance for life essence to drop from a monster.
+	#Range: > 1
+	"Drop Chance" = 18
+	#If bonemeal works on vitalized plants.
+	"Allow Bonemeal" = false
+	#The radius of the Vitality Spreader.
+	#Range: 0 ~ 5
+	"Vitality Spreader Radius" = 2
+	#If vitalized soil will revert to dirt (instead of vitalized soil) after growing 1-4 bulbs.
+	"Dirt Reversion" = true
+	#If bulbs can be harvested on right click.
+	"Simple Harvest" = true
+

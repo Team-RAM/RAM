@@ -15,7 +15,7 @@
 	enableAllDirs = false
 	#Range: > -2147483648
 	keyCodeOptionsMenu = 79
-	enableDoubleTap = false
+	enableDoubleTap = true
 	#Allowed Values: KEYSYM, SCANCODE, MOUSE
 	keyTypeSprintToggle = "KEYSYM"
 	flyOnGround = false

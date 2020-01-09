@@ -1,8 +1,8 @@
 {
   "break_bonus": 0.004,
-  "mining_bonus": 0.5,
-  "woodcutting_bonus": 0.5,
-  "digging_bonus": 0.2,
+  "mining_bonus": 0.08,
+  "woodcutting_bonus": 1.0,
+  "digging_bonus": 0.05,
   "combat_bonus": 0.5,
   "farming_bonus": 0.5
 }

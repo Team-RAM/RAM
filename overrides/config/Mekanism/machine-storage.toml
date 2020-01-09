@@ -1,5 +1,5 @@
 
-#Machine Energy Storage Config
+#Machine Energy Storage Config. This config is synced from server to client.
 [storage]
 	#Base energy storage (Joules).
 	rotaryCondensentrator = 20000.0
