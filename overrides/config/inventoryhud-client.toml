@@ -1,12 +1,14 @@
 
 #Client-only settings
 [client]
-	#Custom Y position
-	#Range: 0 ~ 9999
-	yPos = 0
+	#Is position above HOTBAR (if false - use custom position)
+	aboveHB = true
 	#Custom X position
 	#Range: 0 ~ 9999
 	xPos = 0
-	#Is position above HOTBAR (if false - use custom position)
-	aboveHB = true
+	#Custom Y position
+	#Range: 0 ~ 9999
+	yPos = 0
+	#Toggle on by default
+	byDefault = false
 
