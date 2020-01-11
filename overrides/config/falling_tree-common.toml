@@ -16,5 +16,5 @@ preserve_tools = false
 #When set to true, a tree will only be chopped down if the player is sneaking
 reverse_sneaking = false
 #When set to true, leaves will be broken instantly
-break_leaves = true
+break_leaves = false
 

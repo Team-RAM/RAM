@@ -3,7 +3,7 @@
     "version": "1.15.1",
     "modLoaders": [
       {
-        "id": "forge-30.0.35",
+        "id": "forge-30.0.36",
         "primary": true
       }
     ]
@@ -11,8 +11,9 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Randomly Added Mods",
-  "version": "0.0.8",
-  "author": "Yamza_",
+  "version": "0.0.9",
+  "author": "OfficialTeamRAM",
+  "projectID": 357569,
   "files": [
     {
       "projectID": 251767,
@@ -31,7 +32,7 @@
     },
     {
       "projectID": 268495,
-      "fileID": 2853013,
+      "fileID": 2857534,
       "required": true
     },
     {
@@ -46,7 +47,7 @@
     },
     {
       "projectID": 330369,
-      "fileID": 2848555,
+      "fileID": 2857689,
       "required": true
     },
     {
@@ -81,7 +82,7 @@
     },
     {
       "projectID": 303657,
-      "fileID": 2853780,
+      "fileID": 2858286,
       "required": true
     },
     {
@@ -101,7 +102,7 @@
     },
     {
       "projectID": 254677,
-      "fileID": 2856985,
+      "fileID": 2857352,
       "required": true
     },
     {
@@ -136,7 +137,7 @@
     },
     {
       "projectID": 273640,
-      "fileID": 2846139,
+      "fileID": 2857466,
       "required": true
     },
     {
@@ -246,7 +247,7 @@
     },
     {
       "projectID": 243707,
-      "fileID": 2851594,
+      "fileID": 2858219,
       "required": true
     },
     {
@@ -297,6 +298,11 @@
     {
       "projectID": 335673,
       "fileID": 2856870,
+      "required": true
+    },
+    {
+      "projectID": 230976,
+      "fileID": 2848924,
       "required": true
     },
     {
@@ -376,7 +382,7 @@
     },
     {
       "projectID": 357540,
-      "fileID": 2856056,
+      "fileID": 2857696,
       "required": true
     },
     {
@@ -410,13 +416,18 @@
       "required": true
     },
     {
+      "projectID": 252848,
+      "fileID": 2858170,
+      "required": true
+    },
+    {
       "projectID": 355348,
       "fileID": 2845601,
       "required": true
     },
     {
       "projectID": 270684,
-      "fileID": 2854520,
+      "fileID": 2857741,
       "required": true
     }
   ],
