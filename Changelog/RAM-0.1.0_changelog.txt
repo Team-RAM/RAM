@@ -1,0 +1,194 @@
+=======================================================
+Randomly Added Mods 0.0.9 --> Randomly Added Mods 0.1.0
+=======================================================
+
+Added:
+- Bad Wither No Cookie - Reloaded
+- Better Burning
+- ChunkNoGoByeBye
+- CookieCore
+- Ding
+- FPS Reducer
+- Magic Feather
+- PackMenu
+- Portality
+- Sisser
+- Titanium
+
+Updated:
+	Buzzier Bees (Buzzier Bees - 1.0 --> Buzzier Bees - 1.1.2):
+		Buzzier Bees - 1.1.2:
+			Changes
+			- Flamboyant Dyed Candles are now in the Decorations tab because of internal issues
+			- Beehives now have unique textures each!
+			Fixes
+			- Fixed crashing on servers
+
+		Buzzier Bees - 1.1.1:
+			Changes
+			Scented Candles now require Popped Chorus Fruit instead of Blaze Powder
+			- This is to make them more balanced and more end-game
+			Adjusted Flower Spawns
+			- Cartwheels spawn in Flower Forests
+			- Dayblooms spawn in Sunflower Plains
+			- Jolyces spawn in Swamps
+			- White Clovers spawn in Forests
+			- Pink Clovers spawn in Birch Forests & Flower Forests
+			- Bluebells spawn in Dark Forests & Flower Forests
+			- Columbines spawn in Mountains
+			- Violets spawn in Taigas and Flower Forests
+			- Birds of Paradise spawn in Jungles
+			Known Issues
+			- [The game crashes when running on servers ](https://github.com/bageldotjpg/BuzzierBees/issues/12)
+			- [Cartwheels always face North when placed in Flower Pots](https://github.com/bageldotjpg/BuzzierBees/issues/11)
+
+		Buzzier Bees - 1.1:
+			Items
+			Cures
+			- Potions that cure the effect correlated to the ingredient used to make it
+			- Brewed the same as Potions, but instead using a Honey Bottle instead of a Water Bottle
+			- Can be made into Splash Cures, Lingering Cures, and Cure Arrows
+			Wax
+			- Texture has changed
+			- Wax Block recipes now requires nine wax
+			Bee Soup
+			- Crafted from a bowl, honey bottle, crystallized honey, wax, and honeycomb
+			- Very powerful but has a chance to give you slowness for a while
+			Crystallized Honey
+			- Recipe is now Honey Bottle + three Sugar
+			- Can be crafted into six Sugar
+			Honey Apple
+			- Crafted from Honey Bottle + Apple
+			- Cures Levitation
+			Honey Bread
+			- Crafted from Honey Bottle + Bread
+			- Cures Hunger
+			Honey Wand
+			- Crafted from a Bee Nest + two Sticks
+			- Can remove & insert Honey from Beehives & Bee Nests without angering bees
+			- Can remove Honey from Honey Slimes
+			- Can be eaten when sticky for food
+			- Can be crafted with a bottle for a Honey Bottle
+			- Attacking an enemy with it will remove the honey and slow the enemy down
+			Four Leaf Clover
+			- Can be found in Desert & Jungle Pyramids
+			- Used to create Luck potions
+			Blocks
+			Beehives
+			- There are now variants for Vanilla woods
+			- Crafting recipe has changed to reflect this
+			- Mod support will be added in the future
+			Wax Block
+			- Now crafted from nine Wax
+			- Returns nine Wax as output as well
+			Hive Planks
+			- Crafted from Wax surrounded by Wooden Planks
+			- Can be crafted into Stairs, Slabs, Fences, Pressure Plates, Trapdoors, Fence Gates, Buttons, and Doors
+			Honey Bricks
+			- Crafted from Bricks and Honeycombs diagonally
+			- Can be crafted into Stairs, Slabs, and Walls
+			Honey Lamp
+			- Crafted from an End Rod, Honey Bottle, and Gold Ingot
+			Cartwheel
+			- Animated pink flower found in Flower Forests
+			- Can be used in Suspicious Stew and Scented Candles
+			Bluebell
+			- Blue flower found in Plains, Sunflower Plains, and Flower Forests
+			- Can be used in Suspicious Stew and Scented Candles
+			Daybloom
+			- Yellow flower found in Sunflower Plains
+			- Can be used in Suspicious Stew and Scented Candles
+			Violet
+			- Purple flower found in Plains, Sunflower Plains, and Flower Forests
+			- Can be used in Suspicious Stew and Scented Candles
+			Jolyce
+			- Green flower found in Plains, Sunflower Plains, and Flower Forests
+			- Can be used in Suspicious Stew and Scented Candles
+			Columbine
+			- Purple flower found in Flower Forests
+			- Can be used in Suspicious Stew and Scented Candles
+			White Clover
+			- White flower found in Plains
+			- Can be used in Suspicious Stew and Scented Candles
+			- Will soon be updated to be found in Clover Patches, where Clover Leaves and Four Leaf Clovers can be found
+			Pink Clover
+			- Pink flower found in Plains
+			- Can be used in Suspicious Stew and Scented Candles
+			- Will soon be updated to be found in Clover Patches, where Clover Leaves and Four Leaf Clovers can be found
+			Bird of Paradise
+			- Two block tall Orange and Blue flower found in the Jungle
+			- Crafted into Orange dye
+			Scented Candles
+			- Added Scented Candles for Cartwheel, Bluebell, Daybloom, Violet, Jolyce, Columbine, White Clover, and Pink Clover
+			- Radius of effect now directly correlates to the number of Candles placed
+			Mobs
+			Honey Slime
+			- Friendly until you attack them
+			- Drops Honeycombs when killed
+			- Spawns in Flower Forests during the day
+			- The honey can be removed off them using a bottle or honey wand and they will be converted into regular slimes
+			Advancements
+			Better Luck This Time
+			- Find a Four Leaf Clover
+			Aromatherapy
+			- Obtain a Scented Candle
+			Full Scent
+			- Obtain all Scented Candles
+			An Apple a Day
+			- Use a Honey Apple to cure Levitation
+			Ending Starvation
+			- Use Honey Bread to cure Hunger
+			Misc.
+			Changed the ID of Scented Candles from “[flower]_candle” to “[flower]_scented_candle”
+			- Warning: this will delete all previously placed Scented Candles
+			Dyed Candles now have variants for Flamboyant dyes when Flamboyant is present
+			Future Mod Compatibility
+			- Beehives will have variants for other modded woods that update to 1.15
+			- Hive Planks will get Quark support, featuring ladders, vertical planks, vertical slabs, and bookshelves.
+			- Honey Bricks will get Quark support featuring vertical slabs.
+
+	Falling Tree (FallingTree-1.15.1-2.0.1+11 --> FallingTree-1.15.1-2.0.2+13):
+		FallingTree-1.15.1-2.0.2+13:
+			 * Fix #3: Leaves won't break when break_leaves = true and a tree grows naturally 
+
+	Inventory HUD (Forge) (InventoryHud_1.15.1.forge.1.2.jar --> InventoryHud_1.15.1.forge.1.3.jar):
+		InventoryHud_1.15.1.forge.1.3.jar:
+			1.15.1_1.3 - Some lang fixes
+
+	Inventory Power (Inventory Power-r1.15-001.jar --> Inventory Power-r1.15-002.jar):
+		Inventory Power-r1.15-002.jar:
+			Hotfix!
+			This version is highly recommended to be used rather than r1.15-001. Fixes:
+			- GUI not resizing.
+			Credits:
+			- Thank you to byll_do_zer for bringing this bug to my attention!
+
+	Lighting Wand (LightingWand-1.15.1-1.4.0.jar --> LightingWand-1.15.1-1.4.1.jar):
+		LightingWand-1.15.1-1.4.1.jar:
+			Re-add JEI support
+
+	Mekanism (Mekanism-1.15.1-9.9.1.392.jar --> Mekanism-1.15.1-9.9.2.393.jar):
+		Mekanism-1.15.1-9.9.2.393.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[c69101e](https://github.com/mekanism/Mekanism/commit/c69101e35b73200dc742f3fe7f154106b785e27a)- Fix using wrong values for melon's and melon slices due to the id having changed for melons at some point[b5c8ebc](https://github.com/mekanism/Mekanism/commit/b5c8ebc542da7ea991d76d121c394ba01ac3b749)- Fix jetpack's not allowing any gas to be put in them initially[#5734](https://github.com/mekanism/Mekanism/issues/5734)[0a14520](https://github.com/mekanism/Mekanism/commit/0a145204de5f04651fa5d83a187b1d26e1fcfef7)- Fix electric pump not properly removing fluid blocks, and make it work better in general with the concept of fluid states[#5742](https://github.com/mekanism/Mekanism/issues/5742), also perform some minor cleanup, and delete a commented out class that is no longer used[e300eae8](https://github.com/mekanism/Mekanism/commit/e300eae8532d84c67b059a377ab036cd6796dda9)- Fixes incorrect index being used for formulaic assemblicator causing it to not work properly[#5738](https://github.com/mekanism/Mekanism/issues/5738)[#5740](https://github.com/mekanism/Mekanism/issues/5740)[3c84ee1](https://github.com/mekanism/Mekanism/commit/3c84ee13c77651941ca4ea0b2f6a222a5a3dcddd)- Fixes silk touch mode on the miner ([#5732](https://github.com/mekanism/Mekanism/issues/5732)), and don't bother firing block harvesting, as forge no longer fires it anywhere and from my understanding the plan is to remove the event[275f9f0](https://github.com/mekanism/Mekanism/commit/275f9f01202214b383bd52b08612fa0011c18ae4)- Start converting Loot Tables to Data Generators So far the loot tables for Mekanism Additions have been moved over, including fixing a few copy paste errors with the dropped blocks being the wrong ones[f0a891e](https://github.com/mekanism/Mekanism/commit/f0a891e59d1dae71500d78073c2ef831ea60e5aa)- Fix bio fuel to ethylene recipe not actually using bio fuel.[#5745](https://github.com/mekanism/Mekanism/issues/5745)[9c635d7](https://github.com/mekanism/Mekanism/commit/9c635d7cb5ae185e358ed4ad22e3b25ade7dfe2e)- Finish moving Loot Tables over to Data Generators (still might move the robit to a loot table at some point), and fix issues with some stuff like gas tank contents not being saved.[#5735](https://github.com/mekanism/Mekanism/issues/5735)WARNING: this likely will end up voiding some contents that are stored in machines/blocks that are picked up and some that are in machines/blocks that are placed. Especially for things like side configuration, and stored upgrades, I believe item inventories will be fine but various internal tanks will be wiped.[28352ca](https://github.com/mekanism/Mekanism/commit/28352caa7ccf2fed65c3b0451dfbe29f26f42f43)- Commit a couple missed files, and fix a few issues with the personal chest guis[#5753](https://github.com/mekanism/Mekanism/issues/5753)[3911e56](https://github.com/mekanism/Mekanism/commit/3911e565f4deceeb365add286821ff7a8e9696ea)- Fix InventoryPersonalChest not reading/writing to the new slot styled of NBT data so corrupting/clearing out the data of what is stored in the personal chest.[#5757](https://github.com/mekanism/Mekanism/issues/5757)[0fc7c47](https://github.com/mekanism/Mekanism/commit/0fc7c479db6c67095f116567b7bf75ff88c8f554)- Fixes incorrect position being used for calculation of thermal evaporation controller. Also kill of a few more unneeded uses of Coord4D.[#5750](https://github.com/mekanism/Mekanism/issues/5750)[15f4506](https://github.com/mekanism/Mekanism/commit/15f45069e963af879d91d92d90f3baa82582a63b)- Fix handling of draining fluid tanks[#5759](https://github.com/mekanism/Mekanism/issues/5759)[481fd67](https://github.com/mekanism/Mekanism/commit/481fd670b5625cfdd72af6cd4e51c65c93446f0d)- Allow AdvancedBoundingBlocks to proxy installing upgrades[#5746](https://github.com/mekanism/Mekanism/issues/5746)[8b1ab18](https://github.com/mekanism/Mekanism/commit/8b1ab1811861591756d96626a3479a16643a00f5)- Fixes improperly accounting for gas usage for ItemStackGasToGas and ItemStackGasToItemStack recipes.[#5748](https://github.com/mekanism/Mekanism/issues/5748)[504d175](https://github.com/mekanism/Mekanism/commit/504d1757ba972b93a27160634bd392f6ce55a482)- Fix container slot validity check not actually checking if the slot allows for manual input. This fixes being able to insert items manually into output slots[05cb34e](https://github.com/mekanism/Mekanism/commit/05cb34e4d902aa58ccb60c354f54007804f6cc06)- Fix potential race condition where Packet IDs do not match on client and server due to generators registering its packets before Mekanism registers it and vice versa. I believe this is possible due to the parallel mod loading.[#5754](https://github.com/mekanism/Mekanism/issues/5754)[#5756](https://github.com/mekanism/Mekanism/issues/5756)[f7edf85](https://github.com/mekanism/Mekanism/commit/f7edf8594fb0b394dc27bbe4eca3008d766212a2)- Don't reset operating ticks when a cached recipe's input becomes invalid. Also don't mark recipes as invalid just because the per tick cost is higher than we currently can provide.[#5764](https://github.com/mekanism/Mekanism/issues/5764)[866e2c2](https://github.com/mekanism/Mekanism/commit/866e2c2dc5341ef8a859459d9c621e4a551c8202)- update zh_cn ([#5758](https://github.com/mekanism/Mekanism/issues/5758))[157409b](https://github.com/mekanism/Mekanism/commit/157409b225ed3f83100c548b78266ebfc22eb7f2)- Update fr_fr ([#5737](https://github.com/mekanism/Mekanism/issues/5737))[3f6737c](https://github.com/mekanism/Mekanism/commit/3f6737cd4e9707dd8e870116fb074ff848baa7c8)- Modify the code some so that FluidTanks can take the fluid's light level into account.[#5765](https://github.com/mekanism/Mekanism/issues/5765), doesn't work yet due to what I believe are forge issues[5c29c9b](https://github.com/mekanism/Mekanism/commit/5c29c9b3de567af270b6de0e68599f9156e71dad)- Bump version to 9.9.2
+
+	Mekanism Generators (MekanismGenerators-1.15.1-9.9.1.392.jar --> MekanismGenerators-1.15.1-9.9.2.393.jar):
+		MekanismGenerators-1.15.1-9.9.2.393.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[c69101e](https://github.com/mekanism/Mekanism/commit/c69101e35b73200dc742f3fe7f154106b785e27a)- Fix using wrong values for melon's and melon slices due to the id having changed for melons at some point[b5c8ebc](https://github.com/mekanism/Mekanism/commit/b5c8ebc542da7ea991d76d121c394ba01ac3b749)- Fix jetpack's not allowing any gas to be put in them initially[#5734](https://github.com/mekanism/Mekanism/issues/5734)[0a14520](https://github.com/mekanism/Mekanism/commit/0a145204de5f04651fa5d83a187b1d26e1fcfef7)- Fix electric pump not properly removing fluid blocks, and make it work better in general with the concept of fluid states[#5742](https://github.com/mekanism/Mekanism/issues/5742), also perform some minor cleanup, and delete a commented out class that is no longer used[e300eae8](https://github.com/mekanism/Mekanism/commit/e300eae8532d84c67b059a377ab036cd6796dda9)- Fixes incorrect index being used for formulaic assemblicator causing it to not work properly[#5738](https://github.com/mekanism/Mekanism/issues/5738)[#5740](https://github.com/mekanism/Mekanism/issues/5740)[3c84ee1](https://github.com/mekanism/Mekanism/commit/3c84ee13c77651941ca4ea0b2f6a222a5a3dcddd)- Fixes silk touch mode on the miner ([#5732](https://github.com/mekanism/Mekanism/issues/5732)), and don't bother firing block harvesting, as forge no longer fires it anywhere and from my understanding the plan is to remove the event[275f9f0](https://github.com/mekanism/Mekanism/commit/275f9f01202214b383bd52b08612fa0011c18ae4)- Start converting Loot Tables to Data Generators So far the loot tables for Mekanism Additions have been moved over, including fixing a few copy paste errors with the dropped blocks being the wrong ones[f0a891e](https://github.com/mekanism/Mekanism/commit/f0a891e59d1dae71500d78073c2ef831ea60e5aa)- Fix bio fuel to ethylene recipe not actually using bio fuel.[#5745](https://github.com/mekanism/Mekanism/issues/5745)[9c635d7](https://github.com/mekanism/Mekanism/commit/9c635d7cb5ae185e358ed4ad22e3b25ade7dfe2e)- Finish moving Loot Tables over to Data Generators (still might move the robit to a loot table at some point), and fix issues with some stuff like gas tank contents not being saved.[#5735](https://github.com/mekanism/Mekanism/issues/5735)WARNING: this likely will end up voiding some contents that are stored in machines/blocks that are picked up and some that are in machines/blocks that are placed. Especially for things like side configuration, and stored upgrades, I believe item inventories will be fine but various internal tanks will be wiped.[28352ca](https://github.com/mekanism/Mekanism/commit/28352caa7ccf2fed65c3b0451dfbe29f26f42f43)- Commit a couple missed files, and fix a few issues with the personal chest guis[#5753](https://github.com/mekanism/Mekanism/issues/5753)[3911e56](https://github.com/mekanism/Mekanism/commit/3911e565f4deceeb365add286821ff7a8e9696ea)- Fix InventoryPersonalChest not reading/writing to the new slot styled of NBT data so corrupting/clearing out the data of what is stored in the personal chest.[#5757](https://github.com/mekanism/Mekanism/issues/5757)[0fc7c47](https://github.com/mekanism/Mekanism/commit/0fc7c479db6c67095f116567b7bf75ff88c8f554)- Fixes incorrect position being used for calculation of thermal evaporation controller. Also kill of a few more unneeded uses of Coord4D.[#5750](https://github.com/mekanism/Mekanism/issues/5750)[15f4506](https://github.com/mekanism/Mekanism/commit/15f45069e963af879d91d92d90f3baa82582a63b)- Fix handling of draining fluid tanks[#5759](https://github.com/mekanism/Mekanism/issues/5759)[481fd67](https://github.com/mekanism/Mekanism/commit/481fd670b5625cfdd72af6cd4e51c65c93446f0d)- Allow AdvancedBoundingBlocks to proxy installing upgrades[#5746](https://github.com/mekanism/Mekanism/issues/5746)[8b1ab18](https://github.com/mekanism/Mekanism/commit/8b1ab1811861591756d96626a3479a16643a00f5)- Fixes improperly accounting for gas usage for ItemStackGasToGas and ItemStackGasToItemStack recipes.[#5748](https://github.com/mekanism/Mekanism/issues/5748)[504d175](https://github.com/mekanism/Mekanism/commit/504d1757ba972b93a27160634bd392f6ce55a482)- Fix container slot validity check not actually checking if the slot allows for manual input. This fixes being able to insert items manually into output slots[05cb34e](https://github.com/mekanism/Mekanism/commit/05cb34e4d902aa58ccb60c354f54007804f6cc06)- Fix potential race condition where Packet IDs do not match on client and server due to generators registering its packets before Mekanism registers it and vice versa. I believe this is possible due to the parallel mod loading.[#5754](https://github.com/mekanism/Mekanism/issues/5754)[#5756](https://github.com/mekanism/Mekanism/issues/5756)[f7edf85](https://github.com/mekanism/Mekanism/commit/f7edf8594fb0b394dc27bbe4eca3008d766212a2)- Don't reset operating ticks when a cached recipe's input becomes invalid. Also don't mark recipes as invalid just because the per tick cost is higher than we currently can provide.[#5764](https://github.com/mekanism/Mekanism/issues/5764)[866e2c2](https://github.com/mekanism/Mekanism/commit/866e2c2dc5341ef8a859459d9c621e4a551c8202)- update zh_cn ([#5758](https://github.com/mekanism/Mekanism/issues/5758))[157409b](https://github.com/mekanism/Mekanism/commit/157409b225ed3f83100c548b78266ebfc22eb7f2)- Update fr_fr ([#5737](https://github.com/mekanism/Mekanism/issues/5737))[3f6737c](https://github.com/mekanism/Mekanism/commit/3f6737cd4e9707dd8e870116fb074ff848baa7c8)- Modify the code some so that FluidTanks can take the fluid's light level into account.[#5765](https://github.com/mekanism/Mekanism/issues/5765), doesn't work yet due to what I believe are forge issues[5c29c9b](https://github.com/mekanism/Mekanism/commit/5c29c9b3de567af270b6de0e68599f9156e71dad)- Bump version to 9.9.2
+
+	Mekanism Tools (MekanismTools-1.15.1-9.9.1.392.jar --> MekanismTools-1.15.1-9.9.2.393.jar):
+		MekanismTools-1.15.1-9.9.2.393.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[c69101e](https://github.com/mekanism/Mekanism/commit/c69101e35b73200dc742f3fe7f154106b785e27a)- Fix using wrong values for melon's and melon slices due to the id having changed for melons at some point[b5c8ebc](https://github.com/mekanism/Mekanism/commit/b5c8ebc542da7ea991d76d121c394ba01ac3b749)- Fix jetpack's not allowing any gas to be put in them initially[#5734](https://github.com/mekanism/Mekanism/issues/5734)[0a14520](https://github.com/mekanism/Mekanism/commit/0a145204de5f04651fa5d83a187b1d26e1fcfef7)- Fix electric pump not properly removing fluid blocks, and make it work better in general with the concept of fluid states[#5742](https://github.com/mekanism/Mekanism/issues/5742), also perform some minor cleanup, and delete a commented out class that is no longer used[e300eae8](https://github.com/mekanism/Mekanism/commit/e300eae8532d84c67b059a377ab036cd6796dda9)- Fixes incorrect index being used for formulaic assemblicator causing it to not work properly[#5738](https://github.com/mekanism/Mekanism/issues/5738)[#5740](https://github.com/mekanism/Mekanism/issues/5740)[3c84ee1](https://github.com/mekanism/Mekanism/commit/3c84ee13c77651941ca4ea0b2f6a222a5a3dcddd)- Fixes silk touch mode on the miner ([#5732](https://github.com/mekanism/Mekanism/issues/5732)), and don't bother firing block harvesting, as forge no longer fires it anywhere and from my understanding the plan is to remove the event[275f9f0](https://github.com/mekanism/Mekanism/commit/275f9f01202214b383bd52b08612fa0011c18ae4)- Start converting Loot Tables to Data Generators So far the loot tables for Mekanism Additions have been moved over, including fixing a few copy paste errors with the dropped blocks being the wrong ones[f0a891e](https://github.com/mekanism/Mekanism/commit/f0a891e59d1dae71500d78073c2ef831ea60e5aa)- Fix bio fuel to ethylene recipe not actually using bio fuel.[#5745](https://github.com/mekanism/Mekanism/issues/5745)[9c635d7](https://github.com/mekanism/Mekanism/commit/9c635d7cb5ae185e358ed4ad22e3b25ade7dfe2e)- Finish moving Loot Tables over to Data Generators (still might move the robit to a loot table at some point), and fix issues with some stuff like gas tank contents not being saved.[#5735](https://github.com/mekanism/Mekanism/issues/5735)WARNING: this likely will end up voiding some contents that are stored in machines/blocks that are picked up and some that are in machines/blocks that are placed. Especially for things like side configuration, and stored upgrades, I believe item inventories will be fine but various internal tanks will be wiped.[28352ca](https://github.com/mekanism/Mekanism/commit/28352caa7ccf2fed65c3b0451dfbe29f26f42f43)- Commit a couple missed files, and fix a few issues with the personal chest guis[#5753](https://github.com/mekanism/Mekanism/issues/5753)[3911e56](https://github.com/mekanism/Mekanism/commit/3911e565f4deceeb365add286821ff7a8e9696ea)- Fix InventoryPersonalChest not reading/writing to the new slot styled of NBT data so corrupting/clearing out the data of what is stored in the personal chest.[#5757](https://github.com/mekanism/Mekanism/issues/5757)[0fc7c47](https://github.com/mekanism/Mekanism/commit/0fc7c479db6c67095f116567b7bf75ff88c8f554)- Fixes incorrect position being used for calculation of thermal evaporation controller. Also kill of a few more unneeded uses of Coord4D.[#5750](https://github.com/mekanism/Mekanism/issues/5750)[15f4506](https://github.com/mekanism/Mekanism/commit/15f45069e963af879d91d92d90f3baa82582a63b)- Fix handling of draining fluid tanks[#5759](https://github.com/mekanism/Mekanism/issues/5759)[481fd67](https://github.com/mekanism/Mekanism/commit/481fd670b5625cfdd72af6cd4e51c65c93446f0d)- Allow AdvancedBoundingBlocks to proxy installing upgrades[#5746](https://github.com/mekanism/Mekanism/issues/5746)[8b1ab18](https://github.com/mekanism/Mekanism/commit/8b1ab1811861591756d96626a3479a16643a00f5)- Fixes improperly accounting for gas usage for ItemStackGasToGas and ItemStackGasToItemStack recipes.[#5748](https://github.com/mekanism/Mekanism/issues/5748)[504d175](https://github.com/mekanism/Mekanism/commit/504d1757ba972b93a27160634bd392f6ce55a482)- Fix container slot validity check not actually checking if the slot allows for manual input. This fixes being able to insert items manually into output slots[05cb34e](https://github.com/mekanism/Mekanism/commit/05cb34e4d902aa58ccb60c354f54007804f6cc06)- Fix potential race condition where Packet IDs do not match on client and server due to generators registering its packets before Mekanism registers it and vice versa. I believe this is possible due to the parallel mod loading.[#5754](https://github.com/mekanism/Mekanism/issues/5754)[#5756](https://github.com/mekanism/Mekanism/issues/5756)[f7edf85](https://github.com/mekanism/Mekanism/commit/f7edf8594fb0b394dc27bbe4eca3008d766212a2)- Don't reset operating ticks when a cached recipe's input becomes invalid. Also don't mark recipes as invalid just because the per tick cost is higher than we currently can provide.[#5764](https://github.com/mekanism/Mekanism/issues/5764)[866e2c2](https://github.com/mekanism/Mekanism/commit/866e2c2dc5341ef8a859459d9c621e4a551c8202)- update zh_cn ([#5758](https://github.com/mekanism/Mekanism/issues/5758))[157409b](https://github.com/mekanism/Mekanism/commit/157409b225ed3f83100c548b78266ebfc22eb7f2)- Update fr_fr ([#5737](https://github.com/mekanism/Mekanism/issues/5737))[3f6737c](https://github.com/mekanism/Mekanism/commit/3f6737cd4e9707dd8e870116fb074ff848baa7c8)- Modify the code some so that FluidTanks can take the fluid's light level into account.[#5765](https://github.com/mekanism/Mekanism/issues/5765), doesn't work yet due to what I believe are forge issues[5c29c9b](https://github.com/mekanism/Mekanism/commit/5c29c9b3de567af270b6de0e68599f9156e71dad)- Bump version to 9.9.2
+
+	ReAuth (ReAuth-3.7.0 --> ReAuth-3.8.0):
+		ReAuth-3.8.0:
+			Encrypts saved Credentials
+			Adds Button to the invalid-Session-Disconnection-Screen
+
+Removed:
+- Fast Leaf Decay
+- Individual Mobgriefing Rules
+
+Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).

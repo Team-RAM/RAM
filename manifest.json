@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Randomly Added Mods",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "author": "OfficialTeamRAM",
   "projectID": 357569,
   "files": [
@@ -26,6 +26,11 @@
       "required": true
     },
     {
+      "projectID": 261251,
+      "fileID": 2844545,
+      "required": true
+    },
+    {
       "projectID": 334778,
       "fileID": 2850254,
       "required": true
@@ -33,6 +38,11 @@
     {
       "projectID": 268495,
       "fileID": 2857534,
+      "required": true
+    },
+    {
+      "projectID": 358191,
+      "fileID": 2859698,
       "required": true
     },
     {
@@ -62,7 +72,7 @@
     },
     {
       "projectID": 268560,
-      "fileID": 2857010,
+      "fileID": 2859277,
       "required": true
     },
     {
@@ -72,12 +82,12 @@
     },
     {
       "projectID": 268566,
-      "fileID": 2857012,
+      "fileID": 2859279,
       "required": true
     },
     {
       "projectID": 355458,
-      "fileID": 2846133,
+      "fileID": 2859129,
       "required": true
     },
     {
@@ -87,7 +97,7 @@
     },
     {
       "projectID": 268567,
-      "fileID": 2857013,
+      "fileID": 2859280,
       "required": true
     },
     {
@@ -96,8 +106,28 @@
       "required": true
     },
     {
+      "projectID": 222908,
+      "fileID": 2858083,
+      "required": true
+    },
+    {
       "projectID": 346007,
       "fileID": 2848870,
+      "required": true
+    },
+    {
+      "projectID": 284745,
+      "fileID": 2858084,
+      "required": true
+    },
+    {
+      "projectID": 231275,
+      "fileID": 2859071,
+      "required": true
+    },
+    {
+      "projectID": 280294,
+      "fileID": 2853230,
       "required": true
     },
     {
@@ -151,6 +181,11 @@
       "required": true
     },
     {
+      "projectID": 332695,
+      "fileID": 2844628,
+      "required": true
+    },
+    {
       "projectID": 324347,
       "fileID": 2856642,
       "required": true
@@ -158,6 +193,11 @@
     {
       "projectID": 355542,
       "fileID": 2848837,
+      "required": true
+    },
+    {
+      "projectID": 291493,
+      "fileID": 2859094,
       "required": true
     },
     {
@@ -177,7 +217,7 @@
     },
     {
       "projectID": 254758,
-      "fileID": 2857036,
+      "fileID": 2859057,
       "required": true
     },
     {
@@ -227,7 +267,7 @@
     },
     {
       "projectID": 296028,
-      "fileID": 2846136,
+      "fileID": 2858625,
       "required": true
     },
     {
@@ -243,6 +283,11 @@
     {
       "projectID": 317780,
       "fileID": 2856738,
+      "required": true
+    },
+    {
+      "projectID": 353434,
+      "fileID": 2856019,
       "required": true
     },
     {
@@ -267,7 +312,7 @@
     },
     {
       "projectID": 349559,
-      "fileID": 2845785,
+      "fileID": 2858614,
       "required": true
     },
     {
@@ -278,6 +323,11 @@
     {
       "projectID": 280510,
       "fileID": 2856002,
+      "required": true
+    },
+    {
+      "projectID": 338997,
+      "fileID": 2859703,
       "required": true
     },
     {
@@ -298,11 +348,6 @@
     {
       "projectID": 335673,
       "fileID": 2856870,
-      "required": true
-    },
-    {
-      "projectID": 230976,
-      "fileID": 2848924,
       "required": true
     },
     {
@@ -327,7 +372,7 @@
     },
     {
       "projectID": 237701,
-      "fileID": 2854743,
+      "fileID": 2859264,
       "required": true
     },
     {
@@ -338,11 +383,6 @@
     {
       "projectID": 60028,
       "fileID": 2851140,
-      "required": true
-    },
-    {
-      "projectID": 357466,
-      "fileID": 2856848,
       "required": true
     },
     {
@@ -376,13 +416,18 @@
       "required": true
     },
     {
+      "projectID": 287342,
+      "fileID": 2859086,
+      "required": true
+    },
+    {
       "projectID": 60089,
       "fileID": 2849221,
       "required": true
     },
     {
       "projectID": 357540,
-      "fileID": 2857696,
+      "fileID": 2858712,
       "required": true
     },
     {
@@ -421,13 +466,13 @@
       "required": true
     },
     {
-      "projectID": 355348,
-      "fileID": 2845601,
+      "projectID": 270684,
+      "fileID": 2857741,
       "required": true
     },
     {
-      "projectID": 270684,
-      "fileID": 2857741,
+      "projectID": 355348,
+      "fileID": 2845601,
       "required": true
     }
   ],
