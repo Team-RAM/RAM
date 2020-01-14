@@ -1,0 +1,7 @@
+
+[General]
+	#Creeper Explosions Damage Blocks [false/true|default:false]
+	damageBlocks = false
+	#Creeper Explosions Damage Players [false/true|default:true]
+	damagePlayers = true
+
