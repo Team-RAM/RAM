@@ -1,6 +1,7 @@
 /*
-~~~~Vanilla Tweaks
-Rotten Flesh into Leather - Credit to Skanders
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~TeamRAM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Add Magic Feather recipe - Millificent
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
 
 //Craft Magic Feather

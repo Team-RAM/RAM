@@ -1,6 +1,8 @@
-=======================================================
-Randomly Added Mods 0.0.9 --> Randomly Added Mods 0.1.0
-=======================================================
+===========================================================
+Randomly Added Mods 0.0.9 --> Randomly Added Mods (2) 0.1.0
+===========================================================
+
+Forge updated to 30.0.39
 
 Added:
 - Bad Wither No Cookie - Reloaded
@@ -10,6 +12,7 @@ Added:
 - Ding
 - FPS Reducer
 - Magic Feather
+- Open Loader
 - PackMenu
 - Portality
 - Sisser

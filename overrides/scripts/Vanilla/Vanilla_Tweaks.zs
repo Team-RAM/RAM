@@ -1,6 +1,8 @@
 /*
-~~~~Vanilla Tweaks
-Rotten Flesh into Leather - Credit to Skanders
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~TeamRAM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Vanilla Tweaks
+Rotten Flesh into Leather - Credit: Skanders
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
 
 //Craft Rotten Flesh into Leather
