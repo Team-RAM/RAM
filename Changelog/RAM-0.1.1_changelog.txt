@@ -1,0 +1,43 @@
+===========================================================
+Randomly Added Mods (2) 0.1.0 --> Randomly Added Mods 0.1.1
+===========================================================
+
+Added:
+- Hwyla
+- Macaw's Roofs
+- Magic Feather
+- More Dragon Eggs
+- MrCrayfish's Furniture Mod
+- Rope Bridge
+
+Updated:
+	Crafting Station (craftingstation-3.0.1.jar --> craftingstation-3.0.4.jar):
+		craftingstation-3.0.4.jar:
+			switch mappings and fix rendering on bottom slab
+
+	Open Loader (OpenLoader-1.15.1-3.0.1.jar --> OpenLoader-1.15.1-3.0.3.jar):
+		OpenLoader-1.15.1-3.0.3.jar:
+			 * Renamed package and added some extra logging context to errors. - Tyler Hancock Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?OpenLoader)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+		OpenLoader-1.15.1-3.0.2.jar:
+			 * Updated Forge and MCP - Tyler Hancock Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?OpenLoader)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+	Powder Power [FORGE] (PowderPower-1.15.1-3.1.9.jar --> PowderPower-1.15.1-3.1.10.jar):
+		PowderPower-1.15.1-3.1.10.jar:
+			- Added Bows made with Redium, Lapium, Gemium, and Trilium. Much like vanilla bows but with more durability and a bit more accurate.
+
+	Xaero's Minimap (v1.19.6 for Minecraft 1.15.1 --> v1.19.7 for Minecraft 1.15.1):
+		v1.19.7 for Minecraft 1.15.1:
+			+ Added a new option in the minimap settings for the "Enlarge" key binding to also center the minimap while the key is held.
+			+ Added a new option in the minimap settings for the "Enlarge" key binding to also temporarily use the maximum zoom-out while the key is held. It's also enabled by default.
+
+Removed:
+- Inventory Power
+
+Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).
