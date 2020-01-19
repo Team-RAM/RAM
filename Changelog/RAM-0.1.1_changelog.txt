@@ -23,13 +23,6 @@ Updated:
 		craftingstation-3.0.4.jar:
 			switch mappings and fix rendering on bottom slab
 
-	Fruit Trees (FruitTrees-1.15.1-1.0.3.jar --> FruitTrees-1.15.1-1.1.1.jar):
-		FruitTrees-1.15.1-1.1.1.jar:
-			No changelog provided.
-
-		FruitTrees-1.15.1-1.1.0.jar:
-			Bee hybridization
-
 	Kiwi (Kiwi-1.15.1-2.6.1.jar --> Kiwi-1.15.1-2.6.2.jar):
 		Kiwi-1.15.1-2.6.2.jar:
 			No changelog provided.
