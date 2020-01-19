@@ -2,18 +2,37 @@
 Randomly Added Mods (2) 0.1.0 --> Randomly Added Mods 0.1.1
 ===========================================================
 
+Update Forge to 30.0.41
+
 Added:
+- Client Tweaks
+- Crafting Tweaks
+- DefaultSettings
 - Hwyla
+- Industrial Foregoing
 - Macaw's Roofs
 - Magic Feather
 - More Dragon Eggs
 - MrCrayfish's Furniture Mod
+- PeacefulSurface
 - Rope Bridge
+- Simple Item Additions
 
 Updated:
 	Crafting Station (craftingstation-3.0.1.jar --> craftingstation-3.0.4.jar):
 		craftingstation-3.0.4.jar:
 			switch mappings and fix rendering on bottom slab
+
+	Fruit Trees (FruitTrees-1.15.1-1.0.3.jar --> FruitTrees-1.15.1-1.1.1.jar):
+		FruitTrees-1.15.1-1.1.1.jar:
+			No changelog provided.
+
+		FruitTrees-1.15.1-1.1.0.jar:
+			Bee hybridization
+
+	Kiwi (Kiwi-1.15.1-2.6.1.jar --> Kiwi-1.15.1-2.6.2.jar):
+		Kiwi-1.15.1-2.6.2.jar:
+			No changelog provided.
 
 	Open Loader (OpenLoader-1.15.1-3.0.1.jar --> OpenLoader-1.15.1-3.0.3.jar):
 		OpenLoader-1.15.1-3.0.3.jar:
@@ -28,9 +47,39 @@ Updated:
 			 * Pongo Sapiens 
 			 * Darkosto 
 
-	Powder Power [FORGE] (PowderPower-1.15.1-3.1.9.jar --> PowderPower-1.15.1-3.1.10.jar):
-		PowderPower-1.15.1-3.1.10.jar:
-			- Added Bows made with Redium, Lapium, Gemium, and Trilium. Much like vanilla bows but with more durability and a bit more accurate.
+	PackMenu (PackMenu-1.15.1-1.1.1.jar --> PackMenu-1.15.1-1.1.4.jar):
+		PackMenu-1.15.1-1.1.4.jar:
+			Added a config option to toggle loading the RP from /packmenu/resources instead of /packmenu/resources.zip
+
+		PackMenu-1.15.1-1.1.3.jar:
+			Fixed the builtin resources zip failing to properly copy in production.
+
+		PackMenu-1.15.1-1.1.2.jar:
+			Support loading a resource pack from <gamedir>/packmenu/resources.zip
+
+	Powder Power [FORGE] (Archived file --> PowderPower-1.15.1-3.1.12.jar):
+		PowderPower-1.15.1-3.1.12.jar:
+			UPDATES:
+			- Added experimental config to allow modpack makers and player to adjust the material values for Trilium
+
+		PowderPower-1.15.1-3.1.11.jar:
+			UPDATES:
+			- Updated Forge to 1.15.1 - 30.0.41
+
+			 * - Adjusted armor durabilities to be in tight progression above diamond armor 
+			 * - Adjusted sword attack damage and speeds to be in tight progression above diamond 
+			 * - Adjusted Axes. Shovels, Pickaxes and Paxels speeds to be in tight progression above diamond 
+			 * - Adjusted the Paxels so that they now strip logs and flatten grass into paths 
+			 * - Adjusted Armor toughness a bit higher to be above diamond 
+
+	Titanium (titanium-1.15.1-2.3.2.jar --> titanium-1.15.1-2.3.4.jar):
+		titanium-1.15.1-2.3.4.jar:
+			Fixed IComponentHarness conflicting methods
+
+		titanium-1.15.1-2.3.3.jar:
+			* Fixed multiple voxel shapes rendering
+			* Fixed Blockstate access
+			* Added a way to replace the fluid bucket
 
 	Xaero's Minimap (v1.19.6 for Minecraft 1.15.1 --> v1.19.7 for Minecraft 1.15.1):
 		v1.19.7 for Minecraft 1.15.1:
