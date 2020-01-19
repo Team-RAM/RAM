@@ -3,6 +3,7 @@
 
 	[modules.fruittrees]
 		test = false
+		hybridization = false
 
 [client]
 	#Show item tags and nbt in advanced tooltips

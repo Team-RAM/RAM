@@ -12,12 +12,12 @@
 
 	[Commands.back]
 		#Range: > 0
-		delay = 3
+		delay = 60
 		#Enable command: /back
 		enable = false
 		#Range: > 0
-		cooldown = 0
-		enable_on_death = false
+		cooldown = 600
+		enable_on_death = true
 
 	[Commands.speed]
 		#Range: 0 ~ 50
@@ -79,11 +79,11 @@
 		#Enable command: /rndtp
 		enable = true
 		#Range: > 0
-		cooldown = 300
+		cooldown = 120
 		#Range: 50 ~ 999
-		range_min = 500
+		range_min = 1000
 		#Range: > 1000
-		range_max = 2000
+		range_max = 4000
 
 	[Commands.tpa]
 		#Range: > 0
