@@ -7,7 +7,6 @@ Update Forge to 30.0.41
 Added:
 - Client Tweaks
 - Crafting Tweaks
-- DefaultSettings
 - Hwyla
 - Industrial Foregoing
 - Macaw's Roofs
