@@ -1,0 +1,39 @@
+=======================================================
+Randomly Added Mods 0.1.2 --> Randomly Added Mods 0.1.3
+=======================================================
+
+Updated Forge: 30.0.42
+
+Added:
+- Extra Disks
+- FindMe
+- Refined Storage
+- Refined Storage Addons
+
+Updated:
+	Cyclic (Cyclic-1.15.1-0.1.4.jar --> Cyclic-1.15.1-0.1.5.jar):
+		Cyclic-1.15.1-0.1.5.jar:
+			Torch longer one other thing ported over
+
+	Dank Storage (dankstorage-2.4.jar --> dankstorage-2.4a.jar):
+		dankstorage-2.4a.jar:
+			nbt tooltip only in dev
+
+	Powder Power [FORGE] (Archived file --> PowderPower-1.15.1-3.1.15.jar):
+		PowderPower-1.15.1-3.1.15.jar:
+			UPDATES:
+
+			 * - Updated MCP mappings to 20200120-1.15.1. 
+			 * - Updated Forge to 1.15.1 - 30.0.41 
+			 * - Fixed a bug with the Trilium Armor texture not rendering 
+			 * - Changed the Token of Curing to the trillium level and made the recipe a little more difficult 
+			 * - Changed the Token of Dolphin and Token of Conduit Power to the Gemium level 
+
+	The Veggie Way [FORGE] (Archived file --> TheVeggieWay-1.15.1-2.1.8.jar):
+		TheVeggieWay-1.15.1-2.1.8.jar:
+			UPDATES:
+
+			 * - Updated Forge to 1.15.1 - 30.0.41 
+			 * - Updated MCP mappings to 20200120-1.15.1. 
+
+Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).
