@@ -9,7 +9,7 @@
 	#Limit excavation to standard tool types (Picks, Shoves, Axes & Shears)
 	"Only Standard Types" = false
 	#Skips spawning drops in world adding them directly to your inventory
-	"Auto Pickup" = false
+	"Auto Pickup" = true
 	#Inverts the block blacklist to function as a whitelist
 	"Invert Block Blacklist" = false
 	#Inverts the tool blacklist to function as a whitelist
