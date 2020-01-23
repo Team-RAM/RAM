@@ -3,7 +3,7 @@
     "version": "1.15.1",
     "modLoaders": [
       {
-        "id": "forge-30.0.42",
+        "id": "forge-30.0.43",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Randomly Added Mods",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "OfficialTeamRAM",
   "projectID": 357569,
   "files": [
@@ -87,7 +87,7 @@
     },
     {
       "projectID": 308663,
-      "fileID": 2854437,
+      "fileID": 2865915,
       "required": true
     },
     {
@@ -207,7 +207,7 @@
     },
     {
       "projectID": 273640,
-      "fileID": 2857466,
+      "fileID": 2865627,
       "required": true
     },
     {
@@ -312,7 +312,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 2855472,
+      "fileID": 2865999,
       "required": true
     },
     {
@@ -502,7 +502,7 @@
     },
     {
       "projectID": 272302,
-      "fileID": 2829733,
+      "fileID": 2865254,
       "required": true
     },
     {
@@ -517,7 +517,7 @@
     },
     {
       "projectID": 357540,
-      "fileID": 2858712,
+      "fileID": 2865662,
       "required": true
     },
     {
@@ -561,13 +561,13 @@
       "required": true
     },
     {
-      "projectID": 355348,
-      "fileID": 2845601,
+      "projectID": 270684,
+      "fileID": 2864927,
       "required": true
     },
     {
-      "projectID": 270684,
-      "fileID": 2864927,
+      "projectID": 355348,
+      "fileID": 2845601,
       "required": true
     },
     {
