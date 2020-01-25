@@ -1,0 +1,81 @@
+=======================================================
+Randomly Added Mods 0.1.4 --> Randomly Added Mods 0.1.5
+=======================================================
+
+Updated:
+	Better Burning (BetterBurning-1.15.1-1.2.1.jar --> BetterBurning-1.15.1-1.2.2.jar):
+		BetterBurning-1.15.1-1.2.2.jar:
+			 * Removed uneeded text from the pack.mcmeta. - Tyler Hancock 
+			 * Updated to official 1.15.1 MCP snapshot. - Tyler Hancock 
+			 * Updated Forge and MCP - Tyler Hancock Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?BetterBurning)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+	Biomes O' Plenty (Biomes O' Plenty 1.15.1-10.0.0.296 --> Biomes O' Plenty 1.15.1-10.0.0.297):
+		Biomes O' Plenty 1.15.1-10.0.0.297:
+			 Adubbz:
+			 * Do biome dictionary and villager type registration earlier. Closes #1529
+			 * Added Poppy Field biome
+			 * Tweaks to Poppy Field rarity/mob spawns
+			 * update ru_ru.json (poppy field) (#1534) forstride: forstride: forstride:
+
+	Dank Storage (dankstorage-2.4a.jar --> dankstorage-2.4b.jar):
+		dankstorage-2.4b.jar:
+			* fix darkening of gui tooltips, don't call random opengl functions when porting it rarely works out
+
+	Enchantment Descriptions (EnchantmentDescriptions-1.15.1-1.5.1.jar --> EnchantmentDescriptions-1.15.1-1.5.4.jar):
+		EnchantmentDescriptions-1.15.1-1.5.4.jar:
+			 * Updated code to reference new MCP mappings. - Tyler Hancock 
+			 * Updated Forge and MCP to proper 1.15.1 versions. - Tyler Hancock 
+			 * Removed some unused data to make the mod a bit smaller. - Tyler Hancock Like the mod? Consider following me on [Twitter](https://twitter.com/darkhaxdev) and joining the [Discord]()
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?EnchantmentDescriptions)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+		EnchantmentDescriptions-1.15.1-1.5.2.jar:
+			 * Updated MCP and Forge. - Tyler Hancock Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?EnchantmentDescriptions)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+	Open Loader (OpenLoader-1.15.1-3.0.3.jar --> OpenLoader-1.15.1-3.0.4.jar):
+		OpenLoader-1.15.1-3.0.4.jar:
+			 * Added twitter and discord to changelog. - Tyler Hancock 
+			 * Updated MCP and Forge to proper 1.15.1 versions. - Tyler Hancock Like the mod? Consider following me on [Twitter](https://twitter.com/darkhaxdev) and joining the [Discord]()
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?OpenLoader)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+	Simple Storage Network (SimpleStorageNetwork-1.15.1-0.2.3.jar --> SimpleStorageNetwork-1.15.1-0.2.4.jar):
+		SimpleStorageNetwork-1.15.1-0.2.4.jar:
+			Fixed search not checking against unformatted item name and tooltip -MrCrayfish
+			Search bar: Fit tooltip, fix clicking on ends and nudge clear button -Revvilo
+			Remote now auto closes screen when it leaves your main hand
+
+	Xaero's Minimap (v1.19.7 for Minecraft 1.15.1 --> v20.0.0 for Minecraft 1.15.1):
+		v20.0.0 for Minecraft 1.15.1:
+			* Fixed some chunks not being overridden with correct depth-based lighting if they're not instantly in the update radius after leaving cave mode.
+			* Changed the default setting of the "Zoom Out When Enlarged" to off because it seems to confuse some people.
+			* Optimized ingame waypoints rendering a bit.
+			* Fixed enlarged minimap being completely zoomed out not being considered when calculating the update radius.
+			* Fixed incorrect entity render radius when using enlarged minimap.
+			* Fixed update radius being calculated inaccurately (unrelated to enlarged minimap).
+			* Fixed zoom key bindings not being ignored when using the completely zoomed out enlarged minimap.
+			* Fixed enabled cave zoom not being used when displaying completely zoomed out enlarged minimap.
+			* Fixed incorrect minimap chunk render distance calculation.
+			* Optimized render distance when the rotation is locked.
+			* Renamed "Edit Mode" button to "Change Position" like it used to be in older versions.
+			+ Added support for clickable online widgets in the mod settings for my current and future sponsors.
+			* Changed the version naming convention to something that makes more sense than what I came up with as a kid when I made this mod and kept using to this day for consistency. It's now similar to the world map mod's version naming convention with the difference of the first major version number standing for the year of release.
+
+Config changes:
+
+MaEssentials - Back enabled
+
+Recipe changes:
+Paper recipe added - 3 XLFood Rice = 3 Paper
+
+Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).

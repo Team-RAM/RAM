@@ -11,8 +11,8 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Randomly Added Mods",
-  "version": "0.1.4",
-  "author": "OfficialTeamRAM",
+  "version": "0.1.5",
+  "author": "Yamza_",
   "projectID": 357569,
   "files": [
     {
@@ -47,7 +47,7 @@
     },
     {
       "projectID": 268495,
-      "fileID": 2864119,
+      "fileID": 2869008,
       "required": true
     },
     {
@@ -97,7 +97,7 @@
     },
     {
       "projectID": 354339,
-      "fileID": 2861295,
+      "fileID": 2867000,
       "required": true
     },
     {
@@ -367,7 +367,7 @@
     },
     {
       "projectID": 353434,
-      "fileID": 2856019,
+      "fileID": 2866928,
       "required": true
     },
     {
@@ -382,7 +382,7 @@
     },
     {
       "projectID": 220318,
-      "fileID": 2855755,
+      "fileID": 2866896,
       "required": true
     },
     {
@@ -397,7 +397,7 @@
     },
     {
       "projectID": 250419,
-      "fileID": 2855823,
+      "fileID": 2866988,
       "required": true
     },
     {
@@ -432,7 +432,7 @@
     },
     {
       "projectID": 335673,
-      "fileID": 2865257,
+      "fileID": 2866849,
       "required": true
     },
     {
@@ -537,7 +537,7 @@
     },
     {
       "projectID": 263420,
-      "fileID": 2861248,
+      "fileID": 2866596,
       "required": true
     },
     {
@@ -561,13 +561,13 @@
       "required": true
     },
     {
-      "projectID": 270684,
-      "fileID": 2864927,
+      "projectID": 355348,
+      "fileID": 2845601,
       "required": true
     },
     {
-      "projectID": 355348,
-      "fileID": 2845601,
+      "projectID": 270684,
+      "fileID": 2864927,
       "required": true
     },
     {

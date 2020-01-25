@@ -14,7 +14,7 @@
 		#Range: > 0
 		delay = 60
 		#Enable command: /back
-		enable = false
+		enable = true
 		#Range: > 0
 		cooldown = 600
 		enable_on_death = true
@@ -81,7 +81,7 @@
 		#Range: > 0
 		cooldown = 120
 		#Range: 50 ~ 999
-		range_min = 1000
+		range_min = 999
 		#Range: > 1000
 		range_max = 4000
 
