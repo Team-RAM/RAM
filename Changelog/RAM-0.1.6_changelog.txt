@@ -1,0 +1,12 @@
+=======================================================
+Randomly Added Mods 0.1.5 --> Randomly Added Mods 0.1.6
+=======================================================
+
+Added:
+- Better Bedrock Generator
+- Forbidden and Arcanus
+
+Removed:
+- Campfire Torches
+
+Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).

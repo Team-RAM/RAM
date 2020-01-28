@@ -1,0 +1,57 @@
+
+[oregen]
+	#Maximum Arcane Crystal Ore veins per chunk
+	#Range: 1 ~ 10000000
+	ArcaneCrystalOreCount = 3
+	#Generate Runestone
+	generateRunestone = true
+	#Maximum Dark Stone veins per chunk
+	#Range: 1 ~ 10000000
+	DarkStoneCount = 20
+	#Maximum height for the Dark Runestone
+	#Range: 1 ~ 256
+	DarkRunestoneMaxHeight = 9
+	#Generate Arcane Crystal Ore
+	generateArcaneCrystalOre = true
+	#Maximum height for the Arcane Crystal Ore
+	#Range: 1 ~ 256
+	ArcaneCrystalOreMaxHeight = 20
+	#Maximum Dark Runestone veins per chunk
+	#Range: 1 ~ 10000000
+	DarkRunestoneCount = 2
+	#Generate Dark Runestone
+	generateDarkRunestone = true
+	#Maximum Runestone veins per chunk
+	#Range: 1 ~ 10000000
+	RunestoneCount = 3
+	#Generate Dark Stone
+	generateDarkStone = true
+	#Maximum size of Arcane Crystal Ore vein
+	#Range: 0 ~ 500
+	maxArcaneCrystalOreVeinSize = 6
+	#Maximum height for the Runestone
+	#Range: 1 ~ 256
+	RunestoneMaxHeight = 25
+	#Maximum size of Dark Stone vein
+	#Range: 0 ~ 500
+	maxDarkStoneVeinSize = 20
+	#Maximum size of Runestone vein
+	#Range: 0 ~ 500
+	maxRunestoneVeinSize = 4
+	#Maximum height for the Dark Stone
+	#Range: 1 ~ 256
+	DarkStoneMaxHeight = 9
+	#Maximum size of Dark Runestone vein
+	#Range: 0 ~ 500
+	maxDarkRunestoneVeinSize = 4
+
+[worldgen]
+	#Generate Edelwood Trees
+	generateEdelwood = true
+	#Generate Cherrywood Trees
+	generateCherrywood = true
+	#Generate Mysterywood Trees
+	generateMysterywood = true
+	#Generate Yellow Orchid
+	generateYellowOrchid = true
+
