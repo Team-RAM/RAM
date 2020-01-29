@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Randomly Added Mods",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "author": "Yamza_",
   "projectID": 357569,
   "files": [
@@ -221,6 +221,11 @@
       "required": true
     },
     {
+      "projectID": 309858,
+      "fileID": 2865932,
+      "required": true
+    },
+    {
       "projectID": 332695,
       "fileID": 2844628,
       "required": true
@@ -331,6 +336,11 @@
       "required": true
     },
     {
+      "projectID": 359516,
+      "fileID": 2869409,
+      "required": true
+    },
+    {
       "projectID": 351725,
       "fileID": 2853562,
       "required": true
@@ -373,11 +383,6 @@
     {
       "projectID": 243707,
       "fileID": 2858219,
-      "required": true
-    },
-    {
-      "projectID": 333389,
-      "fileID": 2845905,
       "required": true
     },
     {
@@ -561,13 +566,13 @@
       "required": true
     },
     {
-      "projectID": 355348,
-      "fileID": 2845601,
+      "projectID": 270684,
+      "fileID": 2864927,
       "required": true
     },
     {
-      "projectID": 270684,
-      "fileID": 2864927,
+      "projectID": 355348,
+      "fileID": 2845601,
       "required": true
     },
     {
