@@ -1,0 +1,445 @@
+=======================================================
+Randomly Added Mods 0.1.6 --> Randomly Added Mods 0.1.7
+=======================================================
+Updated to MC 1.15.2
+Forge 31.0.14
+
+Added:
+- CC: Tweaked
+- Cucumber Library
+- Default Amplified Biomes
+- Good Night's Sleep
+- Inventory Sorter
+- Mystical Agradditions
+- Mystical Agriculture
+- Pre Menu Screen
+- Quartz Chests
+- RandomPatches
+- Simple Discord Rich Presence
+- SwingThroughGrass
+- The One Probe
+
+Updated:
+	Aquaculture 2 (Aquaculture-1.15.1-2.0.6.jar --> Aquaculture-1.15.2-2.0.8.jar):
+		Aquaculture-1.15.2-2.0.8.jar:
+			- Ported to 1.15.2
+			- Re-implemented JEI support
+
+		Aquaculture-1.15.1-2.0.7.jar:
+			- Fixed compatibility with newer versions of Forge (Now requires Forge 30.0.51+)
+			- Allow Tin Cans to be smelted in Blast Furnaces
+			- Added tag for Neptunium Nuggets
+			- Fixed Neptunium Shovel & Pickaxe underwater speed boost problems
+			- Adjusted duration of Neptunium armor effects, to prevent flickering with certain shaders
+
+	Better Bedrock Generator ([1.15.1] betterbedrockgenerator-1.15.1-0.0.4 --> [1.15.2]betterbedrockgenerator-1.15.2-0.0.6):
+		[1.15.2]betterbedrockgenerator-1.15.2-0.0.6:
+			No changelog provided.
+
+		[1.15.1] betterbedrockgenerator-1.15.1-0.0.6:
+			Shorten package name
+
+		[1.15.2] betterbedrockgenerator-1.15.2-0.0.5:
+			Changelog:
+
+			 * Add meaningful exception message when MixinBootstrap is not in the mods folder 
+
+		[1.15.1] betterbedrockgenerator-1.15.1-0.0.5:
+			Changelog:
+
+			 * Add meaningful exception message when MixinBootstrap is not in the mods folder 
+
+	Biomes O' Plenty (Biomes O' Plenty 1.15.1-10.0.0.297 --> Biomes O' Plenty 1.15.2-10.0.0.300):
+		Biomes O' Plenty 1.15.2-10.0.0.300:
+			 forstride:
+			 * Removed lava lakes from the Poppy Field
+
+		Biomes O' Plenty 1.15.2-10.0.0.299:
+			 github:
+			 * Added Poppy Field biome
+
+		Biomes O' Plenty 1.15.2-10.0.0.298:
+			 Adubbz:
+			 * Updated to Minecraft 1.15.2
+
+	Camera Mod ([1.15.1] Camera Mod 1.5.2 --> [1.15.2] Camera Mod 1.6.0):
+		[1.15.2] Camera Mod 1.6.0:
+			 * Updated to 1.15.2 
+
+	Controlling (Controlling-6.0.0 --> Controlling-6.1.1):
+		Controlling-6.1.1:
+			Fix issue with key searching
+
+		Controlling-6.1.0:
+			1.15.2 port
+
+	Corail Tombstone (Corail Tombstone 4.1.9 for 1.15.1 --> Corail Tombstone 4.2.0 for 1.15.1 & 1.15.2):
+		Corail Tombstone 4.2.0 for 1.15.1 & 1.15.2:
+			This mod supports mc version from 1.8.9 to 1.15.1
+			Minecraft Version = [1.15.1-1.15.2] - Forge Version [30.0.48+]
+			Latest : 4.2.0 - Recommended : 4.2.0
+			Changes 4.2.0 :
+
+			 * - improve grave items interaction with block when not enchanted
+			- fix for player not being transparent in ghostly shape
+			- update chinese lang
+			- compat Quark (totem)
+			- fix for the tablet of assistance (to prevent to skip the permission, thanks CJ)
+			- tags to prevent grave destruction for ender dragon & wither
+			- re-add compat Hwyla
+			- remove stuff related to forge breaking changes Changes 4.1.9 :
+
+			 * - add the missing rendering stuff from the port (colored box, casting circles, halloween decorations)
+			- re-add compat JEI/Curio Changes 4.1.8 :
+
+			 * First beta for 1.15.1 (the only missing things are halloween decorations & the colorBox to show the grave at distance (they will be back soon ^^) 
+
+	Curios API (curios-FORGE-1.15.1-2.0-beta.jar --> curios-FORGE-1.15.2-2.0-beta2.jar):
+		curios-FORGE-1.15.2-2.0-beta2.jar:
+			Changelog
+			All notable changes to this project will be documented in this file.
+			The format is based on [Keep a Changelog]() and this project does not adhere to [Semantic Versioning](). This project uses MCVERSION-MAJORMOD.MAJORAPI.MINOR.PATCH.
+			[2.0-beta2] - 2020.01.26
+			Changed
+
+			 * Updated to 1.15.2 Added
+
+			 * Re-added JEI integration 
+			 * Added Japanese localization (thanks MORIMORI0317!) Fixed
+
+			 * Fixed generic curio slot icon showing missing texture [2.0-beta] - 2019.12.30
+			Changed
+
+			 * Ported to 1.15.1 
+			 * [API] ICurio#doRender -> ICurio#render 
+			 * Curio rendering no longer automatically applies sneaking translations 
+			 * Curio slot icons need to be manually stitched into the block texture atlas 
+
+	Dank Storage (dankstorage-2.4b.jar --> dankstorage-2.5.jar):
+		dankstorage-2.5.jar:
+			* recompile for breaking changes in forge 31.0.0
+
+	DiscordRichPresence (DiscordRichPresence-2.0.1 (MC 1.15) --> DiscordRichPresence-2.0.2 (MC 1.15)):
+		DiscordRichPresence-2.0.2 (MC 1.15):
+			Update to 1.15.2
+			Should not work in older 1.15.1 forge versions
+
+	Dungeon Crawl (DungeonCrawl-1.15.1-1.6.0 --> DungeonCrawl-1.15.2-1.6.1):
+		DungeonCrawl-1.15.2-1.6.1:
+			Removed the custom enchanted books. -> The enchanted_books.json config file is not needed anymore. Using vanilla enchanted book loot only now,
+			Fixed large rooms not appearing at all.
+			(Reworked the position find method for the final loot room.)
+			The next update, which is going to be huge, will probably follow in march or later.
+
+	Edit Sign (EditSign-1.15.1-2.0.0+7 --> EditSign-1.15.2-2.0.0+7):
+		EditSign-1.15.2-2.0.0+7:
+			 * Port to 1.15.2 
+
+	FPS Reducer (FpsReducer-mc1.15.1-1.14.jar --> FpsReducer-mc1.15.2-1.14.1.jar):
+		FpsReducer-mc1.15.2-1.14.1.jar:
+			v1.14.1
+			- Initial release for mc1.15.2.
+			- Fixed the crash when using OpenJ9. (for mc1.12.2)
+			- Updated Polish translation. (Thanks to Grreg21)
+			- Updated English lang file. (Thanks to Grreg21)
+			- Fixed wrong comment in config file.
+			v1.14
+			- Initial release for mc1.15.1.
+			- Changed default settings: "Reudce FPS when inactive": OFF -> ON
+			- Changed default settings: "Suppress sound when inactive": OFF -> ON
+			- Changed default settings: suppressedVolume: 10 -> 20
+			- Changed the function of "FPS Reducer" button. All suppression functions are now off.
+			- Changed "Waiting Timer" can be OFF by moving the slider to the right end.
+			- Added CPU usage information of client thread.
+			- Added new settings related to CPU usage information. (cpuUsageThread, cpuUsageType)
+			- Added new GUI for adjusting HUD layout.
+			- Improved the accuracy of FPS information.
+			- Updated Polish translation. (Thanks to Grreg21)
+			- Fixed issue where idle fps mode might not be applied when gui fps mode was enabled.
+			- Optimized conditions for reducing and recovering FPS.
+			v1.13
+			- Added an option to limit FPS in menu/inventory screen.
+			- Added Polish translation. (Thanks to Grreg21)
+			v1.12.5
+			- Fixed an incompatibility with Forge 1.14.4-28.0.45.
+			v1.12.4
+			- Initial release for mc1.14.4.
+			- Fixed the issue to save the lowered fps and volume values to options.txt in certain situations.
+			v1.12.3
+			- Supported mc1.14.3.
+			- Fixed the issue not to reduce FPS when the window is inactive after loading a world.
+			- FPS suppression in inactive has been effective in the main menu. (1.14.x, experimental)
+			v1.12.2
+			- Initial port to mc1.14.2.
+			- SuppressSound feature has been effective even in the main menu.
+			- Improved synchronization handling of the config files.
+			- Refactored some codes.
+			v1.12.1
+			- Fixed a server crash when installed on a server.
+			v1.12
+			- Added player moving detection to avoid FPS reduction during riding and flying.
+			- Changed left-bottom FPS indication way not to overlap a chat box.
+			- Integrated the wating time sliders.
+			- Added a player config mode.
+			- Moved config files under config/fpsreducer folder.
+			v1.11
+			- Initial release to 1.13.2.
+
+	Falling Tree (FallingTree-1.15.1-2.0.2+13 --> FallingTree-1.15.2-2.0.3+19):
+		FallingTree-1.15.2-2.0.3+19:
+			 * Added an option to force destroy leaves withing a certain radius. This will be applied from one of the top most log blocks and will destroy all leaves within it (including leaves that shouldn't despawn because another tree is too close, or because they've been placed by a player).(#5) 
+
+		FallingTree-1.15.2-2.0.2+16:
+			 * Port to 1.15.2 
+
+	Forbidden and Arcanus (forbidden_arcanus-1.15.1-1.0-beta-5.jar --> forbidden_arcanus-1.15.2-1.0-beta-1.jar):
+		forbidden_arcanus-1.15.2-1.0-beta-1.jar:
+			forbidden_arcanus-1.15.2-1.0-beta-1
+			-1.15.2 Update
+			-Added ru_ru translation
+
+	Fruit Trees (FruitTrees-1.15.1-1.0.3.jar --> FruitTrees-1.15.2-1.1.5.jar):
+		FruitTrees-1.15.2-1.1.5.jar:
+			No changelog provided.
+
+		FruitTrees-1.15.1-1.1.4.jar:
+			Fix crash with BeeSourceful
+
+		FruitTrees-1.15.1-1.1.3.jar:
+			Fix crash with Dank Storage
+
+		FruitTrees-1.15.1-1.1.2.jar:
+			No changelog provided.
+
+		FruitTrees-1.15.1-1.1.1.jar:
+			No changelog provided.
+
+		FruitTrees-1.15.1-1.1.0.jar:
+			Bee hybridization
+
+	GameMenuModOption (GameMenuModOption-1.15.1-1.1 --> GameMenuModOption-1.15.2-1.2):
+		GameMenuModOption-1.15.2-1.2:
+			No changelog provided.
+
+	JAOPCA (JAOPCA-1.15.1-3.0.0.17.jar --> JAOPCA-1.15.2-3.0.0.18.jar):
+		JAOPCA-1.15.2-3.0.0.18.jar:
+			Update to 1.15.2
+
+	Just Enough Items (JEI) (jei-1.15.1-6.0.0.1.jar --> jei-1.15.2-6.0.0.2.jar):
+		Placeholder:
+
+
+	Kiwi (Kiwi-1.15.1-2.6.3.jar --> Kiwi-1.15.2-2.6.5.jar):
+		Kiwi-1.15.2-2.6.5.jar:
+			No changelog provided.
+
+		Kiwi-1.15.2-2.6.4.jar:
+			No changelog provided.
+
+	Lighting Wand (LightingWand-1.15.1-1.4.1.jar --> LightingWand-1.15.2-1.4.2.jar):
+		LightingWand-1.15.2-1.4.2.jar:
+			No changelog provided.
+
+	Ma Enchants ([Forge v1.15.1] Ma Enchants v1.7.0 --> [Forge v1.15.2] Ma Enchants v3.0.0):
+		[Forge v1.15.2] Ma Enchants v3.0.0:
+			Changed version numeration.
+			Added new enchantment: Detonation
+			Added new course: Aquaphobia
+			Added Simplified Chinese translation by [LyricaPrismriver](https://github.com/LyricaPrismriver)
+
+		 [Forge v1.15.1] Ma Enchants v2.0.0:
+			Changed version numeration.
+			Added new enchantment: Detonation
+			Added new course: Aquaphobia
+			Added Simplified Chinese translation by [LyricaPrismriver](https://github.com/LyricaPrismriver)
+
+	Macaw's Bridges (mcw-bridges-1.0.3-mc1.15.1.jar --> mcw-bridges-1.0.3-mc1.15.2.jar):
+		mcw-bridges-1.0.3-mc1.15.2.jar:
+			- 1.15.1 & 1.15.2
+
+	Macaw's Roofs (mcw-roofs-1.0.1-mc1.15.1.jar --> mcw-roofs-1.0.1-mc1.15.2.jar):
+		mcw-roofs-1.0.1-mc1.15.2.jar:
+			- 1.15.1 & 1.15.2
+
+	Mekanism (Mekanism-1.15.1-9.9.3.394.jar --> Mekanism-1.15.2-9.9.7.399.jar):
+		Mekanism-1.15.2-9.9.7.399.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[c1c1f70](https://github.com/mekanism/Mekanism/commit/c1c1f70e155fa4c6c9e3242a5a127f3f481e3c06)- Fix a few recipes: - Basic universal cable using steel instead of redstone in the middle - Basic logistical transporter using redstone instead of basic circuits - Electrolytic separator not using energy (again), and separating heavy water using half the amount of energy it is supposed to be[a0cea7e](https://github.com/mekanism/Mekanism/commit/a0cea7e2adf7779110003577f2e7a9e3fa2864dd)- Properly implement into ISlotInfo if the slot can be inserted to/extracted from[d7f0a42](https://github.com/mekanism/Mekanism/commit/d7f0a4263af5cceb9b06f85da127fe3d25490760)- Cleanup the voxel shape of the energy cube some, and also fix its shape when it is facing directly up or down. Also fixes placing torches on top of the energy cube[b4505c2](https://github.com/mekanism/Mekanism/commit/b4505c2eff3077314898573ea362b095a92d6cdf)- Fix producing the wrong amount of slurry from ore in the chemical dissolution chamber[#5816](https://github.com/mekanism/Mekanism/issues/5816)[b7cbc92](https://github.com/mekanism/Mekanism/commit/b7cbc92ad8ce9b35831d7c7a4bfff7b6fa9879d9)- Fix improper ray tracing method for flame collision, switching to a MC util method.[#5817](https://github.com/mekanism/Mekanism/issues/5817)[cb9f103](https://github.com/mekanism/Mekanism/commit/cb9f103f4e98fbc4c5b8586d81f64624ca182fd3)- Start work on porting/rewriting backend to be able to have recipes transfer contents[#5743](https://github.com/mekanism/Mekanism/issues/5743)There are still various bugs, where upgrades don't transfer and inventories for the most part don't transfer though things like energy are properly transferring.[a14b03f](https://github.com/mekanism/Mekanism/commit/a14b03f79685105ca1c5ec073ec6b6cd88e7a488)- Fix transferring upgrades, though it still does not transfer inventories or the upgrade slot's inventory[f08b564](https://github.com/mekanism/Mekanism/commit/f08b564e01efe1ad25f86d1df2cb31a38ae47e75)- Optimize markDirty to not notify neighbors of an update all the time unless the tile supports comparators and the redstone level changed. Also optimized it for transmitters to never notify neighbors as none of them currently support comparators. This should in theory provide a decent boost to TPS[8e89bfe](https://github.com/mekanism/Mekanism/commit/8e89bfe0b64e8910f969e739ee8c56bbf6c06a54)- Kill off LazyOptionalHelper and instead just have a helper method in MekanismUtils to convert a LazyOptional to a normal Optional. There is still more cleanup we can do at some point to CapabilityUtils, but for now the code is easier to read and has less lambda soup when viewing the code via profilers[11ea337](https://github.com/mekanism/Mekanism/commit/11ea33796d6b703d4825d57e14db8d4a7e9a540d)- Further optimizations to Pathfinder for TransporterPathfinder. We now cache the various chunks for all the spots we are looking up TileEntities (not forcing them to generate/load) and quick lookup if we already have an instance of that chunk rather than having to redo all the calculations of getting a chunk to be able to look up the TileEntity in a specific spot[f381030](https://github.com/mekanism/Mekanism/commit/f38103000e6c6d13d540ab8ab61a1bf925dd8717)- Update TOP compat, and remove some old API/IMC handling code for recipe changing as addons/mods that want to register recipes can use data packs, and the code was commented out anyways not doing anything[bb5dfa2](https://github.com/mekanism/Mekanism/commit/bb5dfa29b78fdcddf4881bebf04ceda8b1d99266)- Add back water vapor for now to fix various recipes, and will figure out how we want to handle steam/water vapor more properly again in the future.[#5823](https://github.com/mekanism/Mekanism/issues/5823)[02c02f6](https://github.com/mekanism/Mekanism/commit/02c02f618949da3faee6a301fdac98e5fb6194dc)- Bump version to 9.9.7
+
+		Mekanism-1.15.2-9.9.6.397.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[8d7d2be](https://github.com/mekanism/Mekanism/commit/8d7d2befff8dce0bc6bdbb4d2f47544883af1c23)- Fix transmitter recipes producing wrong amounts, and fix ore doubling recipes[#5811](https://github.com/mekanism/Mekanism/issues/5811)[8bee705](https://github.com/mekanism/Mekanism/commit/8bee7050c2cc9e7e4b6fb25122065467a25e1f3a)- Fix heat side config tab not showing heat icon[9ad0961](https://github.com/mekanism/Mekanism/commit/9ad096149782793995eb10ab69575fe238705545)- Finish moving ore processing recipes to data generators, still has to move misc crafting recipes to them[c60ad01](https://github.com/mekanism/Mekanism/commit/c60ad01c054deba9668a71551613727f906e37c3)- Finish moving all recipes (except mod compat recipes), to data generators[2cbe646](https://github.com/mekanism/Mekanism/commit/2cbe64693048c62dd025cd6b3f3e90aab9772295)- Update mappings, and name things even in comments where possible with the corresponding mapped name.[4f9246e](https://github.com/mekanism/Mekanism/commit/4f9246e00e7e7039bdbdeac460f53463d0f24fd5)- Fix crafting formula not properly overriding the models for invalid and encoded[4703c5c](https://github.com/mekanism/Mekanism/commit/4703c5c70c1f6a735978d2050dfd833a898742b2)- Bump version to 9.9.6
+
+		Mekanism-1.15.2-9.9.5.396.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[c709ba5](https://github.com/mekanism/Mekanism/commit/c709ba517ab5f39357a63e8e0b8daaf037e3fbac)- Update to 1.15.2 version of JEI so that it JEI displays in the dev environment[138843c](https://github.com/mekanism/Mekanism/commit/138843cf738527f8e365045324e53e6449c22387)- Fix factories using a lot more power than they are supposed to due to a copy paste error for using the base block's storage config instead of usage config. Also transitioned it to querying the block in case they are overriding any values[5cf0c98](https://github.com/mekanism/Mekanism/commit/5cf0c9852ae231f05b13b69d16f3083516cb62be)- Improve logging for what stack is invalid in the inventory slot, and fix another crash with stock control for the formulaic assemblicator[00051b7](https://github.com/mekanism/Mekanism/commit/00051b738d39232c7e3ed205e3b0242ecb060367)- Finish porting EntityFlame so the flamethrower works again[#5793](https://github.com/mekanism/Mekanism/issues/5793). Also fix Pos3D not properly getting the position from the entity, which fixes a few various rendering issues[e810660](https://github.com/mekanism/Mekanism/commit/e810660146f25cef4b071c60b393cfe6ce83eeff)- Rewrite bucket mode handling for the fluid tank item to work properly, and be able to interact properly with fluid loggable blocks.[#5802](https://github.com/mekanism/Mekanism/issues/5802)- Fix fluid tank item tooltip having the stored tooltip for infinite and an amount backwards - Fix rendering of fluid in a basic tank with a single bucket worth of contents - Move ItemBlockFactory up a package[78354fb](https://github.com/mekanism/Mekanism/commit/78354fb62979ad572815676f617b5dbba2226cd9)- Update forge and mappings[a34c83f](https://github.com/mekanism/Mekanism/commit/a34c83f6dbc9d8166b4e1c7daf4ea6c6f8747bc6)- Fix the miner not adding all blocks to the cache it makes for checking blocks.[#5801](https://github.com/mekanism/Mekanism/issues/5801)[8779719](https://github.com/mekanism/Mekanism/commit/87797191a92f86dacba6c5d92cb6395a87e60772)- Add code to catch[#5792](https://github.com/mekanism/Mekanism/issues/5792), as ChunkRenderCache doesn't have any graceful handling[3637ae1](https://github.com/mekanism/Mekanism/commit/3637ae19f65e1dc1e63d468218753faace32d484)- Fix energy upgrades lowering energy usage per tick in the electrolytic separator in addition to just increasing the max energy.[d0a2075](https://github.com/mekanism/Mekanism/commit/d0a2075fec9427f34182aa2f7f4a8e6a2d299553)- Fixes recipe being missing for making obsidian dust.[#5805](https://github.com/mekanism/Mekanism/issues/5805)[1d4284f](https://github.com/mekanism/Mekanism/commit/1d4284ff6e16d97ea8bb1bd615d62e785923369f)- In theory finishes fixes retrogen[#5778](https://github.com/mekanism/Mekanism/issues/5778)but is entirely untested due to the ChunkDataEvent.Load never firing.[https://github.com/MinecraftForge/MinecraftForge/issues/6471](https://github.com/MinecraftForge/MinecraftForge/issues/6471)[bfbee56](https://github.com/mekanism/Mekanism/commit/bfbee569caa741b42371ecafd12af83acaee804f)- Convert more recipes for the main module to data generators, there are still some that need to be converted[5d51516](https://github.com/mekanism/Mekanism/commit/5d515166786d25eacc2acdd7160203a322e4fbbc)- Work on converting more recipes to data generators. There are still more to be done[13ed067](https://github.com/mekanism/Mekanism/commit/13ed067447f197b4ae5ed3b4fe2c476e20a299a2)- Bump version to 9.9.5
+
+		Mekanism-1.15.2-9.9.4.395.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[120596f](https://github.com/mekanism/Mekanism/commit/120596fbe2e8d5e8f64ec8b740012fe195e37533)- Fix some generators not showing the proper production amounts[#5791](https://github.com/mekanism/Mekanism/issues/5791)[7864a86](https://github.com/mekanism/Mekanism/commit/7864a86d2122ab69e9a20b048c3caad4d9a28819)- Work on converting main module recipes to data generators, there are still a bunch more to do. Also fix the API recipe builders having getResult at the wrong access level[8217040](https://github.com/mekanism/Mekanism/commit/8217040dbfc666d04ad53ef8136fd3b18de6f8fc)- Slightly cleanup personal chest renderer[9f72dc8](https://github.com/mekanism/Mekanism/commit/9f72dc8b6a2c164609b04e2e37b01efec2c92e78)- Allow specifying basic config values for baby skeleton spawning and add a blacklist for biomes that the baby skeleton cannot spawn in.[#5779](https://github.com/mekanism/Mekanism/issues/5779)Also adjusted the default list of biomes that the baby skeleton can spawn in, from any biomes in BiomeProvider.BIOMES_TO_SPAWN_IN that has hostile spawns, to any biome that skeletons can spawn in. Note config structure changed slightly for additions-common so if you had baby skeletons disabled they are probably re-enabled now. (That was the only value previously stored in this config file)[73bd8b1](https://github.com/mekanism/Mekanism/commit/73bd8b1b649e49e544e2f7e0925093af8ca822d1)- Fix incorrect energy usage and storage values for factories[e840ee0](https://github.com/mekanism/Mekanism/commit/e840ee06267b176f49b3cd61341363d38f75c52b)- Fix error in recipe output of crystallizing lithium[#5796](https://github.com/mekanism/Mekanism/issues/5796)[2674062](https://github.com/mekanism/Mekanism/commit/2674062dc18615220729f7fe4aa9b39fd6c59b49)- Fix the electrolytic separator taking speed upgrades into account for energy use (it is the one machine that works slightly differently), and also fix it not requiring any power to run...[#5790](https://github.com/mekanism/Mekanism/issues/5790)[7162060](https://github.com/mekanism/Mekanism/commit/7162060de3a7fb6f6fa652da0b2b3d4efe532859)- Fix back of electric separator rendering incorrectly[9a3fe1a](https://github.com/mekanism/Mekanism/commit/9a3fe1a5d78bb38fa963a3bcbc8d3846412315e4)- update to 1.15.1 mcp names[b54ab35](https://github.com/mekanism/Mekanism/commit/b54ab3565c29bacaa7d7d92b744ab7240f6297d0)- Update forge version, and adjust to new method signatures for various things. Also fixes the fluid tank not updating surrounding light instantly[#5765](https://github.com/mekanism/Mekanism/issues/5765)[c3e1cb4](https://github.com/mekanism/Mekanism/commit/c3e1cb41119c4e607bf492d335a75310696f8a1c)- Update to 1.15.2[a8798a1](https://github.com/mekanism/Mekanism/commit/a8798a1cd4f7a0f6316fe41b673ef2a6fb4abd33)- Bump version to 9.9.4
+
+	Mekanism Generators (MekanismGenerators-1.15.1-9.9.3.394.jar --> MekanismGenerators-1.15.2-9.9.7.399.jar):
+		MekanismGenerators-1.15.2-9.9.7.399.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[c1c1f70](https://github.com/mekanism/Mekanism/commit/c1c1f70e155fa4c6c9e3242a5a127f3f481e3c06)- Fix a few recipes: - Basic universal cable using steel instead of redstone in the middle - Basic logistical transporter using redstone instead of basic circuits - Electrolytic separator not using energy (again), and separating heavy water using half the amount of energy it is supposed to be[a0cea7e](https://github.com/mekanism/Mekanism/commit/a0cea7e2adf7779110003577f2e7a9e3fa2864dd)- Properly implement into ISlotInfo if the slot can be inserted to/extracted from[d7f0a42](https://github.com/mekanism/Mekanism/commit/d7f0a4263af5cceb9b06f85da127fe3d25490760)- Cleanup the voxel shape of the energy cube some, and also fix its shape when it is facing directly up or down. Also fixes placing torches on top of the energy cube[b4505c2](https://github.com/mekanism/Mekanism/commit/b4505c2eff3077314898573ea362b095a92d6cdf)- Fix producing the wrong amount of slurry from ore in the chemical dissolution chamber[#5816](https://github.com/mekanism/Mekanism/issues/5816)[b7cbc92](https://github.com/mekanism/Mekanism/commit/b7cbc92ad8ce9b35831d7c7a4bfff7b6fa9879d9)- Fix improper ray tracing method for flame collision, switching to a MC util method.[#5817](https://github.com/mekanism/Mekanism/issues/5817)[cb9f103](https://github.com/mekanism/Mekanism/commit/cb9f103f4e98fbc4c5b8586d81f64624ca182fd3)- Start work on porting/rewriting backend to be able to have recipes transfer contents[#5743](https://github.com/mekanism/Mekanism/issues/5743)There are still various bugs, where upgrades don't transfer and inventories for the most part don't transfer though things like energy are properly transferring.[a14b03f](https://github.com/mekanism/Mekanism/commit/a14b03f79685105ca1c5ec073ec6b6cd88e7a488)- Fix transferring upgrades, though it still does not transfer inventories or the upgrade slot's inventory[f08b564](https://github.com/mekanism/Mekanism/commit/f08b564e01efe1ad25f86d1df2cb31a38ae47e75)- Optimize markDirty to not notify neighbors of an update all the time unless the tile supports comparators and the redstone level changed. Also optimized it for transmitters to never notify neighbors as none of them currently support comparators. This should in theory provide a decent boost to TPS[8e89bfe](https://github.com/mekanism/Mekanism/commit/8e89bfe0b64e8910f969e739ee8c56bbf6c06a54)- Kill off LazyOptionalHelper and instead just have a helper method in MekanismUtils to convert a LazyOptional to a normal Optional. There is still more cleanup we can do at some point to CapabilityUtils, but for now the code is easier to read and has less lambda soup when viewing the code via profilers[11ea337](https://github.com/mekanism/Mekanism/commit/11ea33796d6b703d4825d57e14db8d4a7e9a540d)- Further optimizations to Pathfinder for TransporterPathfinder. We now cache the various chunks for all the spots we are looking up TileEntities (not forcing them to generate/load) and quick lookup if we already have an instance of that chunk rather than having to redo all the calculations of getting a chunk to be able to look up the TileEntity in a specific spot[f381030](https://github.com/mekanism/Mekanism/commit/f38103000e6c6d13d540ab8ab61a1bf925dd8717)- Update TOP compat, and remove some old API/IMC handling code for recipe changing as addons/mods that want to register recipes can use data packs, and the code was commented out anyways not doing anything[bb5dfa2](https://github.com/mekanism/Mekanism/commit/bb5dfa29b78fdcddf4881bebf04ceda8b1d99266)- Add back water vapor for now to fix various recipes, and will figure out how we want to handle steam/water vapor more properly again in the future.[#5823](https://github.com/mekanism/Mekanism/issues/5823)[02c02f6](https://github.com/mekanism/Mekanism/commit/02c02f618949da3faee6a301fdac98e5fb6194dc)- Bump version to 9.9.7
+
+		MekanismGenerators-1.15.2-9.9.6.397.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[8d7d2be](https://github.com/mekanism/Mekanism/commit/8d7d2befff8dce0bc6bdbb4d2f47544883af1c23)- Fix transmitter recipes producing wrong amounts, and fix ore doubling recipes[#5811](https://github.com/mekanism/Mekanism/issues/5811)[8bee705](https://github.com/mekanism/Mekanism/commit/8bee7050c2cc9e7e4b6fb25122065467a25e1f3a)- Fix heat side config tab not showing heat icon[9ad0961](https://github.com/mekanism/Mekanism/commit/9ad096149782793995eb10ab69575fe238705545)- Finish moving ore processing recipes to data generators, still has to move misc crafting recipes to them[c60ad01](https://github.com/mekanism/Mekanism/commit/c60ad01c054deba9668a71551613727f906e37c3)- Finish moving all recipes (except mod compat recipes), to data generators[2cbe646](https://github.com/mekanism/Mekanism/commit/2cbe64693048c62dd025cd6b3f3e90aab9772295)- Update mappings, and name things even in comments where possible with the corresponding mapped name.[4f9246e](https://github.com/mekanism/Mekanism/commit/4f9246e00e7e7039bdbdeac460f53463d0f24fd5)- Fix crafting formula not properly overriding the models for invalid and encoded[4703c5c](https://github.com/mekanism/Mekanism/commit/4703c5c70c1f6a735978d2050dfd833a898742b2)- Bump version to 9.9.6
+
+		MekanismGenerators-1.15.2-9.9.5.396.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[c709ba5](https://github.com/mekanism/Mekanism/commit/c709ba517ab5f39357a63e8e0b8daaf037e3fbac)- Update to 1.15.2 version of JEI so that it JEI displays in the dev environment[138843c](https://github.com/mekanism/Mekanism/commit/138843cf738527f8e365045324e53e6449c22387)- Fix factories using a lot more power than they are supposed to due to a copy paste error for using the base block's storage config instead of usage config. Also transitioned it to querying the block in case they are overriding any values[5cf0c98](https://github.com/mekanism/Mekanism/commit/5cf0c9852ae231f05b13b69d16f3083516cb62be)- Improve logging for what stack is invalid in the inventory slot, and fix another crash with stock control for the formulaic assemblicator[00051b7](https://github.com/mekanism/Mekanism/commit/00051b738d39232c7e3ed205e3b0242ecb060367)- Finish porting EntityFlame so the flamethrower works again[#5793](https://github.com/mekanism/Mekanism/issues/5793). Also fix Pos3D not properly getting the position from the entity, which fixes a few various rendering issues[e810660](https://github.com/mekanism/Mekanism/commit/e810660146f25cef4b071c60b393cfe6ce83eeff)- Rewrite bucket mode handling for the fluid tank item to work properly, and be able to interact properly with fluid loggable blocks.[#5802](https://github.com/mekanism/Mekanism/issues/5802)- Fix fluid tank item tooltip having the stored tooltip for infinite and an amount backwards - Fix rendering of fluid in a basic tank with a single bucket worth of contents - Move ItemBlockFactory up a package[78354fb](https://github.com/mekanism/Mekanism/commit/78354fb62979ad572815676f617b5dbba2226cd9)- Update forge and mappings[a34c83f](https://github.com/mekanism/Mekanism/commit/a34c83f6dbc9d8166b4e1c7daf4ea6c6f8747bc6)- Fix the miner not adding all blocks to the cache it makes for checking blocks.[#5801](https://github.com/mekanism/Mekanism/issues/5801)[8779719](https://github.com/mekanism/Mekanism/commit/87797191a92f86dacba6c5d92cb6395a87e60772)- Add code to catch[#5792](https://github.com/mekanism/Mekanism/issues/5792), as ChunkRenderCache doesn't have any graceful handling[3637ae1](https://github.com/mekanism/Mekanism/commit/3637ae19f65e1dc1e63d468218753faace32d484)- Fix energy upgrades lowering energy usage per tick in the electrolytic separator in addition to just increasing the max energy.[d0a2075](https://github.com/mekanism/Mekanism/commit/d0a2075fec9427f34182aa2f7f4a8e6a2d299553)- Fixes recipe being missing for making obsidian dust.[#5805](https://github.com/mekanism/Mekanism/issues/5805)[1d4284f](https://github.com/mekanism/Mekanism/commit/1d4284ff6e16d97ea8bb1bd615d62e785923369f)- In theory finishes fixes retrogen[#5778](https://github.com/mekanism/Mekanism/issues/5778)but is entirely untested due to the ChunkDataEvent.Load never firing.[https://github.com/MinecraftForge/MinecraftForge/issues/6471](https://github.com/MinecraftForge/MinecraftForge/issues/6471)[bfbee56](https://github.com/mekanism/Mekanism/commit/bfbee569caa741b42371ecafd12af83acaee804f)- Convert more recipes for the main module to data generators, there are still some that need to be converted[5d51516](https://github.com/mekanism/Mekanism/commit/5d515166786d25eacc2acdd7160203a322e4fbbc)- Work on converting more recipes to data generators. There are still more to be done[13ed067](https://github.com/mekanism/Mekanism/commit/13ed067447f197b4ae5ed3b4fe2c476e20a299a2)- Bump version to 9.9.5
+
+		MekanismGenerators-1.15.2-9.9.4.395.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[120596f](https://github.com/mekanism/Mekanism/commit/120596fbe2e8d5e8f64ec8b740012fe195e37533)- Fix some generators not showing the proper production amounts[#5791](https://github.com/mekanism/Mekanism/issues/5791)[7864a86](https://github.com/mekanism/Mekanism/commit/7864a86d2122ab69e9a20b048c3caad4d9a28819)- Work on converting main module recipes to data generators, there are still a bunch more to do. Also fix the API recipe builders having getResult at the wrong access level[8217040](https://github.com/mekanism/Mekanism/commit/8217040dbfc666d04ad53ef8136fd3b18de6f8fc)- Slightly cleanup personal chest renderer[9f72dc8](https://github.com/mekanism/Mekanism/commit/9f72dc8b6a2c164609b04e2e37b01efec2c92e78)- Allow specifying basic config values for baby skeleton spawning and add a blacklist for biomes that the baby skeleton cannot spawn in.[#5779](https://github.com/mekanism/Mekanism/issues/5779)Also adjusted the default list of biomes that the baby skeleton can spawn in, from any biomes in BiomeProvider.BIOMES_TO_SPAWN_IN that has hostile spawns, to any biome that skeletons can spawn in. Note config structure changed slightly for additions-common so if you had baby skeletons disabled they are probably re-enabled now. (That was the only value previously stored in this config file)[73bd8b1](https://github.com/mekanism/Mekanism/commit/73bd8b1b649e49e544e2f7e0925093af8ca822d1)- Fix incorrect energy usage and storage values for factories[e840ee0](https://github.com/mekanism/Mekanism/commit/e840ee06267b176f49b3cd61341363d38f75c52b)- Fix error in recipe output of crystallizing lithium[#5796](https://github.com/mekanism/Mekanism/issues/5796)[2674062](https://github.com/mekanism/Mekanism/commit/2674062dc18615220729f7fe4aa9b39fd6c59b49)- Fix the electrolytic separator taking speed upgrades into account for energy use (it is the one machine that works slightly differently), and also fix it not requiring any power to run...[#5790](https://github.com/mekanism/Mekanism/issues/5790)[7162060](https://github.com/mekanism/Mekanism/commit/7162060de3a7fb6f6fa652da0b2b3d4efe532859)- Fix back of electric separator rendering incorrectly[9a3fe1a](https://github.com/mekanism/Mekanism/commit/9a3fe1a5d78bb38fa963a3bcbc8d3846412315e4)- update to 1.15.1 mcp names[b54ab35](https://github.com/mekanism/Mekanism/commit/b54ab3565c29bacaa7d7d92b744ab7240f6297d0)- Update forge version, and adjust to new method signatures for various things. Also fixes the fluid tank not updating surrounding light instantly[#5765](https://github.com/mekanism/Mekanism/issues/5765)[c3e1cb4](https://github.com/mekanism/Mekanism/commit/c3e1cb41119c4e607bf492d335a75310696f8a1c)- Update to 1.15.2[a8798a1](https://github.com/mekanism/Mekanism/commit/a8798a1cd4f7a0f6316fe41b673ef2a6fb4abd33)- Bump version to 9.9.4
+
+	Mekanism Tools (MekanismTools-1.15.1-9.9.3.394.jar --> MekanismTools-1.15.2-9.9.7.399.jar):
+		MekanismTools-1.15.2-9.9.7.399.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[c1c1f70](https://github.com/mekanism/Mekanism/commit/c1c1f70e155fa4c6c9e3242a5a127f3f481e3c06)- Fix a few recipes: - Basic universal cable using steel instead of redstone in the middle - Basic logistical transporter using redstone instead of basic circuits - Electrolytic separator not using energy (again), and separating heavy water using half the amount of energy it is supposed to be[a0cea7e](https://github.com/mekanism/Mekanism/commit/a0cea7e2adf7779110003577f2e7a9e3fa2864dd)- Properly implement into ISlotInfo if the slot can be inserted to/extracted from[d7f0a42](https://github.com/mekanism/Mekanism/commit/d7f0a4263af5cceb9b06f85da127fe3d25490760)- Cleanup the voxel shape of the energy cube some, and also fix its shape when it is facing directly up or down. Also fixes placing torches on top of the energy cube[b4505c2](https://github.com/mekanism/Mekanism/commit/b4505c2eff3077314898573ea362b095a92d6cdf)- Fix producing the wrong amount of slurry from ore in the chemical dissolution chamber[#5816](https://github.com/mekanism/Mekanism/issues/5816)[b7cbc92](https://github.com/mekanism/Mekanism/commit/b7cbc92ad8ce9b35831d7c7a4bfff7b6fa9879d9)- Fix improper ray tracing method for flame collision, switching to a MC util method.[#5817](https://github.com/mekanism/Mekanism/issues/5817)[cb9f103](https://github.com/mekanism/Mekanism/commit/cb9f103f4e98fbc4c5b8586d81f64624ca182fd3)- Start work on porting/rewriting backend to be able to have recipes transfer contents[#5743](https://github.com/mekanism/Mekanism/issues/5743)There are still various bugs, where upgrades don't transfer and inventories for the most part don't transfer though things like energy are properly transferring.[a14b03f](https://github.com/mekanism/Mekanism/commit/a14b03f79685105ca1c5ec073ec6b6cd88e7a488)- Fix transferring upgrades, though it still does not transfer inventories or the upgrade slot's inventory[f08b564](https://github.com/mekanism/Mekanism/commit/f08b564e01efe1ad25f86d1df2cb31a38ae47e75)- Optimize markDirty to not notify neighbors of an update all the time unless the tile supports comparators and the redstone level changed. Also optimized it for transmitters to never notify neighbors as none of them currently support comparators. This should in theory provide a decent boost to TPS[8e89bfe](https://github.com/mekanism/Mekanism/commit/8e89bfe0b64e8910f969e739ee8c56bbf6c06a54)- Kill off LazyOptionalHelper and instead just have a helper method in MekanismUtils to convert a LazyOptional to a normal Optional. There is still more cleanup we can do at some point to CapabilityUtils, but for now the code is easier to read and has less lambda soup when viewing the code via profilers[11ea337](https://github.com/mekanism/Mekanism/commit/11ea33796d6b703d4825d57e14db8d4a7e9a540d)- Further optimizations to Pathfinder for TransporterPathfinder. We now cache the various chunks for all the spots we are looking up TileEntities (not forcing them to generate/load) and quick lookup if we already have an instance of that chunk rather than having to redo all the calculations of getting a chunk to be able to look up the TileEntity in a specific spot[f381030](https://github.com/mekanism/Mekanism/commit/f38103000e6c6d13d540ab8ab61a1bf925dd8717)- Update TOP compat, and remove some old API/IMC handling code for recipe changing as addons/mods that want to register recipes can use data packs, and the code was commented out anyways not doing anything[bb5dfa2](https://github.com/mekanism/Mekanism/commit/bb5dfa29b78fdcddf4881bebf04ceda8b1d99266)- Add back water vapor for now to fix various recipes, and will figure out how we want to handle steam/water vapor more properly again in the future.[#5823](https://github.com/mekanism/Mekanism/issues/5823)[02c02f6](https://github.com/mekanism/Mekanism/commit/02c02f618949da3faee6a301fdac98e5fb6194dc)- Bump version to 9.9.7
+
+		MekanismTools-1.15.2-9.9.6.397.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[8d7d2be](https://github.com/mekanism/Mekanism/commit/8d7d2befff8dce0bc6bdbb4d2f47544883af1c23)- Fix transmitter recipes producing wrong amounts, and fix ore doubling recipes[#5811](https://github.com/mekanism/Mekanism/issues/5811)[8bee705](https://github.com/mekanism/Mekanism/commit/8bee7050c2cc9e7e4b6fb25122065467a25e1f3a)- Fix heat side config tab not showing heat icon[9ad0961](https://github.com/mekanism/Mekanism/commit/9ad096149782793995eb10ab69575fe238705545)- Finish moving ore processing recipes to data generators, still has to move misc crafting recipes to them[c60ad01](https://github.com/mekanism/Mekanism/commit/c60ad01c054deba9668a71551613727f906e37c3)- Finish moving all recipes (except mod compat recipes), to data generators[2cbe646](https://github.com/mekanism/Mekanism/commit/2cbe64693048c62dd025cd6b3f3e90aab9772295)- Update mappings, and name things even in comments where possible with the corresponding mapped name.[4f9246e](https://github.com/mekanism/Mekanism/commit/4f9246e00e7e7039bdbdeac460f53463d0f24fd5)- Fix crafting formula not properly overriding the models for invalid and encoded[4703c5c](https://github.com/mekanism/Mekanism/commit/4703c5c70c1f6a735978d2050dfd833a898742b2)- Bump version to 9.9.6
+
+		MekanismTools-1.15.2-9.9.5.396.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[c709ba5](https://github.com/mekanism/Mekanism/commit/c709ba517ab5f39357a63e8e0b8daaf037e3fbac)- Update to 1.15.2 version of JEI so that it JEI displays in the dev environment[138843c](https://github.com/mekanism/Mekanism/commit/138843cf738527f8e365045324e53e6449c22387)- Fix factories using a lot more power than they are supposed to due to a copy paste error for using the base block's storage config instead of usage config. Also transitioned it to querying the block in case they are overriding any values[5cf0c98](https://github.com/mekanism/Mekanism/commit/5cf0c9852ae231f05b13b69d16f3083516cb62be)- Improve logging for what stack is invalid in the inventory slot, and fix another crash with stock control for the formulaic assemblicator[00051b7](https://github.com/mekanism/Mekanism/commit/00051b738d39232c7e3ed205e3b0242ecb060367)- Finish porting EntityFlame so the flamethrower works again[#5793](https://github.com/mekanism/Mekanism/issues/5793). Also fix Pos3D not properly getting the position from the entity, which fixes a few various rendering issues[e810660](https://github.com/mekanism/Mekanism/commit/e810660146f25cef4b071c60b393cfe6ce83eeff)- Rewrite bucket mode handling for the fluid tank item to work properly, and be able to interact properly with fluid loggable blocks.[#5802](https://github.com/mekanism/Mekanism/issues/5802)- Fix fluid tank item tooltip having the stored tooltip for infinite and an amount backwards - Fix rendering of fluid in a basic tank with a single bucket worth of contents - Move ItemBlockFactory up a package[78354fb](https://github.com/mekanism/Mekanism/commit/78354fb62979ad572815676f617b5dbba2226cd9)- Update forge and mappings[a34c83f](https://github.com/mekanism/Mekanism/commit/a34c83f6dbc9d8166b4e1c7daf4ea6c6f8747bc6)- Fix the miner not adding all blocks to the cache it makes for checking blocks.[#5801](https://github.com/mekanism/Mekanism/issues/5801)[8779719](https://github.com/mekanism/Mekanism/commit/87797191a92f86dacba6c5d92cb6395a87e60772)- Add code to catch[#5792](https://github.com/mekanism/Mekanism/issues/5792), as ChunkRenderCache doesn't have any graceful handling[3637ae1](https://github.com/mekanism/Mekanism/commit/3637ae19f65e1dc1e63d468218753faace32d484)- Fix energy upgrades lowering energy usage per tick in the electrolytic separator in addition to just increasing the max energy.[d0a2075](https://github.com/mekanism/Mekanism/commit/d0a2075fec9427f34182aa2f7f4a8e6a2d299553)- Fixes recipe being missing for making obsidian dust.[#5805](https://github.com/mekanism/Mekanism/issues/5805)[1d4284f](https://github.com/mekanism/Mekanism/commit/1d4284ff6e16d97ea8bb1bd615d62e785923369f)- In theory finishes fixes retrogen[#5778](https://github.com/mekanism/Mekanism/issues/5778)but is entirely untested due to the ChunkDataEvent.Load never firing.[https://github.com/MinecraftForge/MinecraftForge/issues/6471](https://github.com/MinecraftForge/MinecraftForge/issues/6471)[bfbee56](https://github.com/mekanism/Mekanism/commit/bfbee569caa741b42371ecafd12af83acaee804f)- Convert more recipes for the main module to data generators, there are still some that need to be converted[5d51516](https://github.com/mekanism/Mekanism/commit/5d515166786d25eacc2acdd7160203a322e4fbbc)- Work on converting more recipes to data generators. There are still more to be done[13ed067](https://github.com/mekanism/Mekanism/commit/13ed067447f197b4ae5ed3b4fe2c476e20a299a2)- Bump version to 9.9.5
+
+		MekanismTools-1.15.2-9.9.4.395.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[120596f](https://github.com/mekanism/Mekanism/commit/120596fbe2e8d5e8f64ec8b740012fe195e37533)- Fix some generators not showing the proper production amounts[#5791](https://github.com/mekanism/Mekanism/issues/5791)[7864a86](https://github.com/mekanism/Mekanism/commit/7864a86d2122ab69e9a20b048c3caad4d9a28819)- Work on converting main module recipes to data generators, there are still a bunch more to do. Also fix the API recipe builders having getResult at the wrong access level[8217040](https://github.com/mekanism/Mekanism/commit/8217040dbfc666d04ad53ef8136fd3b18de6f8fc)- Slightly cleanup personal chest renderer[9f72dc8](https://github.com/mekanism/Mekanism/commit/9f72dc8b6a2c164609b04e2e37b01efec2c92e78)- Allow specifying basic config values for baby skeleton spawning and add a blacklist for biomes that the baby skeleton cannot spawn in.[#5779](https://github.com/mekanism/Mekanism/issues/5779)Also adjusted the default list of biomes that the baby skeleton can spawn in, from any biomes in BiomeProvider.BIOMES_TO_SPAWN_IN that has hostile spawns, to any biome that skeletons can spawn in. Note config structure changed slightly for additions-common so if you had baby skeletons disabled they are probably re-enabled now. (That was the only value previously stored in this config file)[73bd8b1](https://github.com/mekanism/Mekanism/commit/73bd8b1b649e49e544e2f7e0925093af8ca822d1)- Fix incorrect energy usage and storage values for factories[e840ee0](https://github.com/mekanism/Mekanism/commit/e840ee06267b176f49b3cd61341363d38f75c52b)- Fix error in recipe output of crystallizing lithium[#5796](https://github.com/mekanism/Mekanism/issues/5796)[2674062](https://github.com/mekanism/Mekanism/commit/2674062dc18615220729f7fe4aa9b39fd6c59b49)- Fix the electrolytic separator taking speed upgrades into account for energy use (it is the one machine that works slightly differently), and also fix it not requiring any power to run...[#5790](https://github.com/mekanism/Mekanism/issues/5790)[7162060](https://github.com/mekanism/Mekanism/commit/7162060de3a7fb6f6fa652da0b2b3d4efe532859)- Fix back of electric separator rendering incorrectly[9a3fe1a](https://github.com/mekanism/Mekanism/commit/9a3fe1a5d78bb38fa963a3bcbc8d3846412315e4)- update to 1.15.1 mcp names[b54ab35](https://github.com/mekanism/Mekanism/commit/b54ab3565c29bacaa7d7d92b744ab7240f6297d0)- Update forge version, and adjust to new method signatures for various things. Also fixes the fluid tank not updating surrounding light instantly[#5765](https://github.com/mekanism/Mekanism/issues/5765)[c3e1cb4](https://github.com/mekanism/Mekanism/commit/c3e1cb41119c4e607bf492d335a75310696f8a1c)- Update to 1.15.2[a8798a1](https://github.com/mekanism/Mekanism/commit/a8798a1cd4f7a0f6316fe41b673ef2a6fb4abd33)- Bump version to 9.9.4
+
+	OpenBlocks Elevator (elevatorid-1.15.1-1.5.4.jar --> elevatorid-1.15.2-1.5.5.jar):
+		elevatorid-1.15.2-1.5.5.jar:
+			1.15.2 Update.
+			Built with forge 1.15.2-31.0.0
+
+	Ores Above Diamonds (Ores Above Diamonds 1.15 - v2.0 (Possible crash warning, fixed in v2.1) --> Ores Above Diamonds 1.15 - v2.1):
+		Ores Above Diamonds 1.15 - v2.1:
+			Fixed a critical bug in one of the .json files causing some people to crash. Thank you realTIMematrix and Sleeeper on Github for reporting and fixing the issue.
+			Also, I have updated the Github code to the latest version. Please feel free to contribute, I am always open to suggestions and will merge improvements quickly.
+			Cheers!
+			- Squidsword
+
+	PackMenu (PackMenu-1.15.1-1.1.4.jar --> PackMenu-1.15.2-1.1.6.jar):
+		PackMenu-1.15.2-1.1.6.jar:
+			Updated to 1.15.2
+
+	PeacefulSurface (PeacefulSurface-1.15.1-v1.jar --> PeacefulSurface-1.15.2-v1.jar):
+		PeacefulSurface-1.15.2-v1.jar:
+			Updated to 1.15.2 Forge 31.0.0 with a minimum requirement of Forge 1.14.3-27.0.57.
+
+		PeacefulSurface-1.15.2-v1-fabric.jar:
+			Updated to 1.15.2 Fabric.
+
+		PeacefulSurface-1.15.1-v1-fabric.jar:
+			Updated to 1.15.1 Fabric.
+
+	Placebo (Placebo-1.15.1-3.0.0.jar --> Placebo-1.15.2-3.0.2.jar):
+		Placebo-1.15.2-3.0.2.jar:
+			Updated to 1.15.2
+
+		Placebo-1.15.1-3.0.1.jar:
+			Fixed tags in recipes
+
+	Powder Power [FORGE] (PowderPower-1.15.1-3.1.15.jar --> PowderPower-1.15.2-3.1.24.jar):
+		PowderPower-1.15.2-3.1.24.jar:
+			Added hammers with Medium, Lapium, Gemium, and Trilium
+
+	Ranged Pumps (Ranged Pumps 0.7 --> Ranged Pumps 0.7.1):
+		Ranged Pumps 0.7.1:
+			Port to Minecraft 1.15.2 (raoulvdberge)
+
+	Refined Storage (Refined Storage 1.8 --> Refined Storage 1.8.1):
+		Refined Storage 1.8.1:
+			 * Port to Minecraft 1.15.2 (raoulvdberge) 
+			 * The Storage Monitor supports fluids as well now (V1RTUOZ) 
+
+	Refined Storage Addons (Refined Storage Addons 0.6 --> Refined Storage Addons 0.6.1):
+		Refined Storage Addons 0.6.1:
+			Port to Minecraft 1.15.2 (raoulvdberge)
+
+	Snow! Real Magic! (SnowRealMagic-1.15.1-1.7.1.jar --> SnowRealMagic-1.15.2-1.7.2.jar):
+		SnowRealMagic-1.15.2-1.7.2.jar:
+			No changelog provided.
+
+	The Veggie Way [FORGE] (TheVeggieWay-1.15.1-2.1.8.jar --> TheVeggieWay-1.15.2-2.1.11.jar):
+		TheVeggieWay-1.15.2-2.1.11.jar:
+			UPDATES:
+
+			 * - Updated Forge to 1.15.2-31.0.1 
+			 * - Updated MCP to 20200122-1.15.1 
+
+	Toast Control (ToastControl-1.15.1-3.0.0.jar --> ToastControl-1.15.2-3.0.1.jar):
+		ToastControl-1.15.2-3.0.1.jar:
+			1.15.2
+
+	Tool Kit (TOOLKIT-1.15.1-1.6.2.jar --> TOOLKIT-1.15.2-1.6.4.jar):
+		TOOLKIT-1.15.2-1.6.4.jar:
+			 * Version correction - Sunekaer 
+			 * jenkins stuff - Sunekaer 
+
+	Waddles (Waddles-1.15.1-0.8.4.jar --> Waddles-1.15.2-0.8.5.jar):
+		Waddles-1.15.2-0.8.5.jar:
+			- Ported to 1.15.2
+
+	XL Food Mod (XL-Food-Mod-1.15.1-2.2.1 --> XL-Food-Mod-1.15.2-2.2.2):
+		XL-Food-Mod-1.15.2-2.2.2:
+			Built using Minecraft Forge 1.15.2-31.0.1
+			Changelog:
+			-added Turkish translation - thanks to [bysefer](https://www.curseforge.com/members/bysefer)
+			-updated Dutch translation - thanks to [HeresHavi](https://github.com/HeresHavi)
+			-energy drinks now display effects properly
+			-fixed tags for Corn
+
+	Xaero's Minimap (v20.0.0 for Minecraft 1.15.1 --> v20.1.0 for Minecraft 1.15.2):
+		v20.1.0 for Minecraft 1.15.2:
+			* Upgrade to Minecraft 1.15.2.
+			+ Added 2 new options in the waypoints options menu for temporarily sorting the waypoints list by name, initial or distance to the waypoints.
+			+ Added new tooltips to some minimap options.
+			* Increased the opacity of the tooltip background, so it's easier to read longer tooltips.
+
+	Xaero's World Map (v1.5.4 for Minecraft 1.15.1 --> v1.5.4 for Minecraft 1.15.2):
+		v1.5.4 for Minecraft 1.15.2:
+			Upgrade to Minecraft 1.15.2.
+
+Removed:
+- AttributeFix
+- Better Burning
+- Better Sprinting
+- Buzzier Bees
+- ChunkNoGoByeBye
+- Client Tweaks
+- CookieCore
+- Cyclic
+- Dritmod
+- Enchantment Descriptions
+- Farming for Blockheads
+- FindMe
+- Hwyla
+- Industrial Foregoing
+- JANOEO
+- Lightest Lamps
+- Ma Chat
+- Magic Feather
+- Mob Catcher
+- Nethercraft Classic
+- Open Loader
+- Ore Excavation
+- Portality
+- Potion of Bees
+- Quickstack
+- Seals
+- Silence Mobs
+- Simple Item Additions
+- Simple Storage Network
+- Smaller Nether Portals
+- Snowmancy
+- Titanium
+- WTBW
+- ZmodSkills
+
+Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).
