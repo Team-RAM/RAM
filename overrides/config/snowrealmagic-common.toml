@@ -9,7 +9,7 @@ snowMakingIce = true
 snowOnIce = false
 snowNeverMelt = false
 replaceWorldFeature = true
-invalidSupportingBlocks = ["ice", "packed_ice", "barrier"]
 #Requires Mixin
 sustainGrassIfLayerMoreThanOne = true
+invalidSupportingBlocks = ["ice", "packed_ice", "barrier"]
 

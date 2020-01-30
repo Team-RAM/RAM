@@ -1,0 +1,13 @@
+#Should the screen appear on the next Start?
+shouldappear = true
+#The Header of the Message
+header = "This update may delete items!!!"
+#The Body of the Message
+body = "If this is your first time playing Randomly Added Mods you may ignore this message. \n \nThis modpack has updated to 1.15.2. \nSome mods that were included in 1.15.1 are not yet available. \n \nIf you attempt to load a world from any prior pack version you will lose certain items.\nPlease view the changelog before loading an old world. \n \nSome world generation mods are not yet available so any worlds made now may be missing features that will be included soon."
+#The Text on the Button
+button = "I understand!"
+#Optional: Adds a second button with a link that can be opened. Leave blank to disable the button
+link = "https://github.com/Team-RAM/RAM/blob/master/Changelog/RAM-0.1.7_changelog.txt"
+#Text on the Link Button
+linkButtonText = "Changelog"
+

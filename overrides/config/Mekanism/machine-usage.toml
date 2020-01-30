@@ -11,8 +11,6 @@
 	osmiumCompressor = 100.0
 	#Energy per operation tick (Joules).
 	precisionSawmill = 50.0
-	#Energy needed for one [recipe unit] of heavy water production (Joules).
-	heavyWaterElectrolysis = 800.0
 	#Energy per operation tick (Joules).
 	digitalMiner = 100.0
 	#Energy per operation tick (Joules).

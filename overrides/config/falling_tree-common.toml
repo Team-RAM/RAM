@@ -14,7 +14,10 @@ max_log_count = 350
 #When set to true, when a tree is broken and the tool is about to break we will just break one block and not the whole tree.
 preserve_tools = false
 #When set to true, a tree will only be chopped down if the player is sneaking
-reverse_sneaking = false
-#When set to true, leaves will be broken instantly
+reverse_sneaking = true
+#When set to true, leaves that should naturally break will be broken instantly
 break_leaves = true
+#Radius to force break leaves. If another tree is still holding the leaves they'll still be broken. If the leaves are persistent (placed by player) they'll also be destroyed. The radius is applied from one of the top most log blocks. break_leaves must be activated for this to take effect.
+#Range: 0 ~ 10
+force_break_leaves_radius = 6
 
