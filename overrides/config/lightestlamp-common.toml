@@ -1,10 +1,10 @@
 
 #World Generation settings
 [worldgen]
-	#Generation of Krypton Glowstone in nether
+	#Generation of Boron Ore in nether
 	krypton_gen = true
 	#Generation of Neon Glowstone in nether
-	neon_gen = true
+	neon_gen = false
 	#Generation of Argon Glowstone in nether
-	argon_gen = true
+	argon_gen = false
 

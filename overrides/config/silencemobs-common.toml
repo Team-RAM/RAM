@@ -1,9 +1,0 @@
-
-[General]
-	#If ENABLED, only allows the /silencemobs command with cheats enabled.
-	onlyAllowCommandWhenCheatsEnabled = true
-	#If DISABLED, a stick will be generated via the /silencemobs command instead of having to hold a stick while using the command.
-	mustHoldStick = true
-	#If ENABLED, whenever a player hits a non-silenced mob with The Silence Stick it will set their name to 'Silenced Entity'.
-	renameSilencedMobs = true
-

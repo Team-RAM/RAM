@@ -2,7 +2,6 @@
 #General options
 [general]
 	#Reference position of HUD.
-	#(0:off)
 	#Range: 1 ~ 8
 	hudReferencePos = 3
 	#Frame rate during reducing.
@@ -14,7 +13,7 @@
 	#Range: 0 ~ 60
 	guiScreenFps = 0
 	#Enable FPS Reducer features.
-	enableFpsReducer = false
+	enableFpsReducer = true
 	#Waiting time(sec) until reducing FPS. (0:OFF)
 	#Range: 0 ~ 86400
 	waitingTime = 300

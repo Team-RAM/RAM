@@ -1,6 +1,7 @@
 =======================================================
 Randomly Added Mods 0.1.6 --> Randomly Added Mods 0.1.7
 =======================================================
+=======================================================
 Updated to MC 1.15.2
 Forge 31.0.14
 
@@ -416,6 +417,7 @@ Removed:
 - CookieCore
 - Cyclic
 - Dritmod
+- Ducky Mod
 - Enchantment Descriptions
 - Farming for Blockheads
 - FindMe
