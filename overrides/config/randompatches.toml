@@ -72,7 +72,7 @@
 		icon32 = "config/randompatches/teamram.png"
 		# The Minecraft window title.
 		# Default: Minecraft 1.15.2
-		title = "Minecraft 1.15.2"
+		title = "Randomly Added Mods"
 
 # Options related to boats.
 [boats]
