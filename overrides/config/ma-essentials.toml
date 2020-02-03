@@ -12,11 +12,13 @@
 
 	[Commands.back]
 		#Range: > 0
-		delay = 60
+		death_custom_cooldown = 600
+		#Range: > 0
+		delay = 30
 		#Enable command: /back
 		enable = true
 		#Range: > 0
-		cooldown = 600
+		cooldown = 0
 		enable_on_death = true
 
 	[Commands.speed]
@@ -64,6 +66,8 @@
 		cooldown = 0
 		#Range: > 1
 		limit = 2
+		#Range: > 1
+		limit_op = 5
 
 	[Commands.up]
 		#Enable command: /up
@@ -79,11 +83,11 @@
 		#Enable command: /rndtp
 		enable = true
 		#Range: > 0
-		cooldown = 120
+		cooldown = 300
 		#Range: 50 ~ 999
 		range_min = 999
 		#Range: > 1000
-		range_max = 4000
+		range_max = 10000
 
 	[Commands.tpa]
 		#Range: > 0
@@ -144,7 +148,7 @@
 
 	[Commands.spawn]
 		#Range: > 0
-		delay = 3
+		delay = 5
 		#Enable commands: /spawn, /setspawn
 		enable = true
 		#Range: > 0
