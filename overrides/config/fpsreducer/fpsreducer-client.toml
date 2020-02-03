@@ -3,7 +3,7 @@
 [general]
 	#Reference position of HUD.
 	#Range: 1 ~ 8
-	hudReferencePos = 3
+	hudReferencePos = 1
 	#Frame rate during reducing.
 	#Range: 1 ~ 60
 	idleFps = 10
@@ -35,7 +35,7 @@
 	reducingInBackground = true
 	#Suppression master volume ratio in inactive (0-100).
 	#Range: 0 ~ 100
-	suppressedVolume = 20
+	suppressedVolume = 0
 
 #HUD offsets from reference positions at the screen edge.
 [hud_offset]
