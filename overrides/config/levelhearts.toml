@@ -12,7 +12,7 @@
 [Health]
 	#The maximum amount of health LevelHearts will allow a user to have. -1 to disable.
 	#Range: -1 ~ 1024
-	"Maximum Health" = -1
+	"Maximum Health" = 40
 	#How many hearts (not health) to take away from the user each time they die. -1 to disable.
 	#Range: -1 ~ 10
 	"Punish Health" = -1
@@ -20,7 +20,7 @@
 	#Range: 1 ~ 200
 	"Default Health" = 20
 	#The levels at which a user will gain a heart.
-	"Level Ramp" = [1, 5, 10, 15, 20, 25, 30, 34, 38, 42, 46, 50, 53, 56, 59, 62, 64, 66, 68, 70, 75, 80, 85, 90, 95, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200]
+	"Level Ramp" = [2000, 4000]
 
 [Gui]
 	#When enabled, the health will display in only one row with a number to the left indicating the row you're on.
