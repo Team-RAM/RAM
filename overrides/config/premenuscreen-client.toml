@@ -1,5 +1,5 @@
 #Should the screen appear on the next Start?
-shouldappear = true
+shouldappear = false
 #The Header of the Message
 header = "This update may delete items!!!"
 #The Body of the Message
