@@ -1,0 +1,101 @@
+=======================================================
+Randomly Added Mods 0.1.8 --> Randomly Added Mods 0.1.9
+=======================================================
+
+Added:
+- /tank/null
+- Bonsai Trees 2
+- Cyclic
+- Durability101
+- Environmental Materials
+- Industrial Agriculture
+- Libnonymous
+- Server Tab Info
+- Silent Lib
+- Silent's Gems
+- Silent's Mechanisms
+
+Updated:
+	Biomes O' Plenty (Biomes O' Plenty 1.15.2-10.0.0.300 --> Biomes O' Plenty 1.15.2-10.0.0.302):
+		Biomes O' Plenty 1.15.2-10.0.0.302:
+			 github:
+			 * Update zh_tw.json
+			 * - Translated Sprout & Toadstool
+
+		Biomes O' Plenty 1.15.2-10.0.0.301:
+			 github:
+			 * Create zh_tw.json (#1539)
+			 * Here comes the translations of Traditional Chinese. Based on the Simplified, but I really reedited it "from head to toe."
+			 * It took me so much time to finish removing texts and resorting.
+			 * - Localized for Traditional Chinese
+			 * - Updated all of the strings, e.g. Removing the things that no longer exist, Adding the new things released, Resorting the strings according to en_us.
+			 * PS, The strings of Biome is untranlated for now as I'm exhausted and I have no idea where it would show. Anyway, those who want to translate it completely don't need to worry about that, like aforementioned, I've resorted all of the strings, just go translating!
+			 * Any sugesstion/correction would be appreciated. Highlights:
+
+	Camera Mod ([1.15.2] Camera Mod 1.6.0 --> [1.15.2] Camera Mod 1.6.1):
+		[1.15.2] Camera Mod 1.6.1:
+			 * Updated forge and mcp mappings 
+
+	Following Villagers (Following Villagers-1.15.1-1.3.0 --> Following Villagers-1.15.2-1.4.0):
+		Following Villagers-1.15.2-1.4.0:
+			Port to 1.15.2
+
+	Forbidden and Arcanus (forbidden_arcanus-1.15.2-1.0-beta-2.jar --> forbidden_arcanus-1.15.2-1.0-beta-3.jar):
+		forbidden_arcanus-1.15.2-1.0-beta-3.jar:
+			forbidden_arcanus-1.15.2-1.0-beta-3
+			-Fixed another Edelwood Bucket Server Crash
+
+	Light Overlay (Rift/Forge/Fabric) ([Forge / Fabric 1.15.x] v4.1 --> [Forge / Fabric 1.15.x] v4.2):
+		[Forge / Fabric 1.15.x] v4.2:
+			Fabric & Forge: New: Number instead of crosses display option
+
+	Lightest Lamps (Lightest Lamps 3.2.3 --> Lightest Lamps 3.2.4):
+		Lightest Lamps 3.2.4:
+			Mekanism compatibility.
+			Fixed gas centrifuge crafting time.
+
+	PeacefulSurface (PeacefulSurface-1.15.2-v1.jar --> PeacefulSurface-1.15.2-v2b.jar):
+		PeacefulSurface-1.15.2-v2b.jar:
+			Fixed a bug that incorrect lightlevel value is being used when filtering mobs.
+
+		PeacefulSurface-1.14.4-v2.jar:
+			Backported changes from 1.15.2.
+			Added options related to Altitude.
+			Updated DefaultRule.json.
+			Fixed a bug that incorrect lightlevel value is being used when filtering mobs.
+			Fixed a crash on dedicated server when moonphase is involved.
+
+		PeacefulSurface-1.15.2-v2a.jar:
+			Fixed a bug that incorrect lightlevel value is being used when filtering mobs.
+			Fixed a crash on dedicated server when moonphase is involved.
+
+		PeacefulSurface-1.15.2-v2-fabric.jar:
+			Added options related to Altitude.
+			Updated DefaultRule.json.
+
+		PeacefulSurface-1.15.2-v2.jar:
+			Added options related to Altitude.
+			Updated DefaultRule.json.
+
+	Powder Power [FORGE] (Archived file --> PowderPower-1.15.2-3.1.27.jar):
+		PowderPower-1.15.2-3.1.27.jar:
+			UPDATES:
+
+			 * - Updated Forge to 1.15.2 - 31.1.0 
+			 * - Updated MCP mappings to 20200203-1.15.1 
+			 * - Fixed issue with config file generation, I hope. 
+
+	Simple Chunk Loaders (simplechunkloaders-1.15.2-1.0.1.4.jar --> simplechunkloaders-1.15.2-1.0.2.0.jar):
+		simplechunkloaders-1.15.2-1.0.2.0.jar:
+			No changelog provided.
+
+	ValkyrieLib (valkyrielib-1.15.2-3.0.1.4.jar --> valkyrielib-1.15.2-3.0.2.0.jar):
+		valkyrielib-1.15.2-3.0.2.0.jar:
+			 * Version 3.0:
+			Fixed bug with supporters capes rendering for everyone
+			Added Digital Guide 
+
+Removed:
+- Simple Discord Rich Presence
+
+Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).
