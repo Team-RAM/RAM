@@ -64,19 +64,19 @@
 	#Note that disabling events will likely increase the frequency of other events.
 	[chaos.events]
 		#Spawn a group of corrupted slimes
-		"silentgems:corrupted_slimes" = true
+		"silentgems:corrupted_slimes" = false
 		#Spawn a regular lightning bolt (can cause fire)
-		"silentgems:lightning" = true
+		"silentgems:lightning" = false
 		#Changes the weather to a thunderstorm
-		"silentgems:thunderstorm" = true
+		"silentgems:thunderstorm" = false
 		#Create a patch of corrupted blocks
-		"silentgems:corrupt_blocks" = true
+		"silentgems:corrupt_blocks" = false
 		#Applies negative potion effects to the player
-		"silentgems:chaos_sickness" = true
+		"silentgems:chaos_sickness" = false
 		#Spawn several lightning bolts that do not cause fire
-		"silentgems:chaos_lightning" = true
+		"silentgems:chaos_lightning" = false
 		#Spawn a group of wisps (random element)
-		"silentgems:spawn_wisps" = true
+		"silentgems:spawn_wisps" = false
 
 [debug]
 	#Display text on-screen with various information, such as player/world chaos
