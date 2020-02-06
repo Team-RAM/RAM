@@ -1,5 +1,10 @@
 # no private config
 overrides/config/dcintegration-common.toml
+overrides/config/minecraft2discord-common.toml
 
 # no mod binaries
 *.jar
+
+#whitelist overrides mods
+overrides/mods/*.jar
+!overrides/mods/MixinBootstrap-1.0.1.jar 
