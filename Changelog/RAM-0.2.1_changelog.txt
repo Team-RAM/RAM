@@ -1,0 +1,39 @@
+=============================================================
+Randomly Added Mods 0.2.0 --> Randomly Added Mods (RAM) 0.2.1
+=============================================================
+
+Added:
+- McJtyLib
+- Ore Excavation
+- RFTools Base
+- RFTools Builder
+- RFTools Power
+- RFTools Storage
+- RFTools Utility
+- XNet
+
+Updated:
+	/tank/null (tanknull-1.5.jar --> tanknull-1.6.jar):
+		tanknull-1.6.jar:
+			***BREAK ALL TANKS BEFORE UPDATING OR THEY WILL VANISH***
+			* tanks are no longer blocks, instead they are items.
+			* Added docking station which tanks can be inserted into for interaction with pipes, can be crafted with white concrete
+			* added alt + click for swapping between filled and empty
+			* improved the tooltip
+			* added hotkey for opening the gui
+			***BREAK ALL TANKS BEFORE UPDATING OR THEY WILL VANISH***
+
+	Biomes O' Plenty (Biomes O' Plenty 1.15.2-10.0.0.302 --> Biomes O' Plenty 1.15.2-10.0.0.305):
+		Biomes O' Plenty 1.15.2-10.0.0.305:
+			 forstride:
+			 * Updated door/trapdoor textures
+
+		Biomes O' Plenty 1.15.2-10.0.0.304:
+			 github:
+			 * Update ru_ru.json (Ghost forest)
+
+		Biomes O' Plenty 1.15.2-10.0.0.303:
+			 forstride:
+			 * Added Ghost Forest biome, moved Rainforest biome from Subtropical to Tropical climate, improvements to Mire biome
+
+Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).
