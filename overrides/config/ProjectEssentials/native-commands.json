@@ -1,0 +1,117 @@
+{
+    "nativeReplace": true,
+    "disableSafelyEnchantLevel": false,
+    "locateFindRadius": 100,
+    "aliases": {
+        "advancement": [
+            "achievements",
+            "ac"
+        ],
+        "ban": [
+        ],
+        "banip": [
+            "banip"
+        ],
+        "banlist": [
+        ],
+        "bossbar": [
+        ],
+        "clear": [
+            "ci",
+            "clearinventory"
+        ],
+        "clone": [
+        ],
+        "datapack": [
+        ],
+        "debug": [
+            "dbg"
+        ],
+        "defaultgamemode": [
+            "defaultgm"
+        ],
+        "deop": [
+        ],
+        "difficulty": [
+        ],
+        "effect": [
+            "potion",
+            "eff"
+        ],
+        "enchant": [
+        ],
+        "experience": [
+            "exp",
+            "xp"
+        ],
+        "fill": [
+        ],
+        "function": [
+            "fn",
+            "fun"
+        ],
+        "gamemode": [
+            "gm"
+        ],
+        "gamerule": [
+        ],
+        "give": [
+        ],
+        "help": [
+        ],
+        "kick": [
+        ],
+        "kill": [
+        ],
+        "list": [
+            "online"
+        ],
+        "locate": [
+            "find",
+            "where"
+        ],
+        "me": [
+            "action",
+            "describe"
+        ],
+        "op": [
+        ],
+        "pardon": [
+            "unban"
+        ],
+        "pardonip": [
+            "unbanip",
+            "pardonip"
+        ],
+        "particle": [
+        ],
+        "publish": [
+            "openlan"
+        ],
+        "recipe": [
+        ],
+        "replaceItem": [
+        ],
+        "saveall": [
+            "saveall"
+        ],
+        "saveoff": [
+            "saveoff"
+        ],
+        "saveon": [
+            "saveon"
+        ],
+        "spawnpoint": [
+            "respawnhere"
+        ],
+        "summon": [
+            "spawnmob"
+        ],
+        "tellraw": [
+            "tr"
+        ],
+        "worldborder": [
+            "wb"
+        ]
+    }
+}
