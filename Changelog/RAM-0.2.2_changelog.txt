@@ -1,0 +1,519 @@
+=============================================================
+Randomly Added Mods (RAM) 0.2.1 --> Randomly Added Mods 0.2.2
+=============================================================
+
+Added:
+- CustomQuests
+- Inventory Tweaks Reborn
+- Nature's Aura
+- Patchouli
+- Project Essentials Chat
+- Project Essentials Core
+- TrashSlot
+
+Updated:
+	/tank/null (tanknull-1.6.jar --> tanknull-1.7.jar):
+		tanknull-1.7.jar:
+			* fixed upgrading tanks via recipe not using upgraded size.
+
+	Biomes O' Plenty (Biomes O' Plenty 1.15.2-10.0.0.305 --> Biomes O' Plenty 1.15.2-10.0.0.317):
+		Biomes O' Plenty 1.15.2-10.0.0.317:
+			 Adubbz:
+			 * Prefix modid in weights config for standard biomes, fallback on Ocean for empty climates
+
+		Biomes O' Plenty 1.15.2-10.0.0.316:
+			 Adubbz:
+			 * Preliminary biome weight config file implementation
+
+		Biomes O' Plenty 1.15.2-10.0.0.315:
+			 Adubbz:
+			 * Refactored biome registration
+
+		Biomes O' Plenty 1.15.2-10.0.0.314:
+			 github:
+			 * Create ko_kr.json (#1545)
+
+		Biomes O' Plenty 1.15.2-10.0.0.313:
+			 forstride:
+			 * Fixed the Wooded Badlands Plateau not generating
+
+		Biomes O' Plenty 1.15.2-10.0.0.312:
+			 forstride:
+			 * Adjusted lush swamp/rainforest temperatures to be in line with other tropical biomes
+
+		Biomes O' Plenty 1.15.2-10.0.0.311:
+			 forstride:
+			 * Tweaked the grass color of the Origin Hills
+
+		Biomes O' Plenty 1.15.2-10.0.0.310:
+			 forstride:
+			 * Added branches for dead trees
+
+		Biomes O' Plenty 1.15.2-10.0.0.309:
+			 forstride:
+			 * Renamed Dried Sand to Dried Salt, tweaks to the Wasteland biome
+
+		Biomes O' Plenty 1.15.2-10.0.0.308:
+			 forstride:
+			 * Improvements to the Ghost Forest and Mire
+
+		Biomes O' Plenty 1.15.2-10.0.0.307:
+			 forstride:
+			 * Added better edge casing for swamp <-> jungle biomes, minor biome tweaks
+
+		Biomes O' Plenty 1.15.2-10.0.0.306:
+			 forstride:
+			 * Changed Origin Leaves/Sapling texture, minor biome tweaks
+
+	CraftTweaker (CraftTweaker-1.15.1-6.0.0.4.jar --> CraftTweaker-1.15.1-6.0.0.5.jar):
+		CraftTweaker-1.15.1-6.0.0.5.jar:
+			Current version: 6.0.0.5
+
+			 * [port to 1.15.2](https://github.com/CraftTweaker/CraftTweaker/commit/a8be724fd6eb4a8e5c49af0bdaa4ec3e96af2fff) - Jared - Fri Feb 7 11:55:03 2020 
+			 * [add a way to check if a MCTag is a certain type of tag](https://github.com/CraftTweaker/CraftTweaker/commit/10a2b04483ce4032c6ffb8803b567e2dcbedce5a) - Jared - Fri Feb 7 11:39:02 2020 
+			 * [update MC and forge versions in toml and gradle](https://github.com/CraftTweaker/CraftTweaker/commit/457020bbf055aea2e4e6aad015309e6e9ccfacdf) - Jared - Wed Jan 22 21:36:34 2020 
+			 * [update changelog commit](https://github.com/CraftTweaker/CraftTweaker/commit/c9ef77624a3c438180d561f3ea05916e4738c83d) - Jared - Wed Jan 22 21:36:34 2020 
+			 * [port to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/b21c1f5da8ec69929d34647873c9729be2458e4e) - Jared - Wed Jan 22 21:36:34 2020 
+			 * [update JEI](https://github.com/CraftTweaker/CraftTweaker/commit/c1c4434a134398e429ba4ba62f7affe05e57f367) - Jared - Wed Jan 22 21:35:54 2020 
+			 * [update forge to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/39f45343748414de06395a6e2a23b185f317452c) - Jared - Wed Jan 22 21:35:54 2020 
+			 * [wrapper classes docs are now /vanilla/api/](https://github.com/CraftTweaker/CraftTweaker/commit/e524914f5b057a9c007dca1310638c2bcac53d31) - Jared - Sun Jan 19 22:18:46 2020 
+			 * [move all generated docs to /vanilla/api](https://github.com/CraftTweaker/CraftTweaker/commit/6a1d9f4f69025c20e450feef2ca561c7ab54ad03) - Jared - Sun Jan 19 22:15:13 2020 
+			 * [no more value = for docs annotation](https://github.com/CraftTweaker/CraftTweaker/commit/ba576f0a25678a6451080d23403ae3954d41d914) - Jared - Sun Jan 19 22:03:38 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/f3b595aa161e93f6ff90788b53fbea04ee9b265d) - kindlich - Sat Jan 11 13:58:34 2020 
+			 * [make YAML output be in folders](https://github.com/CraftTweaker/CraftTweaker/commit/0de76eb4e3008edf0963c65d83ee971b4963c20c) - Jared - Fri Jan 10 22:55:02 2020 
+			 * [ignore docsOut and src/generated](https://github.com/CraftTweaker/CraftTweaker/commit/c7f9f97ed3398bc61b0bf81f1050284fb0c6ca79) - Jared - Fri Jan 10 22:54:34 2020 
+			 * [update ZC to fix server crashes](https://github.com/CraftTweaker/CraftTweaker/commit/7c703a57a06fc9bb2ea7d2ecde673e7ff18f89ef) - Jared - Fri Jan 10 22:23:43 2020 
+			 * [update ZC](https://github.com/CraftTweaker/CraftTweaker/commit/224ad15e53c38b430dbd4230922d82f7f5b59977) - Jared - Fri Jan 10 19:21:41 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/5d9f252e406156b81bcadd720b95e8a9ddca43f4) - kindlich - Fri Jan 10 19:06:10 2020 
+			 * [Added IIngredient#asIData](https://github.com/CraftTweaker/CraftTweaker/commit/1f4761cdf63d7b8b9bd878ac2a34940a36a4eb17) - kindlich - Fri Jan 10 19:00:45 2020 
+			 * [Updated Doc location for Biome and BiomeSpawnEntry](https://github.com/CraftTweaker/CraftTweaker/commit/02cf6a708b3d163174ddfd31276807d941b78cdc) - kindlich - Fri Jan 10 18:58:57 2020 
+			 * [update ZS](https://github.com/CraftTweaker/CraftTweaker/commit/2839aed162ff778c0acd40472474a3fde50e83bc) - Jared - Wed Jan 8 17:53:38 2020 
+			 * [Removed test code for no wrapper file](https://github.com/CraftTweaker/CraftTweaker/commit/69fa5381ed1f6457342fd34fde78155ecbb4143b) - kindlich - Sun Jan 5 20:23:39 2020 
+			 * [DocumentProcessor: Clear the output directory first](https://github.com/CraftTweaker/CraftTweaker/commit/d64087adf887972238ba1ec7482ce8e83676f395) - kindlich - Sun Jan 5 20:20:35 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/9f960d9c5a301a942c48512e4ab2085a08d83ea9) - kindlich - Sun Jan 5 19:51:50 2020 
+			 * [Added some advancements as being wrapped](https://github.com/CraftTweaker/CraftTweaker/commit/57cc981aee01abaa689b872ab851d63a7db4b366) - kindlich - Wed Jan 1 23:45:25 2020 
+			 * [Fixed some issues with the wrapper Processor](https://github.com/CraftTweaker/CraftTweaker/commit/e22c6972784858c8118eb1485496f1ea1eb655c8) - kindlich - Wed Jan 1 23:44:59 2020 
+			 * [Forgot Some these](https://github.com/CraftTweaker/CraftTweaker/commit/54a5854f42414293ff8c6ea897f9c86a45956665) - kindlich - Wed Jan 1 22:56:12 2020 
+			 * [Event Wrapper and Comment cleanup](https://github.com/CraftTweaker/CraftTweaker/commit/13501a232699331ea342199b86ec938692e621ee) - kindlich - Wed Jan 1 21:35:22 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/100bfb38141ec271a31e04e342f82cad6dc0a4a4) - kindlich - Wed Jan 1 16:43:17 2020 
+			 * [Removed 2nd MCWorld](https://github.com/CraftTweaker/CraftTweaker/commit/d82e4ef51904c0378c4025973a14dfdbb5b0da7c) - kindlich - Wed Jan 1 16:30:19 2020 
+			 * [Removed unused buildSrc](https://github.com/CraftTweaker/CraftTweaker/commit/0b782c48bb8d36950a00546258d0d63d9f98154c) - kindlich - Wed Jan 1 16:27:20 2020 
+			 * [Made Event listeners unregister themselves on a reload](https://github.com/CraftTweaker/CraftTweaker/commit/592e7d9862449a6f7285a65250be98296e3820d3) - kindlich - Wed Jan 1 16:25:55 2020 
+			 * [Only remove sidedActions when on the same side](https://github.com/CraftTweaker/CraftTweaker/commit/7d15faf7ae87abbc96d060cdc832b6cc957a7002) - kindlich - Wed Jan 1 16:24:36 2020 
+			 * [Added missing Document and ZenWrapper annotations](https://github.com/CraftTweaker/CraftTweaker/commit/42cd76858c4bb9901ac234f2bd2cc9bc342738d5) - kindlich - Wed Jan 1 16:23:38 2020 
+			 * [More work on wrappers](https://github.com/CraftTweaker/CraftTweaker/commit/a5f6a37ecd56898eefd2408b9e4177cba5927aba) - kindlich - Wed Jan 1 16:22:16 2020 
+			 * [Committing stuff before I do something stupid](https://github.com/CraftTweaker/CraftTweaker/commit/a93ea989e169113d715fa84e4144b8ca23491b06) - kindlich - Tue Dec 31 23:03:43 2019 
+			 * [Committing stuff before I do something stupid](https://github.com/CraftTweaker/CraftTweaker/commit/2c785dbd40fa4e6ad62d6574347041f85fa7984f) - kindlich - Tue Dec 31 21:46:11 2019 
+			 * [CTTooltipEvent handler working now.](https://github.com/CraftTweaker/CraftTweaker/commit/b43eefc90d69e5111b7a17fdac383bbf0487fc78) - kindlich - Fri Dec 27 16:52:33 2019 
+			 * [Some minor cleanup for Annotation Processors](https://github.com/CraftTweaker/CraftTweaker/commit/2e0897e84a4fbd7733d63d1fb054f80411fe929b) - kindlich - Thu Dec 26 23:07:54 2019 
+			 * [Simple yaml generation and fixed multiple classes being generated](https://github.com/CraftTweaker/CraftTweaker/commit/2912e29a540d1241f7616e3641a9a95f276019a1) - kindlich - Mon Dec 23 13:31:29 2019 
+			 * [Some cleanup](https://github.com/CraftTweaker/CraftTweaker/commit/18591fa7ac102e2cf11c172d9bc5e76b92b10624) - kindlich - Mon Dec 23 13:06:59 2019 
+			 * [Some more work on Expansions and declaredModid](https://github.com/CraftTweaker/CraftTweaker/commit/91eb925ba4ecdf5a03498677a572383547fd04cc) - kindlich - Mon Dec 23 12:53:29 2019 
+			 * [Started working on expansion classes](https://github.com/CraftTweaker/CraftTweaker/commit/4b68e0e43bd13b86d94b227b97a67094ae0981ea) - kindlich - Sun Dec 22 23:23:31 2019 
+			 * [Normal classes should be running now](https://github.com/CraftTweaker/CraftTweaker/commit/6b06dd25f2b4adb58c72eec818d5f87cafdc98f7) - kindlich - Sun Dec 22 21:15:31 2019 
+			 * [Base classes for Document Processor rewrite](https://github.com/CraftTweaker/CraftTweaker/commit/34fd8a748133dbc8a0c609ae9e21ef41336252d4) - kindlich - Sat Dec 21 22:42:42 2019 
+			 * [Start working on annotation processor rewrite](https://github.com/CraftTweaker/CraftTweaker/commit/bd6cf0c2cf376516896fa603fa3a9bc41911760f) - kindlich - Fri Dec 20 14:04:26 2019 
+			 * [Replaced IEventHandler with Consumer](https://github.com/CraftTweaker/CraftTweaker/commit/e0fcd372ad7143fa3a69f42d0c4fd59cf00e2986) - kindlich - Sat Dec 14 21:25:17 2019 
+			 * [event test](https://github.com/CraftTweaker/CraftTweaker/commit/98d834eed872ba45bb9ecd24b4bbab249b9f031a) - Jared - Thu Dec 12 18:43:10 2019 
+
+	Elementary Staffs (1.5 --> 1.6):
+		1.6:
+			Ported to 1.15.2
+			Changes:
+			Fixxed Particles from Heal Staff
+
+	Harvest (harvest-1.15.1-1.0.0.jar --> harvest-1.15.2-1.0.0.jar):
+		harvest-1.15.2-1.0.0.jar:
+			- update to 1.15.2
+
+	Macaw's Roofs (mcw-roofs-1.0.1-mc1.15.2.jar --> mcw-roofs-1.0.2-mc1.15.2_1.15.1.jar):
+		mcw-roofs-1.0.2-mc1.15.2_1.15.1.jar:
+			Change Log 1.0.2
+			- Added (6) attic windows - Added new corner gutters
+			- Added inner steep roof corners
+			- Added 4 way top roof
+			- Added Awnings
+			- Every item texture changed
+			- Added : New creative tab (items & g)
+			- Texture improvements
+			- Code improvements
+			- Tweaked every block class properties
+			- Model improvements
+			- Removed unecessary files
+			- Added updatejson
+			- Fixed straight roof placing ( ofset texture)
+			- Fixed : collision boxes
+			- Fixed : texture issues
+			- Fixed : non organized inventory
+			- Fixed all ID mismatches
+			- Fixed : blockstates contain superflous "up" variant.
+
+	McJtyLib (mcjtylib-1.15-4.0.0-alpha.jar --> mcjtylib-1.15-4.0.1-alpha.jar):
+		mcjtylib-1.15-4.0.1-alpha.jar:
+			- Small GenericContainer refactoring. Removed unused code
+			- Fix in how itemstacks are rendered
+
+	OpenBlocks Elevator (elevatorid-1.15.2-1.5.5.jar --> elevatorid-1.15.2-1.6.1.jar):
+		elevatorid-1.15.2-1.6.1.jar:
+			Fix crash in dedicated servers (#53)
+
+		elevatorid-1.15.2-1.6.0.jar:
+			New modular version !
+			Elevators now have a GUI where you can configure them
+			You can camouflage elevators by right clicking with the block you want it to look like just like 1.12.2-1.4.x versions
+			Built with forge 1.15.2-31.1.1
+
+		elevatorid-1.15.1-1.5.4-HOTFIX.jar:
+			Fix #50
+			Last version for 1.15.1
+			Consider updating to 1.15.2
+
+	Ores Above Diamonds (Ores Above Diamonds 1.15.x - v2.1 --> Ores Above Diamonds 1.15 - v3.0 (Nether and End ore support if enabled in config!)):
+		Ores Above Diamonds 1.15 - v3.0 (Nether and End ore support if enabled in config!):
+			- Added the Amethyst and Black Opal Blocks.
+			- Added a config option allowing you to further customize the spawning of your ores, including nether and end ore support.
+			- Revamped config. It now follows an order rather than randomly spitting out config options.
+			- Ores and gems now have tag (oredictionary) support, named as the amethyst and black opal.
+			- There is also a 1.14.4 version with the same update for the 1.14.4 players. I am planning on making a 1.12 version soon, but no promises ;)
+			Please let me know if there are any bugs or features you would like to add!
+
+	Powder Power [FORGE] (PowderPower-1.15.2-3.1.28.jar --> PowderPower-1.15.2-3.1.29.jar):
+		PowderPower-1.15.2-3.1.29.jar:
+			UPDATES:
+
+			 * - Moved most of the tooltips from classes to the lang file 
+
+	RFTools Storage (rftoolsstorage-1.15-1.0.0-alpha.jar --> rftoolsstorage-1.15-1.0.1-alpha.jar):
+		rftoolsstorage-1.15-1.0.1-alpha.jar:
+			- Fixed a problem with the modular storage inventory slots not being moved properly in case of different gui scale
+
+	RandomPatches (RandomPatches 1.15.2-1.21.1.0 --> RandomPatches 1.15.2-1.21.1.1):
+		RandomPatches 1.15.2-1.21.1.1:
+			Fixed the MC-2025 fix. 
+
+	Silent Gear (SilentGear-1.15.2-1.5.0+74.jar --> SilentGear-1.15.2-1.5.1+76.jar):
+		SilentGear-1.15.2-1.5.1+76.jar:
+			# Changelog
+			The format is based on [Keep a Changelog]([https://keepachangelog.com/en/1.0.0/]()),
+			and this project adheres to [Semantic Versioning]([https://semver.org/spec/v2.0.0.html]()).
+			## [1.5.1] - 2020-02-11
+			### Fixed
+			- Crimson iron dust and ore chunks are no longer hidden when Silent's Mechanisms is not installed [#87]
+			- Cutout blocks (flax, stone torch) rendering incorrectly [#86]
+			- Version in crafting station screen showing 1.14.4 instead of actual Minecraft version [#85]
+			## [1.5.0] - 2020-02-01
+			Ported to Minecraft 1.15.2
+			### Added
+			- Login message to warn the player when parts and traits fail to load. Instructs the player on what to search for in their log file ("Failed to reload data packs").
+			### Removed
+			- The part analyzer and part grading. See issue [#83]([https://github.com/SilentChaos512/Silent-Gear/issues/83](https://github.com/SilentChaos512/Silent-Gear/issues/83)) for plans/discussion.
+			## [1.4.6] - 2019-12-25
+			### Fixed
+			- Tooltip crash with gear, possibly caused by removed traits [#81]
+			- Fix some harmless(?) warning about material grade command arguments [#80]
+			## [1.4.5] - 2019-11-25
+			### Changed
+			- Armor now gains Mine and Slash stats (AzureZhen) [#78, #79]
+			- Remove material mixing tooltip from blueprints, as they are no longer true [#73)]
+			## [1.4.4] - 2019-11-05
+			### Added
+			- End stone main part
+			### Changed
+			- Increased lumber axe melee damage
+			### Fixed
+			- Possibly fixes part crafting items being scrambled in worlds where items have been added/removed [#74]
+			## [1.4.3] - 2019-10-01
+			### Added
+			- Lumber axe (finally). Chops down entire trees by breaking a single block. Trees are defined as logs with leaves attached. The standard block tags for logs and leaves are used. Textures may need some work...
+			### Fixed
+			- Possibly fixed crash caused by Console HUD [#68, #53]
+			## [1.4.2] - 2019-09-29
+			### Added
+			- (API) `IGearPart#onGearDamaged`
+			### Fixed
+			- Crafting station dropping inventory when rotated
+			## [1.4.1] - 2019-09-18
+			### Fixed
+			- Part analyzer not dropping inventory when broken [#62]
+			- Axes breaking permanently when stripping bark [#63]
+			- Broken shovels being usable with Dirt2Path [#63]
+			## [1.4.0] - 2019-09-13
+			Bump required Forge version to 28.1+, Silent Lib 4.4.0
+			### Fixed
+			- Should make part and trait maps thread-safe (I hope) [#59]
+			### Fixed
+			- Upgrade parts applying to invalid gear items
+			## [1.3.11] - 2019-09-10
+			### Changed
+			- Data paths for parts and traits changed. silentgear/parts is now silentgear_parts and silentgear/traits is now silentgear_traits. Files in the old location will still load for now.
+			### Fixed
+			- Hidden parts appearing on the parts screen in the crafting station
+			- Sound type of flax plants
+			## [1.3.10] - 2019-09-04
+			Update requires Forge 28.0.83 or higher
+			### Added
+			- A joke part: barrier
+			### Changed
+			- Part names and prefixes are now serialized like vanilla text (`translate` to translate, `text` for literal text). Old part files will load correctly.
+			- Part name prefixes no longer nested in `name`, moved to `name_prefix`
+			### Fixed
+			- Armor not using blended colors
+			- Should fix barrier items being produced when salvaging some items
+			## [1.3.9] - 2019-08-19
+			### Added
+			- Gear name prefixes. Can be added to individual parts (see rough rods for any example), or through an event (GearNamePrefixesEvent)
+			### Changed
+			- Mine and Slash random drops are now tier 1 minimum
+			- Mine and Slash random drops should now be salvagable
+			### Fixed
+			- Hammer dupe [#51]
+			- JEI failing to load on servers [#52]
+			- JEI complaining about QuickRepairRecipe
+			## [1.3.8] - 2019-08-13
+			### Fixed
+			- Mine and Slash compatibility race condition
+			## [1.3.7] - 2019-08-13
+			### Added
+			- Basic compatibility for Mine and Slash
+			### Fixed
+			- Parts blacklisted for "all" gear types not actually being blacklisted
+			## [1.3.6] - 2019-08-12
+			### Added
+			- Stat multiplier configs for gear. These allow the stat values of all items to be increased or decreased without overwriting every part file.
+			- Gear type blacklist to part tooltips
+			- Texture for phantom light item, translated name [#44]
+			### Fixed
+			- Ranged damage stat being ignored
+			## [1.3.5] - 2019-08-06
+			Updated for Forge 28.0.45
+			### Fixed
+			- Tool head swapping restoring durability in some cases... for real this time [#45]
+			## [1.3.4] - 2019-08-02
+			### Added
+			- Custom tipped upgrades should now show up in JEI and creative tabs
+			- A couple more advancements
+			- Sort button to parts GUI. This is no longer a drop down list, it just cycles the options (just wanted a quick fix for right now)
+			### Fixed
+			- Parts with malformed JSON not raising an error (may not detect all cases still...) [#41]
+			- Tool head swapping restoring durability in some cases [#43]
+			- Some armor items missing color
+			## [1.3.3] - 2019-07-30
+			### Changed
+			- Make parsing of part crafting items less strict. The `item` property will be removed if `tag` is present. Undefined tags will no longer prevent the part from loading (but you still won't be able to craft with it, of course)
+			### Fixed
+			- Hammers destroying the NBT of certain blocks, like shulker boxes and soul urns [Silent's Gems #384]
+			- Color handlers crashing the game in some cases [#39]
+			## [1.3.2] - 2019-07-28
+			### Added
+			- Custom tipped upgrades. This is a single item which allows the part to be changed with NBT. Just set "PartID" to the ID of the part. For the crafting items of the part, replace the usual "normal" object with an empty "custom_tipped_upgrade" object. You will need to create the recipe for the upgrade yourself.
+			- The "nerfed gear" config is back. Disabled by default. You can set any damageable item to have reduced durability, to encourage use of Silent Gear over vanilla items (or items from other mods if you wish). This may not work for all items.
+			### Changed
+			- Part analyzer optimized a bit. Should reduce tick time when it's not working.
+			- Lite gear models reworked. Added grip layer to tools. Some layers support a very limited set of alternate textures.
+			- Internal changes to how parts are detected. May reduce performance slightly in some cases. This was needed for custom tipped upgrades.
+			## [1.3.1] - 2019-07-24
+			### Added
+			- A `hidden` property for traits. Hidden traits will not be shown in the list of traits on an item, unless advanced tooltips (F3+H) are enabled.
+			- Trait conditions, which allow conditions to be assigned to traits on parts. The part will not apply the trait to a gear item if the conditions are not met.
+			### Fixed
+			- Some gear crafting recipes not working [#36]
+			- Diamond and glowstone tip upgrades not having the Lustrous trait
+			## [1.3.0] - 2019-07-23
+			- Update to 1.14.4
+			## [1.2.4] - 2019-07-22
+			### Fixed
+			- Random crash with Silent's Gems
+			## [1.2.3] - 2019-07-21
+			### Added
+			- Config to enable additional logging for loading and syncing parts and traits
+			- Tier 3 analyzer catalyst tag (no items in it by default)
+			- Recipe to replace the head of a tool. Craft a tool with a tool head (a tool with only main parts). The old head is retained.
+			- Spear blueprints to the "swords" loot pool for the blueprint package
+			### Changed
+			- Trait descriptions are now shown in item tooltips when the Alt key is held down
+			- Parts with zero armor durability are automatically blacklisted for armor crafting. Similarly, zero durability will blacklist all other gear types.
+			### Fixed
+			- Traits not loading on OS X
+			- Gear type blacklist for parts now actually works
+			- Some armor textures being broken
+			- Overrode vanilla's dumb repair recipe again... This disables crafting grid "repairs" of Silent Gear items, but the grindstone still works.
+			## [1.2.2] - 2019-07-17
+			### Added
+			- New trait type, `silentgear:nbt_trait`. This will add arbitrary NBT to gear items when crafted.
+			- Missing models for crossbow blueprints and templates
+			- Crusher recipes (Silent's Mechanisms) for crimson iron ore
+			- Notify players on login of part and trait files that failed to load
+			### Changed
+			- Trait lists in tooltips tweaked (hopefully they won't be confused for enchantments?)
+			- Sickles reset sweet berry bushes to age 1 (same as picking berries from them normally)
+			- Machetes can now break multiple bamboo blocks at once
+			### Fixed
+			- Sickles duplicating dirt from grass blocks, possibly some other related issues
+			## [1.2.1] - 2019-07-11
+			### Added
+			- Crossbows. These have some minor animation issues (because vanilla is dumb), but they function correctly.
+			### Changed
+			- Random grading now assigns the same grade to all parts. Added a config which can revert to the old behavior.
+			### Fixed
+			- Some issues with the JEI plugin on servers
+			- Blended head colors including non-main parts
+			- Possibly improves part analyzer performance
+			## [1.2.0] - 2019-07-01
+			Updated for Minecraft 1.14.3
+			## [1.1.3] - 2019-06-24
+			JEI plugin is up to date. Recommended Forge is 26.0.51 or later.
+			### Added
+			- A few new traits, assigned to some existing parts
+			### Changed
+			- Small change to trait level calculations
+			- Blueprint paper recipe now uses the vanilla blue dye item only, until Forge fixes the blue dye tag
+			## [1.1.2] - 2019-06-21
+			### Added
+			- Loot condition `silentgear:has_part`, which can check if a gear item has a particular part. Can also check the grade of the part.
+			- Loot condition `silentgear:has_trait`, which can check if a gear item has a given trait
+			- Gear stat changes are now logged in the debug log. There will be a config for this later, but for right now it is forced on.
+			### Fixed
+			- Issue where trait data was not being sent completely during client login
+			## [1.1.1] - 2019-06-20
+			### Added
+			- Netherwood slabs and stairs
+			- Recipe advancements (most recipes will show in the recipe book when you get certain items)
+			- New command, `sgear_random_gear` which will give randomized gear items
+			- Loot table function for setting specific parts on a gear item
+			- Chinese translation (zh_cn, by XuyuEre)
+			### Fixed
+			- Example gear items not appearing in the creative tab
+			## [1.1.0] - 2019-06-17
+			### Added
+			- Configs for random grading. You can adjust the mean, standard deviation, and max grade.
+			- Gear with mixed main parts will blend the colors, but with much greater weight on earlier parts
+			### Removed
+			- Blue flower and black/blue dyes (use cornflowers and new vanilla dyes instead)
+			### Changed
+			- Netherwood tree generation (more leaves, subject to change)
+			## [1.0.12] - 2019-05-11
+			### Changed
+			- Blueprints and templates now have the output item in their name, instead of the tooltip
+			### Fixed
+			- Stats not calculating correctly in some cases (e.g. tip upgrades) [#27]
+			- Bow "lite" models are animated now
+			- Rod and bowstring blueprints/templates being consumed during crafting
+			## [1.0.11] - 2019-05-08
+			### Added
+			- Command to recalculate stats on all of a player's gear (can target multiple players)
+			- Command to list all registered parts. Also shows how many of each type there are.
+			### Fixed
+			- Parts and traits should now sync all needed data with clients
+			- Fix gear losing their stats during recalculations (e.g. ka-chink)
+			- Flax plants not growing
+			## [1.0.10] - 2019-05-08
+			### Added
+			- Config to disable enchanted effect on gear items (this adds a new client config file). Since the effect is broken on vanilla models, this is disabled by default.
+			- Spears. They are weaker than swords, but have a much longer reach. These may need some balancing still.
+			### Fixed
+			- Should fix gear parts and traits not syncing to clients on LAN games
+			## [1.0.9] - 2019-04-24
+			### Added
+			- JEI plugin has been updated
+			### Fixed
+			- "Unknown part type" error when connecting to servers
+			- Bows not being enchantable
+			- Blocks connecting to analyzers improperly
+			## [1.0.8] - 2019-04-15
+			Small tweak needed by Silent's Gems 3.0.11.
+			## [1.0.7] - 2019-04-07
+			### Added
+			- Analyzer catalyst, which will increase the median grade when grading parts. These are set by item tags and there are two tiers (`silentgear:analyzer_catalyst/tier1` and `silentgear:analyzer_catalyst/tier2`). By default, tier 1 is glowstone dust, and tier 2 is glittery dust, a new item.
+			### Changed
+			- Rod-less tools (heads) will now hurt you when used. Ouch!
+			- Hammers are no longer effective on "extra materials" like circuits (redstone, ladders) and glass
+			- Durability max is now Integer.MAX_VALUE (2^32-1) and Armor Durability max is 1/16th of that (134,217,727)
+			### Fixed
+			- Hammers breaking unbreakable blocks
+			- Parts GUI is working again (access in the crafting station GUI)
+			- Some broken/missing translations
+			## [1.0.6] - 2019-03-30
+			### Added
+			- Stone torches (craft with coal/charcoal and stone rods)
+			- Potted blue flower and netherwood saplings (just use the block on a flower pot)
+			- Flax is obtainable, look for wild flax plants in plains or mountain biomes.
+			- Sinew is now obtainable
+			### Removed
+			- Item of flax plant (block still exists, but you will get a warning on world load)
+			### Changed
+			- Rewrote gear crafting recipe code to allow recipes to show up in the recipe book and REI (probably JEI as well, have not tested). The recipe JSON files are still the same. If you didn't know, you can completely replace these recipes with data packs!
+			- Better temporary models for everything but bows. Still waiting on Forge for the proper model system to come back. These new models will likely become a config option, as they are probably much easier on less powerful hardware.
+			### Fixed
+			- Block-placing feature is back. Right-click while holding a compatible tool (SGear pickaxe, shovel, or axe by default) to place the block in the slot after the tool, or the last slot of your hotbar. Also works with the torch bandolier (from the Torch Bandolier mod).
+			- Lustrous trait being 15 times more powerful than intended. Also increased the bonus from sky light; block light is 75% as effective.
+			## [1.0.5] - 2019-03-19
+			Tweaks some things which will be needed for the next Silent's Gems release, which will add gear souls (replaces tool souls from older versions). Minor API changes.
+			### Added
+			- Lock stats command is back
+			### Fixed
+			- Armor recipes now reference the correct blueprints
+			- (Partially) When connecting to a dedicated server, information about traits and gear parts is synced to the client. Unfortunately, this happens too late and tooltips usually do not update.
+			## [1.0.4] - 2019-03-08
+			Traits are mostly implemented. There are a few that do not function yet, but it should be possible to create custom traits again.
+			### Fixed
+			- Tools having wrong attack damage and speed modifiers (removed equipment JSON files entirely) [#24]
+			- Example gear generates correctly
+			- Armor no longer says it's missing a rod
+			- Fix armor item color (custom worn armor is still colorless)
+			- A few misc tooltip-related issues
+			## [1.0.3] - 2019-03-07
+			Temporary workaround for Forge issue #5577, Silent Gear [issue #25]([https://github.com/SilentChaos512/Silent-Gear/issues/25](https://github.com/SilentChaos512/Silent-Gear/issues/25)). This allows players to connect to servers and LAN games. I have noticed their are issues with gear parts not syncing to the client, which I am pretty sure is unrelated. Gear items can still be crafted and used normally as far as I know, they just look wrong.
+			## [1.0.2] - 2019-03-03
+			### Added
+			- Improved temporary gear models. They do not display upgrades or support unique textures, but... it's something. Now we wait for Forge to fix stuff.
+			- Grade argument to "sgear_parts add" command.
+			## [1.0.1] - 2019-02-28
+			### Added
+			- World generation (flowers, netherwood, and crimson iron)
+			### Changed
+			- Crafting station part slots removed. This leaves just the crafting grid and side storage.
+			### Fixed
+			- Blocks with GUIs can be opened again
+			- Flower and netherwood sapling models corrected
+			## [1.0.0] - 2019-02-24
+			Port to 1.13.2. Bumped version to 1.0.0 because of major changes, but this is still an alpha of course.
+			- Old part files are not compatible and must be updated.
+			- Parts are now added with **datapacks**. Files should be in `data/<namespace>/silentgear/parts/`, where `<namespace>` is a unique ID for your datapack. You can organize files into subfolders as well (e.g. have a folder for main parts, a separate folder for rods, etc.) This is optional, but encouraged.
+			- Gear **models do not work**, you will see white outlines instead (the items still work, of course)
+			- Tool heads removed... sort of. Crafting a blueprint with main parts only creates a rodless tool (head).
+			 - Tool heads are technically their respective tool. You can use them, but some stats are reduced until you attach a rod. May add additional penalties later.
+			 - You can also place the tool rod (and bowstring for bows) in the crafting grid at the same time to craft the whole tool in one go!
+			- Traits are broken right now
+			- None of the blocks function yet
+
+	The Veggie Way [FORGE] (TheVeggieWay-1.15.2-2.1.14.jar --> TheVeggieWay-1.15.2-2.1.17.jar):
+		TheVeggieWay-1.15.2-2.1.17.jar:
+			UPDATES:
+
+			 * - Internal refactoring to convert from Event Registers to DeferredRegister 
+			 * - Fixed issue that was not returning bottles and Bowls from VeggieWay drinks and Pumpkin Soup 
+			 * - Fixed Pumpkin Soup to not stack, like vanilla soups 
+
+		TheVeggieWay-1.15.2-2.1.16.jar:
+			UPDATES:
+
+			 * - Converted static tooltips to lang file for better translation 
+
+	Tool Belt (ToolBelt-1.15.2-1.13.1.jar --> ToolBelt-1.15.2-1.14.0.jar):
+		ToolBelt-1.15.2-1.14.0.jar:
+			Re-enable curios support now that the Curios API is available on 1.15.2.
+			Also re-enable JEI support, which I forgot about.
+
+	ValkyrieLib (valkyrielib-1.15.2-3.0.2.0.jar --> valkyrielib-1.15.2-3.0.2.1.jar):
+		valkyrielib-1.15.2-3.0.2.1.jar:
+			Fixed Container Bug
+
+	🍊 Fruit Trees (FruitTrees-1.15.2-1.1.5.jar --> FruitTrees-1.15.2-1.1.6.jar):
+		FruitTrees-1.15.2-1.1.6.jar:
+			Fix planks missing tags
+
+Removed:
+- GameMenuModOption
+- Inventory Sorter
+
+Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).
