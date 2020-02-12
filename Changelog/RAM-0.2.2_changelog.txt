@@ -1,14 +1,14 @@
-=============================================================
-Randomly Added Mods (RAM) 0.2.1 --> Randomly Added Mods 0.2.2
-=============================================================
+===================================================================
+Randomly Added Mods (RAM) 0.2.1 --> Randomly Added Mods (RAM) 0.2.2
+===================================================================
 
 Added:
+- ColouredChat
 - CustomQuests
 - Inventory Tweaks Reborn
+- Ma Chat
 - Nature's Aura
 - Patchouli
-- Project Essentials Chat
-- Project Essentials Core
 - TrashSlot
 
 Updated:
@@ -16,7 +16,15 @@ Updated:
 		tanknull-1.7.jar:
 			* fixed upgrading tanks via recipe not using upgraded size.
 
-	Biomes O' Plenty (Biomes O' Plenty 1.15.2-10.0.0.305 --> Biomes O' Plenty 1.15.2-10.0.0.317):
+	Biomes O' Plenty (Biomes O' Plenty 1.15.2-10.0.0.305 --> Biomes O' Plenty 1.15.2-10.0.0.318):
+		Biomes O' Plenty 1.15.2-10.0.0.318:
+			 forstride:
+			 * - Added Fungal Jungle overworld biome
+			 * - Added Huge Glowshrooms and Huge Toadstools
+			 * - Removed Fungi Forest Nether biome
+			 * - Re-added hostile mobs to the Tropics/White Beach biomes
+			 * - Cleaned up vanilla biome climate registration
+
 		Biomes O' Plenty 1.15.2-10.0.0.317:
 			 Adubbz:
 			 * Prefix modid in weights config for standard biomes, fallback on Ocean for empty climates
@@ -126,6 +134,15 @@ Updated:
 		harvest-1.15.2-1.0.0.jar:
 			- update to 1.15.2
 
+	Lightest Lamps (Lightest Lamps 3.2.4 --> Lightest Lamps 3.3.0):
+		Lightest Lamps 3.3.0:
+			Changed Recipes.
+			Added new lamp tier "Eta".
+			Lamps now have more light range than before.
+			Fixed bromine fluid.
+			Fixed bromine in Gas Centrifuge.
+			and THANKS FOR 16K DOWNLOADS!!!
+
 	Macaw's Roofs (mcw-roofs-1.0.1-mc1.15.2.jar --> mcw-roofs-1.0.2-mc1.15.2_1.15.1.jar):
 		mcw-roofs-1.0.2-mc1.15.2_1.15.1.jar:
 			Change Log 1.0.2
@@ -182,6 +199,11 @@ Updated:
 			UPDATES:
 
 			 * - Moved most of the tooltips from classes to the lang file 
+
+	Pre Menu Screen (premenuscreen-1.2.jar --> premenuscreen-1.3.jar):
+		premenuscreen-1.3.jar:
+			Added an option to reload the screen using F5
+			Added an option to continue to Main Menu without resetting the config (shift + enter).
 
 	RFTools Storage (rftoolsstorage-1.15-1.0.0-alpha.jar --> rftoolsstorage-1.15-1.0.1-alpha.jar):
 		rftoolsstorage-1.15-1.0.1-alpha.jar:
@@ -515,5 +537,6 @@ Updated:
 Removed:
 - GameMenuModOption
 - Inventory Sorter
+- XP Tome
 
 Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).
