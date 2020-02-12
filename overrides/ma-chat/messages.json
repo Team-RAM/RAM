@@ -1,6 +1,5 @@
 {
-  "frequency": 6000000000,
+  "frequency": 172800,
   "messages": [
-    "&6Welcome &c%username%"
   ]
 }
