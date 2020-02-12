@@ -26,3 +26,6 @@ craftingTable.addShapeless("clay_tweak", <item:minecraft:clay_ball> * 4,
 craftingTable.addShapeless("chest_conversion", <item:minecraft:chest>,
     [<tag:forge:chests/wooden>], null);
 	
+//Logs to Sticks
+craftingTable.addShapeless("log2stick", <item:minecraft:stick> * 16, 
+    [<tag:minecraft:logs>, <tag:minecraft:logs>],	null);

@@ -1,10 +1,10 @@
 /*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~TeamRAM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Remove recipe for alternitive distribution - Yamza
+Remove sack - Boomflex
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
 
 
 
-//Remove Chunk Loader recipe
-craftingTable.removeRecipe(<item:simplechunkloaders:limited_loader>);
+//Remove Sack
+craftingTable.removeRecipe(<item:cyclic:tile_transporter_empty>);

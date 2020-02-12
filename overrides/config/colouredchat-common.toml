@@ -1,0 +1,41 @@
+
+[colour_config]
+
+	#Allowed colours for random and custom assignment
+	[colour_config.colours]
+		RED = true
+		GOLD = true
+		AQUA = true
+		DARK_PURPLE = true
+		BLUE = true
+		DARK_RED = true
+		DARK_AQUA = true
+		LIGHT_PURPLE = true
+		DARK_GREEN = true
+		YELLOW = true
+		GREEN = true
+
+[chat_config]
+	#Left Delimiter
+	#[Default: "<"]
+	DELIMITER_LEFT = "<"
+	#Right Delimiter
+	#[Default: "> "]
+	DELIMITER_RIGHT = "> "
+
+[experimental]
+	#Enable assigning players to a team with their colour
+	#This will allow other players to see your name colour in the player list and in the floating name above your player
+	USE_CUSTOM_TEAM_ASSIGNMENT = true
+	#Enable experimental quasi-random colour assignment
+	#This experimental mode will evenly distribute colours to players on login, reducing duplicate colours
+	USE_QUASI_RANDOM_ASSIGNMENT = true
+
+[command_config]
+	#Allow the use of the /colouredchat set|clear <colour> command
+	#This command allows players to customise their player chat colour, persists on relogs
+	ALLOW_CUSTOM = true
+	#Allow the use of the /colouredchat random command
+	#This command allows players to randomly select a player chat colour, does not persist on relog
+	ALLOW_RANDOM = true
+
