@@ -4,7 +4,7 @@ Randomly Added Mods (RAM) 0.2.1 --> Randomly Added Mods (RAM) 0.2.2
 
 Added:
 - ColouredChat
-- CustomQuests
+- Default Options
 - Inventory Tweaks Reborn
 - Ma Chat
 - Nature's Aura
@@ -72,6 +72,37 @@ Updated:
 		Biomes O' Plenty 1.15.2-10.0.0.306:
 			 forstride:
 			 * Changed Origin Leaves/Sapling texture, minor biome tweaks
+
+	Corail Tombstone (Corail Tombstone 4.2.1 for 1.15.1 & 1.15.2 --> Corail Tombstone 4.2.2 for 1.15.1 & 1.15.2):
+		Corail Tombstone 4.2.2 for 1.15.1 & 1.15.2:
+			This mod supports mc version from 1.8.9 to 1.15.2
+			Minecraft Version = [1.15.1-1.15.2] - Forge Version [30.0.48+]
+			Latest : 4.2.2 - Recommended : 4.2.0
+			Changes 4.2.2 :
+
+			 * - spanish translation (courtesy of EdicionGamer)
+			- a new perk Tomb Raider, for bad alignement player and if the config option Tomb Raiding is enabled, allowing to plunders some items in an abandoned grave. A grave is considered as abandoned based on the real time of the server : it's one day by default if the decayTime is not enabled and in the other case, it uses the decayTime adjusted by the level of knowledge of death of the plunderer (to allow them to acces faster theses graves than others players with a cap of 50% faster). The number of stolen items is variable and it's possible to not find all the items.
+			- hide disable items in creative tabs
+			- additional checks about cooldown if the gametime changes to an inconsistent value (fix #123)
+			- fix for the tablet of assistance (introduced in 4.2.0)
+			- some configs are now in the world save folder/serverConfig Changes 4.2.1 :
+
+			 * - fix #122 (using tablets can crash a server)
+			- tag antibuilder (in prevision of Twilight Forest) Changes 4.2.0 :
+
+			 * - improve grave items interaction with block when not enchanted
+			- fix for player not being transparent in ghostly shape
+			- update chinese lang
+			- compat Quark (totem)
+			- fix for the tablet of assistance (to prevent to skip the permission, thanks CJ)
+			- tags to prevent grave destruction for ender dragon & wither
+			- re-add compat Hwyla
+			- remove stuff related to forge breaking changes Changes 4.1.9 :
+
+			 * - add the missing rendering stuff from the port (colored box, casting circles, halloween decorations)
+			- re-add compat JEI/Curio Changes 4.1.8 :
+
+			 * First beta for 1.15.1 (the only missing things are halloween decorations & the colorBox to show the grave at distance (they will be back soon ^^) 
 
 	CraftTweaker (CraftTweaker-1.15.1-6.0.0.4.jar --> CraftTweaker-1.15.1-6.0.0.5.jar):
 		CraftTweaker-1.15.1-6.0.0.5.jar:
