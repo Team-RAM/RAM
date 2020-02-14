@@ -1,4 +1,4 @@
-~~~~~~~~~~~~~~~~~Added by toolkit~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~Added by Toolkit~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -149,3 +149,19 @@ Other:
 
 Command  	Arguments 	Descrption	Player 	Operator
 /maereload	-	Reload mod data 	 	 x
+
+
+~~~~~~~~~~~~~~~~~Added by Tombstone~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+TBTeleport : dimensional teleportation to a player or a position
+TBTeleportDiscovery : teleports to an unexplored village (or a few others structures)
+TBTeleportVillage : teleports to an explored village
+TBShowLastGrave : shows the last player's grave position
+TBTeleportGrave : dimensional teleportation to the last known grave of a player
+TBTeleportHome : dimensional teleportation to the respawn point of a player
+TBRestoreInventory : return the grave inventory to its owner
+TBRecovery : manually backups all players (or one), or rollbacks a player from an old save
+TBKnowledge : allows to set the knowledge points of a player
+TBSiege : allows to launch a Zombie Siege (mainly to test your configuration about village siege)
+TBReviveFamiliar : bring back to life your last dead familiar
