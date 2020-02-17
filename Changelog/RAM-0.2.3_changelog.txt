@@ -1,0 +1,465 @@
+===================================================================
+Randomly Added Mods (RAM) 0.2.2 --> Randomly Added Mods (RAM) 0.2.3
+===================================================================
+
+Added:
+- Carpet Stairs Mod
+- Comforts
+- I Like Wood
+- KleeSlabs
+- Lollipop
+- NetherPortalFix
+- Powah!
+
+Updated:
+	Biomes O' Plenty (Biomes O' Plenty 1.15.2-10.0.0.318 --> Biomes O' Plenty 1.15.2-10.0.0.328):
+		Biomes O' Plenty 1.15.2-10.0.0.328:
+			 Adubbz:
+			 * Fixed structure generation. Closes #1531
+
+		Biomes O' Plenty 1.15.2-10.0.0.327:
+			 github:
+			 * Update ko_kr.json (#1553)
+			 * * Update ko_kr.json
+			 * * Update ko_kr.json
+			 * Update ru_ru.json (#1548)
+			 * dried salt
+			 * dead branch github:
+
+		Biomes O' Plenty 1.15.2-10.0.0.326:
+			 forstride:
+			 * Reduced the amount of brown mushrooms in the Mire. Removed ponds from the Prairie
+
+		Biomes O' Plenty 1.15.2-10.0.0.325:
+			 forstride:
+			 * - Added Snow Golem spawns to the Alps
+			 * - Added Evoker spawns to the Ominous Woods
+			 * - Added Stray spawns to the Wasteland
+			 * - Removed witch huts from the Bog, Ghost Forest, and Marsh
+
+		Biomes O' Plenty 1.15.2-10.0.0.324:
+			 Adubbz:
+			 * Sort biome weights json alphabetically
+
+		Biomes O' Plenty 1.15.2-10.0.0.323:
+			 Adubbz:
+			 * Simplified standard biome weights config
+
+		Biomes O' Plenty 1.15.2-10.0.0.322:
+			 github:
+			 * Update ru_ru.json (Fungal Jungle) (#1546)
+			 * Removed bee nests from the Prairie and Tropical Rainforest forstride:
+
+		Biomes O' Plenty 1.15.2-10.0.0.320:
+			 forstride:
+			 * Allowed TNT to be crafted with white sand, and rabbit stew to be crafted with toadstools. Updated block/item tags
+
+		Biomes O' Plenty 1.15.2-10.0.0.319:
+			 forstride:
+			 * Updated biome dictionary tags
+
+	Camera Mod ([1.15.2] Camera Mod 1.6.1 --> [1.15.2] Camera Mod 1.6.4):
+		[1.15.2] Camera Mod 1.6.4:
+			 * Fixed images too dark 
+			 * Fixed image frame outline color 
+			 * Fixed image item gui rotation 
+
+		[1.15.2] Camera Mod 1.6.3:
+			 * Added image item rendering 
+
+		[1.15.2] Camera Mod 1.6.2:
+			 * Added config option to disable image uploads 
+
+	Cyclic (Cyclic-1.15.2-0.1.8.jar --> Cyclic-1.15.2-0.1.10.jar):
+		Cyclic-1.15.2-0.1.10.jar:
+			Fix main menu crash
+
+		Cyclic-1.15.2-0.1.9.jar:
+			Fixed charms not activating.
+			Fixed auto torch crash.
+			Magnet enchant now does not trigger in spectator.
+			Fixed error in Excavate enchant.
+			Ported Launch enchant
+
+	Default Options (DefaulOptions 1.15.x - 11.0.0 --> DefaultOptions_1.15.2-11.0.1.jar):
+		DefaultOptions_1.15.2-11.0.1.jar:
+			Fixed crash on illegal keybind names containing colons (they will be ignored instead)
+
+	Dungeon Crawl (DungeonCrawl-1.15.2-1.6.1 --> DungeonCrawl-1.15.2-1.6.3):
+		DungeonCrawl-1.15.2-1.6.3:
+			- Fixed a crash issue with the loot room. There should always be room for it now.
+			- Fixed broken corridors in the nether layer.
+			- Slightly increased the chance of "kitchen" segments (19% -> 23%)
+			(The 1.6.2 files have been archived)
+
+	Forbidden and Arcanus (forbidden_arcanus-1.15.2-1.0-beta-4.jar --> forbidden_arcanus-1.15.2-1.1.jar):
+		forbidden_arcanus-1.15.2-1.1.jar:
+			forbidden_arcanus-1.15.2-1.1.
+			-Fixed a Server Crash
+
+		forbidden_arcanus-1.15.2-1.0.jar:
+			forbidden_arcanus-1.15.2-1.0
+			-Fixed Signs not rendering
+			-Made Arcane Gold Tools & Armor a bit stronger
+			-Added Indestructible Enchantment
+			-Mystical Farmland will no longer duplicate Seeds
+			-Plants on Mystical Farmland need to be max age now in order to duplicate drops
+			-Reduced Cherrywood spawning frequency a bit
+
+	Good Night's Sleep (Good Night's Sleep 1.15.2-v1.0.1 --> Good Night's Sleep 1.15.2-v1.0.2):
+		Good Night's Sleep 1.15.2-v1.0.2:
+			- Added new song "Sky Blue"
+			 - Fixed missing texture reference in bed item models.
+			 - Fixed not being able to use the Blast Furnace with our ores.
+			 - Properly tagged Dream Dirt as forge:dirt.
+			 - Adjusted Rainbow Ore drops, removed the chance for a Diamond.
+			 - Fixed a typo where Positite Blocks would generate instead of Positite Ore
+			 - Fixed missing loot tables for Delusion Stone, Cobblestone, and Stone Brick slabs/stairs.
+			 - Fixed Nightmare Grass dropping itself.
+			 - Updated language files.
+			 - Mushrooms now spawn in the Nether, as well as the Overworld, making them more common.
+
+	JAOPCA (JAOPCA-1.15.2-3.0.0.18.jar --> JAOPCA-1.15.2-3.0.0.19.jar):
+		JAOPCA-1.15.2-3.0.0.19.jar:
+			Added back Silent's Mechanisms compat
+			Added back Omega Craft compat
+			Updated Flux
+
+	Mekanism (Mekanism-1.15.2-9.9.9.401.jar --> Mekanism-1.15.2-9.9.10.402.jar):
+		Mekanism-1.15.2-9.9.10.402.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[e15d1c0](https://github.com/mekanism/Mekanism/commit/e15d1c0d274fb9a9467654060e5e4aefbd516b5d)- Make sure our fluids have an overlay (for now just use water's), so that they look decent when against glass. Also make our glass styled blocks use the overlay so that they look nice under water[#5840](https://github.com/mekanism/Mekanism/issues/5840)[24d06a8](https://github.com/mekanism/Mekanism/commit/24d06a89ff8ff66fc9f3044b685cae0383d5b8fa)- Fix a few tiles for reactor's being marked as "invalid" for the block they are for due to forgetting to give them the correct block[ed992db](https://github.com/mekanism/Mekanism/commit/ed992db0a2f438aad24e94b9cd969d76f3e20268)- Make our recipe type's toString method return the registry name, as this is likely what vanilla is doing when I copied their implementation and I had forgotten that creating a resource location with no domain automatically adds minecraft to it. CrT for its json integration uses the toString method to figure out the name to use for the serializer[https://github.com/CraftTweaker/CraftTweaker/issues/927](https://github.com/CraftTweaker/CraftTweaker/issues/927)[6b60eea](https://github.com/mekanism/Mekanism/commit/6b60eea3940e1a4cbcb0199d7d7739458cbc4942)- Cherry pick minor parts of[https://github.com/pupnewfster/Mekanism/commit/ee51172caad9de914e3d21634c47c6c92cecdf07](https://github.com/pupnewfster/Mekanism/commit/ee51172caad9de914e3d21634c47c6c92cecdf07)to cleanup the handling of fluids and chemicals over the network[c9154b4](https://github.com/mekanism/Mekanism/commit/c9154b40a1a588f469c30d0fef1e6bacb317a663)- Cleanup/fix how we distribute some of the packets[8fb41af](https://github.com/mekanism/Mekanism/commit/8fb41af04b7a3744b678959218b72c92a584c0c2)- Fix extracting from public personal chests from the bottom face[#5859](https://github.com/mekanism/Mekanism/issues/5859)[06d7b80](https://github.com/mekanism/Mekanism/commit/06d7b80461f8b2099dcaadd8f7416bbd257c940c)- update zh_tw ([#5856](https://github.com/mekanism/Mekanism/issues/5856))[1a42e18](https://github.com/mekanism/Mekanism/commit/1a42e182aaffcb557c9af1711d991902db5aba6d)- Remove old .lang file for zh_tw[d8131e5](https://github.com/mekanism/Mekanism/commit/d8131e55e112af4594d1663dd96e7abfac7ef76c)- Use ITeleporter again to properly set various elements when changing dimensions, and unify some entity and player teleportation code[#5857](https://github.com/mekanism/Mekanism/issues/5857)[ac032d2](https://github.com/mekanism/Mekanism/commit/ac032d2aae82ef4306746301a91ba0fcb62693f2)- Remove no longer used packet[4848caf](https://github.com/mekanism/Mekanism/commit/4848caf6c33ff7b8afb4f7c58b1712e43a171084)- Cleanup how we make the robit's light and eyes glow, and also fix the robit rendering facing the opposite direction the robit was actually facing[05ec560](https://github.com/mekanism/Mekanism/commit/05ec5603a2cf24495173887f2bfaba729c741a07)- Finish converting the robit's smelting interface to use the energized smelter's recipe list and recipe system. It still could use some cleanup but for the most part it works properly now[569947d](https://github.com/mekanism/Mekanism/commit/569947daed2a347a3012c1ecd0e4e952bf3afd1f)- Start work on rewriting the back end of how data is synced to the client in regards to containers. When finished this system should reduce both packet frequency and overall size of packets sent to players with mekanism containers open[dbbc0bb](https://github.com/mekanism/Mekanism/commit/dbbc0bbf209be6275312292f42d6ee8219dda654)- Cleanup a bit more of the backend and create a system to batch updates that happened at the same time into a single packet. Also create classes for making it easier to sync, fluid stacks, gas stacks, and infusion stacks.[c1e46e3](https://github.com/mekanism/Mekanism/commit/c1e46e3152f2b2592ec3ab961cb64ae5a0f08b93)- Fix side config not properly disabling capabilities when set to none.[#5864](https://github.com/mekanism/Mekanism/issues/5864)[0eb5b3b](https://github.com/mekanism/Mekanism/commit/0eb5b3ba990d2ab93de2ec46b719cbf8fa42c348)- Run a block update when modifying a block's side config with a Configurator[e5c19ed](https://github.com/mekanism/Mekanism/commit/e5c19ed1bc2ae68ea939bc1447c47be9b8959308)- Re-implement Configurator rotation This was only meant to be used for Mekanism machines, hence the hard check for Mekanism tiles (line 155)[6a3602a](https://github.com/mekanism/Mekanism/commit/6a3602a12c0e561596438fe493b676a88af9cade)- Fix having forgotten to register a couple packets, and finish making it so factories have all their container sync stuff happen via the new syncing methods. Also fix a few issues with checking if a stack is dirty[7e3eea8](https://github.com/mekanism/Mekanism/commit/7e3eea830ffa3a76020e0d6e3aa84e8e4aa45f6d)- Improve build.gradle to only not cache the mods.toml file instead of all resources[4f72570](https://github.com/mekanism/Mekanism/commit/4f72570fba0f46c516c7ded09f060230bf6b5000)- Convert the upgrades gui to being synced via the new container sync system. We still for now manually sync any muffling upgrades when that amount changes, as the client cares about the number of muffling upgrades even when not in the gui. Also fix installing/removing muffling upgrades not properly updating the sound in a world that has daylight cycle disabled[6103719](https://github.com/mekanism/Mekanism/commit/6103719acffc13aa88b42482a09218c4df6ca9cd)- Make it a bit easier for containers to manage/sync enums and fix the security mode in factories not being properly synced/updated[ca25869](https://github.com/mekanism/Mekanism/commit/ca25869fbccf6132641f0fecb5e6b1b6d700f447)- Only sync amount for fluid and chemical stacks when the type did not change.[886d878](https://github.com/mekanism/Mekanism/commit/886d8782f532c79e85ecebcaa1f8b34a8a304c77)- Cleanup code pertaining to factories: - Remove RecipeType (in favor of FactoryType) - Remove the ability to change the type of an existing factory, as factories no longer all have the same number of slots or even chemical tanks. Note: For now the recipe type slots are still being internally added for purposes of not breaking inventory loading until the next time we end up breaking it anyways - Moved the factories' gas and infusion tanks to the proper subclasses[cf7eaed](https://github.com/mekanism/Mekanism/commit/cf7eaedebf884b1d5c76eba390c87ca8d0b3ceb3)- Fix not taking speed upgrade changes into account for secondary energy per tick[1c63d26](https://github.com/mekanism/Mekanism/commit/1c63d267adc3a6cc389150309636e968e08bc283)- Fix Entangloporter model, make Entangloporter update neighbors when toggling frequencies for transmitter connectivity[3cf78ff](https://github.com/mekanism/Mekanism/commit/3cf78ff8b0be953b5d50d40641db2401c4cc6222)- Do some cleanup reducing the number of individual classes needed for new container types, and instead have them just be MekanismTileContainer's directly[68cd490](https://github.com/mekanism/Mekanism/commit/68cd490f56dbcfe112cc134504afb45717dfab93)- Fix quantum entangloporter item transport[54bd60d](https://github.com/mekanism/Mekanism/commit/54bd60d2a67df23563c75b522876d11abb5f58ba)- Fix a few transporter filters trying to initialize the stack preview before a filter is set[#5863](https://github.com/mekanism/Mekanism/issues/5863)[169825c](https://github.com/mekanism/Mekanism/commit/169825c6c25b2351670d1a298cc84b82b03b483f)- Reimplement trusted security mode making it store things based off of UUIDs rather than names. This will make it so that it can be properly persistent if a user changes their name[#5861](https://github.com/mekanism/Mekanism/issues/5861)[bbfeb76](https://github.com/mekanism/Mekanism/commit/bbfeb7685898631e5b5ce00948caab0bc0aeb1be)- Fixed Seismic Reader ([#5835](https://github.com/mekanism/Mekanism/issues/5835)), fix QE crash[60ae332](https://github.com/mekanism/Mekanism/commit/60ae33298f5a86fa7fcd7dfb1c825e97739df7de)- Fix insert prediction not taking into account the type of items we already have en route to a slot.[#5865](https://github.com/mekanism/Mekanism/issues/5865)[c717de3](https://github.com/mekanism/Mekanism/commit/c717de3da84eb1432d6e42c4ce051cd44f058b82)- Fix GuiScrollList drag scrolling[ba352d9](https://github.com/mekanism/Mekanism/commit/ba352d9e7493f59c5b9f1f1e1f2e80dc89ee8c35)- Fix frequencies not consistently saving to the same world, now they save to the overworld given they are global anyways. Also fixed the FrequencyManagers being reset before saving, thus causing no frequencies to be properly persisted.[#5868](https://github.com/mekanism/Mekanism/issues/5868)[8b3b40c](https://github.com/mekanism/Mekanism/commit/8b3b40cc343be0c9c7de1e842c4dd006ce932540)- Fixed Security Desk item render[452395c](https://github.com/mekanism/Mekanism/commit/452395cea54578d96b3382567a0890d7ed9508d7)- Triple heat boost from adjacent lava for Heat Generator[1be6c54](https://github.com/mekanism/Mekanism/commit/1be6c543c1e84cc057faf5e3a2e0f9ba5f3e26b6)- Fix JEI for many machines[fb4e940](https://github.com/mekanism/Mekanism/commit/fb4e940d1b14e12e32a66e315b57284b18b9b3cf)- Cleanup a bit of code for sending packets to player's using tiles to only have to create the packet a single time, and only do so if there are players using it[9b537d6](https://github.com/mekanism/Mekanism/commit/9b537d66cdc643da9d7fe51a31cfefddf7a4441e)- Reformat code and cleanup unused imports, and unflatten some imports that got combined into *[ec4f62e](https://github.com/mekanism/Mekanism/commit/ec4f62e74af6c98888d0c3301a85a8094513646f)- Cleanup various parts of the code having to do with container syncing moving our various tiles to our new syncing system. - Fixed a few block state/model files where we were accidentally still trying to use forge's blockstate texture override system - Added support for syncing item stacks via our container sync system[8039387](https://github.com/mekanism/Mekanism/commit/8039387abd236f97acb4d1421e8dadc1955724a0)- Minor cleanup to the formulaic assemblicator[6f86594](https://github.com/mekanism/Mekanism/commit/6f86594595aaf32b889f3bc9b89fa59282a2c5b9)- Fix thermal evaporation controller not changing textures[94c8539](https://github.com/mekanism/Mekanism/commit/94c853990f672da1e06507c1b88cd2b49fdab06c)- Fix bug introduced when fixing controller texture, causing incorrect calculations to take place when it is initially loaded as "active". Also fixes the issue of the thermal evaporation plant incorrectly taking temperature into consideration[#5832](https://github.com/mekanism/Mekanism/issues/5832)[9468385](https://github.com/mekanism/Mekanism/commit/94683852df844930c94f4e78952293d15bfbebe6)- Fix accidental removal of a few set's being linked. This caused transmitter networks not to sync to not always sync to the client properly[#5869](https://github.com/mekanism/Mekanism/issues/5869)[0bda031](https://github.com/mekanism/Mekanism/commit/0bda03183eb8cfa1a0a878047f6128e712f51bdf)- Fix incorrect assumption that a block may not know how to accept fluid just because it does not have a tank[#5871](https://github.com/mekanism/Mekanism/issues/5871)[c807290](https://github.com/mekanism/Mekanism/commit/c807290a25f37c5c8b80579fecbacec910aa9b95)- Fix wrong lang string being used for the logistical sorter's auto eject[038ce08](https://github.com/mekanism/Mekanism/commit/038ce0892003f5a3c90f165c8de78e70cfbf52ab)- Fix recipes with secondary usage per tick not working properly if the exact amount needed is supplied.[#5596](https://github.com/mekanism/Mekanism/issues/5596)[ba56aea](https://github.com/mekanism/Mekanism/commit/ba56aea7580e01a374fb9ca83c8a55f770e89d2c)- Bump required forge version minorly to fix lighting of buckets, and also update mappings[fe18d2a](https://github.com/mekanism/Mekanism/commit/fe18d2ab281039ea6553c9001a77eeea9a334bb7)- Make sure to only move a single stack item into the recipe, and invert some if else statements to reduce negations[673bfa8](https://github.com/mekanism/Mekanism/commit/673bfa806ab671cbb03e8367c9f396243ed664fb)- Add integration for ProjectE so that our machine's recipes are able to be mapped.[#5876](https://github.com/mekanism/Mekanism/issues/5876)- Sawmill recipe mapper is disabled by default due to causing things like charcoal's emc value to disappear (due to being able to make charcoal out of wood dust which has a very low sub singular EMC value) - Values for our various ingots are set the same way ProjectE defaulted them in 1.12 - Currently energy costs are not taken into consideration for how much a recipe costs[df1cfb0](https://github.com/mekanism/Mekanism/commit/df1cfb0e8e70401336de66aeb9485b91025e36dc)- Fix using tabs instead of spaces in the ProjectE mappers due to copying a base template from one I made in ProjectE[cbdf284](https://github.com/mekanism/Mekanism/commit/cbdf28444f58581db3b5077b4f878106cd87562e)- Use separate classes to properly avoid class loading issues for ISTERs on servers, rather than using the hack that is OnlyIn[fe7a4ad](https://github.com/mekanism/Mekanism/commit/fe7a4ad0f72297770a198dc083b0c268e3c0f660)- Fix slightly wrong math for the sawmill recipe mapper[c236687](https://github.com/mekanism/Mekanism/commit/c236687a178ae37c18959aaac05b4bd736974355)- Bump version to 9.9.10
+
+	Mekanism Generators (MekanismGenerators-1.15.2-9.9.9.401.jar --> MekanismGenerators-1.15.2-9.9.10.402.jar):
+		MekanismGenerators-1.15.2-9.9.10.402.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[e15d1c0](https://github.com/mekanism/Mekanism/commit/e15d1c0d274fb9a9467654060e5e4aefbd516b5d)- Make sure our fluids have an overlay (for now just use water's), so that they look decent when against glass. Also make our glass styled blocks use the overlay so that they look nice under water[#5840](https://github.com/mekanism/Mekanism/issues/5840)[24d06a8](https://github.com/mekanism/Mekanism/commit/24d06a89ff8ff66fc9f3044b685cae0383d5b8fa)- Fix a few tiles for reactor's being marked as "invalid" for the block they are for due to forgetting to give them the correct block[ed992db](https://github.com/mekanism/Mekanism/commit/ed992db0a2f438aad24e94b9cd969d76f3e20268)- Make our recipe type's toString method return the registry name, as this is likely what vanilla is doing when I copied their implementation and I had forgotten that creating a resource location with no domain automatically adds minecraft to it. CrT for its json integration uses the toString method to figure out the name to use for the serializer[https://github.com/CraftTweaker/CraftTweaker/issues/927](https://github.com/CraftTweaker/CraftTweaker/issues/927)[6b60eea](https://github.com/mekanism/Mekanism/commit/6b60eea3940e1a4cbcb0199d7d7739458cbc4942)- Cherry pick minor parts of[https://github.com/pupnewfster/Mekanism/commit/ee51172caad9de914e3d21634c47c6c92cecdf07](https://github.com/pupnewfster/Mekanism/commit/ee51172caad9de914e3d21634c47c6c92cecdf07)to cleanup the handling of fluids and chemicals over the network[c9154b4](https://github.com/mekanism/Mekanism/commit/c9154b40a1a588f469c30d0fef1e6bacb317a663)- Cleanup/fix how we distribute some of the packets[8fb41af](https://github.com/mekanism/Mekanism/commit/8fb41af04b7a3744b678959218b72c92a584c0c2)- Fix extracting from public personal chests from the bottom face[#5859](https://github.com/mekanism/Mekanism/issues/5859)[06d7b80](https://github.com/mekanism/Mekanism/commit/06d7b80461f8b2099dcaadd8f7416bbd257c940c)- update zh_tw ([#5856](https://github.com/mekanism/Mekanism/issues/5856))[1a42e18](https://github.com/mekanism/Mekanism/commit/1a42e182aaffcb557c9af1711d991902db5aba6d)- Remove old .lang file for zh_tw[d8131e5](https://github.com/mekanism/Mekanism/commit/d8131e55e112af4594d1663dd96e7abfac7ef76c)- Use ITeleporter again to properly set various elements when changing dimensions, and unify some entity and player teleportation code[#5857](https://github.com/mekanism/Mekanism/issues/5857)[ac032d2](https://github.com/mekanism/Mekanism/commit/ac032d2aae82ef4306746301a91ba0fcb62693f2)- Remove no longer used packet[4848caf](https://github.com/mekanism/Mekanism/commit/4848caf6c33ff7b8afb4f7c58b1712e43a171084)- Cleanup how we make the robit's light and eyes glow, and also fix the robit rendering facing the opposite direction the robit was actually facing[05ec560](https://github.com/mekanism/Mekanism/commit/05ec5603a2cf24495173887f2bfaba729c741a07)- Finish converting the robit's smelting interface to use the energized smelter's recipe list and recipe system. It still could use some cleanup but for the most part it works properly now[569947d](https://github.com/mekanism/Mekanism/commit/569947daed2a347a3012c1ecd0e4e952bf3afd1f)- Start work on rewriting the back end of how data is synced to the client in regards to containers. When finished this system should reduce both packet frequency and overall size of packets sent to players with mekanism containers open[dbbc0bb](https://github.com/mekanism/Mekanism/commit/dbbc0bbf209be6275312292f42d6ee8219dda654)- Cleanup a bit more of the backend and create a system to batch updates that happened at the same time into a single packet. Also create classes for making it easier to sync, fluid stacks, gas stacks, and infusion stacks.[c1e46e3](https://github.com/mekanism/Mekanism/commit/c1e46e3152f2b2592ec3ab961cb64ae5a0f08b93)- Fix side config not properly disabling capabilities when set to none.[#5864](https://github.com/mekanism/Mekanism/issues/5864)[0eb5b3b](https://github.com/mekanism/Mekanism/commit/0eb5b3ba990d2ab93de2ec46b719cbf8fa42c348)- Run a block update when modifying a block's side config with a Configurator[e5c19ed](https://github.com/mekanism/Mekanism/commit/e5c19ed1bc2ae68ea939bc1447c47be9b8959308)- Re-implement Configurator rotation This was only meant to be used for Mekanism machines, hence the hard check for Mekanism tiles (line 155)[6a3602a](https://github.com/mekanism/Mekanism/commit/6a3602a12c0e561596438fe493b676a88af9cade)- Fix having forgotten to register a couple packets, and finish making it so factories have all their container sync stuff happen via the new syncing methods. Also fix a few issues with checking if a stack is dirty[7e3eea8](https://github.com/mekanism/Mekanism/commit/7e3eea830ffa3a76020e0d6e3aa84e8e4aa45f6d)- Improve build.gradle to only not cache the mods.toml file instead of all resources[4f72570](https://github.com/mekanism/Mekanism/commit/4f72570fba0f46c516c7ded09f060230bf6b5000)- Convert the upgrades gui to being synced via the new container sync system. We still for now manually sync any muffling upgrades when that amount changes, as the client cares about the number of muffling upgrades even when not in the gui. Also fix installing/removing muffling upgrades not properly updating the sound in a world that has daylight cycle disabled[6103719](https://github.com/mekanism/Mekanism/commit/6103719acffc13aa88b42482a09218c4df6ca9cd)- Make it a bit easier for containers to manage/sync enums and fix the security mode in factories not being properly synced/updated[ca25869](https://github.com/mekanism/Mekanism/commit/ca25869fbccf6132641f0fecb5e6b1b6d700f447)- Only sync amount for fluid and chemical stacks when the type did not change.[886d878](https://github.com/mekanism/Mekanism/commit/886d8782f532c79e85ecebcaa1f8b34a8a304c77)- Cleanup code pertaining to factories: - Remove RecipeType (in favor of FactoryType) - Remove the ability to change the type of an existing factory, as factories no longer all have the same number of slots or even chemical tanks. Note: For now the recipe type slots are still being internally added for purposes of not breaking inventory loading until the next time we end up breaking it anyways - Moved the factories' gas and infusion tanks to the proper subclasses[cf7eaed](https://github.com/mekanism/Mekanism/commit/cf7eaedebf884b1d5c76eba390c87ca8d0b3ceb3)- Fix not taking speed upgrade changes into account for secondary energy per tick[1c63d26](https://github.com/mekanism/Mekanism/commit/1c63d267adc3a6cc389150309636e968e08bc283)- Fix Entangloporter model, make Entangloporter update neighbors when toggling frequencies for transmitter connectivity[3cf78ff](https://github.com/mekanism/Mekanism/commit/3cf78ff8b0be953b5d50d40641db2401c4cc6222)- Do some cleanup reducing the number of individual classes needed for new container types, and instead have them just be MekanismTileContainer's directly[68cd490](https://github.com/mekanism/Mekanism/commit/68cd490f56dbcfe112cc134504afb45717dfab93)- Fix quantum entangloporter item transport[54bd60d](https://github.com/mekanism/Mekanism/commit/54bd60d2a67df23563c75b522876d11abb5f58ba)- Fix a few transporter filters trying to initialize the stack preview before a filter is set[#5863](https://github.com/mekanism/Mekanism/issues/5863)[169825c](https://github.com/mekanism/Mekanism/commit/169825c6c25b2351670d1a298cc84b82b03b483f)- Reimplement trusted security mode making it store things based off of UUIDs rather than names. This will make it so that it can be properly persistent if a user changes their name[#5861](https://github.com/mekanism/Mekanism/issues/5861)[bbfeb76](https://github.com/mekanism/Mekanism/commit/bbfeb7685898631e5b5ce00948caab0bc0aeb1be)- Fixed Seismic Reader ([#5835](https://github.com/mekanism/Mekanism/issues/5835)), fix QE crash[60ae332](https://github.com/mekanism/Mekanism/commit/60ae33298f5a86fa7fcd7dfb1c825e97739df7de)- Fix insert prediction not taking into account the type of items we already have en route to a slot.[#5865](https://github.com/mekanism/Mekanism/issues/5865)[c717de3](https://github.com/mekanism/Mekanism/commit/c717de3da84eb1432d6e42c4ce051cd44f058b82)- Fix GuiScrollList drag scrolling[ba352d9](https://github.com/mekanism/Mekanism/commit/ba352d9e7493f59c5b9f1f1e1f2e80dc89ee8c35)- Fix frequencies not consistently saving to the same world, now they save to the overworld given they are global anyways. Also fixed the FrequencyManagers being reset before saving, thus causing no frequencies to be properly persisted.[#5868](https://github.com/mekanism/Mekanism/issues/5868)[8b3b40c](https://github.com/mekanism/Mekanism/commit/8b3b40cc343be0c9c7de1e842c4dd006ce932540)- Fixed Security Desk item render[452395c](https://github.com/mekanism/Mekanism/commit/452395cea54578d96b3382567a0890d7ed9508d7)- Triple heat boost from adjacent lava for Heat Generator[1be6c54](https://github.com/mekanism/Mekanism/commit/1be6c543c1e84cc057faf5e3a2e0f9ba5f3e26b6)- Fix JEI for many machines[fb4e940](https://github.com/mekanism/Mekanism/commit/fb4e940d1b14e12e32a66e315b57284b18b9b3cf)- Cleanup a bit of code for sending packets to player's using tiles to only have to create the packet a single time, and only do so if there are players using it[9b537d6](https://github.com/mekanism/Mekanism/commit/9b537d66cdc643da9d7fe51a31cfefddf7a4441e)- Reformat code and cleanup unused imports, and unflatten some imports that got combined into *[ec4f62e](https://github.com/mekanism/Mekanism/commit/ec4f62e74af6c98888d0c3301a85a8094513646f)- Cleanup various parts of the code having to do with container syncing moving our various tiles to our new syncing system. - Fixed a few block state/model files where we were accidentally still trying to use forge's blockstate texture override system - Added support for syncing item stacks via our container sync system[8039387](https://github.com/mekanism/Mekanism/commit/8039387abd236f97acb4d1421e8dadc1955724a0)- Minor cleanup to the formulaic assemblicator[6f86594](https://github.com/mekanism/Mekanism/commit/6f86594595aaf32b889f3bc9b89fa59282a2c5b9)- Fix thermal evaporation controller not changing textures[94c8539](https://github.com/mekanism/Mekanism/commit/94c853990f672da1e06507c1b88cd2b49fdab06c)- Fix bug introduced when fixing controller texture, causing incorrect calculations to take place when it is initially loaded as "active". Also fixes the issue of the thermal evaporation plant incorrectly taking temperature into consideration[#5832](https://github.com/mekanism/Mekanism/issues/5832)[9468385](https://github.com/mekanism/Mekanism/commit/94683852df844930c94f4e78952293d15bfbebe6)- Fix accidental removal of a few set's being linked. This caused transmitter networks not to sync to not always sync to the client properly[#5869](https://github.com/mekanism/Mekanism/issues/5869)[0bda031](https://github.com/mekanism/Mekanism/commit/0bda03183eb8cfa1a0a878047f6128e712f51bdf)- Fix incorrect assumption that a block may not know how to accept fluid just because it does not have a tank[#5871](https://github.com/mekanism/Mekanism/issues/5871)[c807290](https://github.com/mekanism/Mekanism/commit/c807290a25f37c5c8b80579fecbacec910aa9b95)- Fix wrong lang string being used for the logistical sorter's auto eject[038ce08](https://github.com/mekanism/Mekanism/commit/038ce0892003f5a3c90f165c8de78e70cfbf52ab)- Fix recipes with secondary usage per tick not working properly if the exact amount needed is supplied.[#5596](https://github.com/mekanism/Mekanism/issues/5596)[ba56aea](https://github.com/mekanism/Mekanism/commit/ba56aea7580e01a374fb9ca83c8a55f770e89d2c)- Bump required forge version minorly to fix lighting of buckets, and also update mappings[fe18d2a](https://github.com/mekanism/Mekanism/commit/fe18d2ab281039ea6553c9001a77eeea9a334bb7)- Make sure to only move a single stack item into the recipe, and invert some if else statements to reduce negations[673bfa8](https://github.com/mekanism/Mekanism/commit/673bfa806ab671cbb03e8367c9f396243ed664fb)- Add integration for ProjectE so that our machine's recipes are able to be mapped.[#5876](https://github.com/mekanism/Mekanism/issues/5876)- Sawmill recipe mapper is disabled by default due to causing things like charcoal's emc value to disappear (due to being able to make charcoal out of wood dust which has a very low sub singular EMC value) - Values for our various ingots are set the same way ProjectE defaulted them in 1.12 - Currently energy costs are not taken into consideration for how much a recipe costs[df1cfb0](https://github.com/mekanism/Mekanism/commit/df1cfb0e8e70401336de66aeb9485b91025e36dc)- Fix using tabs instead of spaces in the ProjectE mappers due to copying a base template from one I made in ProjectE[cbdf284](https://github.com/mekanism/Mekanism/commit/cbdf28444f58581db3b5077b4f878106cd87562e)- Use separate classes to properly avoid class loading issues for ISTERs on servers, rather than using the hack that is OnlyIn[fe7a4ad](https://github.com/mekanism/Mekanism/commit/fe7a4ad0f72297770a198dc083b0c268e3c0f660)- Fix slightly wrong math for the sawmill recipe mapper[c236687](https://github.com/mekanism/Mekanism/commit/c236687a178ae37c18959aaac05b4bd736974355)- Bump version to 9.9.10
+
+	Mekanism Tools (MekanismTools-1.15.2-9.9.9.401.jar --> MekanismTools-1.15.2-9.9.10.402.jar):
+		MekanismTools-1.15.2-9.9.10.402.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[e15d1c0](https://github.com/mekanism/Mekanism/commit/e15d1c0d274fb9a9467654060e5e4aefbd516b5d)- Make sure our fluids have an overlay (for now just use water's), so that they look decent when against glass. Also make our glass styled blocks use the overlay so that they look nice under water[#5840](https://github.com/mekanism/Mekanism/issues/5840)[24d06a8](https://github.com/mekanism/Mekanism/commit/24d06a89ff8ff66fc9f3044b685cae0383d5b8fa)- Fix a few tiles for reactor's being marked as "invalid" for the block they are for due to forgetting to give them the correct block[ed992db](https://github.com/mekanism/Mekanism/commit/ed992db0a2f438aad24e94b9cd969d76f3e20268)- Make our recipe type's toString method return the registry name, as this is likely what vanilla is doing when I copied their implementation and I had forgotten that creating a resource location with no domain automatically adds minecraft to it. CrT for its json integration uses the toString method to figure out the name to use for the serializer[https://github.com/CraftTweaker/CraftTweaker/issues/927](https://github.com/CraftTweaker/CraftTweaker/issues/927)[6b60eea](https://github.com/mekanism/Mekanism/commit/6b60eea3940e1a4cbcb0199d7d7739458cbc4942)- Cherry pick minor parts of[https://github.com/pupnewfster/Mekanism/commit/ee51172caad9de914e3d21634c47c6c92cecdf07](https://github.com/pupnewfster/Mekanism/commit/ee51172caad9de914e3d21634c47c6c92cecdf07)to cleanup the handling of fluids and chemicals over the network[c9154b4](https://github.com/mekanism/Mekanism/commit/c9154b40a1a588f469c30d0fef1e6bacb317a663)- Cleanup/fix how we distribute some of the packets[8fb41af](https://github.com/mekanism/Mekanism/commit/8fb41af04b7a3744b678959218b72c92a584c0c2)- Fix extracting from public personal chests from the bottom face[#5859](https://github.com/mekanism/Mekanism/issues/5859)[06d7b80](https://github.com/mekanism/Mekanism/commit/06d7b80461f8b2099dcaadd8f7416bbd257c940c)- update zh_tw ([#5856](https://github.com/mekanism/Mekanism/issues/5856))[1a42e18](https://github.com/mekanism/Mekanism/commit/1a42e182aaffcb557c9af1711d991902db5aba6d)- Remove old .lang file for zh_tw[d8131e5](https://github.com/mekanism/Mekanism/commit/d8131e55e112af4594d1663dd96e7abfac7ef76c)- Use ITeleporter again to properly set various elements when changing dimensions, and unify some entity and player teleportation code[#5857](https://github.com/mekanism/Mekanism/issues/5857)[ac032d2](https://github.com/mekanism/Mekanism/commit/ac032d2aae82ef4306746301a91ba0fcb62693f2)- Remove no longer used packet[4848caf](https://github.com/mekanism/Mekanism/commit/4848caf6c33ff7b8afb4f7c58b1712e43a171084)- Cleanup how we make the robit's light and eyes glow, and also fix the robit rendering facing the opposite direction the robit was actually facing[05ec560](https://github.com/mekanism/Mekanism/commit/05ec5603a2cf24495173887f2bfaba729c741a07)- Finish converting the robit's smelting interface to use the energized smelter's recipe list and recipe system. It still could use some cleanup but for the most part it works properly now[569947d](https://github.com/mekanism/Mekanism/commit/569947daed2a347a3012c1ecd0e4e952bf3afd1f)- Start work on rewriting the back end of how data is synced to the client in regards to containers. When finished this system should reduce both packet frequency and overall size of packets sent to players with mekanism containers open[dbbc0bb](https://github.com/mekanism/Mekanism/commit/dbbc0bbf209be6275312292f42d6ee8219dda654)- Cleanup a bit more of the backend and create a system to batch updates that happened at the same time into a single packet. Also create classes for making it easier to sync, fluid stacks, gas stacks, and infusion stacks.[c1e46e3](https://github.com/mekanism/Mekanism/commit/c1e46e3152f2b2592ec3ab961cb64ae5a0f08b93)- Fix side config not properly disabling capabilities when set to none.[#5864](https://github.com/mekanism/Mekanism/issues/5864)[0eb5b3b](https://github.com/mekanism/Mekanism/commit/0eb5b3ba990d2ab93de2ec46b719cbf8fa42c348)- Run a block update when modifying a block's side config with a Configurator[e5c19ed](https://github.com/mekanism/Mekanism/commit/e5c19ed1bc2ae68ea939bc1447c47be9b8959308)- Re-implement Configurator rotation This was only meant to be used for Mekanism machines, hence the hard check for Mekanism tiles (line 155)[6a3602a](https://github.com/mekanism/Mekanism/commit/6a3602a12c0e561596438fe493b676a88af9cade)- Fix having forgotten to register a couple packets, and finish making it so factories have all their container sync stuff happen via the new syncing methods. Also fix a few issues with checking if a stack is dirty[7e3eea8](https://github.com/mekanism/Mekanism/commit/7e3eea830ffa3a76020e0d6e3aa84e8e4aa45f6d)- Improve build.gradle to only not cache the mods.toml file instead of all resources[4f72570](https://github.com/mekanism/Mekanism/commit/4f72570fba0f46c516c7ded09f060230bf6b5000)- Convert the upgrades gui to being synced via the new container sync system. We still for now manually sync any muffling upgrades when that amount changes, as the client cares about the number of muffling upgrades even when not in the gui. Also fix installing/removing muffling upgrades not properly updating the sound in a world that has daylight cycle disabled[6103719](https://github.com/mekanism/Mekanism/commit/6103719acffc13aa88b42482a09218c4df6ca9cd)- Make it a bit easier for containers to manage/sync enums and fix the security mode in factories not being properly synced/updated[ca25869](https://github.com/mekanism/Mekanism/commit/ca25869fbccf6132641f0fecb5e6b1b6d700f447)- Only sync amount for fluid and chemical stacks when the type did not change.[886d878](https://github.com/mekanism/Mekanism/commit/886d8782f532c79e85ecebcaa1f8b34a8a304c77)- Cleanup code pertaining to factories: - Remove RecipeType (in favor of FactoryType) - Remove the ability to change the type of an existing factory, as factories no longer all have the same number of slots or even chemical tanks. Note: For now the recipe type slots are still being internally added for purposes of not breaking inventory loading until the next time we end up breaking it anyways - Moved the factories' gas and infusion tanks to the proper subclasses[cf7eaed](https://github.com/mekanism/Mekanism/commit/cf7eaedebf884b1d5c76eba390c87ca8d0b3ceb3)- Fix not taking speed upgrade changes into account for secondary energy per tick[1c63d26](https://github.com/mekanism/Mekanism/commit/1c63d267adc3a6cc389150309636e968e08bc283)- Fix Entangloporter model, make Entangloporter update neighbors when toggling frequencies for transmitter connectivity[3cf78ff](https://github.com/mekanism/Mekanism/commit/3cf78ff8b0be953b5d50d40641db2401c4cc6222)- Do some cleanup reducing the number of individual classes needed for new container types, and instead have them just be MekanismTileContainer's directly[68cd490](https://github.com/mekanism/Mekanism/commit/68cd490f56dbcfe112cc134504afb45717dfab93)- Fix quantum entangloporter item transport[54bd60d](https://github.com/mekanism/Mekanism/commit/54bd60d2a67df23563c75b522876d11abb5f58ba)- Fix a few transporter filters trying to initialize the stack preview before a filter is set[#5863](https://github.com/mekanism/Mekanism/issues/5863)[169825c](https://github.com/mekanism/Mekanism/commit/169825c6c25b2351670d1a298cc84b82b03b483f)- Reimplement trusted security mode making it store things based off of UUIDs rather than names. This will make it so that it can be properly persistent if a user changes their name[#5861](https://github.com/mekanism/Mekanism/issues/5861)[bbfeb76](https://github.com/mekanism/Mekanism/commit/bbfeb7685898631e5b5ce00948caab0bc0aeb1be)- Fixed Seismic Reader ([#5835](https://github.com/mekanism/Mekanism/issues/5835)), fix QE crash[60ae332](https://github.com/mekanism/Mekanism/commit/60ae33298f5a86fa7fcd7dfb1c825e97739df7de)- Fix insert prediction not taking into account the type of items we already have en route to a slot.[#5865](https://github.com/mekanism/Mekanism/issues/5865)[c717de3](https://github.com/mekanism/Mekanism/commit/c717de3da84eb1432d6e42c4ce051cd44f058b82)- Fix GuiScrollList drag scrolling[ba352d9](https://github.com/mekanism/Mekanism/commit/ba352d9e7493f59c5b9f1f1e1f2e80dc89ee8c35)- Fix frequencies not consistently saving to the same world, now they save to the overworld given they are global anyways. Also fixed the FrequencyManagers being reset before saving, thus causing no frequencies to be properly persisted.[#5868](https://github.com/mekanism/Mekanism/issues/5868)[8b3b40c](https://github.com/mekanism/Mekanism/commit/8b3b40cc343be0c9c7de1e842c4dd006ce932540)- Fixed Security Desk item render[452395c](https://github.com/mekanism/Mekanism/commit/452395cea54578d96b3382567a0890d7ed9508d7)- Triple heat boost from adjacent lava for Heat Generator[1be6c54](https://github.com/mekanism/Mekanism/commit/1be6c543c1e84cc057faf5e3a2e0f9ba5f3e26b6)- Fix JEI for many machines[fb4e940](https://github.com/mekanism/Mekanism/commit/fb4e940d1b14e12e32a66e315b57284b18b9b3cf)- Cleanup a bit of code for sending packets to player's using tiles to only have to create the packet a single time, and only do so if there are players using it[9b537d6](https://github.com/mekanism/Mekanism/commit/9b537d66cdc643da9d7fe51a31cfefddf7a4441e)- Reformat code and cleanup unused imports, and unflatten some imports that got combined into *[ec4f62e](https://github.com/mekanism/Mekanism/commit/ec4f62e74af6c98888d0c3301a85a8094513646f)- Cleanup various parts of the code having to do with container syncing moving our various tiles to our new syncing system. - Fixed a few block state/model files where we were accidentally still trying to use forge's blockstate texture override system - Added support for syncing item stacks via our container sync system[8039387](https://github.com/mekanism/Mekanism/commit/8039387abd236f97acb4d1421e8dadc1955724a0)- Minor cleanup to the formulaic assemblicator[6f86594](https://github.com/mekanism/Mekanism/commit/6f86594595aaf32b889f3bc9b89fa59282a2c5b9)- Fix thermal evaporation controller not changing textures[94c8539](https://github.com/mekanism/Mekanism/commit/94c853990f672da1e06507c1b88cd2b49fdab06c)- Fix bug introduced when fixing controller texture, causing incorrect calculations to take place when it is initially loaded as "active". Also fixes the issue of the thermal evaporation plant incorrectly taking temperature into consideration[#5832](https://github.com/mekanism/Mekanism/issues/5832)[9468385](https://github.com/mekanism/Mekanism/commit/94683852df844930c94f4e78952293d15bfbebe6)- Fix accidental removal of a few set's being linked. This caused transmitter networks not to sync to not always sync to the client properly[#5869](https://github.com/mekanism/Mekanism/issues/5869)[0bda031](https://github.com/mekanism/Mekanism/commit/0bda03183eb8cfa1a0a878047f6128e712f51bdf)- Fix incorrect assumption that a block may not know how to accept fluid just because it does not have a tank[#5871](https://github.com/mekanism/Mekanism/issues/5871)[c807290](https://github.com/mekanism/Mekanism/commit/c807290a25f37c5c8b80579fecbacec910aa9b95)- Fix wrong lang string being used for the logistical sorter's auto eject[038ce08](https://github.com/mekanism/Mekanism/commit/038ce0892003f5a3c90f165c8de78e70cfbf52ab)- Fix recipes with secondary usage per tick not working properly if the exact amount needed is supplied.[#5596](https://github.com/mekanism/Mekanism/issues/5596)[ba56aea](https://github.com/mekanism/Mekanism/commit/ba56aea7580e01a374fb9ca83c8a55f770e89d2c)- Bump required forge version minorly to fix lighting of buckets, and also update mappings[fe18d2a](https://github.com/mekanism/Mekanism/commit/fe18d2ab281039ea6553c9001a77eeea9a334bb7)- Make sure to only move a single stack item into the recipe, and invert some if else statements to reduce negations[673bfa8](https://github.com/mekanism/Mekanism/commit/673bfa806ab671cbb03e8367c9f396243ed664fb)- Add integration for ProjectE so that our machine's recipes are able to be mapped.[#5876](https://github.com/mekanism/Mekanism/issues/5876)- Sawmill recipe mapper is disabled by default due to causing things like charcoal's emc value to disappear (due to being able to make charcoal out of wood dust which has a very low sub singular EMC value) - Values for our various ingots are set the same way ProjectE defaulted them in 1.12 - Currently energy costs are not taken into consideration for how much a recipe costs[df1cfb0](https://github.com/mekanism/Mekanism/commit/df1cfb0e8e70401336de66aeb9485b91025e36dc)- Fix using tabs instead of spaces in the ProjectE mappers due to copying a base template from one I made in ProjectE[cbdf284](https://github.com/mekanism/Mekanism/commit/cbdf28444f58581db3b5077b4f878106cd87562e)- Use separate classes to properly avoid class loading issues for ISTERs on servers, rather than using the hack that is OnlyIn[fe7a4ad](https://github.com/mekanism/Mekanism/commit/fe7a4ad0f72297770a198dc083b0c268e3c0f660)- Fix slightly wrong math for the sawmill recipe mapper[c236687](https://github.com/mekanism/Mekanism/commit/c236687a178ae37c18959aaac05b4bd736974355)- Bump version to 9.9.10
+
+	Nature's Compass (NaturesCompass-1.15.1-1.8.3.jar --> NaturesCompass-1.15.2-1.8.4.jar):
+		NaturesCompass-1.15.2-1.8.4.jar:
+			--------------------------------------------------
+			 VERSION: 1.8.4 - 1.15.2, 1.15.1
+			--------------------------------------------------
+			1.15.2
+			 UPDATES:
+			 - Initial release for 1.15.2 (Forge 31.1.12)
+			1.15.1
+			 FEATURES:
+			 - Added French translations
+			 - Added Polish translations
+			 - Added Chinese (Taiwan) translations
+			--------------------------------------------------
+			 VERSION: 1.8.3 - 1.15.1, 1.14.4, 1.12.2
+			--------------------------------------------------
+			1.15.1, 1.14.4, 1.12.2
+			 FIXES:
+			 - Fixed an issue where HUD info did not render at the configured line offset
+			1.15.1:
+			 UPDATES:
+			 - Initial release for 1.15.1 (Forge 30.0.35)
+			--------------------------------------------------
+			 VERSION: 1.8.2 - 1.14.4, 1.13.2
+			--------------------------------------------------
+			1.14.4, 1.13.2:
+			 FIXES:
+			 - Fixed uncraftable compass recipe
+			--------------------------------------------------
+			 VERSION: 1.8.1 - 1.14.4, 1.13.2
+			--------------------------------------------------
+			1.14.4, 1.13.2:
+			 FIXES:
+			 - Fixed a dedicated server crash upon initialization
+			--------------------------------------------------
+			 VERSION: 1.8.0 - 1.14.4, 1.13.2, 1.12.2
+			--------------------------------------------------
+			1.14.4, 1.13.2, 1.12.2:
+			 FEATURES:
+			 - Significantly improved biome search efficiency to essentially lag-free performance under normal circumstances
+			 FIXES:
+			 - Fixed a major flaw in search accuracy present in version 1.7.0
+			 - Fixed unresponsive biome list in the main GUI after returning from the biome info GUI
+			 - Fixed crash that would occasionally occur when attempting to sort by biome source
+			1.14.4, 1.13.2:
+			 UPDATES:
+			 - Initial release for 1.14.4 (Forge 28.1.109)
+			 - Initial release for 1.13.2 (Forge 25.0.219)
+			--------------------------------------------------
+			 VERSION: 1.7.0 - 1.12.2
+			--------------------------------------------------
+			1.12.2:
+			 FEATURES:
+			 - Added each biome's source mod name to GUI entries and the functionality to sort by source mod
+			 - Added config field to specify the side to render information on the HUD
+			 FIX:
+			 - Fixed server crash when using Sponge
+			--------------------------------------------------
+			 VERSION: 1.6.2 - 1.12.2
+			--------------------------------------------------
+			1.12.2:
+			 FEATURES:
+			 - Added a new config field to specify how many new chunks can be generated from a single search
+			 - Added search success/failure info to log
+			 FIX:
+			 - Fixed server crash by removing localized biome names as a valid disabled biome identifier
+			--------------------------------------------------
+			 VERSION: 1.6.1 - 1.12.2
+			--------------------------------------------------
+			1.12.2:
+			 FIXES:
+			 - Fixed ConcurrentModificationException and NullPointerException after using the search GUI due to stacktrace spam in log
+			 - Fixed disabled biomes still appearing in biome search list due to server config not syncing with client
+			--------------------------------------------------
+			 VERSION: 1.6.0 - 1.12.2
+			--------------------------------------------------
+			1.12.2:
+			 FEATURES:
+			 - Added a biome name search box to the main compass GUI
+			 - Biomes can now be blacklisted in the config by resource location (e.g. minecraft:ocean) as well as name (e.g. Ocean) or ID (e.g. 0)
+			 - Fixed a crash that occurred somewhat randomly when selecting biomes from the GUI
+			 - Added Chinese translation
+			 - Added Russian translation
+			 - Add Spanish translation
+			 UPDATES:
+			 - Updated to Forge #2796 (1.12.2)
+			--------------------------------------------------
+			 VERSION: 1.5.1 - 1.12.2
+			--------------------------------------------------
+			1.12.2:
+			 FEATURES:
+			 - Added a config field to disable teleportation to a located biome
+			 UPDATES:
+			 - Updated to Forge #2581 (1.12.2)
+			--------------------------------------------------
+			 VERSION: 1.5.0 - 1.12.2
+			--------------------------------------------------
+			1.12.2:
+			 FIXES:
+			 - Marked 1.12.2 as an accepted version
+			--------------------------------------------------
+			 VERSION: 1.5.0 - 1.12
+			--------------------------------------------------
+			1.12:
+			 FEATURES:
+			 - Added number of biome samples to HUD info after an unsuccessful biome search
+			 FIXES:
+			 - Fixed mismatched or missing texture issue when certain mods are present
+			 - Rewrote biome searching algorithm
+			--------------------------------------------------
+			 VERSION: 1.4.0 - 1.12
+			--------------------------------------------------
+			1.12:
+			 FEATURES:
+			 - Changed the look of biome selection and biome info GUI backgrounds and buttons
+			1.12:
+			 UPDATES:
+			 - Initial release for MC 1.12 (Forge #2387)
+			--------------------------------------------------
+			 VERSION: 1.3.0 - 1.11, 1.10.2, 1.7.10
+			--------------------------------------------------
+			1.11, 1.10.2, 1.7.10:
+			 FEATURES:
+			 - Added an op-only/cheat-only teleport button to the biome selection GUI that takes the user to the currently located biome
+			 FIXES:
+			 - Fixed a potential lack of localization for precipitation states
+			1.11:
+			 UPDATES:
+			 - Initial release for MC 1.11 (Forge #2177)
+			--------------------------------------------------
+			 VERSION: 1.2.0 - 1.10.2, 1.7.10
+			--------------------------------------------------
+			1.10.2:
+			 FEATURES:
+			 - Added a biome blacklist config field
+			1.7.10:
+			 UPDATES:
+			 - Initial release for MC 1.7.10 (Forge #1614)
+			--------------------------------------------------
+			 VERSION: 1.1.0 - 1.10.2
+			--------------------------------------------------
+			1.10.2:
+			 FEATURES:
+			 - Added a sorting function to the biome selection GUI
+			 - HUD info will remain visible while chat is open (can be disabled in the config)
+			--------------------------------------------------
+			 VERSION: 1.0.0 - 1.10.2
+			--------------------------------------------------
+			1.10.2:
+			 UPDATES:
+			 - Initial release for MC 1.10.2 (Forge #2107)
+
+		NaturesCompass-1.15.1-1.8.4.jar:
+			--------------------------------------------------
+			 VERSION: 1.8.4 - 1.15.2, 1.15.1
+			--------------------------------------------------
+			1.15.2
+			 UPDATES:
+			 - Initial release for 1.15.2 (Forge 31.1.12)
+			1.15.1
+			 FEATURES:
+			 - Added French translations
+			 - Added Polish translations
+			 - Added Chinese (Taiwan) translations
+			--------------------------------------------------
+			 VERSION: 1.8.3 - 1.15.1, 1.14.4, 1.12.2
+			--------------------------------------------------
+			1.15.1, 1.14.4, 1.12.2
+			 FIXES:
+			 - Fixed an issue where HUD info did not render at the configured line offset
+			1.15.1:
+			 UPDATES:
+			 - Initial release for 1.15.1 (Forge 30.0.35)
+			--------------------------------------------------
+			 VERSION: 1.8.2 - 1.14.4, 1.13.2
+			--------------------------------------------------
+			1.14.4, 1.13.2:
+			 FIXES:
+			 - Fixed uncraftable compass recipe
+			--------------------------------------------------
+			 VERSION: 1.8.1 - 1.14.4, 1.13.2
+			--------------------------------------------------
+			1.14.4, 1.13.2:
+			 FIXES:
+			 - Fixed a dedicated server crash upon initialization
+			--------------------------------------------------
+			 VERSION: 1.8.0 - 1.14.4, 1.13.2, 1.12.2
+			--------------------------------------------------
+			1.14.4, 1.13.2, 1.12.2:
+			 FEATURES:
+			 - Significantly improved biome search efficiency to essentially lag-free performance under normal circumstances
+			 FIXES:
+			 - Fixed a major flaw in search accuracy present in version 1.7.0
+			 - Fixed unresponsive biome list in the main GUI after returning from the biome info GUI
+			 - Fixed crash that would occasionally occur when attempting to sort by biome source
+			1.14.4, 1.13.2:
+			 UPDATES:
+			 - Initial release for 1.14.4 (Forge 28.1.109)
+			 - Initial release for 1.13.2 (Forge 25.0.219)
+			--------------------------------------------------
+			 VERSION: 1.7.0 - 1.12.2
+			--------------------------------------------------
+			1.12.2:
+			 FEATURES:
+			 - Added each biome's source mod name to GUI entries and the functionality to sort by source mod
+			 - Added config field to specify the side to render information on the HUD
+			 FIX:
+			 - Fixed server crash when using Sponge
+			--------------------------------------------------
+			 VERSION: 1.6.2 - 1.12.2
+			--------------------------------------------------
+			1.12.2:
+			 FEATURES:
+			 - Added a new config field to specify how many new chunks can be generated from a single search
+			 - Added search success/failure info to log
+			 FIX:
+			 - Fixed server crash by removing localized biome names as a valid disabled biome identifier
+			--------------------------------------------------
+			 VERSION: 1.6.1 - 1.12.2
+			--------------------------------------------------
+			1.12.2:
+			 FIXES:
+			 - Fixed ConcurrentModificationException and NullPointerException after using the search GUI due to stacktrace spam in log
+			 - Fixed disabled biomes still appearing in biome search list due to server config not syncing with client
+			--------------------------------------------------
+			 VERSION: 1.6.0 - 1.12.2
+			--------------------------------------------------
+			1.12.2:
+			 FEATURES:
+			 - Added a biome name search box to the main compass GUI
+			 - Biomes can now be blacklisted in the config by resource location (e.g. minecraft:ocean) as well as name (e.g. Ocean) or ID (e.g. 0)
+			 - Fixed a crash that occurred somewhat randomly when selecting biomes from the GUI
+			 - Added Chinese translation
+			 - Added Russian translation
+			 - Add Spanish translation
+			 UPDATES:
+			 - Updated to Forge #2796 (1.12.2)
+			--------------------------------------------------
+			 VERSION: 1.5.1 - 1.12.2
+			--------------------------------------------------
+			1.12.2:
+			 FEATURES:
+			 - Added a config field to disable teleportation to a located biome
+			 UPDATES:
+			 - Updated to Forge #2581 (1.12.2)
+			--------------------------------------------------
+			 VERSION: 1.5.0 - 1.12.2
+			--------------------------------------------------
+			1.12.2:
+			 FIXES:
+			 - Marked 1.12.2 as an accepted version
+			--------------------------------------------------
+			 VERSION: 1.5.0 - 1.12
+			--------------------------------------------------
+			1.12:
+			 FEATURES:
+			 - Added number of biome samples to HUD info after an unsuccessful biome search
+			 FIXES:
+			 - Fixed mismatched or missing texture issue when certain mods are present
+			 - Rewrote biome searching algorithm
+			--------------------------------------------------
+			 VERSION: 1.4.0 - 1.12
+			--------------------------------------------------
+			1.12:
+			 FEATURES:
+			 - Changed the look of biome selection and biome info GUI backgrounds and buttons
+			1.12:
+			 UPDATES:
+			 - Initial release for MC 1.12 (Forge #2387)
+			--------------------------------------------------
+			 VERSION: 1.3.0 - 1.11, 1.10.2, 1.7.10
+			--------------------------------------------------
+			1.11, 1.10.2, 1.7.10:
+			 FEATURES:
+			 - Added an op-only/cheat-only teleport button to the biome selection GUI that takes the user to the currently located biome
+			 FIXES:
+			 - Fixed a potential lack of localization for precipitation states
+			1.11:
+			 UPDATES:
+			 - Initial release for MC 1.11 (Forge #2177)
+			--------------------------------------------------
+			 VERSION: 1.2.0 - 1.10.2, 1.7.10
+			--------------------------------------------------
+			1.10.2:
+			 FEATURES:
+			 - Added a biome blacklist config field
+			1.7.10:
+			 UPDATES:
+			 - Initial release for MC 1.7.10 (Forge #1614)
+			--------------------------------------------------
+			 VERSION: 1.1.0 - 1.10.2
+			--------------------------------------------------
+			1.10.2:
+			 FEATURES:
+			 - Added a sorting function to the biome selection GUI
+			 - HUD info will remain visible while chat is open (can be disabled in the config)
+			--------------------------------------------------
+			 VERSION: 1.0.0 - 1.10.2
+			--------------------------------------------------
+			1.10.2:
+			 UPDATES:
+			 - Initial release for MC 1.10.2 (Forge #2107)
+
+	OpenBlocks Elevator (elevatorid-1.15.2-1.6.1.jar --> elevatorid-1.15.2-1.7.0.jar):
+		elevatorid-1.15.2-1.7.0.jar:
+			Add new config option for requiring XP for teleporting (amount of points also configurable)
+			Add Korean and Taiwanese Mandarin translations
+
+	Powder Power [FORGE] (Archived file --> PowderPower-1.15.2-3.1.33.jar):
+		PowderPower-1.15.2-3.1.33.jar:
+			Added Soul Sand to all of the Excavators
+
+		PowderPower-1.15.2-3.1.32.jar:
+			UPDATES:
+
+			 * - Added Forge tags for obsidian, prismarine, medium, Lapium, genius, and trilium ingots for mod interop 
+			 * - Refreshed some of the token icons with the 1.16 versions 
+
+	Xaero's Minimap (v20.2.0 for Minecraft 1.15.2 --> v20.3.0 for Minecraft 1.15.2):
+		v20.3.0 for Minecraft 1.15.2:
+			* Reworked minimap writing to work on the main game thread. Can negatively (or positively) affect the performance a bit depending on your computer specs but it's worth it for stability reasons (especially when playing with a lot of other mods). This change should fix a lot of incompatibility-based crashes. A similar change is coming to the world map mod in the future. * Minimap writer optimization.
+
+Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).
