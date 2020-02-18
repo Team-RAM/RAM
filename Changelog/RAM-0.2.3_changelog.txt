@@ -1,6 +1,6 @@
-===================================================================
-Randomly Added Mods (RAM) 0.2.2 --> Randomly Added Mods (RAM) 0.2.3
-===================================================================
+=======================================================================
+Randomly Added Mods (RAM) 0.2.2 --> Randomly Added Mods (RAM) (1) 0.2.3
+=======================================================================
 
 Added:
 - Carpet Stairs Mod
@@ -10,9 +10,35 @@ Added:
 - Lollipop
 - NetherPortalFix
 - Powah!
+- Simply Backpacks
 
 Updated:
-	Biomes O' Plenty (Biomes O' Plenty 1.15.2-10.0.0.318 --> Biomes O' Plenty 1.15.2-10.0.0.328):
+	Biomes O' Plenty (Biomes O' Plenty 1.15.2-10.0.0.318 --> Biomes O' Plenty 1.15.2-10.0.0.334):
+		Biomes O' Plenty 1.15.2-10.0.0.334:
+			 forstride:
+			 * Fixed edge biome crash, set fallback biome for empty climates to ocean
+
+		Biomes O' Plenty 1.15.2-10.0.0.333:
+			 forstride:
+			 * Tweaks to the Bog, Mangrove, and Tundra
+
+		Biomes O' Plenty 1.15.2-10.0.0.332:
+			 forstride:
+			 * Removed Glowstone Grotto nether biome (NOTE: CONFIGS NEED TO BE DELETED OR YOUR GAME WILL CRASH ON LOAD!)
+
+		Biomes O' Plenty 1.15.2-10.0.0.331:
+			 Adubbz:
+			 * Vanilla biome weights are now configurable
+
+		Biomes O' Plenty 1.15.2-10.0.0.330:
+			 forstride:
+			 * Added more tall grass to the Lush Grassland, made the Floodplains flatter
+
+		Biomes O' Plenty 1.15.2-10.0.0.329:
+			 forstride:
+			 * Changed the Rainforest back to a subtropical biome
+			 * NOTE: This will affect existing worlds and cause chunk borders! Additionally, please delete old configs before creating a new world!
+
 		Biomes O' Plenty 1.15.2-10.0.0.328:
 			 Adubbz:
 			 * Fixed structure generation. Closes #1531
@@ -70,6 +96,59 @@ Updated:
 		[1.15.2] Camera Mod 1.6.2:
 			 * Added config option to disable image uploads 
 
+	CraftTweaker (CraftTweaker-1.15.1-6.0.0.5.jar --> CraftTweaker-1.15.2-6.0.0.6.jar):
+		CraftTweaker-1.15.2-6.0.0.6.jar:
+			Current version: 6.0.0.6
+
+			 * [made it possible to cast a string to an int and double](https://github.com/CraftTweaker/CraftTweaker/commit/634576292be37aba8cc5b6aef5a33e4ff900937e) - Jared - Tue Feb 18 23:13:45 2020 
+			 * [update jar file name and mods.toml](https://github.com/CraftTweaker/CraftTweaker/commit/41da80a7a30c6ff96286ccdc6039f4a0359e45e3) - Jared - Fri Feb 7 21:14:27 2020 
+			 * [port to 1.15.2](https://github.com/CraftTweaker/CraftTweaker/commit/a8be724fd6eb4a8e5c49af0bdaa4ec3e96af2fff) - Jared - Fri Feb 7 11:55:03 2020 
+			 * [add a way to check if a MCTag is a certain type of tag](https://github.com/CraftTweaker/CraftTweaker/commit/10a2b04483ce4032c6ffb8803b567e2dcbedce5a) - Jared - Fri Feb 7 11:39:02 2020 
+			 * [update MC and forge versions in toml and gradle](https://github.com/CraftTweaker/CraftTweaker/commit/457020bbf055aea2e4e6aad015309e6e9ccfacdf) - Jared - Wed Jan 22 21:36:34 2020 
+			 * [update changelog commit](https://github.com/CraftTweaker/CraftTweaker/commit/c9ef77624a3c438180d561f3ea05916e4738c83d) - Jared - Wed Jan 22 21:36:34 2020 
+			 * [port to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/b21c1f5da8ec69929d34647873c9729be2458e4e) - Jared - Wed Jan 22 21:36:34 2020 
+			 * [update JEI](https://github.com/CraftTweaker/CraftTweaker/commit/c1c4434a134398e429ba4ba62f7affe05e57f367) - Jared - Wed Jan 22 21:35:54 2020 
+			 * [update forge to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/39f45343748414de06395a6e2a23b185f317452c) - Jared - Wed Jan 22 21:35:54 2020 
+			 * [wrapper classes docs are now /vanilla/api/](https://github.com/CraftTweaker/CraftTweaker/commit/e524914f5b057a9c007dca1310638c2bcac53d31) - Jared - Sun Jan 19 22:18:46 2020 
+			 * [move all generated docs to /vanilla/api](https://github.com/CraftTweaker/CraftTweaker/commit/6a1d9f4f69025c20e450feef2ca561c7ab54ad03) - Jared - Sun Jan 19 22:15:13 2020 
+			 * [no more value = for docs annotation](https://github.com/CraftTweaker/CraftTweaker/commit/ba576f0a25678a6451080d23403ae3954d41d914) - Jared - Sun Jan 19 22:03:38 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/f3b595aa161e93f6ff90788b53fbea04ee9b265d) - kindlich - Sat Jan 11 13:58:34 2020 
+			 * [make YAML output be in folders](https://github.com/CraftTweaker/CraftTweaker/commit/0de76eb4e3008edf0963c65d83ee971b4963c20c) - Jared - Fri Jan 10 22:55:02 2020 
+			 * [ignore docsOut and src/generated](https://github.com/CraftTweaker/CraftTweaker/commit/c7f9f97ed3398bc61b0bf81f1050284fb0c6ca79) - Jared - Fri Jan 10 22:54:34 2020 
+			 * [update ZC to fix server crashes](https://github.com/CraftTweaker/CraftTweaker/commit/7c703a57a06fc9bb2ea7d2ecde673e7ff18f89ef) - Jared - Fri Jan 10 22:23:43 2020 
+			 * [update ZC](https://github.com/CraftTweaker/CraftTweaker/commit/224ad15e53c38b430dbd4230922d82f7f5b59977) - Jared - Fri Jan 10 19:21:41 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/5d9f252e406156b81bcadd720b95e8a9ddca43f4) - kindlich - Fri Jan 10 19:06:10 2020 
+			 * [Added IIngredient#asIData](https://github.com/CraftTweaker/CraftTweaker/commit/1f4761cdf63d7b8b9bd878ac2a34940a36a4eb17) - kindlich - Fri Jan 10 19:00:45 2020 
+			 * [Updated Doc location for Biome and BiomeSpawnEntry](https://github.com/CraftTweaker/CraftTweaker/commit/02cf6a708b3d163174ddfd31276807d941b78cdc) - kindlich - Fri Jan 10 18:58:57 2020 
+			 * [update ZS](https://github.com/CraftTweaker/CraftTweaker/commit/2839aed162ff778c0acd40472474a3fde50e83bc) - Jared - Wed Jan 8 17:53:38 2020 
+			 * [Removed test code for no wrapper file](https://github.com/CraftTweaker/CraftTweaker/commit/69fa5381ed1f6457342fd34fde78155ecbb4143b) - kindlich - Sun Jan 5 20:23:39 2020 
+			 * [DocumentProcessor: Clear the output directory first](https://github.com/CraftTweaker/CraftTweaker/commit/d64087adf887972238ba1ec7482ce8e83676f395) - kindlich - Sun Jan 5 20:20:35 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/9f960d9c5a301a942c48512e4ab2085a08d83ea9) - kindlich - Sun Jan 5 19:51:50 2020 
+			 * [Added some advancements as being wrapped](https://github.com/CraftTweaker/CraftTweaker/commit/57cc981aee01abaa689b872ab851d63a7db4b366) - kindlich - Wed Jan 1 23:45:25 2020 
+			 * [Fixed some issues with the wrapper Processor](https://github.com/CraftTweaker/CraftTweaker/commit/e22c6972784858c8118eb1485496f1ea1eb655c8) - kindlich - Wed Jan 1 23:44:59 2020 
+			 * [Forgot Some these](https://github.com/CraftTweaker/CraftTweaker/commit/54a5854f42414293ff8c6ea897f9c86a45956665) - kindlich - Wed Jan 1 22:56:12 2020 
+			 * [Event Wrapper and Comment cleanup](https://github.com/CraftTweaker/CraftTweaker/commit/13501a232699331ea342199b86ec938692e621ee) - kindlich - Wed Jan 1 21:35:22 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/100bfb38141ec271a31e04e342f82cad6dc0a4a4) - kindlich - Wed Jan 1 16:43:17 2020 
+			 * [Removed 2nd MCWorld](https://github.com/CraftTweaker/CraftTweaker/commit/d82e4ef51904c0378c4025973a14dfdbb5b0da7c) - kindlich - Wed Jan 1 16:30:19 2020 
+			 * [Removed unused buildSrc](https://github.com/CraftTweaker/CraftTweaker/commit/0b782c48bb8d36950a00546258d0d63d9f98154c) - kindlich - Wed Jan 1 16:27:20 2020 
+			 * [Made Event listeners unregister themselves on a reload](https://github.com/CraftTweaker/CraftTweaker/commit/592e7d9862449a6f7285a65250be98296e3820d3) - kindlich - Wed Jan 1 16:25:55 2020 
+			 * [Only remove sidedActions when on the same side](https://github.com/CraftTweaker/CraftTweaker/commit/7d15faf7ae87abbc96d060cdc832b6cc957a7002) - kindlich - Wed Jan 1 16:24:36 2020 
+			 * [Added missing Document and ZenWrapper annotations](https://github.com/CraftTweaker/CraftTweaker/commit/42cd76858c4bb9901ac234f2bd2cc9bc342738d5) - kindlich - Wed Jan 1 16:23:38 2020 
+			 * [More work on wrappers](https://github.com/CraftTweaker/CraftTweaker/commit/a5f6a37ecd56898eefd2408b9e4177cba5927aba) - kindlich - Wed Jan 1 16:22:16 2020 
+			 * [Committing stuff before I do something stupid](https://github.com/CraftTweaker/CraftTweaker/commit/a93ea989e169113d715fa84e4144b8ca23491b06) - kindlich - Tue Dec 31 23:03:43 2019 
+			 * [Committing stuff before I do something stupid](https://github.com/CraftTweaker/CraftTweaker/commit/2c785dbd40fa4e6ad62d6574347041f85fa7984f) - kindlich - Tue Dec 31 21:46:11 2019 
+			 * [CTTooltipEvent handler working now.](https://github.com/CraftTweaker/CraftTweaker/commit/b43eefc90d69e5111b7a17fdac383bbf0487fc78) - kindlich - Fri Dec 27 16:52:33 2019 
+			 * [Some minor cleanup for Annotation Processors](https://github.com/CraftTweaker/CraftTweaker/commit/2e0897e84a4fbd7733d63d1fb054f80411fe929b) - kindlich - Thu Dec 26 23:07:54 2019 
+			 * [Simple yaml generation and fixed multiple classes being generated](https://github.com/CraftTweaker/CraftTweaker/commit/2912e29a540d1241f7616e3641a9a95f276019a1) - kindlich - Mon Dec 23 13:31:29 2019 
+			 * [Some cleanup](https://github.com/CraftTweaker/CraftTweaker/commit/18591fa7ac102e2cf11c172d9bc5e76b92b10624) - kindlich - Mon Dec 23 13:06:59 2019 
+			 * [Some more work on Expansions and declaredModid](https://github.com/CraftTweaker/CraftTweaker/commit/91eb925ba4ecdf5a03498677a572383547fd04cc) - kindlich - Mon Dec 23 12:53:29 2019 
+			 * [Started working on expansion classes](https://github.com/CraftTweaker/CraftTweaker/commit/4b68e0e43bd13b86d94b227b97a67094ae0981ea) - kindlich - Sun Dec 22 23:23:31 2019 
+			 * [Normal classes should be running now](https://github.com/CraftTweaker/CraftTweaker/commit/6b06dd25f2b4adb58c72eec818d5f87cafdc98f7) - kindlich - Sun Dec 22 21:15:31 2019 
+			 * [Base classes for Document Processor rewrite](https://github.com/CraftTweaker/CraftTweaker/commit/34fd8a748133dbc8a0c609ae9e21ef41336252d4) - kindlich - Sat Dec 21 22:42:42 2019 
+			 * [Start working on annotation processor rewrite](https://github.com/CraftTweaker/CraftTweaker/commit/bd6cf0c2cf376516896fa603fa3a9bc41911760f) - kindlich - Fri Dec 20 14:04:26 2019 
+			 * [Replaced IEventHandler with Consumer](https://github.com/CraftTweaker/CraftTweaker/commit/e0fcd372ad7143fa3a69f42d0c4fd59cf00e2986) - kindlich - Sat Dec 14 21:25:17 2019 
+			 * [event test](https://github.com/CraftTweaker/CraftTweaker/commit/98d834eed872ba45bb9ecd24b4bbab249b9f031a) - Jared - Thu Dec 12 18:43:10 2019 
+
 	Cyclic (Cyclic-1.15.2-0.1.8.jar --> Cyclic-1.15.2-0.1.10.jar):
 		Cyclic-1.15.2-0.1.10.jar:
 			Fix main menu crash
@@ -118,6 +197,10 @@ Updated:
 			 - Fixed Nightmare Grass dropping itself.
 			 - Updated language files.
 			 - Mushrooms now spawn in the Nether, as well as the Overworld, making them more common.
+
+	Inventory Tweaks Reborn (invtweaks-1.15.2-1.0.0.jar --> invtweaks-1.15.2-1.0.1.jar):
+		invtweaks-1.15.2-1.0.1.jar:
+			Fix crafting dupe bug
 
 	JAOPCA (JAOPCA-1.15.2-3.0.0.18.jar --> JAOPCA-1.15.2-3.0.0.19.jar):
 		JAOPCA-1.15.2-3.0.0.19.jar:
@@ -448,17 +531,29 @@ Updated:
 			Add new config option for requiring XP for teleporting (amount of points also configurable)
 			Add Korean and Taiwanese Mandarin translations
 
-	Powder Power [FORGE] (Archived file --> PowderPower-1.15.2-3.1.33.jar):
+	Powder Power [FORGE] (Archived file --> PowderPower-1.15.2-3.1.34.jar):
+		PowderPower-1.15.2-3.1.34.jar:
+			Updated Forge to 1.15.2 - 31.1.13
+
+			 * Added Clay to Excavator break list 
+
 		PowderPower-1.15.2-3.1.33.jar:
 			Added Soul Sand to all of the Excavators
 
-		PowderPower-1.15.2-3.1.32.jar:
-			UPDATES:
+	The Veggie Way [FORGE] (TheVeggieWay-1.15.2-2.1.17.jar --> TheVeggieWay-1.15.2-2.1.18.jar):
+		TheVeggieWay-1.15.2-2.1.18.jar:
+			 * Updated Forge to 1.15.2 - 31.1.14 
 
-			 * - Added Forge tags for obsidian, prismarine, medium, Lapium, genius, and trilium ingots for mod interop 
-			 * - Refreshed some of the token icons with the 1.16 versions 
+	Xaero's Minimap (v20.2.0 for Minecraft 1.15.2 --> v20.3.1.1 for Minecraft 1.15.2):
+		v20.3.1.1 for Minecraft 1.15.2:
+			* Fixed "core mod" part of the mod not fully working outside of my dev environment, which caused chunks to not update with new block changes.
+			* Fixed compatibility with Better Respawns and other similar mods.
+			* Fixed minimap chunks persisting when switching dimensions if the player coordinates don't change much. Wasn't really a bug because the minimap mod doesn't actually save any map data but it seemed to confuse people.
+			* Fixed player names not being displayed under player heads (with the appropriate option turned on).
+			* Player names under player heads will now be coloured according to the player dot colours.
+			* Fixed longer biome names sometimes not fitting in the screen when using smaller minimap sizes.
+			* Added an error for when you try to install Better PVP and Xaero's Minimap together. Better PVP contains the same minimap by default and installing both mods causes nothing but problems.
 
-	Xaero's Minimap (v20.2.0 for Minecraft 1.15.2 --> v20.3.0 for Minecraft 1.15.2):
 		v20.3.0 for Minecraft 1.15.2:
 			* Reworked minimap writing to work on the main game thread. Can negatively (or positively) affect the performance a bit depending on your computer specs but it's worth it for stability reasons (especially when playing with a lot of other mods). This change should fix a lot of incompatibility-based crashes. A similar change is coming to the world map mod in the future. * Minimap writer optimization.
 

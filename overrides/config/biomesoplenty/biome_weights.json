@@ -42,9 +42,6 @@
     "biomesoplenty:ghost_forest": {
       "weight": 2
     },
-    "biomesoplenty:glowstone_grotto": {
-      "weight": 3
-    },
     "biomesoplenty:grassland": {
       "weight": 5
     },
@@ -97,7 +94,7 @@
       "weight": 10
     },
     "biomesoplenty:rainforest": {
-      "weight": 7
+      "weight": 1
     },
     "biomesoplenty:redwood_forest": {
       "weight": 3
@@ -187,6 +184,53 @@
     "biomesoplenty:xeric_shrubland": {
       "weight": 100,
       "rarity": 1.0
+    }
+  },
+  "vanilla_biome_weights": {
+    "minecraft:badlands_plateau": {
+      "weight": 10
+    },
+    "minecraft:birch_forest": {
+      "weight": 7
+    },
+    "minecraft:dark_forest": {
+      "weight": 5
+    },
+    "minecraft:desert": {
+      "weight": 15
+    },
+    "minecraft:forest": {
+      "weight": 10
+    },
+    "minecraft:giant_tree_taiga": {
+      "weight": 5
+    },
+    "minecraft:jungle": {
+      "weight": 15
+    },
+    "minecraft:mountains": {
+      "weight": 7
+    },
+    "minecraft:nether": {
+      "weight": 10
+    },
+    "minecraft:plains": {
+      "weight": 10
+    },
+    "minecraft:savanna": {
+      "weight": 10
+    },
+    "minecraft:snowy_tundra": {
+      "weight": 10
+    },
+    "minecraft:swamp": {
+      "weight": 7
+    },
+    "minecraft:taiga": {
+      "weight": 10
+    },
+    "minecraft:wooded_badlands_plateau": {
+      "weight": 3
     }
   }
 }
