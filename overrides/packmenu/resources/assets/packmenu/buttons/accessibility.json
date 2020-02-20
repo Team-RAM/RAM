@@ -1,0 +1,16 @@
+{
+	"x": 104,
+	"y": 84,
+	"width": 20,
+	"height": 20,
+	"u": 138,
+	"v": 40,
+	"hoverU": 138,
+	"hoverV": 60,
+	"texWidth": 200,
+	"texHeight": 156,
+	"langKey": "packmenu.accessibility",
+	"texture": "packmenu:textures/gui/rammenu.png",
+	"action": "OPEN_GUI",
+	"data": "ACCESSIBILITY"
+}

@@ -10,7 +10,7 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Randomly Added Mods (RAM) (1)",
+  "name": "Randomly Added Mods (RAM)",
   "version": "0.2.3",
   "author": "Yamza_",
   "projectID": 357569,
@@ -57,7 +57,7 @@
     },
     {
       "projectID": 358191,
-      "fileID": 2876044,
+      "fileID": 2883980,
       "required": true
     },
     {
@@ -77,7 +77,7 @@
     },
     {
       "projectID": 352656,
-      "fileID": 2884184,
+      "fileID": 2884996,
       "required": true
     },
     {
@@ -211,13 +211,13 @@
       "required": true
     },
     {
-      "projectID": 241895,
-      "fileID": 2872972,
+      "projectID": 324888,
+      "fileID": 2866642,
       "required": true
     },
     {
-      "projectID": 324888,
-      "fileID": 2866642,
+      "projectID": 241895,
+      "fileID": 2872972,
       "required": true
     },
     {
@@ -258,6 +258,11 @@
     {
       "projectID": 291493,
       "fileID": 2873803,
+      "required": true
+    },
+    {
+      "projectID": 353882,
+      "fileID": 2885360,
       "required": true
     },
     {
@@ -306,13 +311,13 @@
       "required": true
     },
     {
-      "projectID": 238050,
-      "fileID": 2857021,
+      "projectID": 344996,
+      "fileID": 2866509,
       "required": true
     },
     {
-      "projectID": 344996,
-      "fileID": 2866509,
+      "projectID": 303780,
+      "fileID": 2885258,
       "required": true
     },
     {
@@ -376,6 +381,11 @@
       "required": true
     },
     {
+      "projectID": 273744,
+      "fileID": 2883610,
+      "required": true
+    },
+    {
       "projectID": 351725,
       "fileID": 2867076,
       "required": true
@@ -417,7 +427,7 @@
     },
     {
       "projectID": 220311,
-      "fileID": 2874783,
+      "fileID": 2884959,
       "required": true
     },
     {
@@ -427,7 +437,7 @@
     },
     {
       "projectID": 220318,
-      "fileID": 2884239,
+      "fileID": 2885321,
       "required": true
     },
     {
@@ -502,7 +512,7 @@
     },
     {
       "projectID": 347954,
-      "fileID": 2884183,
+      "fileID": 2884955,
       "required": true
     },
     {
@@ -513,6 +523,11 @@
     {
       "projectID": 245480,
       "fileID": 2877675,
+      "required": true
+    },
+    {
+      "projectID": 363569,
+      "fileID": 2884964,
       "required": true
     },
     {
@@ -622,7 +637,7 @@
     },
     {
       "projectID": 318551,
-      "fileID": 2860640,
+      "fileID": 2884730,
       "required": true
     },
     {
