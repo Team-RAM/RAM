@@ -1,0 +1,11 @@
+
+#General settings
+[general]
+	#Allow players to make DimChest private, default: true
+	allowPrivateNetwork = true
+	#It is the diameter in which DimChest checks the inventories, default: 3
+	#Range: 3 ~ 7
+	diameter = 3
+	#Allow players to change the DimChest's frequency, default: true
+	allowFrequency = true
+

@@ -32,6 +32,136 @@
 		containerClass = "com.tfar.craftingstation.CraftingStationContainer"
 		sortRange = ""
 
+	[[sorting.containerOverrides]]
+		containerClass = "com.raoulvdberge.refinedstorage.container.GridContainer"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "mcjty.rftoolsstorage.modules.modularstorage.blocks.ModularStorageContainer"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.lothrazar.cyclic.block.generator.ContainerGenerator"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.lothrazar.cyclic.block.itemcollect.ContainerCollector"
+		sortRange = "0-17"
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.lothrazar.cyclic.block.battery.ContainerBattery"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "com.lothrazar.cyclic.block.harvester.ContainerHarvester"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "com.raoulvdberge.refinedstorage.container.CrafterManagerContainer"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "net.silentchaos512.gear.block.craftingstation.CraftingStationContainer"
+		sortRange = "9-26"
+		x = -15
+		y = 16
+		
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.container.DankContainers$TileDankContainer1"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.container.DankContainers$TileDankContainer2"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.container.DankContainers$TileDankContainer3"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.container.DankContainers$TileDankContainer4"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.container.DankContainers$TileDankContainer5"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.container.DankContainers$TileDankContainer6"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.container.DankContainers$TileDankContainer7"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.container.DankContainers$PortableDankContainer1"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.container.DankContainers$PortableDankContainer2"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.container.DankContainers$PortableDankContainer3"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.container.DankContainers$PortableDankContainer4"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.container.DankContainers$PortableDankContainer5"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.container.DankContainers$PortableDankContainer6"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.container.DankContainers$PortableDankContainer7"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "com.raoulvdberge.refinedstorage.container.ExporterContainer"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "com.raoulvdberge.refinedstorage.container.InterfaceContainer"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "com.raoulvdberge.refinedstorage.container.CrafterContainer"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "com.raoulvdberge.refinedstorage.container.ImporterContainer"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "com.raoulvdberge.refinedstorage.container.DiskDriveContainer"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "com.raoulvdberge.refinedstorage.container.DiskManipulatorContainer"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "net.blay09.mods.farmingforblockheads.container.MarketClientContainer"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "com.raoulvdberge.refinedstorage.container.DestructorContainer"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "com.raoulvdberge.refinedstorage.container.ConstructorContainer"
+		sortRange = ""
+		
+	[[sorting.containerOverrides]]
+		containerClass = "com.raoulvdberge.refinedstorage.container.FilterContainer"
+		sortRange = ""
+		
 	#Categor(y/ies) for sorting
 	#
 	#name: the name of the category

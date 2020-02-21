@@ -29,3 +29,16 @@ craftingTable.addShapeless("chest_conversion", <item:minecraft:chest>,
 //Logs to Sticks
 craftingTable.addShapeless("log2stick", <item:minecraft:stick> * 16, 
     [<tag:minecraft:logs>, <tag:minecraft:logs>],	null);
+	
+	
+//Logs to Chests
+craftingTable.addShaped("logs_2_chest", <item:minecraft:chest> * 4,
+		[[<tag:minecraft:logs>, <tag:minecraft:logs>, <tag:minecraft:logs>], 
+		[<tag:minecraft:logs>, <item:minecraft:air>, <tag:minecraft:logs>],
+		[<tag:minecraft:logs>, <tag:minecraft:logs>, <tag:minecraft:logs>]]);
+		
+//Logs to Barrels
+craftingTable.addShaped("logs_2_barrel", <item:minecraft:barrel> * 4,
+		[[<item:minecraft:air>, <tag:minecraft:logs>, <item:minecraft:air>], 
+		[<tag:minecraft:logs>, <tag:minecraft:logs>, <tag:minecraft:logs>],
+		[<tag:minecraft:logs>, <tag:minecraft:logs>, <tag:minecraft:logs>]]);
