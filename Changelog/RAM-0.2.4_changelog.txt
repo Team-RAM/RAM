@@ -1,0 +1,63 @@
+=============================================================
+Randomly Added Mods (RAM) 0.2.3 --> Randomly Added Mods 0.2.4
+=============================================================
+
+Updated:
+	Lollipop (Lollipop-1.15.2-1.0.5.jar --> Lollipop-1.15.2-1.0.6.jar):
+		Lollipop-1.15.2-1.0.6.jar:
+			No changelog provided.
+
+	Powah! (Powah-1.15.2-1.1.3.jar --> Powah-1.15.2-1.1.4.jar):
+		Powah-1.15.2-1.1.4.jar:
+			1.1.4
+			- Fixed a dummy dumb server crash
+			- Updated [Lollipop](https://www.curseforge.com/minecraft/mc-mods/lollipop/files/all) to 1.0.6
+			1.1.3
+			- Fixed Gui configuration screen offset.
+			- Fixed weird block lighting.
+			- Updated Lollipop to 1.0.5
+			1.1.2
+			- Fixed Manual 2 items pages has the same text Closes #40.
+			1.1.1
+			- Fixed some slots not rendering in to the GUI.
+			- Added missing GUI's screen titles.
+			- Updated Lollipop to 1.0.4
+			1.1.0
+			- Fixed Magmator fluid wrong rendering.
+			- Added Blazing Crystal block as a heat source for the Thermo gen with heat of 2800c.
+			- Changed Nitro crystal recipe output from 24 to 16.
+			- Updated Lollipop to 1.0.3
+			1.0.3
+			- Re-Implemented crafttweaker for energizing recipes.
+			- Added recipe for the manual (forgot to add it in last version).
+			- Fixed some blocks not keeping their energy when broken.
+			- Updated Lollipop to 1.0.2
+			1.0.2
+			- Re-added the manual with new entries for batteries and lens of ender and updated some screenshots.
+			- Fixed cables has wrong config.
+			- Fixed reactor tooltip.
+			1.0.1
+			- Fixed reactor placing overlay not rendering correctly.
+			- Updated Lollipop to 1.0.1.
+			1.0.0
+			- Added Two new tiers "Starter" and "Nitro".
+			- Added Batteries charge items when is in player inventory.
+			- Now Energy Hopper, Energy discharger and Player transmitter all has the known tiers.
+			- Added Dimensional binding card a replacement of Dimensional player transmitter.
+			- Reworked most of models/textures.
+			- Rebalanced energy outputs and some crafting recipes.
+			- the Book (manual) still WIP!!
+			- 1.15.2 initial release.
+			- Updated Lollipop to 1.0.0.
+			- Require forge 31.1.12 or higher.
+			NOTE!: this is the first initial release, it may contains bug or crash your world.
+
+	Powder Power [FORGE] (PowderPower-1.15.2-3.1.34.jar --> PowderPower-1.15.2-3.1.35.jar):
+		PowderPower-1.15.2-3.1.35.jar:
+			UPDATES:
+
+			 * - Fixed recipe for ender powder to yield (1), thus stopping the dup situation 
+			 * - Added JEI api integration 
+			 * - Added Info pages for the Alchemist Hammer and Alchemist Wand to better describe their usage 
+
+Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).
