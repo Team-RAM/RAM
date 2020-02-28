@@ -6,7 +6,7 @@
 	#Should active machines produce block light.
 	enableAmbientLighting = true
 	#Set to false to prevent particle spam when loading multiblocks (notification message will display instead).
-	enableMultiblockFormationParticles = true
+	enableMultiblockFormationParticles = false
 	#If enabled machines play their sounds while running.
 	enableMachineSounds = true
 	#If true, don't render Cables/Pipes/Tubes as transparent and don't render their contents.
