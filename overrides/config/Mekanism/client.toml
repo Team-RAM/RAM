@@ -22,7 +22,7 @@
 	#Allow sneak+scroll to change Configurator modes.
 	allowConfiguratorModeScroll = true
 	#Set to false to prevent particle spam when loading multiblocks (notification message will display instead).
-	enableMultiblockFormationParticles = true
+	enableMultiblockFormationParticles = false
 	#Align HUD with left (if true) or right (if false)
 	alignHUDLeft = true
 
