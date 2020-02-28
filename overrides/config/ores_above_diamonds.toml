@@ -1,0 +1,106 @@
+
+#Note that almost all config changes require a server restart. Dimensional Ore Configuration
+[dimensional_ore]
+	#Spawn ores in the overworld? Default = true
+	overworld_ores = true
+	#Spawn ores in the nether? Default = false
+	nether_ores = false
+	#Spawn ores in the end? Default = false
+	end_ores = false
+	#If nether_ores is enabled, the spawn chance per chunk in the nether will be the chances set for amethyst_chance and black_opal_chance times this multiplier. The default value tries to imitate the rarity in the overworld. Default = 1.5.
+	#Range: 0.0 ~ 10.0
+	nether_chance_multiplier = 1.5
+	#If end_ores is enabled, the spawn chance per chunk in the end will be the chances set for amethyst_chance and black_opal_chance times this multiplier. The default value tries to imitate the rarity in the overworld. Default = 3.0
+	#Range: 0.0 ~ 10.0
+	end_chance_multiplier = 2.75
+	#If nether_ores is enableld, multiplies the max vein size of nether ores. Rounds to the nearest integer. Final max vein size cannot exceed 64 for stability reasons. Default = 1.0
+	#Range: 0.0 ~ 10.0
+	nether_vein_multiplier = 1.0
+	#If end_ores is enableld, multiplies the max vein size of end ores. Rounds to the nearest integer. Final max vein size cannot exceed 64 for stability reasons. Default = 1.3
+	#Range: 0.0 ~ 10.0
+	end_vein_multiplier = 1.4
+
+#Rarity Configuration
+[ore_rarity]
+	#Chance for an Amethyst Ore vein to spawn in a chunk. 1.00 = As common as diamonds, 0.50 = Half as common as diamonds etc. Default = 0.275
+	#Range: 0.0 ~ 1.0
+	amethyst_chance = 0.275
+	#Chance for a Black Opal Ore vein to spawn in a chunk. Default = 0.0765
+	#Range: 0.0 ~ 1.0
+	black_opal_chance = 0.0765
+	#Maximum vein size for an Amethyst Ore vein. For reference, diamonds have a max vein size of 8. Default = 7
+	#Range: 0 ~ 64
+	amethyst_max_vein_size = 7
+	#Maximum vein size for an Black Opal Ore vein. Default = 6
+	#Range: 0 ~ 64
+	black_opal_max_vein_size = 6
+
+#Tool Settings. Changing these in a server will work, but it will not display the changes to the players.
+[tool]
+	#Base Attack Damage of the Amethyst Tool Set. For reference, the Diamond Tool Set has 3 base attack damage. Default = 4
+	#Range: > 0
+	amethyst_ad = 4
+	#Efficiency of the Amethyst Tool Set. For reference, the Diamond Tool Set has 8 efficiency. Default = 12
+	#Range: > 0
+	amethyst_efficiency = 12
+	#Durability of the Amethyst Tool Set. For reference, the Diamond Tool Set has 1561 durability. Set to -1 for infinite durability. Default = 5500
+	#Range: > -1
+	amethyst_durability = 5500
+	#Base Attack Damage of the Black Opal Tool Set. Default = 5
+	#Range: > 0
+	black_opal_ad = 5
+	#Efficiency of the Black Opal Tool Set. Default = 16
+	#Range: > 0
+	black_opal_efficiency = 16
+	#Durability of the Black Opal Tool Set. Set to -1 for infinite durability. Default = -1
+	#Range: > -1
+	black_opal_durability = -1
+
+#Armor Settings. These values are delicate and changing them may significantly affect the strength of the armor.
+[armor]
+	#Toughness for the Amethyst Armor Set. Toughness reduces the armor penetration of high damaging attacks. Default = 4
+	#Range: > 0
+	amethyst_armor_toughness = 4
+	#Toughness for the Black Opal Armor Set. Default = 6
+	#Range: > 0
+	black_opal_armor_toughness = 6
+	#Base Durability for the Amethyst Armor Set. For reference, Diamond Armor has 33 base durability. Set -1 for infinite durability. Default = 132
+	#Range: > -1
+	amethyst_armor_durability = 132
+	#Base Durability for the Black Opal Armor Set. Set -1 for infinite durability. Default = -1
+	#Range: > -1
+	black_opal_armor_durability = -1
+	#Amethyst Helmet Armor Value. Indicates how many half-armor points the indicated armor will give. Default = 3
+	#Range: > 0
+	amethyst_helmet_armor = 3
+	#Amethyst Chestplate Armor Value. Default = 8
+	#Range: > 0
+	amethyst_chestplate_armor = 8
+	#Amethyst Leggings Armor Value. Default = 7
+	#Range: > 0
+	amethyst_leggings_armor = 7
+	#Amethyst Boots Armor Value. Default = 3
+	#Range: > 0
+	amethyst_boots_armor = 3
+	#Black Opal Helmet Armor Value. Default = 3
+	#Range: > 0
+	black_opal_helmet_armor = 3
+	#Black Opal Chestplate Armor Value. Default = 9
+	#Range: > 0
+	black_opal_chestplate_armor = 9
+	#Black Opal Leggings Armor Value. Default = 7
+	#Range: > 0
+	black_opal_leggings_armor = 7
+	#Black Opal Boots Armor Value. Default = 3
+	#Range: > 0
+	black_opal_boots_armor = 3
+
+#Enchantability Settings
+[enchant]
+	#Amethyst Enchantability. A higher value makes it easier to obtain higher level enchantments for less experience. For reference, diamonds have an enchantability of 10 and gold has an enchantability of 25. Default = 35
+	#Range: > 0
+	amethyst = 35
+	#Black Opal Enchantability. Default = 15
+	#Range: > 0
+	black_opal = 15
+

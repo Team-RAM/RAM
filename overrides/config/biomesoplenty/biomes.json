@@ -148,6 +148,29 @@
       "weight": 3
     }
   },
+  "technical_biome_toggles": {
+    "biomesoplenty:alps_foothills": {
+      "enabled": true
+    },
+    "biomesoplenty:gravel_beach": {
+      "enabled": true
+    },
+    "biomesoplenty:orchard": {
+      "enabled": true
+    },
+    "biomesoplenty:origin_beach": {
+      "enabled": true
+    },
+    "biomesoplenty:redwood_forest_edge": {
+      "enabled": true
+    },
+    "biomesoplenty:volcano_edge": {
+      "enabled": true
+    },
+    "biomesoplenty:white_beach": {
+      "enabled": true
+    }
+  },
   "sub_biome_weights": {
     "biomesoplenty:fir_clearing": {
       "weight": 100,
@@ -186,6 +209,20 @@
       "rarity": 1.0
     }
   },
+  "island_biome_toggles": {
+    "biomesoplenty:origin_hills": {
+      "enabled": true
+    },
+    "biomesoplenty:rainbow_valley": {
+      "enabled": true
+    },
+    "biomesoplenty:tropics": {
+      "enabled": true
+    },
+    "biomesoplenty:volcano": {
+      "enabled": true
+    }
+  },
   "vanilla_biome_weights": {
     "minecraft:badlands_plateau": {
       "weight": 10
@@ -218,6 +255,9 @@
       "weight": 10
     },
     "minecraft:savanna": {
+      "weight": 10
+    },
+    "minecraft:snowy_taiga": {
       "weight": 10
     },
     "minecraft:snowy_tundra": {
