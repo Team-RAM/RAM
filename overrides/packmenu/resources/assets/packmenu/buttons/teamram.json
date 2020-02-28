@@ -1,0 +1,17 @@
+{
+	"anchor": "BOTTOM_RIGHT",
+	"x": -107,
+	"y": -92,
+	"width": 97,
+	"height": 77,
+	"u": 0,
+	"v": 0,
+	"hoverU": 0,
+	"hoverV": 0,
+	"texWidth": 97,
+	"texHeight": 77,
+	"langKey": "packmenu.discord",
+	"texture": "packmenu:textures/gui/tram.png",
+	"action": "OPEN_URL",
+	"data": "https://discord.gg/A3c5YfV"
+}
