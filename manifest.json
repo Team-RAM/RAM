@@ -12,7 +12,7 @@
   "manifestVersion": 1,
   "name": "Randomly Added Mods (RAM)",
   "version": "0.2.5",
-  "author": "Yamza_",
+  "author": "Yamza_, millificent_",
   "projectID": 357569,
   "files": [
     {
@@ -73,11 +73,6 @@
     {
       "projectID": 330369,
       "fileID": 2857689,
-      "required": true
-    },
-    {
-      "projectID": 363792,
-      "fileID": 2885937,
       "required": true
     },
     {
@@ -181,6 +176,11 @@
       "required": true
     },
     {
+      "projectID": 357178,
+      "fileID": 2887104,
+      "required": true
+    },
+    {
       "projectID": 352166,
       "fileID": 2870888,
       "required": true
@@ -206,13 +206,13 @@
       "required": true
     },
     {
-      "projectID": 348834,
-      "fileID": 2888428,
+      "projectID": 317642,
+      "fileID": 2856836,
       "required": true
     },
     {
-      "projectID": 317642,
-      "fileID": 2856836,
+      "projectID": 348834,
+      "fileID": 2888428,
       "required": true
     },
     {
@@ -546,13 +546,13 @@
       "required": true
     },
     {
-      "projectID": 237701,
-      "fileID": 2859264,
+      "projectID": 232131,
+      "fileID": 2880426,
       "required": true
     },
     {
-      "projectID": 232131,
-      "fileID": 2880426,
+      "projectID": 237701,
+      "fileID": 2859264,
       "required": true
     },
     {
@@ -561,23 +561,23 @@
       "required": true
     },
     {
-      "projectID": 325716,
-      "fileID": 2880348,
-      "required": true
-    },
-    {
       "projectID": 285612,
       "fileID": 2876591,
       "required": true
     },
     {
-      "projectID": 60028,
-      "fileID": 2888885,
+      "projectID": 325716,
+      "fileID": 2880348,
       "required": true
     },
     {
       "projectID": 351339,
       "fileID": 2888548,
+      "required": true
+    },
+    {
+      "projectID": 60028,
+      "fileID": 2888885,
       "required": true
     },
     {
