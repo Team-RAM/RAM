@@ -26,7 +26,7 @@
 	#Highlights the tomb from far when holding the key [false/true|default:true]
 	highlight = true
 	#Enables the special rendering and particles for Halloween [false/true|default:true]
-	enable_halloween_effect = false
+	enable_halloween_effect = true
 	#Favorite grave
 	#Allowed Values: GRAVE_SIMPLE, GRAVE_NORMAL, GRAVE_CROSS, TOMBSTONE, SUBARAKI_GRAVE
 	favorite_grave = "GRAVE_SIMPLE"

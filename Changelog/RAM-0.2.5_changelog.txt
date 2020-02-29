@@ -1,0 +1,489 @@
+===================================================================
+Randomly Added Mods (RAM) 0.2.4 --> Randomly Added Mods (RAM) 0.2.5
+===================================================================
+
+Forge updated:31.1.18
+
+Configs Changed:
+Tags added for Powah ores
+Fixed recipes for rftools shield templates
+
+
+Added:
+- Fishing Real
+
+Updated:
+	Aquaculture 2 (Aquaculture-1.15.2-2.0.8.jar --> Aquaculture-1.15.2-2.0.9.jar):
+		Aquaculture-1.15.2-2.0.9.jar:
+			- Fixed Neptunes Bounty rendering
+			- Added Japanese localization (Thanks to MORIMORI0317)
+			- Added French localization (Thanks to marminot)
+
+	Biomes O' Plenty (Biomes O' Plenty 1.15.2-10.0.0.338 --> Biomes O' Plenty 1.15.2-10.0.0.345):
+		Biomes O' Plenty 1.15.2-10.0.0.345:
+			 forstride:
+			 * Fixed the Snowy Taiga not generating
+
+		Biomes O' Plenty 1.15.2-10.0.0.344:
+			 forstride:
+			 * Added OnlyIn client annotation for GUI Event Handler (Closes #1561)
+
+		Biomes O' Plenty 1.15.2-10.0.0.343:
+			 Adubbz:
+			 * Attempt to fix bad maven universal artifact
+
+		Biomes O' Plenty 1.15.2-10.0.0.342:
+			 Adubbz:
+			 * Added various config options
+
+		Biomes O' Plenty 1.15.2-10.0.0.341:
+			 Adubbz:
+			 * Make the orchard a technical biome
+
+		Biomes O' Plenty 1.15.2-10.0.0.340:
+			 Adubbz:
+			 * Technical biomes can now be disabled. Fixed potential crashes when disabling certain biomes
+
+		Biomes O' Plenty 1.15.2-10.0.0.339:
+			 Adubbz:
+			 * Island biomes can now be disabled
+
+	Corail Tombstone (Corail Tombstone 4.2.2 for 1.15.1 & 1.15.2 --> Corail Tombstone 4.2.4 for 1.15.2):
+		Corail Tombstone 4.2.4 for 1.15.2:
+			This mod supports mc version from 1.8.9 to 1.15.2
+			Minecraft Version = [1.15.2] - Forge Version [31.1.8+]
+			Latest : 4.2.4 - Recommended : 4.2.4
+			Changes 4.2.4 :
+
+			 * - server configs are now in the usual config folder (#135)
+			- sync the server config to players on dedicated server (without the need to relog) Changes 4.2.3 :
+
+			 * - disabled magic items in config also disable the recipes in game (some of them have now a custom serializer "tombstone:disableable_shaped", "tombstone:disableable_shapeless" and are still editable in json for modpackers)
+			- loot entries are now done in builder allowing them to not be present when the magic item is disabled (require to reload the game)
+			- new item "tablet of cupidity" : a deceitful craftable version of lost tablets leading to others places
+			- remove beyondTheGrave damages from lost tablets
+			- update chinese translation (courtesy of Papadave66) Changes 4.2.2 :
+
+			 * - spanish translation (courtesy of EdicionGamer)
+			- a new perk Tomb Raider, for bad alignement player and if the config option Tomb Raiding is enabled, allowing to plunders some items in an abandoned grave. A grave is considered as abandoned based on the real time of the server : it's one day by default if the decayTime is not enabled and in the other case, it uses the decayTime adjusted by the level of knowledge of death of the plunderer (to allow them to acces faster theses graves than others players with a cap of 50% faster). The number of stolen items is variable and it's possible to not find all the items.
+			- hide disable items in creative tabs
+			- additional checks about cooldown if the gametime changes to an inconsistent value (fix #123)
+			- fix for the tablet of assistance (introduced in 4.2.0)
+			- some configs are now in the world save folder/serverConfig Changes 4.2.1 :
+
+			 * - fix #122 (using tablets can crash a server)
+			- tag antibuilder (in prevision of Twilight Forest) Changes 4.2.0 :
+
+			 * - improve grave items interaction with block when not enchanted
+			- fix for player not being transparent in ghostly shape
+			- update chinese lang
+			- compat Quark (totem)
+			- fix for the tablet of assistance (to prevent to skip the permission, thanks CJ)
+			- tags to prevent grave destruction for ender dragon & wither
+			- re-add compat Hwyla
+			- remove stuff related to forge breaking changes 
+
+		Corail Tombstone 4.2.3 for 1.15.2:
+			This mod supports mc version from 1.8.9 to 1.15.2
+			Minecraft Version = [1.15.2] - Forge Version [31.1.8+]
+			Latest : 4.2.3 - Recommended : 4.2.1
+			Changes 4.2.3 :
+
+			 * - disabled magic items in config also disable the recipes in game (some of them have now a custom serializer "tombstone:disableable_shaped", "tombstone:disableable_shapeless" and are still editable in json for modpackers)
+			- loot entries are now done in builder allowing them to not be present when the magic item is disabled (require to reload the game)
+			- new item "tablet of cupidity" : a deceitful craftable version of lost tablets leading to others places
+			- remove beyondTheGrave damages from lost tablets
+			- update chinese translation (courtesy of Papadave66) Changes 4.2.2 :
+
+			 * - spanish translation (courtesy of EdicionGamer)
+			- a new perk Tomb Raider, for bad alignement player and if the config option Tomb Raiding is enabled, allowing to plunders some items in an abandoned grave. A grave is considered as abandoned based on the real time of the server : it's one day by default if the decayTime is not enabled and in the other case, it uses the decayTime adjusted by the level of knowledge of death of the plunderer (to allow them to acces faster theses graves than others players with a cap of 50% faster). The number of stolen items is variable and it's possible to not find all the items.
+			- hide disable items in creative tabs
+			- additional checks about cooldown if the gametime changes to an inconsistent value (fix #123)
+			- fix for the tablet of assistance (introduced in 4.2.0)
+			- some configs are now in the world save folder/serverConfig Changes 4.2.1 :
+
+			 * - fix #122 (using tablets can crash a server)
+			- tag antibuilder (in prevision of Twilight Forest) Changes 4.2.0 :
+
+			 * - improve grave items interaction with block when not enchanted
+			- fix for player not being transparent in ghostly shape
+			- update chinese lang
+			- compat Quark (totem)
+			- fix for the tablet of assistance (to prevent to skip the permission, thanks CJ)
+			- tags to prevent grave destruction for ender dragon & wither
+			- re-add compat Hwyla
+			- remove stuff related to forge breaking changes 
+
+	CraftTweaker (CraftTweaker-1.15.2-6.0.0.6.jar --> CraftTweaker-1.15.2-6.0.0.9.jar):
+		CraftTweaker-1.15.2-6.0.0.9.jar:
+			Current version: 6.0.0.9
+
+			 * [update forge and mappings](https://github.com/CraftTweaker/CraftTweaker/commit/25f90e830ba4811abd30e1a86873aee4c2515525) - Jared - Fri Feb 28 00:20:53 2020 
+			 * [Get the recipetype safer, hopefully. Close #927](https://github.com/CraftTweaker/CraftTweaker/commit/ea4a96caf94cbf43103ea16a4f47a5d2ea8a2577) - Jared - Wed Feb 26 23:09:51 2020 
+			 * [Fixed scripts bigger than 32k not working on servers](https://github.com/CraftTweaker/CraftTweaker/commit/250194edf597fc06b93c5017ad4d61e6398091d7) - Jared - Wed Feb 26 20:40:48 2020 
+			 * [made it possible to cast a string to an int and double](https://github.com/CraftTweaker/CraftTweaker/commit/634576292be37aba8cc5b6aef5a33e4ff900937e) - Jared - Tue Feb 18 23:13:45 2020 
+			 * [update jar file name and mods.toml](https://github.com/CraftTweaker/CraftTweaker/commit/41da80a7a30c6ff96286ccdc6039f4a0359e45e3) - Jared - Fri Feb 7 21:14:27 2020 
+			 * [port to 1.15.2](https://github.com/CraftTweaker/CraftTweaker/commit/a8be724fd6eb4a8e5c49af0bdaa4ec3e96af2fff) - Jared - Fri Feb 7 11:55:03 2020 
+			 * [add a way to check if a MCTag is a certain type of tag](https://github.com/CraftTweaker/CraftTweaker/commit/10a2b04483ce4032c6ffb8803b567e2dcbedce5a) - Jared - Fri Feb 7 11:39:02 2020 
+			 * [update MC and forge versions in toml and gradle](https://github.com/CraftTweaker/CraftTweaker/commit/457020bbf055aea2e4e6aad015309e6e9ccfacdf) - Jared - Wed Jan 22 21:36:34 2020 
+			 * [update changelog commit](https://github.com/CraftTweaker/CraftTweaker/commit/c9ef77624a3c438180d561f3ea05916e4738c83d) - Jared - Wed Jan 22 21:36:34 2020 
+			 * [port to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/b21c1f5da8ec69929d34647873c9729be2458e4e) - Jared - Wed Jan 22 21:36:34 2020 
+			 * [update JEI](https://github.com/CraftTweaker/CraftTweaker/commit/c1c4434a134398e429ba4ba62f7affe05e57f367) - Jared - Wed Jan 22 21:35:54 2020 
+			 * [update forge to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/39f45343748414de06395a6e2a23b185f317452c) - Jared - Wed Jan 22 21:35:54 2020 
+			 * [wrapper classes docs are now /vanilla/api/](https://github.com/CraftTweaker/CraftTweaker/commit/e524914f5b057a9c007dca1310638c2bcac53d31) - Jared - Sun Jan 19 22:18:46 2020 
+			 * [move all generated docs to /vanilla/api](https://github.com/CraftTweaker/CraftTweaker/commit/6a1d9f4f69025c20e450feef2ca561c7ab54ad03) - Jared - Sun Jan 19 22:15:13 2020 
+			 * [no more value = for docs annotation](https://github.com/CraftTweaker/CraftTweaker/commit/ba576f0a25678a6451080d23403ae3954d41d914) - Jared - Sun Jan 19 22:03:38 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/f3b595aa161e93f6ff90788b53fbea04ee9b265d) - kindlich - Sat Jan 11 13:58:34 2020 
+			 * [make YAML output be in folders](https://github.com/CraftTweaker/CraftTweaker/commit/0de76eb4e3008edf0963c65d83ee971b4963c20c) - Jared - Fri Jan 10 22:55:02 2020 
+			 * [ignore docsOut and src/generated](https://github.com/CraftTweaker/CraftTweaker/commit/c7f9f97ed3398bc61b0bf81f1050284fb0c6ca79) - Jared - Fri Jan 10 22:54:34 2020 
+			 * [update ZC to fix server crashes](https://github.com/CraftTweaker/CraftTweaker/commit/7c703a57a06fc9bb2ea7d2ecde673e7ff18f89ef) - Jared - Fri Jan 10 22:23:43 2020 
+			 * [update ZC](https://github.com/CraftTweaker/CraftTweaker/commit/224ad15e53c38b430dbd4230922d82f7f5b59977) - Jared - Fri Jan 10 19:21:41 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/5d9f252e406156b81bcadd720b95e8a9ddca43f4) - kindlich - Fri Jan 10 19:06:10 2020 
+			 * [Added IIngredient#asIData](https://github.com/CraftTweaker/CraftTweaker/commit/1f4761cdf63d7b8b9bd878ac2a34940a36a4eb17) - kindlich - Fri Jan 10 19:00:45 2020 
+			 * [Updated Doc location for Biome and BiomeSpawnEntry](https://github.com/CraftTweaker/CraftTweaker/commit/02cf6a708b3d163174ddfd31276807d941b78cdc) - kindlich - Fri Jan 10 18:58:57 2020 
+			 * [update ZS](https://github.com/CraftTweaker/CraftTweaker/commit/2839aed162ff778c0acd40472474a3fde50e83bc) - Jared - Wed Jan 8 17:53:38 2020 
+			 * [Removed test code for no wrapper file](https://github.com/CraftTweaker/CraftTweaker/commit/69fa5381ed1f6457342fd34fde78155ecbb4143b) - kindlich - Sun Jan 5 20:23:39 2020 
+			 * [DocumentProcessor: Clear the output directory first](https://github.com/CraftTweaker/CraftTweaker/commit/d64087adf887972238ba1ec7482ce8e83676f395) - kindlich - Sun Jan 5 20:20:35 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/9f960d9c5a301a942c48512e4ab2085a08d83ea9) - kindlich - Sun Jan 5 19:51:50 2020 
+			 * [Added some advancements as being wrapped](https://github.com/CraftTweaker/CraftTweaker/commit/57cc981aee01abaa689b872ab851d63a7db4b366) - kindlich - Wed Jan 1 23:45:25 2020 
+			 * [Fixed some issues with the wrapper Processor](https://github.com/CraftTweaker/CraftTweaker/commit/e22c6972784858c8118eb1485496f1ea1eb655c8) - kindlich - Wed Jan 1 23:44:59 2020 
+			 * [Forgot Some these](https://github.com/CraftTweaker/CraftTweaker/commit/54a5854f42414293ff8c6ea897f9c86a45956665) - kindlich - Wed Jan 1 22:56:12 2020 
+			 * [Event Wrapper and Comment cleanup](https://github.com/CraftTweaker/CraftTweaker/commit/13501a232699331ea342199b86ec938692e621ee) - kindlich - Wed Jan 1 21:35:22 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/100bfb38141ec271a31e04e342f82cad6dc0a4a4) - kindlich - Wed Jan 1 16:43:17 2020 
+			 * [Removed 2nd MCWorld](https://github.com/CraftTweaker/CraftTweaker/commit/d82e4ef51904c0378c4025973a14dfdbb5b0da7c) - kindlich - Wed Jan 1 16:30:19 2020 
+			 * [Removed unused buildSrc](https://github.com/CraftTweaker/CraftTweaker/commit/0b782c48bb8d36950a00546258d0d63d9f98154c) - kindlich - Wed Jan 1 16:27:20 2020 
+			 * [Made Event listeners unregister themselves on a reload](https://github.com/CraftTweaker/CraftTweaker/commit/592e7d9862449a6f7285a65250be98296e3820d3) - kindlich - Wed Jan 1 16:25:55 2020 
+			 * [Only remove sidedActions when on the same side](https://github.com/CraftTweaker/CraftTweaker/commit/7d15faf7ae87abbc96d060cdc832b6cc957a7002) - kindlich - Wed Jan 1 16:24:36 2020 
+			 * [Added missing Document and ZenWrapper annotations](https://github.com/CraftTweaker/CraftTweaker/commit/42cd76858c4bb9901ac234f2bd2cc9bc342738d5) - kindlich - Wed Jan 1 16:23:38 2020 
+			 * [More work on wrappers](https://github.com/CraftTweaker/CraftTweaker/commit/a5f6a37ecd56898eefd2408b9e4177cba5927aba) - kindlich - Wed Jan 1 16:22:16 2020 
+			 * [Committing stuff before I do something stupid](https://github.com/CraftTweaker/CraftTweaker/commit/a93ea989e169113d715fa84e4144b8ca23491b06) - kindlich - Tue Dec 31 23:03:43 2019 
+			 * [Committing stuff before I do something stupid](https://github.com/CraftTweaker/CraftTweaker/commit/2c785dbd40fa4e6ad62d6574347041f85fa7984f) - kindlich - Tue Dec 31 21:46:11 2019 
+			 * [CTTooltipEvent handler working now.](https://github.com/CraftTweaker/CraftTweaker/commit/b43eefc90d69e5111b7a17fdac383bbf0487fc78) - kindlich - Fri Dec 27 16:52:33 2019 
+			 * [Some minor cleanup for Annotation Processors](https://github.com/CraftTweaker/CraftTweaker/commit/2e0897e84a4fbd7733d63d1fb054f80411fe929b) - kindlich - Thu Dec 26 23:07:54 2019 
+			 * [Simple yaml generation and fixed multiple classes being generated](https://github.com/CraftTweaker/CraftTweaker/commit/2912e29a540d1241f7616e3641a9a95f276019a1) - kindlich - Mon Dec 23 13:31:29 2019 
+			 * [Some cleanup](https://github.com/CraftTweaker/CraftTweaker/commit/18591fa7ac102e2cf11c172d9bc5e76b92b10624) - kindlich - Mon Dec 23 13:06:59 2019 
+			 * [Some more work on Expansions and declaredModid](https://github.com/CraftTweaker/CraftTweaker/commit/91eb925ba4ecdf5a03498677a572383547fd04cc) - kindlich - Mon Dec 23 12:53:29 2019 
+			 * [Started working on expansion classes](https://github.com/CraftTweaker/CraftTweaker/commit/4b68e0e43bd13b86d94b227b97a67094ae0981ea) - kindlich - Sun Dec 22 23:23:31 2019 
+			 * [Normal classes should be running now](https://github.com/CraftTweaker/CraftTweaker/commit/6b06dd25f2b4adb58c72eec818d5f87cafdc98f7) - kindlich - Sun Dec 22 21:15:31 2019 
+			 * [Base classes for Document Processor rewrite](https://github.com/CraftTweaker/CraftTweaker/commit/34fd8a748133dbc8a0c609ae9e21ef41336252d4) - kindlich - Sat Dec 21 22:42:42 2019 
+			 * [Start working on annotation processor rewrite](https://github.com/CraftTweaker/CraftTweaker/commit/bd6cf0c2cf376516896fa603fa3a9bc41911760f) - kindlich - Fri Dec 20 14:04:26 2019 
+			 * [Replaced IEventHandler with Consumer](https://github.com/CraftTweaker/CraftTweaker/commit/e0fcd372ad7143fa3a69f42d0c4fd59cf00e2986) - kindlich - Sat Dec 14 21:25:17 2019 
+			 * [event test](https://github.com/CraftTweaker/CraftTweaker/commit/98d834eed872ba45bb9ecd24b4bbab249b9f031a) - Jared - Thu Dec 12 18:43:10 2019 
+
+		CraftTweaker-1.15.2-6.0.0.8.jar:
+			Current version: 6.0.0.8
+
+			 * [Get the recipetype safer, hopefully. Close #927](https://github.com/CraftTweaker/CraftTweaker/commit/ea4a96caf94cbf43103ea16a4f47a5d2ea8a2577) - Jared - Wed Feb 26 23:09:51 2020 
+			 * [Fixed scripts bigger than 32k not working on servers](https://github.com/CraftTweaker/CraftTweaker/commit/250194edf597fc06b93c5017ad4d61e6398091d7) - Jared - Wed Feb 26 20:40:48 2020 
+			 * [made it possible to cast a string to an int and double](https://github.com/CraftTweaker/CraftTweaker/commit/634576292be37aba8cc5b6aef5a33e4ff900937e) - Jared - Tue Feb 18 23:13:45 2020 
+			 * [update jar file name and mods.toml](https://github.com/CraftTweaker/CraftTweaker/commit/41da80a7a30c6ff96286ccdc6039f4a0359e45e3) - Jared - Fri Feb 7 21:14:27 2020 
+			 * [port to 1.15.2](https://github.com/CraftTweaker/CraftTweaker/commit/a8be724fd6eb4a8e5c49af0bdaa4ec3e96af2fff) - Jared - Fri Feb 7 11:55:03 2020 
+			 * [add a way to check if a MCTag is a certain type of tag](https://github.com/CraftTweaker/CraftTweaker/commit/10a2b04483ce4032c6ffb8803b567e2dcbedce5a) - Jared - Fri Feb 7 11:39:02 2020 
+			 * [update MC and forge versions in toml and gradle](https://github.com/CraftTweaker/CraftTweaker/commit/457020bbf055aea2e4e6aad015309e6e9ccfacdf) - Jared - Wed Jan 22 21:36:34 2020 
+			 * [update changelog commit](https://github.com/CraftTweaker/CraftTweaker/commit/c9ef77624a3c438180d561f3ea05916e4738c83d) - Jared - Wed Jan 22 21:36:34 2020 
+			 * [port to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/b21c1f5da8ec69929d34647873c9729be2458e4e) - Jared - Wed Jan 22 21:36:34 2020 
+			 * [update JEI](https://github.com/CraftTweaker/CraftTweaker/commit/c1c4434a134398e429ba4ba62f7affe05e57f367) - Jared - Wed Jan 22 21:35:54 2020 
+			 * [update forge to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/39f45343748414de06395a6e2a23b185f317452c) - Jared - Wed Jan 22 21:35:54 2020 
+			 * [wrapper classes docs are now /vanilla/api/](https://github.com/CraftTweaker/CraftTweaker/commit/e524914f5b057a9c007dca1310638c2bcac53d31) - Jared - Sun Jan 19 22:18:46 2020 
+			 * [move all generated docs to /vanilla/api](https://github.com/CraftTweaker/CraftTweaker/commit/6a1d9f4f69025c20e450feef2ca561c7ab54ad03) - Jared - Sun Jan 19 22:15:13 2020 
+			 * [no more value = for docs annotation](https://github.com/CraftTweaker/CraftTweaker/commit/ba576f0a25678a6451080d23403ae3954d41d914) - Jared - Sun Jan 19 22:03:38 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/f3b595aa161e93f6ff90788b53fbea04ee9b265d) - kindlich - Sat Jan 11 13:58:34 2020 
+			 * [make YAML output be in folders](https://github.com/CraftTweaker/CraftTweaker/commit/0de76eb4e3008edf0963c65d83ee971b4963c20c) - Jared - Fri Jan 10 22:55:02 2020 
+			 * [ignore docsOut and src/generated](https://github.com/CraftTweaker/CraftTweaker/commit/c7f9f97ed3398bc61b0bf81f1050284fb0c6ca79) - Jared - Fri Jan 10 22:54:34 2020 
+			 * [update ZC to fix server crashes](https://github.com/CraftTweaker/CraftTweaker/commit/7c703a57a06fc9bb2ea7d2ecde673e7ff18f89ef) - Jared - Fri Jan 10 22:23:43 2020 
+			 * [update ZC](https://github.com/CraftTweaker/CraftTweaker/commit/224ad15e53c38b430dbd4230922d82f7f5b59977) - Jared - Fri Jan 10 19:21:41 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/5d9f252e406156b81bcadd720b95e8a9ddca43f4) - kindlich - Fri Jan 10 19:06:10 2020 
+			 * [Added IIngredient#asIData](https://github.com/CraftTweaker/CraftTweaker/commit/1f4761cdf63d7b8b9bd878ac2a34940a36a4eb17) - kindlich - Fri Jan 10 19:00:45 2020 
+			 * [Updated Doc location for Biome and BiomeSpawnEntry](https://github.com/CraftTweaker/CraftTweaker/commit/02cf6a708b3d163174ddfd31276807d941b78cdc) - kindlich - Fri Jan 10 18:58:57 2020 
+			 * [update ZS](https://github.com/CraftTweaker/CraftTweaker/commit/2839aed162ff778c0acd40472474a3fde50e83bc) - Jared - Wed Jan 8 17:53:38 2020 
+			 * [Removed test code for no wrapper file](https://github.com/CraftTweaker/CraftTweaker/commit/69fa5381ed1f6457342fd34fde78155ecbb4143b) - kindlich - Sun Jan 5 20:23:39 2020 
+			 * [DocumentProcessor: Clear the output directory first](https://github.com/CraftTweaker/CraftTweaker/commit/d64087adf887972238ba1ec7482ce8e83676f395) - kindlich - Sun Jan 5 20:20:35 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/9f960d9c5a301a942c48512e4ab2085a08d83ea9) - kindlich - Sun Jan 5 19:51:50 2020 
+			 * [Added some advancements as being wrapped](https://github.com/CraftTweaker/CraftTweaker/commit/57cc981aee01abaa689b872ab851d63a7db4b366) - kindlich - Wed Jan 1 23:45:25 2020 
+			 * [Fixed some issues with the wrapper Processor](https://github.com/CraftTweaker/CraftTweaker/commit/e22c6972784858c8118eb1485496f1ea1eb655c8) - kindlich - Wed Jan 1 23:44:59 2020 
+			 * [Forgot Some these](https://github.com/CraftTweaker/CraftTweaker/commit/54a5854f42414293ff8c6ea897f9c86a45956665) - kindlich - Wed Jan 1 22:56:12 2020 
+			 * [Event Wrapper and Comment cleanup](https://github.com/CraftTweaker/CraftTweaker/commit/13501a232699331ea342199b86ec938692e621ee) - kindlich - Wed Jan 1 21:35:22 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/100bfb38141ec271a31e04e342f82cad6dc0a4a4) - kindlich - Wed Jan 1 16:43:17 2020 
+			 * [Removed 2nd MCWorld](https://github.com/CraftTweaker/CraftTweaker/commit/d82e4ef51904c0378c4025973a14dfdbb5b0da7c) - kindlich - Wed Jan 1 16:30:19 2020 
+			 * [Removed unused buildSrc](https://github.com/CraftTweaker/CraftTweaker/commit/0b782c48bb8d36950a00546258d0d63d9f98154c) - kindlich - Wed Jan 1 16:27:20 2020 
+			 * [Made Event listeners unregister themselves on a reload](https://github.com/CraftTweaker/CraftTweaker/commit/592e7d9862449a6f7285a65250be98296e3820d3) - kindlich - Wed Jan 1 16:25:55 2020 
+			 * [Only remove sidedActions when on the same side](https://github.com/CraftTweaker/CraftTweaker/commit/7d15faf7ae87abbc96d060cdc832b6cc957a7002) - kindlich - Wed Jan 1 16:24:36 2020 
+			 * [Added missing Document and ZenWrapper annotations](https://github.com/CraftTweaker/CraftTweaker/commit/42cd76858c4bb9901ac234f2bd2cc9bc342738d5) - kindlich - Wed Jan 1 16:23:38 2020 
+			 * [More work on wrappers](https://github.com/CraftTweaker/CraftTweaker/commit/a5f6a37ecd56898eefd2408b9e4177cba5927aba) - kindlich - Wed Jan 1 16:22:16 2020 
+			 * [Committing stuff before I do something stupid](https://github.com/CraftTweaker/CraftTweaker/commit/a93ea989e169113d715fa84e4144b8ca23491b06) - kindlich - Tue Dec 31 23:03:43 2019 
+			 * [Committing stuff before I do something stupid](https://github.com/CraftTweaker/CraftTweaker/commit/2c785dbd40fa4e6ad62d6574347041f85fa7984f) - kindlich - Tue Dec 31 21:46:11 2019 
+			 * [CTTooltipEvent handler working now.](https://github.com/CraftTweaker/CraftTweaker/commit/b43eefc90d69e5111b7a17fdac383bbf0487fc78) - kindlich - Fri Dec 27 16:52:33 2019 
+			 * [Some minor cleanup for Annotation Processors](https://github.com/CraftTweaker/CraftTweaker/commit/2e0897e84a4fbd7733d63d1fb054f80411fe929b) - kindlich - Thu Dec 26 23:07:54 2019 
+			 * [Simple yaml generation and fixed multiple classes being generated](https://github.com/CraftTweaker/CraftTweaker/commit/2912e29a540d1241f7616e3641a9a95f276019a1) - kindlich - Mon Dec 23 13:31:29 2019 
+			 * [Some cleanup](https://github.com/CraftTweaker/CraftTweaker/commit/18591fa7ac102e2cf11c172d9bc5e76b92b10624) - kindlich - Mon Dec 23 13:06:59 2019 
+			 * [Some more work on Expansions and declaredModid](https://github.com/CraftTweaker/CraftTweaker/commit/91eb925ba4ecdf5a03498677a572383547fd04cc) - kindlich - Mon Dec 23 12:53:29 2019 
+			 * [Started working on expansion classes](https://github.com/CraftTweaker/CraftTweaker/commit/4b68e0e43bd13b86d94b227b97a67094ae0981ea) - kindlich - Sun Dec 22 23:23:31 2019 
+			 * [Normal classes should be running now](https://github.com/CraftTweaker/CraftTweaker/commit/6b06dd25f2b4adb58c72eec818d5f87cafdc98f7) - kindlich - Sun Dec 22 21:15:31 2019 
+			 * [Base classes for Document Processor rewrite](https://github.com/CraftTweaker/CraftTweaker/commit/34fd8a748133dbc8a0c609ae9e21ef41336252d4) - kindlich - Sat Dec 21 22:42:42 2019 
+			 * [Start working on annotation processor rewrite](https://github.com/CraftTweaker/CraftTweaker/commit/bd6cf0c2cf376516896fa603fa3a9bc41911760f) - kindlich - Fri Dec 20 14:04:26 2019 
+			 * [Replaced IEventHandler with Consumer](https://github.com/CraftTweaker/CraftTweaker/commit/e0fcd372ad7143fa3a69f42d0c4fd59cf00e2986) - kindlich - Sat Dec 14 21:25:17 2019 
+			 * [event test](https://github.com/CraftTweaker/CraftTweaker/commit/98d834eed872ba45bb9ecd24b4bbab249b9f031a) - Jared - Thu Dec 12 18:43:10 2019 
+
+		CraftTweaker-1.15.2-6.0.0.7.jar:
+			Current version: 6.0.0.7
+
+			 * [Fixed scripts bigger than 32k not working on servers](https://github.com/CraftTweaker/CraftTweaker/commit/250194edf597fc06b93c5017ad4d61e6398091d7) - Jared - Wed Feb 26 20:40:48 2020 
+			 * [made it possible to cast a string to an int and double](https://github.com/CraftTweaker/CraftTweaker/commit/634576292be37aba8cc5b6aef5a33e4ff900937e) - Jared - Tue Feb 18 23:13:45 2020 
+			 * [update jar file name and mods.toml](https://github.com/CraftTweaker/CraftTweaker/commit/41da80a7a30c6ff96286ccdc6039f4a0359e45e3) - Jared - Fri Feb 7 21:14:27 2020 
+			 * [port to 1.15.2](https://github.com/CraftTweaker/CraftTweaker/commit/a8be724fd6eb4a8e5c49af0bdaa4ec3e96af2fff) - Jared - Fri Feb 7 11:55:03 2020 
+			 * [add a way to check if a MCTag is a certain type of tag](https://github.com/CraftTweaker/CraftTweaker/commit/10a2b04483ce4032c6ffb8803b567e2dcbedce5a) - Jared - Fri Feb 7 11:39:02 2020 
+			 * [update MC and forge versions in toml and gradle](https://github.com/CraftTweaker/CraftTweaker/commit/457020bbf055aea2e4e6aad015309e6e9ccfacdf) - Jared - Wed Jan 22 21:36:34 2020 
+			 * [update changelog commit](https://github.com/CraftTweaker/CraftTweaker/commit/c9ef77624a3c438180d561f3ea05916e4738c83d) - Jared - Wed Jan 22 21:36:34 2020 
+			 * [port to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/b21c1f5da8ec69929d34647873c9729be2458e4e) - Jared - Wed Jan 22 21:36:34 2020 
+			 * [update JEI](https://github.com/CraftTweaker/CraftTweaker/commit/c1c4434a134398e429ba4ba62f7affe05e57f367) - Jared - Wed Jan 22 21:35:54 2020 
+			 * [update forge to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/39f45343748414de06395a6e2a23b185f317452c) - Jared - Wed Jan 22 21:35:54 2020 
+			 * [wrapper classes docs are now /vanilla/api/](https://github.com/CraftTweaker/CraftTweaker/commit/e524914f5b057a9c007dca1310638c2bcac53d31) - Jared - Sun Jan 19 22:18:46 2020 
+			 * [move all generated docs to /vanilla/api](https://github.com/CraftTweaker/CraftTweaker/commit/6a1d9f4f69025c20e450feef2ca561c7ab54ad03) - Jared - Sun Jan 19 22:15:13 2020 
+			 * [no more value = for docs annotation](https://github.com/CraftTweaker/CraftTweaker/commit/ba576f0a25678a6451080d23403ae3954d41d914) - Jared - Sun Jan 19 22:03:38 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/f3b595aa161e93f6ff90788b53fbea04ee9b265d) - kindlich - Sat Jan 11 13:58:34 2020 
+			 * [make YAML output be in folders](https://github.com/CraftTweaker/CraftTweaker/commit/0de76eb4e3008edf0963c65d83ee971b4963c20c) - Jared - Fri Jan 10 22:55:02 2020 
+			 * [ignore docsOut and src/generated](https://github.com/CraftTweaker/CraftTweaker/commit/c7f9f97ed3398bc61b0bf81f1050284fb0c6ca79) - Jared - Fri Jan 10 22:54:34 2020 
+			 * [update ZC to fix server crashes](https://github.com/CraftTweaker/CraftTweaker/commit/7c703a57a06fc9bb2ea7d2ecde673e7ff18f89ef) - Jared - Fri Jan 10 22:23:43 2020 
+			 * [update ZC](https://github.com/CraftTweaker/CraftTweaker/commit/224ad15e53c38b430dbd4230922d82f7f5b59977) - Jared - Fri Jan 10 19:21:41 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/5d9f252e406156b81bcadd720b95e8a9ddca43f4) - kindlich - Fri Jan 10 19:06:10 2020 
+			 * [Added IIngredient#asIData](https://github.com/CraftTweaker/CraftTweaker/commit/1f4761cdf63d7b8b9bd878ac2a34940a36a4eb17) - kindlich - Fri Jan 10 19:00:45 2020 
+			 * [Updated Doc location for Biome and BiomeSpawnEntry](https://github.com/CraftTweaker/CraftTweaker/commit/02cf6a708b3d163174ddfd31276807d941b78cdc) - kindlich - Fri Jan 10 18:58:57 2020 
+			 * [update ZS](https://github.com/CraftTweaker/CraftTweaker/commit/2839aed162ff778c0acd40472474a3fde50e83bc) - Jared - Wed Jan 8 17:53:38 2020 
+			 * [Removed test code for no wrapper file](https://github.com/CraftTweaker/CraftTweaker/commit/69fa5381ed1f6457342fd34fde78155ecbb4143b) - kindlich - Sun Jan 5 20:23:39 2020 
+			 * [DocumentProcessor: Clear the output directory first](https://github.com/CraftTweaker/CraftTweaker/commit/d64087adf887972238ba1ec7482ce8e83676f395) - kindlich - Sun Jan 5 20:20:35 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/9f960d9c5a301a942c48512e4ab2085a08d83ea9) - kindlich - Sun Jan 5 19:51:50 2020 
+			 * [Added some advancements as being wrapped](https://github.com/CraftTweaker/CraftTweaker/commit/57cc981aee01abaa689b872ab851d63a7db4b366) - kindlich - Wed Jan 1 23:45:25 2020 
+			 * [Fixed some issues with the wrapper Processor](https://github.com/CraftTweaker/CraftTweaker/commit/e22c6972784858c8118eb1485496f1ea1eb655c8) - kindlich - Wed Jan 1 23:44:59 2020 
+			 * [Forgot Some these](https://github.com/CraftTweaker/CraftTweaker/commit/54a5854f42414293ff8c6ea897f9c86a45956665) - kindlich - Wed Jan 1 22:56:12 2020 
+			 * [Event Wrapper and Comment cleanup](https://github.com/CraftTweaker/CraftTweaker/commit/13501a232699331ea342199b86ec938692e621ee) - kindlich - Wed Jan 1 21:35:22 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/100bfb38141ec271a31e04e342f82cad6dc0a4a4) - kindlich - Wed Jan 1 16:43:17 2020 
+			 * [Removed 2nd MCWorld](https://github.com/CraftTweaker/CraftTweaker/commit/d82e4ef51904c0378c4025973a14dfdbb5b0da7c) - kindlich - Wed Jan 1 16:30:19 2020 
+			 * [Removed unused buildSrc](https://github.com/CraftTweaker/CraftTweaker/commit/0b782c48bb8d36950a00546258d0d63d9f98154c) - kindlich - Wed Jan 1 16:27:20 2020 
+			 * [Made Event listeners unregister themselves on a reload](https://github.com/CraftTweaker/CraftTweaker/commit/592e7d9862449a6f7285a65250be98296e3820d3) - kindlich - Wed Jan 1 16:25:55 2020 
+			 * [Only remove sidedActions when on the same side](https://github.com/CraftTweaker/CraftTweaker/commit/7d15faf7ae87abbc96d060cdc832b6cc957a7002) - kindlich - Wed Jan 1 16:24:36 2020 
+			 * [Added missing Document and ZenWrapper annotations](https://github.com/CraftTweaker/CraftTweaker/commit/42cd76858c4bb9901ac234f2bd2cc9bc342738d5) - kindlich - Wed Jan 1 16:23:38 2020 
+			 * [More work on wrappers](https://github.com/CraftTweaker/CraftTweaker/commit/a5f6a37ecd56898eefd2408b9e4177cba5927aba) - kindlich - Wed Jan 1 16:22:16 2020 
+			 * [Committing stuff before I do something stupid](https://github.com/CraftTweaker/CraftTweaker/commit/a93ea989e169113d715fa84e4144b8ca23491b06) - kindlich - Tue Dec 31 23:03:43 2019 
+			 * [Committing stuff before I do something stupid](https://github.com/CraftTweaker/CraftTweaker/commit/2c785dbd40fa4e6ad62d6574347041f85fa7984f) - kindlich - Tue Dec 31 21:46:11 2019 
+			 * [CTTooltipEvent handler working now.](https://github.com/CraftTweaker/CraftTweaker/commit/b43eefc90d69e5111b7a17fdac383bbf0487fc78) - kindlich - Fri Dec 27 16:52:33 2019 
+			 * [Some minor cleanup for Annotation Processors](https://github.com/CraftTweaker/CraftTweaker/commit/2e0897e84a4fbd7733d63d1fb054f80411fe929b) - kindlich - Thu Dec 26 23:07:54 2019 
+			 * [Simple yaml generation and fixed multiple classes being generated](https://github.com/CraftTweaker/CraftTweaker/commit/2912e29a540d1241f7616e3641a9a95f276019a1) - kindlich - Mon Dec 23 13:31:29 2019 
+			 * [Some cleanup](https://github.com/CraftTweaker/CraftTweaker/commit/18591fa7ac102e2cf11c172d9bc5e76b92b10624) - kindlich - Mon Dec 23 13:06:59 2019 
+			 * [Some more work on Expansions and declaredModid](https://github.com/CraftTweaker/CraftTweaker/commit/91eb925ba4ecdf5a03498677a572383547fd04cc) - kindlich - Mon Dec 23 12:53:29 2019 
+			 * [Started working on expansion classes](https://github.com/CraftTweaker/CraftTweaker/commit/4b68e0e43bd13b86d94b227b97a67094ae0981ea) - kindlich - Sun Dec 22 23:23:31 2019 
+			 * [Normal classes should be running now](https://github.com/CraftTweaker/CraftTweaker/commit/6b06dd25f2b4adb58c72eec818d5f87cafdc98f7) - kindlich - Sun Dec 22 21:15:31 2019 
+			 * [Base classes for Document Processor rewrite](https://github.com/CraftTweaker/CraftTweaker/commit/34fd8a748133dbc8a0c609ae9e21ef41336252d4) - kindlich - Sat Dec 21 22:42:42 2019 
+			 * [Start working on annotation processor rewrite](https://github.com/CraftTweaker/CraftTweaker/commit/bd6cf0c2cf376516896fa603fa3a9bc41911760f) - kindlich - Fri Dec 20 14:04:26 2019 
+			 * [Replaced IEventHandler with Consumer](https://github.com/CraftTweaker/CraftTweaker/commit/e0fcd372ad7143fa3a69f42d0c4fd59cf00e2986) - kindlich - Sat Dec 14 21:25:17 2019 
+			 * [event test](https://github.com/CraftTweaker/CraftTweaker/commit/98d834eed872ba45bb9ecd24b4bbab249b9f031a) - Jared - Thu Dec 12 18:43:10 2019 
+
+	Curios API (curios-FORGE-1.15.2-2.0-beta2.jar --> curios-FORGE-1.15.2-2.0.jar):
+		curios-FORGE-1.15.2-2.0.jar:
+			Changelog
+			All notable changes to this project will be documented in this file.
+			The format is based on [Keep a Changelog]() and this project does not adhere to [Semantic Versioning](). This project uses MCVERSION-MAJORMOD.MAJORAPI.MINOR.PATCH.
+			[2.0] - 2020.02.24
+			Fixed
+
+			 * Fixed compatibility issue with Ensorcellation's Soulbound enchantment [#41](https://github.com/TheIllusiveC4/Curios/issues/41) [2.0-beta2] - 2020.01.26
+			Changed
+
+			 * Updated to 1.15.2 Added
+
+			 * Re-added JEI integration 
+			 * Added Japanese localization (thanks MORIMORI0317!) Fixed
+
+			 * Fixed generic curio slot icon showing missing texture [2.0-beta] - 2019.12.30
+			Changed
+
+			 * Ported to 1.15.1 
+			 * [API] ICurio#doRender -> ICurio#render 
+			 * Curio rendering no longer automatically applies sneaking translations 
+			 * Curio slot icons need to be manually stitched into the block texture atlas 
+
+	Default Amplified Biomes(DAB) (DefaultAmplified(1.15.2)-1.3.1.jar --> DefaultAmplified(1.15.2)-1.4.0.jar):
+		DefaultAmplified(1.15.2)-1.4.0.jar:
+			Added Amplified Savanna
+
+	DimStorage (DimStorage-1.15.2-3.0.0 --> DimStorage-1.15.2-3.0.1):
+		DimStorage-1.15.2-3.0.1:
+			- Fixed a bug that prevented the player from opening his DimChest after changing his name
+			- DimChests with private frequencies may no longer open, empty the content before updating
+			- Added new languages
+
+	I Like Wood (ilikewood-1.15.2-2.1.0.0 --> ilikewood-1.15.2-2.2.0.0):
+		ilikewood-1.15.2-2.2.0.0:
+			BiomesOPlenty support: (builds against 1.15.2-10.0.0.345-universal)
+			When BoP is loaded, the corresponding blocks/items get automatically registered!
+			You need to include the datapack in your world save datapacks folder, otherwise you don't get the loottables/recipes/tags
+
+	Inventory HUD+ (Forge) (InventoryHud_1.15.1-1.15.2.forge.2.1.jar --> InventoryHud_1.15.1-1.15.2.forge.2.2.jar):
+		InventoryHud_1.15.1-1.15.2.forge.2.2.jar:
+			1.15 _ 2.2
+			- Now you can change PotionHUD orientation from LEFT to RIGHT
+			- Now you can change ArmorStatusHUD orientation from MIDDLE to LEFT or RIGHT, also you can change position.
+			- New ConfigGUI
+
+	Lollipop (Lollipop-1.15.2-1.0.6.jar --> Lollipop-1.15.2-1.0.7.jar):
+		Lollipop-1.15.2-1.0.7.jar:
+			No changelog provided.
+
+	McJtyLib (mcjtylib-1.15-4.0.1-alpha.jar --> mcjtylib-1.15-4.0.2-alpha.jar):
+		mcjtylib-1.15-4.0.2-alpha.jar:
+			- Helper for big itemstack sending
+			- Fixed a problem with itemstack tooltips not rendering properly in gui's
+			- Fixed a problem with tooltips in gui's not rendering at the correct 'z' level
+			- Fixed a crash when a gui is open and the MC window is minimized/iconified
+
+	Mekanism (Mekanism-1.15.2-9.9.10.402.jar --> Mekanism-1.15.2-9.9.11.403.jar):
+		Mekanism-1.15.2-9.9.11.403.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[2f0d95d](https://github.com/mekanism/Mekanism/commit/2f0d95d18de2261c7ea9b4ba432b55c4a062681f)- Initial experimentation with having the background be drawn dynamically - The factory now only has one background texture (9px by 9px in size) - Fixed not increasing the declared size of the factory gui for sawmill factories[#5736](https://github.com/mekanism/Mekanism/issues/5736)- Remove the unneeded changing back of gui texture in the various gui elements[69f15d8](https://github.com/mekanism/Mekanism/commit/69f15d89ad6ed442a1f2ef74e048734e15ba6931)- Transition all gui's that used null.png to using the new dynamic background system. Also cleanup a bit of duplicate gui code[a568cfc](https://github.com/mekanism/Mekanism/commit/a568cfc2bd01435534af342516b3117c9bf97e46)- Remove java.awt reference from the seismic reader and update TODOs about GuiElements[1182407](https://github.com/mekanism/Mekanism/commit/1182407ed30afae0241b2e82a08ef6f973d7b74e)- Bump required forge version to require the fix for teleporting from end to overworld.[#5857](https://github.com/mekanism/Mekanism/issues/5857), and add projecte to optional dependencies as I forgot to do so when I added mapping support for it[f72998f](https://github.com/mekanism/Mekanism/commit/f72998f6c2fe68e10190f264c887b4bb6c3535f9)- Move when we register our custom model loader to reduce the chance of a race condition, as ModelRegistryEvent may be after some models have already started loading[#5881](https://github.com/mekanism/Mekanism/issues/5881)[5309e06](https://github.com/mekanism/Mekanism/commit/5309e060d63bdaf4249a0cc9ee960631a74fa99b)- Add support for recipe conditions to our custom recipe builders, and move our compat recipes to being made via data generators - Temporarily remove compat for beds from I Like Wood, as there are currently no beds added due to them not being ported yet - Unify the paths we put the advancements in from the data generators[b2d5f1d](https://github.com/mekanism/Mekanism/commit/b2d5f1d1a55b94c4f4159467ffda4988f4e2e130)- Cleanup some of the recipe builder code[9bba02d](https://github.com/mekanism/Mekanism/commit/9bba02d51e661a5b433e04a785397b95549123c0)- Fix factory not syncing ticks required for the gui, thus making progress with speed upgrades installed appear incorrectly[#5883](https://github.com/mekanism/Mekanism/issues/5883)[0146258](https://github.com/mekanism/Mekanism/commit/0146258d06f450a05adedf1e0f7e4208b5fc7f63)- Allow GuiElements to properly render things in the gui's foreground, rather just as tooltips[8329920](https://github.com/mekanism/Mekanism/commit/83299206a13cecac98b9fba26a41a2c7c9e213b6)- Work on moving more pieces of gui's in Mekanism Generators to being gui elements - Move GuiGasMode to a GuiImageButton - Fix the majority of GuiElements playing the click sound when only button like ones should be[4fbf891](https://github.com/mekanism/Mekanism/commit/4fbf891bb22ec22e34f763ad1fa0d4b7252b0d1d)- Make a way for BasicInventorySlot's to keep track of the slot overlay and allow tiles to override it. Also start moving gui's that use the blank texture over to using the dynamically added slot system[a4af138](https://github.com/mekanism/Mekanism/commit/a4af138294a32cc47d4c1c22b8bb51e3639b3b8b)- Continue moving more Gui's from using the blank.png to using the dynamic system. Also fix the solar neutron activator rendering as solid instead of cutout[3dc3daf](https://github.com/mekanism/Mekanism/commit/3dc3dafdfc4f06ed5f5a80c16ce58a10f3cd02fc)- Remove a couple gui textures that are no longer used, and cleanup how we draw stuff into a recipe category for JEI when we don't actually have any background to draw[a678a92](https://github.com/mekanism/Mekanism/commit/a678a92db5aef1f3d86a98a67600813a5bde2bc7)- Continue working on converting various GUIs to having their slots be added "dynamically"[bc704e3](https://github.com/mekanism/Mekanism/commit/bc704e3afaa600403d6f61b14dcb948de6ac8af2)- Moved filters and most robit gui's to having their slots be added dynamically. Also moved the sidebar for the robit over to a gui element[9a0dde3](https://github.com/mekanism/Mekanism/commit/9a0dde348f5975e2dfc0578ecc517e2a74880f93)- Continue cleaning up gui's moving the slots to being added dynamically. Also cleanup the teleporter gui's some including moving the status to its own element[a41f310](https://github.com/mekanism/Mekanism/commit/a41f310b81df2d2ffa1eddeb875816722918db21)- Optimize imports to fix the order from when classes got moved around[6ea74f4](https://github.com/mekanism/Mekanism/commit/6ea74f4af75230410181c790784ffcac8563e810)- Render in a water bucket into the chemical washer gui to make sure it matches the resource pack being used (and also so that we are using the new water bucket texture instead of the old one)[cc27954](https://github.com/mekanism/Mekanism/commit/cc279549ee8c86a090200971e000bcb82d57aade)- Sync collected energy for the laser amplifier. Fixes it not displaying how much energy is actually stored[659f7b3](https://github.com/mekanism/Mekanism/commit/659f7b35fc458a5a71a895b905232bef67aeb43f)- Move a bunch of gui's to having their backgrounds made dynamically rather than using a preset texture. Also fix GL color leak in GuiEmbeddedGaugeTile[0ab3d41](https://github.com/mekanism/Mekanism/commit/0ab3d411a1994169e31f7f09bb0750115c997ed3)- Given we no longer have any extra stuff needed in the Robit's repair gui screen switch to using vanilla's texture for it[95c1b8b](https://github.com/mekanism/Mekanism/commit/95c1b8b6c4c88353b1b9a7f41ba0f8ed7174413a)- Unify a bunch of code having to do with gui bar elements, and clean it up to have better looking "extended" textures[31b394e](https://github.com/mekanism/Mekanism/commit/31b394ecebe63634df65e0fa432bb2d256220aae)- Cleanup the gas tank's gui some and use a HorizontalChemicalBar to render the gas into it. Also improve how various factory gui's work by scaling some bars better[ee9f06c](https://github.com/mekanism/Mekanism/commit/ee9f06c70072d665cbe2c21ce91c1d36e3f38f0b)- Finish moving the gas tank gui over to being more dynamic, and make it look slightly more "modernized/future tech"[05fe326](https://github.com/mekanism/Mekanism/commit/05fe3269db5eb6ff072b2a8127dbbf86b97e403f)- Cleanup there being multiple identical progress bars and make it so that all the electric machine and advanced electric machine guis do not need sub classes for individual types, and can instead be handled by the corresponding generic class[a83f3eb](https://github.com/mekanism/Mekanism/commit/a83f3ebcc962c1869c65c96a56150495689d72e0)- Continue moving things to GuiElements.[f6057bf](https://github.com/mekanism/Mekanism/commit/f6057bfffa8de837f65bba55ba821ba6c3f24dfd)- Work on cleaning up JEI category integration and transitioning to using various GuiElements rather than including them into the image[038db6c](https://github.com/mekanism/Mekanism/commit/038db6c04cabb6de1c4abea5292e31dda30ac52a)- Convert GuiProgress.IProgressInfoHandler from an abstract class to an interface, to allow for implementations to use lambda notation[55d945d](https://github.com/mekanism/Mekanism/commit/55d945d348f3f27a27e1b15a2adbfc94112b7051)- Rewrite GuiScrollList to take advantage of GuiInnerScreen for drawing the actual background and border. Also improve how the scroll bar works in terms of not allowing it to scroll too far[382d404](https://github.com/mekanism/Mekanism/commit/382d404e9a30edd9cb5d02c4b13434ffe2110c95)- Continue work on making guis more dynamic and fix a few calculation issues in GuiGraph[46d95bb](https://github.com/mekanism/Mekanism/commit/46d95bbba629f51250f8e660cab9c136a1068dc8)- Continue work on moving guis over to being done via gui elements[dbe54b8](https://github.com/mekanism/Mekanism/commit/dbe54b8852881783b2a1e2c4014309a19b77ddc7)- Cleanup JEI integration, and make it so it is possible to view uses of specific infuse types. Note: The rendering is currently a bit off for how it tries to render chemicals tiled[ba20c6a](https://github.com/mekanism/Mekanism/commit/ba20c6ac59590e2912d0df77b8aea5e120399dd1)- Fix combining factories not properly exposing their extra slot to the side config[#5890](https://github.com/mekanism/Mekanism/issues/5890)[5374083](https://github.com/mekanism/Mekanism/commit/53740834f06046095a1f20a27a3437e309dc9d12)- Unify most of the sprite tiling code to look better, doing it closer to how it is done for JEI. Still have to convert GuiEmbeddedGaugeTile but not going to bother until after finishing moving it to using the GuiGauge element[4fce014](https://github.com/mekanism/Mekanism/commit/4fce014f0b240c077c07e2f034338e5cff60e47f)- Make tiling code batch all the pieces into a single draw[6e8740b](https://github.com/mekanism/Mekanism/commit/6e8740bca09e1d41eca5877dcd0362882f53f7ff)- Partially refactor the paths to various gui elements to be more organized, and prepare for splitting some of the larger element textures into individual textures[d6f67fc](https://github.com/mekanism/Mekanism/commit/d6f67fc58a3e272b5acff8bd6b34577f7823c630)- Cleanup existing gauge textures and handling in prep for moving over some other things to using GuiGauge[10bcf2d](https://github.com/mekanism/Mekanism/commit/10bcf2d8feee88fb8dc5cc55bfdfb2ed6a615850)- Good bit of cleanup around multiblocks: - Rewrite handling of inventories for multiblocks. (It exists again now) - Rewrite internal handling of fluid data for multiblocks   - Allows for our GUIs to take advantage of our existing gauge elements for multiblocks   - Allows for our inventory system to properly interact with the tanks - Kill of GuiEmbeddedGaugeTile, in favor of using gauge elements (makes the transferred gauges not properly also use the correct texture scaling)[a1a64cd](https://github.com/mekanism/Mekanism/commit/a1a64cd20c78d0111e5df3aedb1b8df376cfd273)- Continue working on cleaning up GUIs and moving them to a more dynamic system. Also fix using the scroll wheel in the logistical sorter and digital miner config[c2a9421](https://github.com/mekanism/Mekanism/commit/c2a9421c412721e427cfbed1a57a7ca5ece3315b)- Lots of work on moving the guis for handling listing the filters of logistical sorters and digital miners to gui elements. Also slightly redesigned the reorder buttons[3cb0cda](https://github.com/mekanism/Mekanism/commit/3cb0cda0777cf51a438c9b4e5172fb8fc5dc075a)- Move the large scroll bar to its own gui element[b215c57](https://github.com/mekanism/Mekanism/commit/b215c5748157ee4ede47763f299dda256601b2f1)- Cleanup the side tab code to make it easier to add custom sized tabs[d86b176](https://github.com/mekanism/Mekanism/commit/d86b17600ea53f031332d28a1de02154eb8ee008)- Fix slots being hidden on the washer, and make slots be dynamically added to the induction matrix and dynamic tank[3cad7fc](https://github.com/mekanism/Mekanism/commit/3cad7fc05d88e2dc3e7be26273a23bd07acde54a)- Fix using client side only method on the server[#5896](https://github.com/mekanism/Mekanism/issues/5896)[8bc4e48](https://github.com/mekanism/Mekanism/commit/8bc4e4848258ae43ec6f138046d72727494b0fc6)- Make defining new progress bars more modularized[10f0424](https://github.com/mekanism/Mekanism/commit/10f04243b172dc341fb7a3a1a10d4fedb7ab1c7b)- Directly call blit rather than having to wrap it via the main gui[ba6e631](https://github.com/mekanism/Mekanism/commit/ba6e631d600da3700adcca09a27ffba47c4dfb69)- Remove various no longer used/needed pieces of code that were for drawing the energy bar before it was moved to a gui element[6b36a37](https://github.com/mekanism/Mekanism/commit/6b36a37188648652b10f018e798e01fc0cb11289)- Cleanup imports[b63bc24](https://github.com/mekanism/Mekanism/commit/b63bc24d8799ff4284d9b5efe118b0c85bb96eea)- Fix shift click desync for dynamic tank[030e8f8](https://github.com/mekanism/Mekanism/commit/030e8f88e9f3bcff8b4d60f7fe9f0039bac553c4)- Don't return any capabilities if our stack is empty[#5875](https://github.com/mekanism/Mekanism/issues/5875)[e37fade](https://github.com/mekanism/Mekanism/commit/e37fade96693edd2798d54c7fef293a9b4be14b4)- Cleanup a few more guis and make them use a more dynamic system[537ff20](https://github.com/mekanism/Mekanism/commit/537ff2064007c99f44f94df03bca467c55d2bbcb)- Further cleanup of GUIs, and make it easier to arbitrarily add textures into GUIs[f880774](https://github.com/mekanism/Mekanism/commit/f8807744fb492b092be51292c8af5be2d6db640b)- Modernize implementation of GuiSeismicReader[1d10417](https://github.com/mekanism/Mekanism/commit/1d10417a0f4cb28979a3dc7b072f6766fb3761cc)- Add a scroll bar to the seismic reader[bdd069b](https://github.com/mekanism/Mekanism/commit/bdd069b500bef9545f8e16dbae99be57e03e780d)- Fix off by one calculation including the air block above the actual first block[9409fa6](https://github.com/mekanism/Mekanism/commit/9409fa6f9b82f5101d27b6d37b51208e46e14177)- Fix a couple pieces of text overflowing their GUI[#5718](https://github.com/mekanism/Mekanism/issues/5718)[#5749](https://github.com/mekanism/Mekanism/issues/5749)[79861da](https://github.com/mekanism/Mekanism/commit/79861daebb733bc00aa9ce6b7371057bfdbf509e)- Remove some no longer used code, and fix robit renaming gui and text box[4013aab](https://github.com/mekanism/Mekanism/commit/4013aab5bdb4f1fdb325dac39c43f888ddbd0629)- Further cleanup handling of GuiScrollBar so that it handles the scroll position itself internally, and provides a method that the GUIs can call to properly update it when they scroll[5058579](https://github.com/mekanism/Mekanism/commit/505857903743172d9dd5c1bf367b0596a3c687dc)- remove bad positions from the saved data -[#5897](https://github.com/mekanism/Mekanism/issues/5897)[2cb9c48](https://github.com/mekanism/Mekanism/commit/2cb9c48e17083b9d640b3e5b07a4085cadc2c308)- Log when removing chunk tickets -[#5897](https://github.com/mekanism/Mekanism/issues/5897)[3f823cf](https://github.com/mekanism/Mekanism/commit/3f823cf28322c7de2bb0e3ca8e766288d3c29232)- Make it easier to add new slot textures/overlays, and start work on converting the upgrade management gui to using gui elements[da4ddc7](https://github.com/mekanism/Mekanism/commit/da4ddc744dc5966548dc11d7ed37eea8d4568a28)- Refactor to share a log of the scrolling logic between GuiScrollBar and GuiScrollList, fixing a lot of messy logic in GuiScrollList[1012193](https://github.com/mekanism/Mekanism/commit/10121938643f23e025980fd3f3a64a5414537403)- Further cleanup GuiScrollList so that the border of the element is actually considered part of the element, and a few other minor fixes/optimizations to various other calculations in it[9095639](https://github.com/mekanism/Mekanism/commit/90956398e667259089251700bfa813ee1a112915)- Further abstract GuiScrollList to allow for easier creation of multiple scroll list styled elements, and add GuiUpgradeScrollList for housing the installed upgrades[de6a20b](https://github.com/mekanism/Mekanism/commit/de6a20b7d111f9a9efb176bdc7be40d8add6767a)- Finish moving things over to being done via GuiElements. Various things could still be moved to GuiElements but at least now all gui textures are "dynamically" drawn[77c1a61](https://github.com/mekanism/Mekanism/commit/77c1a614be2fa50303affedc99e8703443676ef1)- Refactor gui textures to be one level up rather all but one of them being in gui/elements[b9690ea](https://github.com/mekanism/Mekanism/commit/b9690ea5b37af50a741ade2b0c564bc8d25c353f)- Force sync container fields on initial opening[0c0ad2d](https://github.com/mekanism/Mekanism/commit/0c0ad2d39f3c498578d8fbd640d4bba0106c333f)- Fix solar neutron activator model[#5902](https://github.com/mekanism/Mekanism/issues/5902)[f830e43](https://github.com/mekanism/Mekanism/commit/f830e43a49d63226f0d76a4fa5f9e9c24871e268)- Fix being able to pick up locked blocks of other players with a cardboard box[#5899](https://github.com/mekanism/Mekanism/issues/5899), and fix bug introduced into security tab not rendering correctly[17cbefe](https://github.com/mekanism/Mekanism/commit/17cbefe69e1b6a1dd69e0fcddc9affac3f073a0d)- Modify how recipes handle resetting, so that they reset if the main ingredient is removed, but keep their progress if only the secondary per tick ingredient is missing.[#5872](https://github.com/mekanism/Mekanism/issues/5872)[4f70025](https://github.com/mekanism/Mekanism/commit/4f700255a16f45f7ea8618a895d2af469958ab38)- Start work on updating how we handle/register packets that are expected to only be sent a specific direction[47c4df4](https://github.com/mekanism/Mekanism/commit/47c4df4817da613d482b8cb7060f467a93dd652c)- Bump version to 9.9.11
+
+	Mekanism Generators (MekanismGenerators-1.15.2-9.9.10.402.jar --> MekanismGenerators-1.15.2-9.9.11.403.jar):
+		MekanismGenerators-1.15.2-9.9.11.403.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[2f0d95d](https://github.com/mekanism/Mekanism/commit/2f0d95d18de2261c7ea9b4ba432b55c4a062681f)- Initial experimentation with having the background be drawn dynamically - The factory now only has one background texture (9px by 9px in size) - Fixed not increasing the declared size of the factory gui for sawmill factories[#5736](https://github.com/mekanism/Mekanism/issues/5736)- Remove the unneeded changing back of gui texture in the various gui elements[69f15d8](https://github.com/mekanism/Mekanism/commit/69f15d89ad6ed442a1f2ef74e048734e15ba6931)- Transition all gui's that used null.png to using the new dynamic background system. Also cleanup a bit of duplicate gui code[a568cfc](https://github.com/mekanism/Mekanism/commit/a568cfc2bd01435534af342516b3117c9bf97e46)- Remove java.awt reference from the seismic reader and update TODOs about GuiElements[1182407](https://github.com/mekanism/Mekanism/commit/1182407ed30afae0241b2e82a08ef6f973d7b74e)- Bump required forge version to require the fix for teleporting from end to overworld.[#5857](https://github.com/mekanism/Mekanism/issues/5857), and add projecte to optional dependencies as I forgot to do so when I added mapping support for it[f72998f](https://github.com/mekanism/Mekanism/commit/f72998f6c2fe68e10190f264c887b4bb6c3535f9)- Move when we register our custom model loader to reduce the chance of a race condition, as ModelRegistryEvent may be after some models have already started loading[#5881](https://github.com/mekanism/Mekanism/issues/5881)[5309e06](https://github.com/mekanism/Mekanism/commit/5309e060d63bdaf4249a0cc9ee960631a74fa99b)- Add support for recipe conditions to our custom recipe builders, and move our compat recipes to being made via data generators - Temporarily remove compat for beds from I Like Wood, as there are currently no beds added due to them not being ported yet - Unify the paths we put the advancements in from the data generators[b2d5f1d](https://github.com/mekanism/Mekanism/commit/b2d5f1d1a55b94c4f4159467ffda4988f4e2e130)- Cleanup some of the recipe builder code[9bba02d](https://github.com/mekanism/Mekanism/commit/9bba02d51e661a5b433e04a785397b95549123c0)- Fix factory not syncing ticks required for the gui, thus making progress with speed upgrades installed appear incorrectly[#5883](https://github.com/mekanism/Mekanism/issues/5883)[0146258](https://github.com/mekanism/Mekanism/commit/0146258d06f450a05adedf1e0f7e4208b5fc7f63)- Allow GuiElements to properly render things in the gui's foreground, rather just as tooltips[8329920](https://github.com/mekanism/Mekanism/commit/83299206a13cecac98b9fba26a41a2c7c9e213b6)- Work on moving more pieces of gui's in Mekanism Generators to being gui elements - Move GuiGasMode to a GuiImageButton - Fix the majority of GuiElements playing the click sound when only button like ones should be[4fbf891](https://github.com/mekanism/Mekanism/commit/4fbf891bb22ec22e34f763ad1fa0d4b7252b0d1d)- Make a way for BasicInventorySlot's to keep track of the slot overlay and allow tiles to override it. Also start moving gui's that use the blank texture over to using the dynamically added slot system[a4af138](https://github.com/mekanism/Mekanism/commit/a4af138294a32cc47d4c1c22b8bb51e3639b3b8b)- Continue moving more Gui's from using the blank.png to using the dynamic system. Also fix the solar neutron activator rendering as solid instead of cutout[3dc3daf](https://github.com/mekanism/Mekanism/commit/3dc3dafdfc4f06ed5f5a80c16ce58a10f3cd02fc)- Remove a couple gui textures that are no longer used, and cleanup how we draw stuff into a recipe category for JEI when we don't actually have any background to draw[a678a92](https://github.com/mekanism/Mekanism/commit/a678a92db5aef1f3d86a98a67600813a5bde2bc7)- Continue working on converting various GUIs to having their slots be added "dynamically"[bc704e3](https://github.com/mekanism/Mekanism/commit/bc704e3afaa600403d6f61b14dcb948de6ac8af2)- Moved filters and most robit gui's to having their slots be added dynamically. Also moved the sidebar for the robit over to a gui element[9a0dde3](https://github.com/mekanism/Mekanism/commit/9a0dde348f5975e2dfc0578ecc517e2a74880f93)- Continue cleaning up gui's moving the slots to being added dynamically. Also cleanup the teleporter gui's some including moving the status to its own element[a41f310](https://github.com/mekanism/Mekanism/commit/a41f310b81df2d2ffa1eddeb875816722918db21)- Optimize imports to fix the order from when classes got moved around[6ea74f4](https://github.com/mekanism/Mekanism/commit/6ea74f4af75230410181c790784ffcac8563e810)- Render in a water bucket into the chemical washer gui to make sure it matches the resource pack being used (and also so that we are using the new water bucket texture instead of the old one)[cc27954](https://github.com/mekanism/Mekanism/commit/cc279549ee8c86a090200971e000bcb82d57aade)- Sync collected energy for the laser amplifier. Fixes it not displaying how much energy is actually stored[659f7b3](https://github.com/mekanism/Mekanism/commit/659f7b35fc458a5a71a895b905232bef67aeb43f)- Move a bunch of gui's to having their backgrounds made dynamically rather than using a preset texture. Also fix GL color leak in GuiEmbeddedGaugeTile[0ab3d41](https://github.com/mekanism/Mekanism/commit/0ab3d411a1994169e31f7f09bb0750115c997ed3)- Given we no longer have any extra stuff needed in the Robit's repair gui screen switch to using vanilla's texture for it[95c1b8b](https://github.com/mekanism/Mekanism/commit/95c1b8b6c4c88353b1b9a7f41ba0f8ed7174413a)- Unify a bunch of code having to do with gui bar elements, and clean it up to have better looking "extended" textures[31b394e](https://github.com/mekanism/Mekanism/commit/31b394ecebe63634df65e0fa432bb2d256220aae)- Cleanup the gas tank's gui some and use a HorizontalChemicalBar to render the gas into it. Also improve how various factory gui's work by scaling some bars better[ee9f06c](https://github.com/mekanism/Mekanism/commit/ee9f06c70072d665cbe2c21ce91c1d36e3f38f0b)- Finish moving the gas tank gui over to being more dynamic, and make it look slightly more "modernized/future tech"[05fe326](https://github.com/mekanism/Mekanism/commit/05fe3269db5eb6ff072b2a8127dbbf86b97e403f)- Cleanup there being multiple identical progress bars and make it so that all the electric machine and advanced electric machine guis do not need sub classes for individual types, and can instead be handled by the corresponding generic class[a83f3eb](https://github.com/mekanism/Mekanism/commit/a83f3ebcc962c1869c65c96a56150495689d72e0)- Continue moving things to GuiElements.[f6057bf](https://github.com/mekanism/Mekanism/commit/f6057bfffa8de837f65bba55ba821ba6c3f24dfd)- Work on cleaning up JEI category integration and transitioning to using various GuiElements rather than including them into the image[038db6c](https://github.com/mekanism/Mekanism/commit/038db6c04cabb6de1c4abea5292e31dda30ac52a)- Convert GuiProgress.IProgressInfoHandler from an abstract class to an interface, to allow for implementations to use lambda notation[55d945d](https://github.com/mekanism/Mekanism/commit/55d945d348f3f27a27e1b15a2adbfc94112b7051)- Rewrite GuiScrollList to take advantage of GuiInnerScreen for drawing the actual background and border. Also improve how the scroll bar works in terms of not allowing it to scroll too far[382d404](https://github.com/mekanism/Mekanism/commit/382d404e9a30edd9cb5d02c4b13434ffe2110c95)- Continue work on making guis more dynamic and fix a few calculation issues in GuiGraph[46d95bb](https://github.com/mekanism/Mekanism/commit/46d95bbba629f51250f8e660cab9c136a1068dc8)- Continue work on moving guis over to being done via gui elements[dbe54b8](https://github.com/mekanism/Mekanism/commit/dbe54b8852881783b2a1e2c4014309a19b77ddc7)- Cleanup JEI integration, and make it so it is possible to view uses of specific infuse types. Note: The rendering is currently a bit off for how it tries to render chemicals tiled[ba20c6a](https://github.com/mekanism/Mekanism/commit/ba20c6ac59590e2912d0df77b8aea5e120399dd1)- Fix combining factories not properly exposing their extra slot to the side config[#5890](https://github.com/mekanism/Mekanism/issues/5890)[5374083](https://github.com/mekanism/Mekanism/commit/53740834f06046095a1f20a27a3437e309dc9d12)- Unify most of the sprite tiling code to look better, doing it closer to how it is done for JEI. Still have to convert GuiEmbeddedGaugeTile but not going to bother until after finishing moving it to using the GuiGauge element[4fce014](https://github.com/mekanism/Mekanism/commit/4fce014f0b240c077c07e2f034338e5cff60e47f)- Make tiling code batch all the pieces into a single draw[6e8740b](https://github.com/mekanism/Mekanism/commit/6e8740bca09e1d41eca5877dcd0362882f53f7ff)- Partially refactor the paths to various gui elements to be more organized, and prepare for splitting some of the larger element textures into individual textures[d6f67fc](https://github.com/mekanism/Mekanism/commit/d6f67fc58a3e272b5acff8bd6b34577f7823c630)- Cleanup existing gauge textures and handling in prep for moving over some other things to using GuiGauge[10bcf2d](https://github.com/mekanism/Mekanism/commit/10bcf2d8feee88fb8dc5cc55bfdfb2ed6a615850)- Good bit of cleanup around multiblocks: - Rewrite handling of inventories for multiblocks. (It exists again now) - Rewrite internal handling of fluid data for multiblocks   - Allows for our GUIs to take advantage of our existing gauge elements for multiblocks   - Allows for our inventory system to properly interact with the tanks - Kill of GuiEmbeddedGaugeTile, in favor of using gauge elements (makes the transferred gauges not properly also use the correct texture scaling)[a1a64cd](https://github.com/mekanism/Mekanism/commit/a1a64cd20c78d0111e5df3aedb1b8df376cfd273)- Continue working on cleaning up GUIs and moving them to a more dynamic system. Also fix using the scroll wheel in the logistical sorter and digital miner config[c2a9421](https://github.com/mekanism/Mekanism/commit/c2a9421c412721e427cfbed1a57a7ca5ece3315b)- Lots of work on moving the guis for handling listing the filters of logistical sorters and digital miners to gui elements. Also slightly redesigned the reorder buttons[3cb0cda](https://github.com/mekanism/Mekanism/commit/3cb0cda0777cf51a438c9b4e5172fb8fc5dc075a)- Move the large scroll bar to its own gui element[b215c57](https://github.com/mekanism/Mekanism/commit/b215c5748157ee4ede47763f299dda256601b2f1)- Cleanup the side tab code to make it easier to add custom sized tabs[d86b176](https://github.com/mekanism/Mekanism/commit/d86b17600ea53f031332d28a1de02154eb8ee008)- Fix slots being hidden on the washer, and make slots be dynamically added to the induction matrix and dynamic tank[3cad7fc](https://github.com/mekanism/Mekanism/commit/3cad7fc05d88e2dc3e7be26273a23bd07acde54a)- Fix using client side only method on the server[#5896](https://github.com/mekanism/Mekanism/issues/5896)[8bc4e48](https://github.com/mekanism/Mekanism/commit/8bc4e4848258ae43ec6f138046d72727494b0fc6)- Make defining new progress bars more modularized[10f0424](https://github.com/mekanism/Mekanism/commit/10f04243b172dc341fb7a3a1a10d4fedb7ab1c7b)- Directly call blit rather than having to wrap it via the main gui[ba6e631](https://github.com/mekanism/Mekanism/commit/ba6e631d600da3700adcca09a27ffba47c4dfb69)- Remove various no longer used/needed pieces of code that were for drawing the energy bar before it was moved to a gui element[6b36a37](https://github.com/mekanism/Mekanism/commit/6b36a37188648652b10f018e798e01fc0cb11289)- Cleanup imports[b63bc24](https://github.com/mekanism/Mekanism/commit/b63bc24d8799ff4284d9b5efe118b0c85bb96eea)- Fix shift click desync for dynamic tank[030e8f8](https://github.com/mekanism/Mekanism/commit/030e8f88e9f3bcff8b4d60f7fe9f0039bac553c4)- Don't return any capabilities if our stack is empty[#5875](https://github.com/mekanism/Mekanism/issues/5875)[e37fade](https://github.com/mekanism/Mekanism/commit/e37fade96693edd2798d54c7fef293a9b4be14b4)- Cleanup a few more guis and make them use a more dynamic system[537ff20](https://github.com/mekanism/Mekanism/commit/537ff2064007c99f44f94df03bca467c55d2bbcb)- Further cleanup of GUIs, and make it easier to arbitrarily add textures into GUIs[f880774](https://github.com/mekanism/Mekanism/commit/f8807744fb492b092be51292c8af5be2d6db640b)- Modernize implementation of GuiSeismicReader[1d10417](https://github.com/mekanism/Mekanism/commit/1d10417a0f4cb28979a3dc7b072f6766fb3761cc)- Add a scroll bar to the seismic reader[bdd069b](https://github.com/mekanism/Mekanism/commit/bdd069b500bef9545f8e16dbae99be57e03e780d)- Fix off by one calculation including the air block above the actual first block[9409fa6](https://github.com/mekanism/Mekanism/commit/9409fa6f9b82f5101d27b6d37b51208e46e14177)- Fix a couple pieces of text overflowing their GUI[#5718](https://github.com/mekanism/Mekanism/issues/5718)[#5749](https://github.com/mekanism/Mekanism/issues/5749)[79861da](https://github.com/mekanism/Mekanism/commit/79861daebb733bc00aa9ce6b7371057bfdbf509e)- Remove some no longer used code, and fix robit renaming gui and text box[4013aab](https://github.com/mekanism/Mekanism/commit/4013aab5bdb4f1fdb325dac39c43f888ddbd0629)- Further cleanup handling of GuiScrollBar so that it handles the scroll position itself internally, and provides a method that the GUIs can call to properly update it when they scroll[5058579](https://github.com/mekanism/Mekanism/commit/505857903743172d9dd5c1bf367b0596a3c687dc)- remove bad positions from the saved data -[#5897](https://github.com/mekanism/Mekanism/issues/5897)[2cb9c48](https://github.com/mekanism/Mekanism/commit/2cb9c48e17083b9d640b3e5b07a4085cadc2c308)- Log when removing chunk tickets -[#5897](https://github.com/mekanism/Mekanism/issues/5897)[3f823cf](https://github.com/mekanism/Mekanism/commit/3f823cf28322c7de2bb0e3ca8e766288d3c29232)- Make it easier to add new slot textures/overlays, and start work on converting the upgrade management gui to using gui elements[da4ddc7](https://github.com/mekanism/Mekanism/commit/da4ddc744dc5966548dc11d7ed37eea8d4568a28)- Refactor to share a log of the scrolling logic between GuiScrollBar and GuiScrollList, fixing a lot of messy logic in GuiScrollList[1012193](https://github.com/mekanism/Mekanism/commit/10121938643f23e025980fd3f3a64a5414537403)- Further cleanup GuiScrollList so that the border of the element is actually considered part of the element, and a few other minor fixes/optimizations to various other calculations in it[9095639](https://github.com/mekanism/Mekanism/commit/90956398e667259089251700bfa813ee1a112915)- Further abstract GuiScrollList to allow for easier creation of multiple scroll list styled elements, and add GuiUpgradeScrollList for housing the installed upgrades[de6a20b](https://github.com/mekanism/Mekanism/commit/de6a20b7d111f9a9efb176bdc7be40d8add6767a)- Finish moving things over to being done via GuiElements. Various things could still be moved to GuiElements but at least now all gui textures are "dynamically" drawn[77c1a61](https://github.com/mekanism/Mekanism/commit/77c1a614be2fa50303affedc99e8703443676ef1)- Refactor gui textures to be one level up rather all but one of them being in gui/elements[b9690ea](https://github.com/mekanism/Mekanism/commit/b9690ea5b37af50a741ade2b0c564bc8d25c353f)- Force sync container fields on initial opening[0c0ad2d](https://github.com/mekanism/Mekanism/commit/0c0ad2d39f3c498578d8fbd640d4bba0106c333f)- Fix solar neutron activator model[#5902](https://github.com/mekanism/Mekanism/issues/5902)[f830e43](https://github.com/mekanism/Mekanism/commit/f830e43a49d63226f0d76a4fa5f9e9c24871e268)- Fix being able to pick up locked blocks of other players with a cardboard box[#5899](https://github.com/mekanism/Mekanism/issues/5899), and fix bug introduced into security tab not rendering correctly[17cbefe](https://github.com/mekanism/Mekanism/commit/17cbefe69e1b6a1dd69e0fcddc9affac3f073a0d)- Modify how recipes handle resetting, so that they reset if the main ingredient is removed, but keep their progress if only the secondary per tick ingredient is missing.[#5872](https://github.com/mekanism/Mekanism/issues/5872)[4f70025](https://github.com/mekanism/Mekanism/commit/4f700255a16f45f7ea8618a895d2af469958ab38)- Start work on updating how we handle/register packets that are expected to only be sent a specific direction[47c4df4](https://github.com/mekanism/Mekanism/commit/47c4df4817da613d482b8cb7060f467a93dd652c)- Bump version to 9.9.11
+
+	Mekanism Tools (MekanismTools-1.15.2-9.9.10.402.jar --> MekanismTools-1.15.2-9.9.11.403.jar):
+		MekanismTools-1.15.2-9.9.11.403.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[2f0d95d](https://github.com/mekanism/Mekanism/commit/2f0d95d18de2261c7ea9b4ba432b55c4a062681f)- Initial experimentation with having the background be drawn dynamically - The factory now only has one background texture (9px by 9px in size) - Fixed not increasing the declared size of the factory gui for sawmill factories[#5736](https://github.com/mekanism/Mekanism/issues/5736)- Remove the unneeded changing back of gui texture in the various gui elements[69f15d8](https://github.com/mekanism/Mekanism/commit/69f15d89ad6ed442a1f2ef74e048734e15ba6931)- Transition all gui's that used null.png to using the new dynamic background system. Also cleanup a bit of duplicate gui code[a568cfc](https://github.com/mekanism/Mekanism/commit/a568cfc2bd01435534af342516b3117c9bf97e46)- Remove java.awt reference from the seismic reader and update TODOs about GuiElements[1182407](https://github.com/mekanism/Mekanism/commit/1182407ed30afae0241b2e82a08ef6f973d7b74e)- Bump required forge version to require the fix for teleporting from end to overworld.[#5857](https://github.com/mekanism/Mekanism/issues/5857), and add projecte to optional dependencies as I forgot to do so when I added mapping support for it[f72998f](https://github.com/mekanism/Mekanism/commit/f72998f6c2fe68e10190f264c887b4bb6c3535f9)- Move when we register our custom model loader to reduce the chance of a race condition, as ModelRegistryEvent may be after some models have already started loading[#5881](https://github.com/mekanism/Mekanism/issues/5881)[5309e06](https://github.com/mekanism/Mekanism/commit/5309e060d63bdaf4249a0cc9ee960631a74fa99b)- Add support for recipe conditions to our custom recipe builders, and move our compat recipes to being made via data generators - Temporarily remove compat for beds from I Like Wood, as there are currently no beds added due to them not being ported yet - Unify the paths we put the advancements in from the data generators[b2d5f1d](https://github.com/mekanism/Mekanism/commit/b2d5f1d1a55b94c4f4159467ffda4988f4e2e130)- Cleanup some of the recipe builder code[9bba02d](https://github.com/mekanism/Mekanism/commit/9bba02d51e661a5b433e04a785397b95549123c0)- Fix factory not syncing ticks required for the gui, thus making progress with speed upgrades installed appear incorrectly[#5883](https://github.com/mekanism/Mekanism/issues/5883)[0146258](https://github.com/mekanism/Mekanism/commit/0146258d06f450a05adedf1e0f7e4208b5fc7f63)- Allow GuiElements to properly render things in the gui's foreground, rather just as tooltips[8329920](https://github.com/mekanism/Mekanism/commit/83299206a13cecac98b9fba26a41a2c7c9e213b6)- Work on moving more pieces of gui's in Mekanism Generators to being gui elements - Move GuiGasMode to a GuiImageButton - Fix the majority of GuiElements playing the click sound when only button like ones should be[4fbf891](https://github.com/mekanism/Mekanism/commit/4fbf891bb22ec22e34f763ad1fa0d4b7252b0d1d)- Make a way for BasicInventorySlot's to keep track of the slot overlay and allow tiles to override it. Also start moving gui's that use the blank texture over to using the dynamically added slot system[a4af138](https://github.com/mekanism/Mekanism/commit/a4af138294a32cc47d4c1c22b8bb51e3639b3b8b)- Continue moving more Gui's from using the blank.png to using the dynamic system. Also fix the solar neutron activator rendering as solid instead of cutout[3dc3daf](https://github.com/mekanism/Mekanism/commit/3dc3dafdfc4f06ed5f5a80c16ce58a10f3cd02fc)- Remove a couple gui textures that are no longer used, and cleanup how we draw stuff into a recipe category for JEI when we don't actually have any background to draw[a678a92](https://github.com/mekanism/Mekanism/commit/a678a92db5aef1f3d86a98a67600813a5bde2bc7)- Continue working on converting various GUIs to having their slots be added "dynamically"[bc704e3](https://github.com/mekanism/Mekanism/commit/bc704e3afaa600403d6f61b14dcb948de6ac8af2)- Moved filters and most robit gui's to having their slots be added dynamically. Also moved the sidebar for the robit over to a gui element[9a0dde3](https://github.com/mekanism/Mekanism/commit/9a0dde348f5975e2dfc0578ecc517e2a74880f93)- Continue cleaning up gui's moving the slots to being added dynamically. Also cleanup the teleporter gui's some including moving the status to its own element[a41f310](https://github.com/mekanism/Mekanism/commit/a41f310b81df2d2ffa1eddeb875816722918db21)- Optimize imports to fix the order from when classes got moved around[6ea74f4](https://github.com/mekanism/Mekanism/commit/6ea74f4af75230410181c790784ffcac8563e810)- Render in a water bucket into the chemical washer gui to make sure it matches the resource pack being used (and also so that we are using the new water bucket texture instead of the old one)[cc27954](https://github.com/mekanism/Mekanism/commit/cc279549ee8c86a090200971e000bcb82d57aade)- Sync collected energy for the laser amplifier. Fixes it not displaying how much energy is actually stored[659f7b3](https://github.com/mekanism/Mekanism/commit/659f7b35fc458a5a71a895b905232bef67aeb43f)- Move a bunch of gui's to having their backgrounds made dynamically rather than using a preset texture. Also fix GL color leak in GuiEmbeddedGaugeTile[0ab3d41](https://github.com/mekanism/Mekanism/commit/0ab3d411a1994169e31f7f09bb0750115c997ed3)- Given we no longer have any extra stuff needed in the Robit's repair gui screen switch to using vanilla's texture for it[95c1b8b](https://github.com/mekanism/Mekanism/commit/95c1b8b6c4c88353b1b9a7f41ba0f8ed7174413a)- Unify a bunch of code having to do with gui bar elements, and clean it up to have better looking "extended" textures[31b394e](https://github.com/mekanism/Mekanism/commit/31b394ecebe63634df65e0fa432bb2d256220aae)- Cleanup the gas tank's gui some and use a HorizontalChemicalBar to render the gas into it. Also improve how various factory gui's work by scaling some bars better[ee9f06c](https://github.com/mekanism/Mekanism/commit/ee9f06c70072d665cbe2c21ce91c1d36e3f38f0b)- Finish moving the gas tank gui over to being more dynamic, and make it look slightly more "modernized/future tech"[05fe326](https://github.com/mekanism/Mekanism/commit/05fe3269db5eb6ff072b2a8127dbbf86b97e403f)- Cleanup there being multiple identical progress bars and make it so that all the electric machine and advanced electric machine guis do not need sub classes for individual types, and can instead be handled by the corresponding generic class[a83f3eb](https://github.com/mekanism/Mekanism/commit/a83f3ebcc962c1869c65c96a56150495689d72e0)- Continue moving things to GuiElements.[f6057bf](https://github.com/mekanism/Mekanism/commit/f6057bfffa8de837f65bba55ba821ba6c3f24dfd)- Work on cleaning up JEI category integration and transitioning to using various GuiElements rather than including them into the image[038db6c](https://github.com/mekanism/Mekanism/commit/038db6c04cabb6de1c4abea5292e31dda30ac52a)- Convert GuiProgress.IProgressInfoHandler from an abstract class to an interface, to allow for implementations to use lambda notation[55d945d](https://github.com/mekanism/Mekanism/commit/55d945d348f3f27a27e1b15a2adbfc94112b7051)- Rewrite GuiScrollList to take advantage of GuiInnerScreen for drawing the actual background and border. Also improve how the scroll bar works in terms of not allowing it to scroll too far[382d404](https://github.com/mekanism/Mekanism/commit/382d404e9a30edd9cb5d02c4b13434ffe2110c95)- Continue work on making guis more dynamic and fix a few calculation issues in GuiGraph[46d95bb](https://github.com/mekanism/Mekanism/commit/46d95bbba629f51250f8e660cab9c136a1068dc8)- Continue work on moving guis over to being done via gui elements[dbe54b8](https://github.com/mekanism/Mekanism/commit/dbe54b8852881783b2a1e2c4014309a19b77ddc7)- Cleanup JEI integration, and make it so it is possible to view uses of specific infuse types. Note: The rendering is currently a bit off for how it tries to render chemicals tiled[ba20c6a](https://github.com/mekanism/Mekanism/commit/ba20c6ac59590e2912d0df77b8aea5e120399dd1)- Fix combining factories not properly exposing their extra slot to the side config[#5890](https://github.com/mekanism/Mekanism/issues/5890)[5374083](https://github.com/mekanism/Mekanism/commit/53740834f06046095a1f20a27a3437e309dc9d12)- Unify most of the sprite tiling code to look better, doing it closer to how it is done for JEI. Still have to convert GuiEmbeddedGaugeTile but not going to bother until after finishing moving it to using the GuiGauge element[4fce014](https://github.com/mekanism/Mekanism/commit/4fce014f0b240c077c07e2f034338e5cff60e47f)- Make tiling code batch all the pieces into a single draw[6e8740b](https://github.com/mekanism/Mekanism/commit/6e8740bca09e1d41eca5877dcd0362882f53f7ff)- Partially refactor the paths to various gui elements to be more organized, and prepare for splitting some of the larger element textures into individual textures[d6f67fc](https://github.com/mekanism/Mekanism/commit/d6f67fc58a3e272b5acff8bd6b34577f7823c630)- Cleanup existing gauge textures and handling in prep for moving over some other things to using GuiGauge[10bcf2d](https://github.com/mekanism/Mekanism/commit/10bcf2d8feee88fb8dc5cc55bfdfb2ed6a615850)- Good bit of cleanup around multiblocks: - Rewrite handling of inventories for multiblocks. (It exists again now) - Rewrite internal handling of fluid data for multiblocks   - Allows for our GUIs to take advantage of our existing gauge elements for multiblocks   - Allows for our inventory system to properly interact with the tanks - Kill of GuiEmbeddedGaugeTile, in favor of using gauge elements (makes the transferred gauges not properly also use the correct texture scaling)[a1a64cd](https://github.com/mekanism/Mekanism/commit/a1a64cd20c78d0111e5df3aedb1b8df376cfd273)- Continue working on cleaning up GUIs and moving them to a more dynamic system. Also fix using the scroll wheel in the logistical sorter and digital miner config[c2a9421](https://github.com/mekanism/Mekanism/commit/c2a9421c412721e427cfbed1a57a7ca5ece3315b)- Lots of work on moving the guis for handling listing the filters of logistical sorters and digital miners to gui elements. Also slightly redesigned the reorder buttons[3cb0cda](https://github.com/mekanism/Mekanism/commit/3cb0cda0777cf51a438c9b4e5172fb8fc5dc075a)- Move the large scroll bar to its own gui element[b215c57](https://github.com/mekanism/Mekanism/commit/b215c5748157ee4ede47763f299dda256601b2f1)- Cleanup the side tab code to make it easier to add custom sized tabs[d86b176](https://github.com/mekanism/Mekanism/commit/d86b17600ea53f031332d28a1de02154eb8ee008)- Fix slots being hidden on the washer, and make slots be dynamically added to the induction matrix and dynamic tank[3cad7fc](https://github.com/mekanism/Mekanism/commit/3cad7fc05d88e2dc3e7be26273a23bd07acde54a)- Fix using client side only method on the server[#5896](https://github.com/mekanism/Mekanism/issues/5896)[8bc4e48](https://github.com/mekanism/Mekanism/commit/8bc4e4848258ae43ec6f138046d72727494b0fc6)- Make defining new progress bars more modularized[10f0424](https://github.com/mekanism/Mekanism/commit/10f04243b172dc341fb7a3a1a10d4fedb7ab1c7b)- Directly call blit rather than having to wrap it via the main gui[ba6e631](https://github.com/mekanism/Mekanism/commit/ba6e631d600da3700adcca09a27ffba47c4dfb69)- Remove various no longer used/needed pieces of code that were for drawing the energy bar before it was moved to a gui element[6b36a37](https://github.com/mekanism/Mekanism/commit/6b36a37188648652b10f018e798e01fc0cb11289)- Cleanup imports[b63bc24](https://github.com/mekanism/Mekanism/commit/b63bc24d8799ff4284d9b5efe118b0c85bb96eea)- Fix shift click desync for dynamic tank[030e8f8](https://github.com/mekanism/Mekanism/commit/030e8f88e9f3bcff8b4d60f7fe9f0039bac553c4)- Don't return any capabilities if our stack is empty[#5875](https://github.com/mekanism/Mekanism/issues/5875)[e37fade](https://github.com/mekanism/Mekanism/commit/e37fade96693edd2798d54c7fef293a9b4be14b4)- Cleanup a few more guis and make them use a more dynamic system[537ff20](https://github.com/mekanism/Mekanism/commit/537ff2064007c99f44f94df03bca467c55d2bbcb)- Further cleanup of GUIs, and make it easier to arbitrarily add textures into GUIs[f880774](https://github.com/mekanism/Mekanism/commit/f8807744fb492b092be51292c8af5be2d6db640b)- Modernize implementation of GuiSeismicReader[1d10417](https://github.com/mekanism/Mekanism/commit/1d10417a0f4cb28979a3dc7b072f6766fb3761cc)- Add a scroll bar to the seismic reader[bdd069b](https://github.com/mekanism/Mekanism/commit/bdd069b500bef9545f8e16dbae99be57e03e780d)- Fix off by one calculation including the air block above the actual first block[9409fa6](https://github.com/mekanism/Mekanism/commit/9409fa6f9b82f5101d27b6d37b51208e46e14177)- Fix a couple pieces of text overflowing their GUI[#5718](https://github.com/mekanism/Mekanism/issues/5718)[#5749](https://github.com/mekanism/Mekanism/issues/5749)[79861da](https://github.com/mekanism/Mekanism/commit/79861daebb733bc00aa9ce6b7371057bfdbf509e)- Remove some no longer used code, and fix robit renaming gui and text box[4013aab](https://github.com/mekanism/Mekanism/commit/4013aab5bdb4f1fdb325dac39c43f888ddbd0629)- Further cleanup handling of GuiScrollBar so that it handles the scroll position itself internally, and provides a method that the GUIs can call to properly update it when they scroll[5058579](https://github.com/mekanism/Mekanism/commit/505857903743172d9dd5c1bf367b0596a3c687dc)- remove bad positions from the saved data -[#5897](https://github.com/mekanism/Mekanism/issues/5897)[2cb9c48](https://github.com/mekanism/Mekanism/commit/2cb9c48e17083b9d640b3e5b07a4085cadc2c308)- Log when removing chunk tickets -[#5897](https://github.com/mekanism/Mekanism/issues/5897)[3f823cf](https://github.com/mekanism/Mekanism/commit/3f823cf28322c7de2bb0e3ca8e766288d3c29232)- Make it easier to add new slot textures/overlays, and start work on converting the upgrade management gui to using gui elements[da4ddc7](https://github.com/mekanism/Mekanism/commit/da4ddc744dc5966548dc11d7ed37eea8d4568a28)- Refactor to share a log of the scrolling logic between GuiScrollBar and GuiScrollList, fixing a lot of messy logic in GuiScrollList[1012193](https://github.com/mekanism/Mekanism/commit/10121938643f23e025980fd3f3a64a5414537403)- Further cleanup GuiScrollList so that the border of the element is actually considered part of the element, and a few other minor fixes/optimizations to various other calculations in it[9095639](https://github.com/mekanism/Mekanism/commit/90956398e667259089251700bfa813ee1a112915)- Further abstract GuiScrollList to allow for easier creation of multiple scroll list styled elements, and add GuiUpgradeScrollList for housing the installed upgrades[de6a20b](https://github.com/mekanism/Mekanism/commit/de6a20b7d111f9a9efb176bdc7be40d8add6767a)- Finish moving things over to being done via GuiElements. Various things could still be moved to GuiElements but at least now all gui textures are "dynamically" drawn[77c1a61](https://github.com/mekanism/Mekanism/commit/77c1a614be2fa50303affedc99e8703443676ef1)- Refactor gui textures to be one level up rather all but one of them being in gui/elements[b9690ea](https://github.com/mekanism/Mekanism/commit/b9690ea5b37af50a741ade2b0c564bc8d25c353f)- Force sync container fields on initial opening[0c0ad2d](https://github.com/mekanism/Mekanism/commit/0c0ad2d39f3c498578d8fbd640d4bba0106c333f)- Fix solar neutron activator model[#5902](https://github.com/mekanism/Mekanism/issues/5902)[f830e43](https://github.com/mekanism/Mekanism/commit/f830e43a49d63226f0d76a4fa5f9e9c24871e268)- Fix being able to pick up locked blocks of other players with a cardboard box[#5899](https://github.com/mekanism/Mekanism/issues/5899), and fix bug introduced into security tab not rendering correctly[17cbefe](https://github.com/mekanism/Mekanism/commit/17cbefe69e1b6a1dd69e0fcddc9affac3f073a0d)- Modify how recipes handle resetting, so that they reset if the main ingredient is removed, but keep their progress if only the secondary per tick ingredient is missing.[#5872](https://github.com/mekanism/Mekanism/issues/5872)[4f70025](https://github.com/mekanism/Mekanism/commit/4f700255a16f45f7ea8618a895d2af469958ab38)- Start work on updating how we handle/register packets that are expected to only be sent a specific direction[47c4df4](https://github.com/mekanism/Mekanism/commit/47c4df4817da613d482b8cb7060f467a93dd652c)- Bump version to 9.9.11
+
+	Nature's Aura (NaturesAura-21.0.jar --> NaturesAura-22.0.jar):
+		NaturesAura-22.0.jar:
+			- Fixed the spawn lamp using more server resources than necessary
+			- Fixed the snow creator being made of wood
+			- Added the item distributor
+			- Added aura blooms and aura cacti which generate randomly in the world
+
+	Ores Above Diamonds (Ores Above Diamonds 1.15 - v3.0 (Nether and End ore support if enabled in config!) --> 	Ores Above Diamonds 1.15 - v3.1.1):
+			Ores Above Diamonds 1.15 - v3.1.1:
+			- Hopefully fixed a bug where ores would not spawn past the first chunk loaded in the outer lands of the end.
+
+		Ores Above Diamonds 1.15 - v3.1:
+			- Minor patch
+			- Fixes a bug relating to the way the config loads
+			- Clarifies stuff in the config file.
+			Let me know if there are any bugs.
+			Cheers!
+			- Squidsword
+
+	PackMenu (PackMenu-1.15.2-1.1.7.jar --> PackMenu-1.15.2-1.2.3.jar):
+		PackMenu-1.15.2-1.2.3.jar:
+			Added the ability to disable the drop shadow on button text.
+
+		PackMenu-1.15.2-1.2.2.jar:
+			Added support for the textYOffset and textXOffset button values.
+
+		PackMenu-1.15.2-1.2.1.jar:
+			Fixed the default hover color being incorrect (should've been white, was gray)
+			Added an akliz button to the default button list.
+
+		PackMenu-1.15.2-1.2.0.jar:
+			PackMenu has had an overhaul for this update. Previous menu configurations may be incompatible!
+			Added the ability to define buttons via JSON files. The default buttons are shipped with the mod. Every aspect of a button can be configured. Each button is a single JSON file in the /assets/<any domain>/buttons folder. The specifications for buttons are described on the wiki.
+			Added the ability to define a logo.
+			The logo is not constrained to the background texture, and will remain centered around the screen (like buttons and other objects). This avoids stretching.
+			Added a reload button to reload pack menu configs on demand.
+			Splash text can now be recolored and the rotation can be changed.
+			The ATM Menu no longer ships with PackMenu.
+
+	Powah! (Powah-1.15.2-1.1.4.jar --> Powah-1.15.2-1.1.5.jar):
+		Powah-1.15.2-1.1.5.jar:
+			1.1.5
+			- Fixed Binding card causing a client crash, Closes #47.
+			- Fixed dry ice not dropping because of missing loot table.
+			- Updated [Lollipop](https://www.curseforge.com/minecraft/mc-mods/lollipop/files) to 1.0.7
+			1.1.4
+			- Fixed a dummy dump server crash
+			- Updated Lollipop to 1.0.6
+			1.1.3
+			- Fixed Gui configuration screen offset.
+			- Fixed weird block lighting.
+			- Updated Lollipop to 1.0.5
+			1.1.2
+			- Fixed Manual 2 items pages has the same text Closes #40.
+			1.1.1
+			- Fixed some slots not rendering in to the GUI.
+			- Added missing GUI's screen titles.
+			- Updated Lollipop to 1.0.4
+			1.1.0
+			- Fixed Magmator fluid wrong rendering.
+			- Added Blazing Crystal block as a heat source for the Thermo gen with heat of 2800c.
+			- Changed Nitro crystal recipe output from 24 to 16.
+			- Updated Lollipop to 1.0.3
+			1.0.3
+			- Re-Implemented crafttweaker for energizing recipes.
+			- Added recipe for the manual (forgot to add it in last version).
+			- Fixed some blocks not keeping their energy when broken.
+			- Updated Lollipop to 1.0.2
+			1.0.2
+			- Re-added the manual with new entries for batteries and lens of ender and updated some screenshots.
+			- Fixed cables has wrong config.
+			- Fixed reactor tooltip.
+			1.0.1
+			- Fixed reactor placing overlay not rendering correctly.
+			- Updated Lollipop to 1.0.1.
+			1.0.0
+			- Added Two new tiers "Starter" and "Nitro".
+			- Added Batteries charge items when is in player inventory.
+			- Now Energy Hopper, Energy discharger and Player transmitter all has the known tiers.
+			- Added Dimensional binding card a replacement of Dimensional player transmitter.
+			- Reworked most of models/textures.
+			- Rebalanced energy outputs and some crafting recipes.
+			- the Book (manual) still WIP!!
+			- 1.15.2 initial release.
+			- Updated Lollipop to 1.0.0.
+			- Require forge 31.1.12 or higher.
+			NOTE!: this is the first initial release, it may contains bug or crash your world.
+
+	Powder Power [FORGE] (PowderPower-1.15.2-3.1.35.jar --> PowderPower-1.15.2-3.1.38.jar):
+		PowderPower-1.15.2-3.1.38.jar:
+			UPDATES:
+
+			 * - Updated Forge to 1.15.2 - 31.1.18 
+			 * - Fixed bug with Afflication Token - no longer affects Villagers and Wandering Traders 
+
+		PowderPower-1.15.2-3.1.37.jar:
+			UPDATES:
+
+			 * - Updated Forge to 1.15.2 - 31.1.16 
+			 * - Updated MCP mappings to 20200225 
+			 * - Added new Affliction Token that inflicts various ill effects upon hostile mobs in range 
+
+		PowderPower-1.15.2-3.1.36.jar:
+			UPDATES:
+			- Updated Forge to 1.15.2 - 31.1.15
+
+			 * - Added[ Brazilian Portuguese by Mikeliro](https://github.com/kwpugh/PowderPower/pull/6) 
+
+	RFTools Storage (rftoolsstorage-1.15-1.0.1-alpha.jar --> rftoolsstorage-1.15-1.0.2-alpha.jar):
+		rftoolsstorage-1.15-1.0.2-alpha.jar:
+			- Fixed a problem where the storage scanner would not correctly show items with amounts greater than 127
+			- Fixed a problem with these amounts not being rendered at the correct spot
+			- Fixed another bug where trying to request an item of which there is a lot didn't actually do anything
+
+	The One Probe (theoneprobe-1.15-2.0.0_1.jar --> theoneprobe-1.15-2.0.1.jar):
+		theoneprobe-1.15-2.0.1.jar:
+			- Fixed a problem with the itemstack amounts of inventory contents not rendering properly
+
+	The Veggie Way [FORGE] (TheVeggieWay-1.15.2-2.1.18.jar --> TheVeggieWay-1.15.2-2.1.19.jar):
+		TheVeggieWay-1.15.2-2.1.19.jar:
+			UPDATES:
+
+			 * - Updated Forge to 1.15.2 - 31.1.16 
+			 * - Updated MCP mappings to 20200225 
+
+	XNet (xnet-1.15-2.0.0-alpha.jar --> xnet-1.15-2.0.1-alpha.jar):
+		xnet-1.15-2.0.1-alpha.jar:
+			- Fixed proper dependency reporting in case McJtyLib or RFToolsBase are missing
+
+	Xaero's Minimap (v20.3.1.1 for Minecraft 1.15.2 --> v20.4.0.1 for Minecraft 1.15.2):
+		v20.4.0.1 for Minecraft 1.15.2:
+			+ Added a new option to show entity name tags under the minimap dots (for those that have a name tag).
+			* Fixed the first 2 characters in player names on the minimap having weird shadows.
+			* Fixed the empty text line under the minimap when the first word in the biome name doesn't fit in the minimap width.
+			* Fixed the location of the waypoints folder being affected by whether the game config folder is a symlink or not, even though it's not located in the config folder.
+
+Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).

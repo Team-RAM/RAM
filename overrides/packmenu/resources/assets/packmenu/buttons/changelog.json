@@ -1,0 +1,16 @@
+{
+	"x": 2,
+	"y": 48,
+	"width": 98,
+	"height": 20,
+	"u": 0,
+	"v": 40,
+	"hoverU": 0,
+	"hoverV": 60,
+	"texWidth": 200,
+	"texHeight": 156,
+	"texture": "packmenu:textures/gui/rammenu.png",
+	"langKey": "packmenu.changelog",
+	"action": "OPEN_URL",
+	"data": "https://github.com/Team-RAM/RAM/tree/master/Changelog"
+}

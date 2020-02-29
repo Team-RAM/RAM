@@ -1,1 +1,0 @@
-https://github.com/LXGaming/MixinBootstrap/releases/download/v1.0.0/MixinBootstrap-1.0.0.jar
