@@ -1,24 +1,41 @@
 
-#Client-only settings
-[client]
-	#Is Potions HUD enabled
-	Potions = false
-	#Potion HUD position (Y)
-	#Range: 0 ~ 9999
-	yPotionPos = 0
+#Settings for Inventory HUD
+[inventoryhud]
 	#Inventory HUD position (Y)
 	#Range: 0 ~ 9999
 	yPos = 0
 	#Toggle on by default
 	byDefault = false
-	#Potion HUD position (X)
-	#Range: 0 ~ 9999
-	xPotionPos = 0
 	#Inventory HUD position (X)
 	#Range: 0 ~ 9999
 	xPos = 0
-	#Is Armor Damage HUD enabled
-	ArmorDamage = false
 	#Is position above HOTBAR (if false - use custom position)
 	aboveHB = true
+
+#Settings for ArmorStatus HUD
+[armorhud]
+	#Armor HUD position (X)
+	#Range: 0 ~ 9999
+	xArmPos = 0
+	#Armor HUD orientation
+	#Allowed Values: LEFT, RIGHT, MIDDLE
+	armOr = "MIDDLE"
+	#Armor HUD position (Y)
+	#Range: 0 ~ 9999
+	yArmPos = 0
+	#Is Armor Damage HUD enabled
+	ArmorDamage = false
+
+#Settings for Potions HUD
+[potionshud]
+	#Is Potions HUD enabled
+	Potions = false
+	#Potion HUD position (Y)
+	#Range: 0 ~ 9999
+	yPotionPos = 0
+	#Potion HUD orientation (true = left)
+	PotOrient = true
+	#Potion HUD position (X)
+	#Range: 0 ~ 9999
+	xPotionPos = 0
 
