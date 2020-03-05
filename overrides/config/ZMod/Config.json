@@ -1,5 +1,0 @@
-#Dedicated server settings
-#Saving ranking in time intervals(seconds)
-save-intervals:100
-#Luck multiply for three best players
-bonus:1.2;1.1;1.05
