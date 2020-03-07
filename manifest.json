@@ -10,16 +10,11 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Randomly Added Mods (RAM) (1)",
+  "name": "Really Awesome Mods",
   "version": "0.2.6",
-  "author": "Yamza_",
+  "author": "Yamza_, millificent_",
   "projectID": 357569,
   "files": [
-    {
-      "projectID": 356483,
-      "fileID": 2894618,
-      "required": true
-    },
     {
       "projectID": 251767,
       "fileID": 2870515,
@@ -102,7 +97,7 @@
     },
     {
       "projectID": 303657,
-      "fileID": 2869118,
+      "fileID": 2887957,
       "required": true
     },
     {
@@ -252,7 +247,7 @@
     },
     {
       "projectID": 309858,
-      "fileID": 2883054,
+      "fileID": 2893246,
       "required": true
     },
     {
@@ -467,7 +462,7 @@
     },
     {
       "projectID": 220318,
-      "fileID": 2887034,
+      "fileID": 2895123,
       "required": true
     },
     {
@@ -576,13 +571,13 @@
       "required": true
     },
     {
-      "projectID": 237701,
-      "fileID": 2859264,
+      "projectID": 232131,
+      "fileID": 2880426,
       "required": true
     },
     {
-      "projectID": 232131,
-      "fileID": 2880426,
+      "projectID": 237701,
+      "fileID": 2859264,
       "required": true
     },
     {
@@ -591,23 +586,23 @@
       "required": true
     },
     {
-      "projectID": 325716,
-      "fileID": 2880348,
-      "required": true
-    },
-    {
       "projectID": 285612,
       "fileID": 2876591,
       "required": true
     },
     {
-      "projectID": 60028,
-      "fileID": 2888885,
+      "projectID": 325716,
+      "fileID": 2880348,
       "required": true
     },
     {
       "projectID": 351339,
       "fileID": 2895696,
+      "required": true
+    },
+    {
+      "projectID": 60028,
+      "fileID": 2888885,
       "required": true
     },
     {
