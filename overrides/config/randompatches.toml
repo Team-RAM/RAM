@@ -61,18 +61,24 @@
 		# The path to the 256x256 window icon which is used on Mac OS X.
 		# Leave this, the 16x16 icon and the 32x32 icon blank to use the default icon.
 		# Default: 
-		icon256 = "config/randompatches/trayicon.png"
+		icon256 = "config/randompatches/icon.png"
 		# The path to the 16x16 Minecraft window icon.
 		# Leave this and the 32x32 icon blank to use the default icon.
 		# Default: 
-		icon16 = "config/randompatches/trayicon.png"
+		icon16 = "config/randompatches/icon.png"
 		# The path to the 32x32 Minecraft window icon.
 		# Leave this and the 16x16 icon blank to use the default icon.
 		# Default: 
-		icon32 = "config/randompatches/trayicon.png"
+		icon32 = "config/randompatches/icon.png"
 		# The Minecraft window title.
-		# Default: Minecraft 1.15.2
+		# The Minecraft version is provided as an argument.
+		# Default: Minecraft* %s
 		title = "Really Awesome Mods"
+		# The Minecraft window title.
+		# The Minecraft version and current activity are provided as arguments.
+		# For example: "RandomPatches - %2$s"
+		# Default: Minecraft* %s - %s
+		titleWithActivity = "Minecraft* %s - %s"
 
 # Options related to boats.
 [boats]
