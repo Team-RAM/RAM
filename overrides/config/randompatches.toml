@@ -78,7 +78,7 @@
 		# The Minecraft version and current activity are provided as arguments.
 		# For example: "RandomPatches - %2$s"
 		# Default: Minecraft* %s - %s
-		titleWithActivity = "Minecraft* %s - %s"
+		titleWithActivity = "Really Awesome Mods"
 
 # Options related to boats.
 [boats]
