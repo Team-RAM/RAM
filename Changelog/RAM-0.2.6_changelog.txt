@@ -1,6 +1,6 @@
-=======================================================================
-Randomly Added Mods (RAM) 0.2.5 --> Randomly Added Mods (RAM) (1) 0.2.6
-=======================================================================
+=============================================================
+Randomly Added Mods (RAM) 0.2.5 --> Really Awesome Mods 0.2.6
+=============================================================
 
 Added:
 - AttributeFix
@@ -13,6 +13,16 @@ Added:
 - Vampirism - Become a vampire!
 
 Updated:
+	Biomes O' Plenty (Biomes O' Plenty 1.15.2-10.0.0.345 --> Biomes O' Plenty 1.15.2-10.0.0.348):
+		Biomes O' Plenty 1.15.2-10.0.0.348:
+			 github:
+			 * Update ru_ru.json (root, tall wheat)
+
+		Biomes O' Plenty 1.15.2-10.0.0.347:
+			 forstride:
+			 * Re-added roots
+			 * Removed passive mobs from the Dead Forest, changed biome dictionary tags for the Origin Hills/Orchard forstride:
+
 	Buzzier Bees (Buzzier Bees - 1.1.3 --> Buzzier Bees - 1.1.4):
 		Buzzier Bees - 1.1.4:
 			Changes
@@ -44,10 +54,19 @@ Updated:
 		FallingTree-1.15.2-2.0.3+21:
 			 * Use mutable BlockPos when checking tree to improve a bit performances. 
 
-	Industrial Agriculture ( Industrial Agriculture[Core] 1.15.2-1.5.4 --> Industrial Agriculture[Core] 1.15.2-1.6.0):
-		Industrial Agriculture[Core] 1.15.2-1.6.0:
-			- Added support for tier 6 seeds
-			- Changed the framework to allow cruxes to be set for each crop via the configs. This change is responsible for the incompability between versions 1.5 and 1.6. You will need to update all plugins to 1.6 to use them
+	Forbidden and Arcanus (forbidden_arcanus-1.15.2-1.1.jar --> forbidden_arcanus-1.15.2-1.2-beta-2.jar):
+		forbidden_arcanus-1.15.2-1.2-beta-2.jar:
+			forbidden_arcanus-1.15.2-1.2-beta-2
+			-Fixed a Server Crash -Fixed Forbiddenmicon Change Page Button Hover Effect
+
+		forbidden_arcanus-1.15.2-1.2-beta-1.jar:
+			forbidden_arcanus-1.15.2-1.2-beta-1
+			-Added Stella Arcanum
+			-Added Stellarite Piece
+			-Added Stellarite Block
+			-Updated Draco Arcanus Armor Texture
+			-First Forbiddenmicon Pages are now available, much more to come
+			Stellarite has no use just yet but you should already start collecting it ;)
 
 	Inventory HUD+ (Forge) (InventoryHud_1.15.1-1.15.2.forge.2.2.jar --> InventoryHud_1.15.1-1.15.2.forge.2.3.jar):
 		InventoryHud_1.15.1-1.15.2.forge.2.3.jar:
@@ -784,5 +803,9 @@ Updated:
 		v20.5.0 for Minecraft 1.15.2:
 			+ Added a new option to control the alignment of the info text under/above the minimap. + Added a new option to display current yaw and pitch angles of the view.
 			* Reordered some minimap options.
+
+	🥝 Kiwi (Kiwi-1.15.2-2.6.5.jar --> Kiwi-1.15.2-2.7.0.jar):
+		Kiwi-1.15.2-2.7.0.jar:
+			No changelog provided.
 
 Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).
