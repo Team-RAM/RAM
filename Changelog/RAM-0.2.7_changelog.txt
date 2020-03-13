@@ -12,7 +12,6 @@ Added:
 - IAP [Silent's Mechanisms]
 - JourneyMap
 - Lithium
-- Phosphor
 - Ring of Attraction [FORGE]
 - Storage Drawers
 - YAMDA - Yet Another Mining Dimension Attempt
