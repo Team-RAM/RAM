@@ -1,23 +1,28 @@
-#Additional list of blocks (those marked with the log tag will already be whitelisted) considered as logs and that will be destroyed all at once
-logs_whitelisted = []
-#Additional list of tools (those marked with the axe tag will already be whitelisted) that can be used to chop down a tree
-tools_whitelisted = []
-#List of blocks that should not be considered as logs (this wins over the whitelist)
-logs_blacklisted = []
-#List of tools that should not be considered as tools (this wins over the whitelist)
-tools_blacklisted = []
-#Ignore the durability loss of breaking all the logs. If set to true, no harm will be done to the tool
-ignore_durability = false
-#The maximum size of a tree. If there's more logs than this value the tree won't be cut.
-#Range: > 1
-max_log_count = 350
-#When set to true, when a tree is broken and the tool is about to break we will just break one block and not the whole tree.
-preserve_tools = false
 #When set to true, a tree will only be chopped down if the player is sneaking
 reverse_sneaking = true
-#When set to true, leaves that should naturally break will be broken instantly
-break_leaves = true
-#Radius to force break leaves. If another tree is still holding the leaves they'll still be broken. If the leaves are persistent (placed by player) they'll also be destroyed. The radius is applied from one of the top most log blocks. break_leaves must be activated for this to take effect.
-#Range: 0 ~ 10
-force_break_leaves_radius = 6
+
+#Falling Tree configuration
+[trees]
+	#List of blocks that should not be considered as logs (this wins over the whitelist)
+	logs_blacklisted = []
+	#When set to true, leaves that should naturally break will be broken instantly
+	leaves_breaking = true
+	#Additional list of blocks (those marked with the log tag will already be whitelisted) considered as logs and that will be destroyed all at once
+	logs_whitelisted = []
+	#The maximum size of a tree. If there's more logs than this value the tree won't be cut.
+	#Range: > 1
+	logs_max_count = 300
+	#Radius to force break leaves. If another tree is still holding the leaves they'll still be broken. If the leaves are persistent (placed by player) they'll also be destroyed. The radius is applied from one of the top most log blocks. break_leaves must be activated for this to take effect.
+	#Range: 0 ~ 10
+	leaves_breaking_force_radius = 3
+
+[tools]
+	#List of tools that should not be considered as tools (this wins over the whitelist)
+	blacklisted = []
+	#Additional list of tools (those marked with the axe tag will already be whitelisted) that can be used to chop down a tree
+	whitelisted = []
+	#When set to true, when a tree is broken and the tool is about to break we will just break one block and not the whole tree.
+	preserve = true
+	#Ignore the durability loss of breaking all the logs. If set to true, no harm will be done to the tool
+	ignore_durability = false
 

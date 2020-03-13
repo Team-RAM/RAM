@@ -8,7 +8,7 @@
 	"hoverU": 0,
 	"hoverV": 60,
 	"texWidth": 200,
-	"texHeight": 156,
+	"texHeight": 332,
 	"texture": "packmenu:textures/gui/rammenu.png",
 	"langKey": "menu.options",
 	"action": "OPEN_GUI",

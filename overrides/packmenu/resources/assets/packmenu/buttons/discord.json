@@ -8,7 +8,7 @@
 	"hoverU": 0,
 	"hoverV": 118,
 	"texWidth": 200,
-	"texHeight": 156,
+	"texHeight": 332,
 	"langKey": "packmenu.discord",
 	"texture": "packmenu:textures/gui/rammenu.png",
 	"action": "OPEN_URL",
