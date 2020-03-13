@@ -1,14 +1,20 @@
-=======================================================
-Really Awesome Mods 0.2.6 --> Really Awesome Mods 0.2.7
-=======================================================
+=========================================================
+Really Awesome Mods 0.2.6 --> Really Awesome Mods 0.2.7-1
+=========================================================
+
+Updare Forge to 31.1.19
 
 Added:
+- Double Doors
 - IAP [Industrial Foregoing]
 - IAP [Mekanism]
 - IAP [Silent's Gems]
 - IAP [Silent's Mechanisms]
 - JourneyMap
+- Lithium
+- Phosphor
 - Ring of Attraction [FORGE]
+- Storage Drawers
 - YAMDA - Yet Another Mining Dimension Attempt
 
 Updated:
@@ -202,7 +208,14 @@ Updated:
 			Added client side event for integration mods to implement context driven excavations
 			 Added several community translations (Japanese, Swedish, Spanish, Dutch)
 
-	Powder Power [FORGE] (PowderPower-1.15.2-3.1.41.jar --> PowderPower-1.15.2-3.1.44.jar):
+	Powder Power [FORGE] (PowderPower-1.15.2-3.1.41.jar --> PowderPower-1.15.2-3.1.45.jar):
+		PowderPower-1.15.2-3.1.45.jar:
+			UPDATES:
+
+			 * - Updated Curios API to 2.0.1 
+			 * - Some internal refactoring for better organization 
+			 * - Added recipe for Dragon Token 
+
 		PowderPower-1.15.2-3.1.44.jar:
 			UPDATES:
 
@@ -262,5 +275,10 @@ Removed:
 - Xaero's Minimap
 - Xaero's World Map
 - ZmodSkills
+
+Config Changes:
+- Changed level hearts to only take 1 heart per death
+- Fixed Palisade recipe conflict.
+
 
 Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).
