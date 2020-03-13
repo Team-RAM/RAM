@@ -12,7 +12,7 @@
 	"langKey": "packmenu.akliz",
 	"texture": "packmenu:textures/gui/rammenu.png",
 	"action": "OPEN_URL",
-	"data": "https://www.akliz.net/manage/aff.php?aff=300",
+	"data": "https://www.akliz.net/teamram",
 	"anchor": "TOP_RIGHT",
 	"textYOffset": 30
 }
