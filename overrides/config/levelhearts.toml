@@ -1,7 +1,7 @@
 
 [General]
 	#When enabled, the player's health will get reset back to default on death. Overrides punish amount.
-	Hardcore = true
+	Hardcore = false
 	#When disabled, LevelHearts' items' functionality will be disabled.
 	Items = true
 	#When disabled, LevelHearts will not spawn heart pieces and heart containers in chests around the world.
@@ -15,7 +15,7 @@
 	"Maximum Health" = 40
 	#How many hearts (not health) to take away from the user each time they die. -1 to disable.
 	#Range: -1 ~ 10
-	"Punish Health" = -1
+	"Punish Health" = 1
 	#The amount of health a user will have in a new game or after death.
 	#Range: 1 ~ 200
 	"Default Health" = 20
