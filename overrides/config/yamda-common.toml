@@ -7,7 +7,7 @@
 	canSleepHere = false
 	#Overworld dim ID
 	#Range: -1000 ~ 1000
-	overworldId = -6
+	overworldId = 6
 	#Height of the world
 	#Range: 5 ~ 256
 	world_height = 120
