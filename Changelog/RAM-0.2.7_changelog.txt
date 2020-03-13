@@ -1,0 +1,266 @@
+=======================================================
+Really Awesome Mods 0.2.6 --> Really Awesome Mods 0.2.7
+=======================================================
+
+Added:
+- IAP [Industrial Foregoing]
+- IAP [Mekanism]
+- IAP [Silent's Gems]
+- IAP [Silent's Mechanisms]
+- JourneyMap
+- Ring of Attraction [FORGE]
+- YAMDA - Yet Another Mining Dimension Attempt
+
+Updated:
+	/tank/null (tanknull-1.7.jar --> tanknull-1.8a.jar):
+		tanknull-1.8a.jar:
+			* fixed shiftclicking in gui freezing the game, doesn't do anything yet but at least it doesn't crash the game anymore
+
+		tanknull-1.8.jar:
+			docking station now has hardness and can be broken safely with any tool.
+
+	Aquaculture 2 (Aquaculture-1.15.2-2.0.9.jar --> Aquaculture-1.15.2-2.0.11.jar):
+		Aquaculture-1.15.2-2.0.11.jar:
+			- Prevent crash when more than 256 compostables have been registered to the Composter
+
+		Aquaculture-1.15.2-2.0.10.jar:
+			- Added Neptunium Block tag
+			- Add fish as compostables in Composter/Worm Farm, depending on weight (Can be turned off in the config)
+			- Fixed Fillet Knives showing up as an empty tag in the Fish Fillet recipes on servers
+
+	Biomes O' Plenty (Biomes O' Plenty 1.15.2-10.0.0.348 --> Biomes O' Plenty 1.15.2-10.0.0.349):
+		Biomes O' Plenty 1.15.2-10.0.0.349:
+			 forstride:
+			 * Renamed Pink/White Cherry and Jacaranda Leaves to "Blossoms"
+
+	Bookshelf (Bookshelf-1.15.2-5.0.1.jar --> Bookshelf-1.15.2-5.1.4.jar):
+		Bookshelf-1.15.2-5.1.4.jar:
+			 * Enabled server side recipe manager tracking on the client. - Tyler Hancock Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?Bookshelf)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+		Bookshelf-1.15.2-5.1.3.jar:
+			 * Ticked version number. - Tyler Hancock 
+			 * Added some enchantment base types with additional hooks. - Tyler Hancock 
+			 * Removed custom recipe type class in favour of existing vanilla class. - Tyler Hancock 
+			 * Added active recipe manager tracking. - Tyler Hancock 
+			 * Added packet utils for some collection serialization and for blockstates. - Tyler Hancock 
+			 * Added support for detecting blocks like composters which don't use tile entities but still have inventories. - Tyler Hancock Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?Bookshelf)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+		Bookshelf-1.15.2-5.0.2.jar:
+			 * Added some enchantment base types with additional hooks. - Tyler Hancock 
+			 * Removed custom recipe type class in favour of existing vanilla class. - Tyler Hancock 
+			 * Added active recipe manager tracking. - Tyler Hancock 
+			 * Added packet utils for some collection serialization and for blockstates. - Tyler Hancock 
+			 * Added support for detecting blocks like composters which don't use tile entities but still have inventories. - Tyler Hancock Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?Bookshelf)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+	Buzzier Bees (Buzzier Bees - 1.1.4 --> Buzzier Bees - 1.2):
+		Buzzier Bees - 1.2:
+			New features and compat, yay!
+			- Added Hive Boat
+			- Added Rosewood, Yucca, Kousa, and Aspen Beehives for [Atmospheric compatability](https://www.curseforge.com/minecraft/mc-mods/atmospheric)
+			- Added Willow Beehives for [Swamp Expansion compatability](https://www.curseforge.com/minecraft/mc-mods/swamp-expansion)
+			- Added W.I.P. Bug Bottles - not functional yet.
+			- Added Vertical Hive Planks to the planks tag
+			- Added a "lit" blockstate to candles - currently only usable in creative
+
+		Buzzier Bees - 1.1.5:
+			- Added Advancement for using a Cure
+			- Added Advancement for using Glazed Porkchop
+			- Fixed Honey Apple and Honey Bread Advancements
+			- There is no longer a check for Flower Forests for Honey Slimes, so other mod devs can add Honey Slimes to other biomes
+			- Cartwheels now generate facing a random direction
+			- Wax Blocks are now slippery
+
+	Corail Tombstone (Corail Tombstone 4.2.4 for 1.15.2 --> Corail Tombstone 4.2.5 for 1.15.2):
+		Corail Tombstone 4.2.5 for 1.15.2:
+			This mod supports mc version from 1.8.9 to 1.15.2
+			Minecraft Version = [1.15.2] - Forge Version [31.1.8+]
+			Latest : 4.2.5 - Recommended : 4.2.5
+			Changes 4.2.5 :
+
+			 * - integration TheOneProbe
+			- display the Y on lost tablet tooltip before the first teleportation
+			- re-use the same casting particle texture as 1.12.2
+			- new enchantment Plague Bringer (can't combine with Magic Siphon)
+			- config to limit Plague Bringer to bad alignment player (or he will be affected with the same bad effect) - default true
+			- config for unhandled harmful effects with nausea in by default (also rename the config for beneficial effects)
+			- avoid a vanilla bug where onEntityDamaged is called twice for player for the mainhand
+			- limit plague bringer & magic siphon to be effective only on mainhand Changes 4.2.4 :
+
+			 * - server configs are now in the usual config folder (#135)
+			- sync the server config to players on dedicated server (without the need to relog) Changes 4.2.3 :
+
+			 * - disabled magic items in config also disable the recipes in game (some of them have now a custom serializer "tombstone:disableable_shaped", "tombstone:disableable_shapeless" and are still editable in json for modpackers)
+			- loot entries are now done in builder allowing them to not be present when the magic item is disabled (require to reload the game)
+			- new item "tablet of cupidity" : a deceitful craftable version of lost tablets leading to others places
+			- remove beyondTheGrave damages from lost tablets
+			- update chinese translation (courtesy of Papadave66) Changes 4.2.2 :
+
+			 * - spanish translation (courtesy of EdicionGamer)
+			- a new perk Tomb Raider, for bad alignement player and if the config option Tomb Raiding is enabled, allowing to plunders some items in an abandoned grave. A grave is considered as abandoned based on the real time of the server : it's one day by default if the decayTime is not enabled and in the other case, it uses the decayTime adjusted by the level of knowledge of death of the plunderer (to allow them to acces faster theses graves than others players with a cap of 50% faster). The number of stolen items is variable and it's possible to not find all the items.
+			- hide disable items in creative tabs
+			- additional checks about cooldown if the gametime changes to an inconsistent value (fix #123)
+			- fix for the tablet of assistance (introduced in 4.2.0)
+			- some configs are now in the world save folder/serverConfig Changes 4.2.1 :
+
+			 * - fix #122 (using tablets can crash a server)
+			- tag antibuilder (in prevision of Twilight Forest) Changes 4.2.0 :
+
+			 * - improve grave items interaction with block when not enchanted
+			- fix for player not being transparent in ghostly shape
+			- update chinese lang
+			- compat Quark (totem)
+			- fix for the tablet of assistance (to prevent to skip the permission, thanks CJ)
+			- tags to prevent grave destruction for ender dragon & wither
+			- re-add compat Hwyla
+			- remove stuff related to forge breaking changes 
+
+	Curios API (curios-FORGE-1.15.2-2.0.jar --> curios-FORGE-1.15.2-2.0.1.jar):
+		curios-FORGE-1.15.2-2.0.1.jar:
+			Changelog
+			All notable changes to this project will be documented in this file.
+			The format is based on [Keep a Changelog]() and this project does not adhere to [Semantic Versioning](). This project uses MCVERSION-MAJORMOD.MAJORAPI.MINOR.PATCH.
+			[2.0.1] - 2020.03.08
+			Added
+
+			 * [API] ICurio#onCurioAnimate - Called every tick client-side only while curio is equipped [2.0] - 2020.02.24
+			Fixed
+
+			 * Fixed compatibility issue with Ensorcellation's Soulbound enchantment [#41](https://github.com/TheIllusiveC4/Curios/issues/41) [2.0-beta2] - 2020.01.26
+			Changed
+
+			 * Updated to 1.15.2 Added
+
+			 * Re-added JEI integration 
+			 * Added Japanese localization (thanks MORIMORI0317!) Fixed
+
+			 * Fixed generic curio slot icon showing missing texture [2.0-beta] - 2019.12.30
+			Changed
+
+			 * Ported to 1.15.1 
+			 * [API] ICurio#doRender -> ICurio#render 
+			 * Curio rendering no longer automatically applies sneaking translations 
+			 * Curio slot icons need to be manually stitched into the block texture atlas 
+
+	Decorative Blocks (decorative_blocks_6b.jar --> decorative_blocks_6c.jar):
+		decorative_blocks_6c.jar:
+			small bugfix
+
+	Enchantment Descriptions (EnchantmentDescriptions-1.15.2-2.0.1.jar --> EnchantmentDescriptions-1.15.2-2.0.3.jar):
+		EnchantmentDescriptions-1.15.2-2.0.3.jar:
+			 * Added Korean localization. Thanks to MilkissWhite. #23 - Tyler Hancock Like the mod? Consider following me on [Twitter](https://twitter.com/darkhaxdev) and joining the [Discord]()
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?EnchantmentDescriptions)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+		EnchantmentDescriptions-1.15.2-2.0.2.jar:
+			 * Added Chinese localizations. Thanks to EnterFor - Tyler Hancock Like the mod? Consider following me on [Twitter](https://twitter.com/darkhaxdev) and joining the [Discord]()
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?EnchantmentDescriptions)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+	Falling Tree (FallingTree-1.15.2-2.0.4+23 --> FallingTree-1.15.2-2.1.0+24):
+		FallingTree-1.15.2-2.1.0+24:
+			 * Refactor configuration by using categories thus making it a bit clearer than having everything stacked up at the same place. (/!\ You may have to redo your configuration if you changed values so back up the configuration before updating in order to copy values after) 
+			 * Break leaves without sound when using force breaking leaves (the option with the radius) to avoid breaking your ears (#7) 
+
+	I Like Wood (ilikewood-1.15.2-2.2.0.0 --> ilikewood-1.15.2-2.2.0.1):
+		ilikewood-1.15.2-2.2.0.1:
+			fixed missing burn time + enchanting power config for biomes o' plenty blocks causing crash
+
+	Industrial Agriculture ( Industrial Agriculture[Core] 1.15.2-1.5.4 --> Industrial Agriculture[Core] 1.15.2-1.6.6):
+		Industrial Agriculture[Core] 1.15.2-1.6.6:
+			- Added some functionallity. Will work with prior versions.
+
+		Industrial Agriculture[Core] 1.15.2-1.6.4:
+			- Fixes issue with bat (it seems)
+
+		Industrial Agriculture[Core] 1.15.2-1.6.2:
+			- Added in some extra checks to make sure things work.
+
+	Light Overlay (Rift/Forge/Fabric) ([Forge / Fabric 1.15.x] v4.2 --> [Forge / Fabric 1.15.x] v4.3):
+		[Forge / Fabric 1.15.x] v4.3:
+			Fabric: Fixed crash on launch, disabled spawn rules check for number mode
+			Forge: Disabled spawn rules check for number mode
+
+	Mining Gadgets (MiningGadgets-1.3.0 --> MiningGadgets-1.3.1):
+		MiningGadgets-1.3.1:
+			Beta release now. Fixed a few bugs reporting in 1.3.0
+
+	Ore Excavation (OreExcavation-1.7.149.jar --> OreExcavation-1.7.151.jar):
+		OreExcavation-1.7.151.jar:
+			Added client side event for integration mods to implement context driven excavations
+			 Added several community translations (Japanese, Swedish, Spanish, Dutch)
+
+	Powder Power [FORGE] (PowderPower-1.15.2-3.1.41.jar --> PowderPower-1.15.2-3.1.44.jar):
+		PowderPower-1.15.2-3.1.44.jar:
+			UPDATES:
+
+			 * - Updated Forge to 31.1.19 
+			 * - Updated MCP mappings 
+			 * - Updated weird looking pixel on Lapium Ingot texture 
+			 * - More work on Dragon Token, it works but does not have a recipe. Can be used if grabbed from creative tab; only works in a Curious slot 
+			 * - Fixed Mortar and Pestle and Alchemist Wand to properly take damage during crafting; reduced max use to smaller numbers 
+
+		PowderPower-1.15.2-3.1.43.jar:
+			UPDATES:
+
+			 * - Refactored the Excavators, Hammers, and Paxels to remove duplicative code 
+			 * - Created separate excavator util to address block break issues 
+			 * - Fixed Gem Excavator handle to match the rest of the Gemium tool set 
+			 * - Refreshed ingots with the more modern post 1.14 look 
+
+		PowderPower-1.15.2-3.1.42.jar:
+			UPDATES:
+
+			 * - Changed how the Alchemist Hammer and the Alchemist Wand work. They no longer are breaking tools, they are items for crafting in the crafting table, like the Mortar and Pestle. 
+			 * - Added recipes for the various powders to be obtained via crafting with the Alchemist Hammer, Alchemist Wand, or Mortar and Pestle 
+			 * - Stone Powder removed. Its texture has been repurposed into Ghast Tear Powder for future use 
+			 * - Wood Powder removed, not necessary 
+
+	Simply Backpacks (simplybackpacks-1.15.2-1.3.0.jar --> simplybackpacks-1.15.2-1.4.0.jar):
+		simplybackpacks-1.15.2-1.4.0.jar:
+			Hopefully fixed the void bug...
+
+	Snowballs Freeze Mobs (snowbfrmobs_1.15.1-1.0.jar --> snowbfrmobs_1.15.2-1.0.jar):
+		snowbfrmobs_1.15.2-1.0.jar:
+			Updated mod to 1.15.2.
+
+	Softer Hay Bales (softerhayb_1.15.1-1.0.jar --> softerhayb_1.15.2-1.0.jar):
+		softerhayb_1.15.2-1.0.jar:
+			Updated mod to 1.15.2.
+
+	Tool Belt (ToolBelt-1.15.2-1.14.0.jar --> ToolBelt-1.15.2-1.14.1.jar):
+		ToolBelt-1.15.2-1.14.1.jar:
+			Fix GL error due to invalid keys, in some operating systems.
+
+	Vampirism - Become a vampire! (Vampirism-1.15.2-1.6.0-alpha+20200228-0048 --> Vampirism-1.15.2-1.6.0-alpha+20200312-1042):
+		Vampirism-1.15.2-1.6.0-alpha+20200312-1042:
+			This version should not be used in your 'productive' world. It contains the latest features, but also the latest bugs.
+			 Probably not all features are finished.
+			 To see what might have changed visit our Github page and browse the latest commits.
+
+		Vampirism-1.15.2-1.6.0-alpha+20200307-2118:
+			This version should not be used in your 'productive' world. It contains the latest features, but also the latest bugs.
+			 Probably not all features are finished.
+			 To see what might have changed visit our Github page and browse the latest commits.
+
+Removed:
+- AtomicStryker's Infernal Mobs
+- Inventory HUD+ (Forge)
+- Overworld Mirror
+- Xaero's Minimap
+- Xaero's World Map
+- ZmodSkills
+
+Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).
