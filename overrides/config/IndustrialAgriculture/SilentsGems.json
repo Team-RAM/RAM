@@ -1,0 +1,12 @@
+{
+  "tierMap": {
+    "dark_set": "FIVE",
+    "light_set": "SIX",
+    "classic_set": "FOUR"
+  },
+  "cruxMap": {
+    "dark_set": "",
+    "light_set": "",
+    "classic_set": ""
+  }
+}
