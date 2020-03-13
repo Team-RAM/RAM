@@ -27,10 +27,9 @@ craftingTable.addShapeless("chest_conversion", <item:minecraft:chest>,
     [<tag:forge:chests/wooden>], null);
 	
 //Logs to Sticks
-craftingTable.addShaped("log2stick", <item:minecraft:stick> * 16, 
-		[[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
-		[<item:minecraft:air>, <tag:minecraft:logs>, <item:minecraft:air>],
-		[<item:minecraft:air>, <tag:minecraft:logs>, <item:minecraft:air>]]);
+craftingTable.addShapeless("log2stick", <item:minecraft:stick> * 16, 
+    [<tag:minecraft:logs>, <tag:minecraft:logs>],	null);
+	
 	
 //Logs to Chests
 craftingTable.addShaped("logs_2_chest", <item:minecraft:chest> * 4,
