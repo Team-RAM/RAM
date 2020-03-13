@@ -27,9 +27,10 @@ craftingTable.addShapeless("chest_conversion", <item:minecraft:chest>,
     [<tag:forge:chests/wooden>], null);
 	
 //Logs to Sticks
-craftingTable.addShapeless("log2stick", <item:minecraft:stick> * 16, 
-    [<tag:minecraft:logs>, <tag:minecraft:logs>],	null);
-	
+craftingTable.addShaped("log2stick", <item:minecraft:stick> * 16, 
+		[[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+		[<item:minecraft:air>, <tag:minecraft:logs>, <item:minecraft:air>],
+		[<item:minecraft:air>, <tag:minecraft:logs>, <item:minecraft:air>]]);
 	
 //Logs to Chests
 craftingTable.addShaped("logs_2_chest", <item:minecraft:chest> * 4,
@@ -42,3 +43,18 @@ craftingTable.addShaped("logs_2_barrel", <item:minecraft:barrel> * 4,
 		[[<item:minecraft:air>, <tag:minecraft:logs>, <item:minecraft:air>], 
 		[<tag:minecraft:logs>, <tag:minecraft:logs>, <tag:minecraft:logs>],
 		[<tag:minecraft:logs>, <tag:minecraft:logs>, <tag:minecraft:logs>]]);
+		
+//Redstone Repeater Alt
+craftingTable.addShaped("repeater_alt", <item:minecraft:repeater>,
+		[[<tag:forge:dusts/redstone>, <item:minecraft:air>, <tag:forge:dusts/redstone>], 
+		[<tag:forge:rods/wooden>, <tag:forge:dusts/redstone>, <tag:forge:rods/wooden>],
+		[<tag:forge:stone>, <tag:forge:stone>, <tag:forge:stone>]]);
+		
+//Redstone Comparator Alt
+craftingTable.addShaped("comparator_alt", <item:minecraft:comparator>,
+		[[<tag:forge:dusts/redstone>, <tag:forge:dusts/redstone>, <tag:forge:dusts/redstone>], 
+		[<tag:forge:rods/wooden>, <tag:forge:gems/quartz>, <tag:forge:rods/wooden>],
+		[<tag:forge:stone>, <tag:forge:stone>, <tag:forge:stone>]]);
+		
+		
+		
