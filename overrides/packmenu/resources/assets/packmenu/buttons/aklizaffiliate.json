@@ -1,0 +1,18 @@
+{
+	"x": -105,
+	"y": 5,
+	"width": 100,
+	"height": 88,
+	"u": 0,
+	"v": 156,
+	"hoverU": 0,
+	"hoverV": 244,
+	"texWidth": 200,
+	"texHeight": 332,
+	"langKey": "packmenu.akliz",
+	"texture": "packmenu:textures/gui/rammenu.png",
+	"action": "OPEN_URL",
+	"data": "https://discord.gg/A3c5YfV",
+	"anchor": "TOP_RIGHT",
+	"textYOffset": 30
+}

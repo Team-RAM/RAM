@@ -8,7 +8,7 @@
 	"hoverU": 0,
 	"hoverV": 20,
 	"texWidth": 200,
-	"texHeight": 156,
+	"texHeight": 332,
 	"langKey": "menu.multiplayer",
 	"texture": "packmenu:textures/gui/rammenu.png",
 	"action": "OPEN_GUI",
