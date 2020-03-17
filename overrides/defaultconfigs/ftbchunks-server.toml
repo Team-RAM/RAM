@@ -1,0 +1,10 @@
+disable_fake_players = false
+#Max claimed chunks.
+#-1 - Up to permissions / default
+#Range: > -1
+max_claimed_chunks = 100
+#Max force loaded chunks.
+#-1 - Up to permissions / default
+#Range: > -1
+max_force_loaded_chunks = 0
+
