@@ -1,0 +1,269 @@
+{
+	id: 20,
+	filename: "",
+	order_index: 2,
+	title: "On your travels - Dimensions",
+	images: [{
+		x: 0.0d,
+		y: 0.0d,
+		width: 0.0d,
+		height: 0.0d,
+		rotation: 0.0d,
+		image: "#FFFFFF",
+		hover: [],
+		click: ""
+	}],
+	quests: [
+		{
+			title: "The End",
+			icon: "minecraft:end_stone",
+			x: -18.0d,
+			y: -7.0d,
+			subtitle: "Journey to the End",
+			id: 21,
+			tasks: [{
+				id: 22,
+				type: "dimension",
+				dimension: "minecraft:the_end"
+			}],
+			rewards: [{
+				id: 23,
+				type: "item",
+				item: {
+					id: "minecraft:chorus_fruit",
+					Count: 4
+				}
+			}]
+		},
+		{
+			title: "The Nether",
+			icon: "minecraft:nether_bricks",
+			x: -18.0d,
+			y: -4.0d,
+			shape: "square",
+			subtitle: "Journey to the Nether",
+			id: 24,
+			tasks: [{
+				id: 25,
+				type: "dimension",
+				dimension: "minecraft:the_nether"
+			}],
+			rewards: [{
+				id: 26,
+				type: "item",
+				item: {
+					id: "minecraft:blaze_powder",
+					Count: 2
+				}
+			}]
+		},
+		{
+			title: "Good Night Sleep",
+			icon: "minecraft:purple_bed",
+			x: -7.0d,
+			y: -7.0d,
+			shape: "square",
+			subtitle: "Adventure to two new dimensions - your nicest dream and your worst nightmare.",
+			id: 30,
+			tasks: [{
+				id: 31,
+				type: "item",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1,
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 32,
+					type: "item",
+					item: "goodnightsleep:hope_mushroom"
+				},
+				{
+					id: 33,
+					type: "item",
+					item: "goodnightsleep:despair_mushroom"
+				}
+			]
+		},
+		{
+			title: "Good Dream",
+			icon: "goodnightsleep:hope_mushroom",
+			x: -8.0d,
+			y: -6.0d,
+			dependency_requirement: "one_started",
+			id: 34,
+			tasks: [{
+				id: 35,
+				type: "dimension",
+				dimension: "goodnightsleep:good_dream"
+			}],
+			rewards: [
+				{
+					id: 36,
+					type: "item",
+					item: "goodnightsleep:luxurious_soup"
+				},
+				{
+					id: 37,
+					type: "item",
+					item: "goodnightsleep:candy_sapling"
+				}
+			]
+		},
+		{
+			title: "Nightmare",
+			icon: "goodnightsleep:despair_mushroom",
+			x: -6.0d,
+			y: -6.0d,
+			id: 38,
+			tasks: [{
+				id: 40,
+				type: "dimension",
+				dimension: "goodnightsleep:nightmare"
+			}],
+			rewards: [
+				{
+					id: 41,
+					type: "item",
+					item: "goodnightsleep:wretched_soup"
+				},
+				{
+					id: 42,
+					type: "item",
+					item: "goodnightsleep:lolipop"
+				}
+			]
+		},
+		{
+			x: -16.5d,
+			y: -7.0d,
+			id: 39,
+			tasks: [{
+				id: 43,
+				type: "kill",
+				title: "Kill 50 Enderman",
+				icon: {
+					id: "minecraft:player_head",
+					Count: 1,
+					tag: {
+						SkullOwner: {
+							Id: "40ffb372-12f6-4678-b3f2-2176bf56dd4b",
+							Properties: {
+								textures: [{
+									Value: "eyJ0aW1lc3RhbXAiOjE1ODIyNDYxNjA5NDAsInByb2ZpbGVJZCI6IjQwZmZiMzcyMTJmNjQ2NzhiM2YyMjE3NmJmNTZkZDRiIiwicHJvZmlsZU5hbWUiOiJNSEZfRW5kZXJtYW4iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFiMDlhMzc1MjUxMGU5MTRiMGJkYzkwOTZiMzkyYmIzNTlmN2E4ZThhOTU2NmEwMmU3ZjY2ZmFmZjhkNmY4OWUifX19",
+									Signature: "pWAe8jswvfemKGRdzPkILP6t7DKT4mqyWv803SHM50aPhfqd6Pj3pgzAmnEZTZk5KF+oUjYyFBWpsNMakySmns20UG0b5+rW00Swm0GTDRUPnn7FSIKrid6kFVER3TLWIHdQP+3L1tm67hVIt0qKDNoUb6O+3pGJHg3Cj2k5iyl+4y7fApQl+awLke1uiDae+mVOSBDfA+GBqfQiQ9wAE4Gi+r5dE2AKQ8G7n5WfaBgeDXzrykQkrh5ZJuSybAa0Rwm1BcDAYEOBQFkhoyRVO9pOI0wBu6eP89ftwtFAVwC/zdFIfTXvL6rApqPqg+fwRSJSCAsjQe2YWVD6ApItgugfMimQDqEtb3D5eQ2nPqDyHP9S1ChwMOhQ0EMJyqe/fiijJr3YUjSHA462pSjQwc9acV8dNDNm7l4BfE2nk5Ob9f6ociMr1mae9mjMHhnFAhi8YbvZ4sgOFdozb9dUXsXAQMSnm9Dzl+pl7zAAkA+Pllo/2gzb9kQwWFNY2GPSQwDrhoRKmoPhRPZ+VI+urIAV/cqQiqnFzj19uqc+stzBHTupD+UbCd4+/k6nzqk5JZzXqyUXLerY7f6q4bV3kiG18W3t4ZoOXrWVjL3dqPqNj+bpoZHe0SNvDAoSHl+YyRsX1TjprYwsOfqk/jn3GokJ9XoQqbgAx3g+JDF6gnw="
+								}]
+							},
+							Name: "MHF_Enderman"
+						},
+						display: {
+							Name: '{"text":"Enderman"}'
+						}
+					}
+				},
+				entity: "minecraft:enderman",
+				value: 50
+			}],
+			rewards: [{
+				id: 68,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:soul_jar",
+					Count: 1,
+					tag: {
+						Souls: 10.0d,
+						Type: "mysticalagriculture:enderman"
+					}
+				}
+			}]
+		},
+		{
+			title: "Kill 25 wither skeletons",
+			x: -16.5d,
+			y: -4.0d,
+			id: 49,
+			tasks: [{
+				id: 50,
+				type: "kill",
+				icon: "minecraft:wither_skeleton_skull",
+				entity: "minecraft:wither_skeleton",
+				value: 25
+			}],
+			rewards: [{
+				id: 67,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:soul_jar",
+					Count: 1,
+					tag: {
+						Souls: 10.0d,
+						Type: "mysticalagriculture:wither_skeleton"
+					}
+				}
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -5.0d,
+			id: 59,
+			tasks: [{
+				id: 60,
+				type: "item",
+				item: "goodnightsleep:candy_ore",
+				count: 64
+			}],
+			rewards: [{
+				id: 61,
+				type: "item",
+				item: {
+					id: "minecraft:iron_ingot",
+					Count: 12
+				}
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -5.0d,
+			id: 62,
+			tasks: [{
+				id: 63,
+				type: "kill",
+				title: "Kill 50 tormentors",
+				icon: {
+					id: "minecraft:iron_sword",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				},
+				entity: "goodnightsleep:tormenter",
+				value: 50
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -4.0d,
+			id: 64,
+			tasks: [{
+				id: 65,
+				type: "item",
+				item: {
+					id: "goodnightsleep:blood_log",
+					Count: 64
+				}
+			}],
+			rewards: [{
+				id: 66,
+				type: "item",
+				item: {
+					id: "goodnightsleep:blood_log",
+					Count: 64
+				}
+			}]
+		}
+	]
+}

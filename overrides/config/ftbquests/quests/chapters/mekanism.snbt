@@ -1,0 +1,46 @@
+{
+	id: 101,
+	filename: "mekanism",
+	order_index: 3,
+	title: "Mekanism",
+	icon: "mekanism:digital_miner",
+	subtitle: ["Mekanism 101"],
+	images: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			width: 0.0d,
+			height: 0.0d,
+			rotation: 0.0d,
+			image: "#FFFFFF",
+			hover: [],
+			click: ""
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			width: 0.0d,
+			height: 0.0d,
+			rotation: 0.0d,
+			image: "#FFFFFF",
+			hover: [],
+			click: ""
+		}
+	],
+	quests: [{
+		x: 8.5d,
+		y: -7.0d,
+		shape: "square",
+		id: 102,
+		tasks: [{
+			id: 103,
+			type: "item",
+			item: "mekanism:digital_miner"
+		}],
+		rewards: [{
+			id: 104,
+			type: "item",
+			item: "mekanism:upgrade_anchor"
+		}]
+	}]
+}

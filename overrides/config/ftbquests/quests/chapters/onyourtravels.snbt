@@ -1,0 +1,135 @@
+{
+	id: 3,
+	filename: "onyourtravels",
+	order_index: 2,
+	title: "Welcome to RAM",
+	quests: [
+		{
+			title: "Welcome to RAM",
+			icon: "minecraft:grass_block",
+			x: -10.5d,
+			y: -3.0d,
+			subtitle: "Here are your starter items",
+			dependency_requirement: "one_completed",
+			id: 4,
+			tasks: [{
+				id: 5,
+				type: "dimension",
+				dimension: "minecraft:overworld"
+			}],
+			rewards: [
+				{
+					id: 6,
+					type: "item",
+					item: {
+						id: "minecraft:cooked_porkchop",
+						Count: 4
+					}
+				},
+				{
+					id: 7,
+					type: "item",
+					item: {
+						id: "minecraft:torch",
+						Count: 8
+					}
+				}
+			]
+		},
+		{
+			title: "Acquire 4 logs",
+			icon: "minecraft:oak_log",
+			x: -9.5d,
+			y: -4.0d,
+			subtitle: "Handy tip: use shift to break the whole tree",
+			id: 8,
+			tasks: [{
+				id: 9,
+				type: "item",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1,
+					tag: {
+						value: "minecraft:logs"
+					}
+				},
+				count: 4
+			}],
+			rewards: [{
+				id: 10,
+				type: "item",
+				item: {
+					id: "minecraft:stone_pickaxe",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Acquire 8 cobblestone",
+			icon: "minecraft:cobblestone",
+			x: -8.5d,
+			y: -5.0d,
+			subtitle: "Excavate works here",
+			dependency_requirement: "one_completed",
+			id: 11,
+			tasks: [{
+				id: 12,
+				type: "item",
+				item: "minecraft:cobblestone",
+				count: 8
+			}],
+			rewards: [{
+				id: 13,
+				type: "item",
+				item: {
+					id: "minecraft:stone_sword",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Chunkloading",
+			icon: "simplechunkloaders:limited_loader",
+			x: -3.5d,
+			y: -5.0d,
+			shape: "square",
+			subtitle: "This chunkloader requires ender pearls to allow it to run.",
+			id: 14,
+			tasks: [{
+				id: 15,
+				type: "item",
+				item: "minecraft:ender_pearl",
+				count: 16
+			}],
+			rewards: [{
+				id: 16,
+				type: "item",
+				item: "simplechunkloaders:limited_loader"
+			}]
+		},
+		{
+			title: "Your 2nd chunkloader",
+			icon: "minecraft:dragon_egg",
+			x: -3.5d,
+			y: -3.5d,
+			subtitle: "Obtaining the dragon egg gives you an extra chunkloader",
+			id: 17,
+			tasks: [{
+				id: 18,
+				type: "item",
+				item: "minecraft:dragon_egg"
+			}],
+			rewards: [{
+				id: 19,
+				type: "item",
+				item: "simplechunkloaders:limited_loader"
+			}]
+		}
+	]
+}
