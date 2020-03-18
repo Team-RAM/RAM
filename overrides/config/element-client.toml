@@ -1,0 +1,11 @@
+
+[general]
+	#a list for mod support [default: minecraft:chests/jungle_temple_dispenser] [format: <modID>:chests/<name>]
+	chestblacklist = ["minecraft:chests/jungle_temple_dispenser"]
+	#Do you want to generate Dungeon loot? [default: true]
+	dungeonloot = true
+	#Do you want Staffs have a CoolDown? [default: true]
+	staffcooldown = true
+	#a list for mod support [default: minecraft]
+	modsupportlist = ["minecraft"]
+
