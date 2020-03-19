@@ -8,7 +8,6 @@ Added:
 - AmbientSounds 3
 - Cooking for Blockheads
 - Extra Boats
-- Extreme sound muffler
 - In Control!
 - Item Filters
 - Server Utilities
