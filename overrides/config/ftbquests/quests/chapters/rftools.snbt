@@ -1,0 +1,45 @@
+{
+	id: 6,
+	filename: "rftools",
+	order_index: 5,
+	title: "RFTools",
+	icon: "rftoolspower:dimensionalcell",
+	quests: [
+		{
+			title: "Craft a Dimensional Cell",
+			x: -0.5d,
+			y: -0.5d,
+			shape: "square",
+			description: ["Craft a Dimensional Cell for wireless power transfer."],
+			id: 145,
+			tasks: [{
+				id: 146,
+				type: "item",
+				item: "rftoolspower:dimensionalcell"
+			}],
+			rewards: [{
+				id: 147,
+				type: "item",
+				item: "rftoolspower:dimensionalcell"
+			}]
+		},
+		{
+			title: "Craft a Powercell Card",
+			x: -0.5d,
+			y: 1.5d,
+			description: ["Powercell cards are needed to link Dimensional Cells."],
+			dependencies: [I;145],
+			id: 148,
+			tasks: [{
+				id: 149,
+				type: "item",
+				item: "rftoolspower:powercell_card"
+			}],
+			rewards: [{
+				id: 150,
+				type: "item",
+				item: "rftoolspower:powercell_card"
+			}]
+		}
+	]
+}
