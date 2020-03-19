@@ -2,16 +2,18 @@
 Really Awesome Mods 0.2.7 --> Really Awesome Mods 0.2.8
 =======================================================
 
-Updated Forge to 31.1.24
+Updated Forge to 31.1.25
 
 Added:
 - AmbientSounds 3
 - Click Machine
 - Cooking for Blockheads
 - Extra Boats
+- Extreme sound muffler
 - In Control!
 - Item Filters
 - Server Utilities
+- Transport
 
 Updated:
 	Biomes O' Plenty (Biomes O' Plenty 1.15.2-10.0.0.349 --> Biomes O' Plenty 1.15.2-10.0.0.351):
@@ -339,9 +341,11 @@ Removed:
 - ColouredChat
 - Ma Chat
 - Ma Essentials
+- PeacefulSurface
 
 Configs:
 Adjusted Clicker defaults
 Corrected Token Compat script
+Disabled crafting of Mek Wind Generators
 
 Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).
