@@ -6,7 +6,6 @@ Updated Forge to 31.1.25
 
 Added:
 - AmbientSounds 3
-- Click Machine
 - Cooking for Blockheads
 - Extra Boats
 - Extreme sound muffler
