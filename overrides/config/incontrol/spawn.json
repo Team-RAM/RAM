@@ -1,1 +1,143 @@
-[]
+[
+  {
+    "mob": "minecraft:player",
+    "dimension": 0,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:slime",
+    "dimension": 0,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:phantom",
+    "dimension": 0,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:slime",
+    "mincount": {
+      "amount": 3,
+      "mob": "minecraft:slime",
+      "perplayer": true
+  },
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:phantom",
+    "mincount": {
+      "amount": 3,
+      "mob": "minecraft:phantom",
+      "perplayer": true
+  },
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 2,
+    "mod": "minecraft",
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 2,
+    "passive": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 2,
+    "mob": "goodnightsleep:baby_creeper",
+    "mincount": {
+      "amount": 10,
+      "mob": "goodnightsleep:baby_creeper",
+      "perplayer": true
+  },
+    "result": "deny"
+  },
+  {
+    "dimension": 2,
+    "mob": "goodnightsleep:unicorn",
+    "mincount": {
+      "amount": 10,
+      "mob": "goodnightsleep:unicorn",
+      "perplayer": true
+  },
+    "result": "deny"
+  },
+  {
+    "dimension": 2,
+    "mob": "minecraft:squid",
+    "mincount": {
+      "amount": 7,
+      "mob": "minecraft:squid",
+      "perplayer": true
+  },
+    "result": "deny"
+  },
+  {
+    "dimension": 2,
+    "mob": "minecraft:squid",
+    "result": "allow"
+  },
+  {
+    "dimension": 3,
+    "mod": "vampirism",
+    "mincount": {
+      "amount": 5,
+      "mod": "vampirism",
+      "perplayer": true
+  },
+    "result": "deny"
+  },
+  {
+    "dimension": 3,
+    "mob": "minecraft:witch",
+    "mincount": {
+      "amount": 8,
+      "mob": "minecraft:witch",
+      "perplayer": true
+  },
+    "result": "deny"
+  },
+  {
+    "dimension": 3,
+    "mod": "minecraft",
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 3,
+    "mod": "vampirism",
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 3,
+    "hostile": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": [
+        "minecraft:player"
+           ],
+    "dimension": 4,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 4,
+    "onjoin": true,
+    "result": "deny"
+  }
+]
