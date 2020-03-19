@@ -749,11 +749,6 @@ Updated:
 			1.2.0 2020-03-16
 			Updated to 1.15.2 and Forge 31.1.0
 
-	🍊 Fruit Trees (FruitTrees-1.15.2-1.1.6.jar --> FruitTrees-1.15.2-1.2.0.jar):
-		FruitTrees-1.15.2-1.2.0.jar:
-			Add cherries
-			Fruits are dropping more slowly by default
-
 Removed:
 - ColouredChat
 - Ma Chat
