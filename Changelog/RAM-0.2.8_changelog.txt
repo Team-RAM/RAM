@@ -10,6 +10,7 @@ Added:
 - Clumps
 - Cooking for Blockheads
 - Extra Boats
+- Extra Tags
 - In Control!
 - Item Filters
 - Server Utilities
