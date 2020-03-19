@@ -13,7 +13,6 @@ Added:
 - In Control!
 - Item Filters
 - Server Utilities
-- Transport
 
 Updated:
 	Biomes O' Plenty (Biomes O' Plenty 1.15.2-10.0.0.349 --> Biomes O' Plenty 1.15.2-10.0.0.351):
