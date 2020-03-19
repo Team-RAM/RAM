@@ -1,7 +1,0 @@
-{
-	id: 2,
-	filename: "welcome",
-	order_index: 5,
-	title: "Welcome",
-	quests: []
-}
