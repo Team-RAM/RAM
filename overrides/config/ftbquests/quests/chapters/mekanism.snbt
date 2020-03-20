@@ -1,0 +1,166 @@
+{
+	id: 5,
+	filename: "mekanism",
+	order_index: 4,
+	title: "Mekanism",
+	icon: "mekanism:digital_miner",
+	images: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			width: 0.0d,
+			height: 0.0d,
+			rotation: 0.0d,
+			image: "#FFFFFF",
+			hover: [],
+			click: ""
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			width: 0.0d,
+			height: 0.0d,
+			rotation: 0.0d,
+			image: "#FFFFFF",
+			hover: [],
+			click: ""
+		}
+	],
+	quests: [
+		{
+			title: "Craft a Crusher",
+			x: 1.0d,
+			y: -0.5d,
+			description: ["Crush items for higher yield."],
+			id: 142,
+			tasks: [{
+				id: 143,
+				type: "item",
+				item: "mekanism:crusher"
+			}],
+			rewards: [{
+				id: 544,
+				type: "item",
+				item: {
+					id: "mekanism:dust_diamond",
+					Count: 2
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -0.5d,
+			description: ["Double your ores with an Enricher."],
+			id: 152,
+			tasks: [{
+				id: 153,
+				type: "item",
+				item: "mekanism:enrichment_chamber"
+			}],
+			rewards: [{
+				id: 542,
+				type: "item",
+				item: {
+					id: "mekanism:dust_osmium",
+					Count: 8
+				}
+			}]
+		},
+		{
+			title: "Obtain a Wind Generator - I",
+			icon: "mekanismgenerators:wind_generator",
+			x: -1.0d,
+			y: -3.0d,
+			shape: "pentagon",
+			description: ["!Crafting of Wind Generators is disabled!"],
+			id: 156,
+			tasks: [{
+				id: 595,
+				type: "item",
+				item: "mekanism:energy_tablet"
+			}],
+			rewards: [{
+				id: 158,
+				type: "item",
+				item: "mekanismgenerators:wind_generator"
+			}]
+		},
+		{
+			title: "Obtain a Wind Generator - II",
+			icon: "mekanismgenerators:wind_generator",
+			x: 1.0d,
+			y: -3.0d,
+			shape: "pentagon",
+			description: ["!Crafting of Wind Generators is disabled!"],
+			dependencies: [I;156],
+			id: 311,
+			tasks: [{
+				id: 597,
+				type: "item",
+				item: "mekanism:energy_tablet"
+			}],
+			rewards: [{
+				id: 317,
+				type: "item",
+				item: "mekanismgenerators:wind_generator"
+			}]
+		},
+		{
+			title: "Obtain a Wind Generator - III",
+			icon: "mekanismgenerators:wind_generator",
+			x: 3.0d,
+			y: -3.0d,
+			shape: "pentagon",
+			description: ["!Crafting of Wind Generators is disabled!"],
+			dependencies: [I;311],
+			id: 313,
+			tasks: [{
+				id: 600,
+				type: "item",
+				item: "mekanism:energy_tablet"
+			}],
+			rewards: [{
+				id: 318,
+				type: "item",
+				item: "mekanismgenerators:wind_generator"
+			}]
+		},
+		{
+			title: "Obtain a Wind Generator - IV",
+			icon: "mekanismgenerators:wind_generator",
+			x: 5.0d,
+			y: -3.0d,
+			shape: "pentagon",
+			description: ["!Crafting of Wind Generators is disabled!"],
+			dependencies: [I;313],
+			id: 315,
+			tasks: [{
+				id: 601,
+				type: "item",
+				item: "mekanism:energy_tablet"
+			}],
+			rewards: [{
+				id: 319,
+				type: "item",
+				item: "mekanismgenerators:wind_generator"
+			}]
+		},
+		{
+			title: "Craft an Entangloporter.",
+			x: 3.0d,
+			y: -0.5d,
+			description: ["Entangloporters can be used for wireless transfer of power, items, fluids, and gasses."],
+			id: 539,
+			tasks: [{
+				id: 540,
+				type: "item",
+				item: "mekanism:quantum_entangloporter"
+			}],
+			rewards: [{
+				id: 541,
+				type: "item",
+				item: "mekanism:quantum_entangloporter"
+			}]
+		}
+	]
+}

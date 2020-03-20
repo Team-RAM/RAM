@@ -1,0 +1,307 @@
+{
+	id: 520,
+	filename: "welcometoram",
+	order_index: 1,
+	title: "Welcome to RAM!",
+	icon: "simplechunkloaders:limited_loader",
+	quests: [
+		{
+			title: "Chunkloader I",
+			icon: "simplechunkloaders:limited_loader",
+			x: 8.0d,
+			y: -1.0d,
+			shape: "square",
+			description: ["Chunkloaders require items to run. Higher tier items will provide more charge time."],
+			id: 271,
+			tasks: [{
+				id: 538,
+				type: "item",
+				item: "minecraft:ender_pearl",
+				count: 16
+			}],
+			rewards: [{
+				id: 537,
+				type: "item",
+				item: "simplechunkloaders:limited_loader"
+			}]
+		},
+		{
+			title: "Chunkloader II",
+			icon: "mysticalagradditions:withering_soul",
+			x: 8.0d,
+			y: 0.5d,
+			description: ["Kill 10 Withers to obtain a second chunk loader."],
+			dependencies: [I;271],
+			id: 273,
+			tasks: [{
+				id: 526,
+				type: "kill",
+				entity: "minecraft:wither",
+				value: 10
+			}],
+			rewards: [{
+				id: 525,
+				type: "item",
+				item: "simplechunkloaders:limited_loader"
+			}]
+		},
+		{
+			title: "Chunkloader III",
+			x: 8.0d,
+			y: 2.0d,
+			description: ["Kill 10 Ender Dragons to obtain a third chunkloader."],
+			dependencies: [I;273],
+			id: 275,
+			tasks: [{
+				id: 523,
+				type: "kill",
+				icon: "minecraft:dragon_head",
+				entity: "minecraft:ender_dragon",
+				value: 10
+			}],
+			rewards: [{
+				id: 524,
+				type: "item",
+				item: "simplechunkloaders:limited_loader"
+			}]
+		},
+		{
+			title: "Anchor Upgrade.",
+			icon: "mekanism:upgrade_anchor",
+			x: 6.0d,
+			y: -1.0d,
+			shape: "square",
+			description: [
+				"Craft a Digital Miner to obtain an Anchor Upgrade.",
+				"!! Anchor Upgrades are not craftable!!"
+			],
+			id: 277,
+			tasks: [{
+				id: 278,
+				type: "item",
+				item: "mekanism:digital_miner"
+			}],
+			rewards: [{
+				id: 279,
+				type: "item",
+				item: "mekanism:upgrade_anchor"
+			}]
+		},
+		{
+			title: "Gather 10 stone.",
+			icon: "minecraft:cobblestone",
+			x: 2.0d,
+			y: 0.5d,
+			description: ["If you press ~ while using any tool (or your hand), you will excavate an area."],
+			dependencies: [I;286],
+			id: 284,
+			tasks: [{
+				id: 304,
+				type: "item",
+				item: "minecraft:cobblestone",
+				count: 10
+			}],
+			rewards: [{
+				id: 546,
+				type: "item",
+				item: {
+					id: "minecraft:stone_sword",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Gather 4 logs.",
+			icon: "minecraft:oak_log",
+			x: 2.0d,
+			y: -1.0d,
+			description: ["You can chop an entire tree by holding shift and hitting it with an axe!"],
+			dependencies: [I;288],
+			id: 286,
+			tasks: [{
+				id: 302,
+				type: "item",
+				icon: "minecraft:oak_log",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1,
+					tag: {
+						value: "minecraft:logs"
+					}
+				},
+				count: 4
+			}],
+			rewards: [{
+				id: 303,
+				type: "item",
+				item: {
+					id: "minecraft:stone_pickaxe",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Starting Kit!",
+			icon: "tombstone:impregnated_diamond",
+			x: 2.0d,
+			y: -3.0d,
+			shape: "hexagon",
+			description: [
+				"Welcome to Really Awesome Mods.",
+				"These starting items will help you on your adventure."
+			],
+			id: 288,
+			tasks: [{
+				id: 298,
+				type: "dimension",
+				title: "Welcome to RAM",
+				icon: "tombstone:impregnated_diamond",
+				dimension: "minecraft:overworld"
+			}],
+			rewards: [
+				{
+					id: 527,
+					type: "item",
+					item: {
+						id: "minecraft:stone_axe",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 535,
+					type: "item",
+					item: {
+						id: "minecraft:torch",
+						Count: 8
+					}
+				},
+				{
+					id: 536,
+					type: "item",
+					item: {
+						id: "minecraft:cooked_porkchop",
+						Count: 4
+					}
+				}
+			]
+		},
+		{
+			title: "Enter your dreams!",
+			icon: "goodnightsleep:strange_bed_item",
+			x: -2.0d,
+			y: -1.0d,
+			shape: "square",
+			description: [
+				"Craft a bed to obtain the items needed to build a strange bed.",
+				"!! On Servers, monsters may be set to only spawn in the nightmare dimension!!"
+			],
+			id: 521,
+			tasks: [{
+				id: 564,
+				type: "item",
+				title: "Any minecraft:beds",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1,
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 569,
+					type: "item",
+					item: "goodnightsleep:hope_mushroom"
+				},
+				{
+					id: 570,
+					type: "item",
+					item: "goodnightsleep:despair_mushroom"
+				},
+				{
+					id: 571,
+					type: "item",
+					item: "minecraft:red_bed"
+				}
+			]
+		},
+		{
+			title: "Obtain the mining dimension portal.",
+			icon: "yamda:portal",
+			x: 0.0d,
+			y: -1.0d,
+			shape: "square",
+			description: ["Place the portal then right-click the portal to use it."],
+			id: 528,
+			rewards: [{
+				id: 545,
+				type: "item",
+				item: "yamda:portal"
+			}]
+		},
+		{
+			title: "Craft a strange bed.",
+			x: -2.0d,
+			y: 0.5d,
+			description: [
+				"During the day this bed will take you to the good dream.",
+				"During the night this bed will take you to the nightmare.",
+				"!! On Servers, monsters may be set to only spawn in the nightmare!!"
+			],
+			dependencies: [I;521],
+			id: 567,
+			tasks: [{
+				id: 568,
+				type: "item",
+				item: "goodnightsleep:strange_bed_item"
+			}]
+		},
+		{
+			title: "Visit the mining dimension.",
+			x: 0.0d,
+			y: 0.5d,
+			dependencies: [I;528],
+			id: 590,
+			tasks: [{
+				id: 591,
+				type: "dimension",
+				dimension: "yamda:yamda_dim"
+			}],
+			rewards: [{
+				id: 592,
+				type: "item",
+				item: {
+					id: "minecraft:gold_ingot",
+					Count: 4
+				}
+			}]
+		},
+		{
+			title: "Grave's Soul",
+			icon: "tombstone:decorative_grave_simple",
+			x: 4.0d,
+			y: -1.0d,
+			description: [
+				"Upon death, you will recieve a key. You can enchant this key to go back to your grave instantly. To enchant the key you may either craft it with an enderpearl or use a grave's soul.",
+				"Grave souls will appear at a placed grave over time.",
+				"You should place this grave near your home so you have an easy way back to your death location."
+			],
+			id: 602,
+			rewards: [{
+				id: 604,
+				type: "item",
+				item: "tombstone:decorative_grave_simple"
+			}]
+		}
+	]
+}

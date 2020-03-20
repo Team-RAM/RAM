@@ -1,0 +1,397 @@
+{
+	id: 2,
+	filename: "exploration",
+	order_index: 2,
+	title: "Exploration Motivation",
+	icon: "minecraft:end_portal_frame",
+	quests: [
+		{
+			title: "The End",
+			icon: "minecraft:end_stone",
+			x: -19.5d,
+			y: -10.5d,
+			shape: "square",
+			subtitle: "Journey to the End",
+			id: 483,
+			tasks: [{
+				id: 484,
+				type: "dimension",
+				title: "Travel through an End portal",
+				icon: "minecraft:ender_pearl",
+				dimension: "minecraft:the_end"
+			}],
+			rewards: [{
+				id: 485,
+				type: "item",
+				item: {
+					id: "minecraft:chorus_fruit",
+					Count: 4
+				}
+			}]
+		},
+		{
+			title: "The Nether",
+			icon: "minecraft:nether_bricks",
+			x: -19.5d,
+			y: -3.0d,
+			shape: "square",
+			subtitle: "Journey to the Nether",
+			id: 486,
+			tasks: [{
+				id: 487,
+				type: "dimension",
+				dimension: "minecraft:the_nether"
+			}],
+			rewards: [{
+				id: 488,
+				type: "item",
+				item: {
+					id: "minecraft:blaze_powder",
+					Count: 2
+				}
+			}]
+		},
+		{
+			title: "Good Dream World",
+			icon: "goodnightsleep:hope_mushroom",
+			x: -7.5d,
+			y: -3.0d,
+			shape: "square",
+			dependency_requirement: "one_started",
+			id: 489,
+			tasks: [{
+				id: 490,
+				type: "dimension",
+				title: "Visit the land of Good Dreams",
+				icon: "goodnightsleep:luxurious_bed_item",
+				dimension: "goodnightsleep:good_dream"
+			}],
+			rewards: [
+				{
+					id: 491,
+					type: "item",
+					item: "goodnightsleep:luxurious_soup"
+				},
+				{
+					id: 492,
+					type: "item",
+					item: "goodnightsleep:candy_sapling"
+				}
+			]
+		},
+		{
+			title: "Nightmare World",
+			icon: "goodnightsleep:despair_mushroom",
+			x: -7.5d,
+			y: -10.5d,
+			shape: "square",
+			subtitle: "Looking for Mobs? Go to this land of darkness!",
+			id: 493,
+			tasks: [{
+				id: 494,
+				type: "dimension",
+				title: "Visit the land of Nightmares",
+				icon: "goodnightsleep:wretched_bed_item",
+				dimension: "goodnightsleep:nightmare"
+			}],
+			rewards: [
+				{
+					id: 495,
+					type: "item",
+					item: "goodnightsleep:wretched_soup"
+				},
+				{
+					id: 496,
+					type: "item",
+					item: "goodnightsleep:lolipop"
+				}
+			]
+		},
+		{
+			title: "Eliminate Enderman",
+			x: -18.0d,
+			y: -9.0d,
+			dependencies: [I;483],
+			id: 498,
+			tasks: [{
+				id: 499,
+				type: "kill",
+				title: "Slayer of Endermen",
+				icon: "minecraft:ender_eye",
+				entity: "minecraft:enderman",
+				value: 50
+			}],
+			rewards: [{
+				id: 573,
+				type: "item",
+				item: {
+					id: "minecraft:ender_pearl",
+					Count: 10
+				}
+			}]
+		},
+		{
+			x: -18.0d,
+			y: -4.5d,
+			dependencies: [I;486],
+			id: 500,
+			tasks: [{
+				id: 501,
+				type: "kill",
+				title: "Slayer of Wither Skellies",
+				icon: "minecraft:wither_skeleton_skull",
+				entity: "minecraft:wither_skeleton",
+				value: 50
+			}],
+			rewards: [{
+				id: 579,
+				type: "item",
+				item: {
+					id: "minecraft:wither_skeleton_skull",
+					Count: 10
+				}
+			}]
+		},
+		{
+			title: "Don't Fear the Creeper",
+			x: -9.0d,
+			y: -10.5d,
+			dependencies: [I;493],
+			id: 502,
+			tasks: [{
+				id: 503,
+				type: "kill",
+				title: "Fear the Creeper",
+				icon: "minecraft:creeper_head",
+				entity: "minecraft:creeper",
+				value: 100
+			}],
+			rewards: [{
+				id: 575,
+				type: "item",
+				item: {
+					id: "minecraft:gunpowder",
+					Count: 10
+				}
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -9.0d,
+			dependencies: [I;493],
+			id: 504,
+			tasks: [{
+				id: 505,
+				type: "kill",
+				title: "Bone the Skellies",
+				icon: "minecraft:skeleton_skull",
+				entity: "minecraft:skeleton",
+				value: 100
+			}],
+			rewards: [{
+				id: 576,
+				type: "item",
+				item: {
+					id: "minecraft:bone",
+					Count: 10
+				}
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -9.0d,
+			dependencies: [I;493],
+			id: 506,
+			tasks: [{
+				id: 507,
+				type: "kill",
+				title: "Slay Spiders Successfully",
+				icon: "minecraft:spider_eye",
+				entity: "minecraft:spider",
+				value: 100
+			}],
+			rewards: [{
+				id: 577,
+				type: "item",
+				item: {
+					id: "minecraft:spider_eye",
+					Count: 10
+				}
+			}]
+		},
+		{
+			x: -19.5d,
+			y: -4.5d,
+			dependencies: [I;486],
+			id: 508,
+			tasks: [{
+				id: 509,
+				type: "kill",
+				title: "Ghast the Ghasts",
+				icon: "minecraft:ghast_tear",
+				entity: "minecraft:ghast",
+				value: 50
+			}],
+			rewards: [{
+				id: 578,
+				type: "item",
+				item: {
+					id: "minecraft:ghast_tear",
+					Count: 10
+				}
+			}]
+		},
+		{
+			x: -18.0d,
+			y: -3.0d,
+			dependencies: [I;486],
+			id: 510,
+			tasks: [{
+				id: 511,
+				type: "kill",
+				title: "Blazing of Blazes",
+				icon: "minecraft:blaze_rod",
+				entity: "minecraft:blaze",
+				value: 100
+			}],
+			rewards: [{
+				id: 580,
+				type: "item",
+				item: {
+					id: "minecraft:blaze_rod",
+					Count: 10
+				}
+			}]
+		},
+		{
+			x: -19.5d,
+			y: -9.0d,
+			dependencies: [I;483],
+			id: 512,
+			tasks: [{
+				id: 513,
+				type: "kill",
+				title: "Slash Some Slimes",
+				icon: "forbidden_arcanus:edelwood_slime_bucket",
+				entity: "silentgems:ender_slime",
+				value: 100
+			}],
+			rewards: [{
+				id: 574,
+				type: "item",
+				item: {
+					id: "minecraft:slime_ball",
+					Count: 10
+				}
+			}]
+		},
+		{
+			x: -18.0d,
+			y: -10.5d,
+			dependencies: [I;483],
+			id: 514,
+			tasks: [{
+				id: 515,
+				type: "kill",
+				title: "Smash Some Shulker",
+				icon: "minecraft:shulker_spawn_egg",
+				entity: "minecraft:shulker",
+				value: 50
+			}],
+			rewards: [{
+				id: 572,
+				type: "item",
+				item: {
+					id: "minecraft:shulker_shell",
+					Count: 10
+				}
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -4.5d,
+			dependencies: [I;489],
+			id: 516,
+			tasks: [{
+				id: 517,
+				type: "kill",
+				title: "Bash BabyCreepers",
+				icon: "goodnightsleep:baby_creeper_spawn_egg",
+				entity: "goodnightsleep:baby_creeper",
+				value: 100
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -3.0d,
+			dependencies: [I;489],
+			id: 518,
+			tasks: [{
+				id: 519,
+				type: "kill",
+				title: "Nothing Goes with Unicorns",
+				icon: "goodnightsleep:unicorn_spawn_egg",
+				entity: "goodnightsleep:unicorn",
+				value: 100
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -4.5d,
+			dependencies: [I;489],
+			id: 581,
+			tasks: [{
+				id: 582,
+				type: "kill",
+				entity: "minecraft:squid",
+				value: 50
+			}],
+			rewards: [{
+				id: 583,
+				type: "item",
+				item: {
+					id: "minecraft:ink_sac",
+					Count: 10
+				}
+			}]
+		},
+		{
+			icon: "minecraft:dragon_head",
+			x: -19.5d,
+			y: -12.0d,
+			shape: "hexagon",
+			dependencies: [I;483],
+			id: 584,
+			tasks: [{
+				id: 585,
+				type: "kill",
+				entity: "minecraft:ender_dragon",
+				value: 1
+			}],
+			rewards: [{
+				id: 586,
+				type: "item",
+				item: "minecraft:dragon_head"
+			}]
+		},
+		{
+			x: -19.5d,
+			y: -1.5d,
+			shape: "hexagon",
+			dependencies: [I;486],
+			id: 587,
+			tasks: [{
+				id: 588,
+				type: "kill",
+				icon: "mysticalagradditions:withering_soul",
+				entity: "minecraft:wither",
+				value: 1
+			}],
+			rewards: [{
+				id: 589,
+				type: "item",
+				item: "minecraft:nether_star"
+			}]
+		}
+	]
+}

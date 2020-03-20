@@ -1,0 +1,329 @@
+{
+	id: 4,
+	filename: "gottacollectemall",
+	order_index: 3,
+	title: "Gotta Collect 'em All",
+	icon: "minecraft:oak_sapling",
+	quests: [
+		{
+			x: -14.5d,
+			y: -8.5d,
+			id: 388,
+			tasks: [{
+				id: 389,
+				type: "item",
+				item: "minecraft:oak_sapling"
+			}]
+		},
+		{
+			x: -14.5d,
+			y: -7.5d,
+			id: 390,
+			tasks: [{
+				id: 391,
+				type: "item",
+				item: "fruittrees:apple_sapling"
+			}]
+		},
+		{
+			x: -14.5d,
+			y: -6.5d,
+			id: 392,
+			tasks: [{
+				id: 393,
+				type: "item",
+				item: "goodnightsleep:dream_sapling"
+			}]
+		},
+		{
+			x: -14.5d,
+			y: -5.5d,
+			id: 394,
+			tasks: [{
+				id: 395,
+				type: "item",
+				item: "goodnightsleep:candy_sapling"
+			}]
+		},
+		{
+			x: -14.5d,
+			y: -4.5d,
+			id: 396,
+			tasks: [{
+				id: 397,
+				type: "item",
+				item: "naturesaura:ancient_sapling"
+			}]
+		},
+		{
+			x: -14.5d,
+			y: -3.5d,
+			id: 398,
+			tasks: [{
+				id: 399,
+				type: "item",
+				item: "silentgear:netherwood_sapling"
+			}]
+		},
+		{
+			x: -14.5d,
+			y: -2.5d,
+			id: 400,
+			tasks: [{
+				id: 401,
+				type: "item",
+				item: "minecraft:spruce_sapling"
+			}]
+		},
+		{
+			x: -14.5d,
+			y: -1.5d,
+			id: 402,
+			tasks: [{
+				id: 403,
+				type: "item",
+				item: "minecraft:birch_sapling"
+			}]
+		},
+		{
+			x: -13.0d,
+			y: -8.5d,
+			id: 404,
+			tasks: [{
+				id: 405,
+				type: "item",
+				item: "minecraft:jungle_sapling"
+			}]
+		},
+		{
+			x: -13.0d,
+			y: -7.5d,
+			id: 406,
+			tasks: [{
+				id: 407,
+				type: "item",
+				item: "minecraft:acacia_sapling"
+			}]
+		},
+		{
+			x: -13.0d,
+			y: -6.5d,
+			id: 408,
+			tasks: [{
+				id: 409,
+				type: "item",
+				item: "minecraft:dark_oak_sapling"
+			}]
+		},
+		{
+			x: -13.0d,
+			y: -5.5d,
+			id: 410,
+			tasks: [{
+				id: 411,
+				type: "item",
+				item: "biomesoplenty:origin_sapling"
+			}]
+		},
+		{
+			x: -13.0d,
+			y: -4.5d,
+			id: 412,
+			tasks: [{
+				id: 413,
+				type: "item",
+				item: "biomesoplenty:flowering_oak_sapling"
+			}]
+		},
+		{
+			x: -13.0d,
+			y: -3.5d,
+			id: 414,
+			tasks: [{
+				id: 415,
+				type: "item",
+				item: "biomesoplenty:rainbow_birch_sapling"
+			}]
+		},
+		{
+			x: -13.0d,
+			y: -2.5d,
+			id: 416,
+			tasks: [{
+				id: 417,
+				type: "item",
+				item: "biomesoplenty:white_cherry_sapling"
+			}]
+		},
+		{
+			x: -13.0d,
+			y: -1.5d,
+			id: 418,
+			tasks: [{
+				id: 419,
+				type: "item",
+				item: "biomesoplenty:pink_cherry_sapling"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: -8.5d,
+			id: 420,
+			tasks: [{
+				id: 421,
+				type: "item",
+				item: "biomesoplenty:mahogany_sapling"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: -7.5d,
+			id: 422,
+			tasks: [{
+				id: 423,
+				type: "item",
+				item: "biomesoplenty:jacaranda_sapling"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: -6.5d,
+			id: 424,
+			tasks: [{
+				id: 425,
+				type: "item",
+				item: "biomesoplenty:palm_sapling"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: -5.5d,
+			id: 426,
+			tasks: [{
+				id: 427,
+				type: "item",
+				item: "biomesoplenty:willow_sapling"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: -4.5d,
+			id: 428,
+			tasks: [{
+				id: 429,
+				type: "item",
+				item: "biomesoplenty:dead_sapling"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: -3.5d,
+			id: 430,
+			tasks: [{
+				id: 431,
+				type: "item",
+				item: "biomesoplenty:magic_sapling"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: -2.5d,
+			id: 432,
+			tasks: [{
+				id: 433,
+				type: "item",
+				item: "biomesoplenty:umbran_sapling"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: -1.5d,
+			id: 434,
+			tasks: [{
+				id: 435,
+				type: "item",
+				item: "biomesoplenty:hellbark_sapling"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -8.5d,
+			id: 436,
+			tasks: [{
+				id: 437,
+				type: "item",
+				item: "forbidden_arcanus:cherrywood_sapling"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -7.5d,
+			id: 438,
+			tasks: [{
+				id: 439,
+				type: "item",
+				item: "forbidden_arcanus:mysterywood_sapling"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -6.5d,
+			id: 440,
+			tasks: [{
+				id: 441,
+				type: "item",
+				item: "fruittrees:mandarin_sapling"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -5.5d,
+			id: 442,
+			tasks: [{
+				id: 443,
+				type: "item",
+				item: "fruittrees:lime_sapling"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -4.5d,
+			id: 444,
+			tasks: [{
+				id: 445,
+				type: "item",
+				item: "fruittrees:citron_sapling"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -3.5d,
+			id: 446,
+			tasks: [{
+				id: 447,
+				type: "item",
+				item: "fruittrees:pomelo_sapling"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -2.5d,
+			id: 448,
+			tasks: [{
+				id: 449,
+				type: "item",
+				item: "fruittrees:orange_sapling"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -1.5d,
+			id: 450,
+			tasks: [{
+				id: 451,
+				type: "item",
+				item: "fruittrees:lemon_sapling"
+			}]
+		}
+	]
+}
