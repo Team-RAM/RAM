@@ -8,11 +8,10 @@
 		{
 			title: "Chunkloader I",
 			icon: "simplechunkloaders:limited_loader",
-			x: 5.0d,
+			x: 8.0d,
 			y: -1.0d,
 			shape: "square",
 			description: ["Chunkloaders require items to run. Higher tier items will provide more charge time."],
-			dependencies: [I;288],
 			id: 271,
 			tasks: [{
 				id: 538,
@@ -29,7 +28,7 @@
 		{
 			title: "Chunkloader II",
 			icon: "mysticalagradditions:withering_soul",
-			x: 5.0d,
+			x: 8.0d,
 			y: 0.5d,
 			description: ["Kill 10 Withers to obtain a second chunk loader."],
 			dependencies: [I;271],
@@ -48,7 +47,7 @@
 		},
 		{
 			title: "Chunkloader III",
-			x: 5.0d,
+			x: 8.0d,
 			y: 2.0d,
 			description: ["Kill 10 Ender Dragons to obtain a third chunkloader."],
 			dependencies: [I;273],
@@ -69,14 +68,13 @@
 		{
 			title: "Anchor Upgrade.",
 			icon: "mekanism:upgrade_anchor",
-			x: 3.5d,
+			x: 6.0d,
 			y: -1.0d,
 			shape: "square",
 			description: [
 				"Craft a Digital Miner to obtain an Anchor Upgrade.",
 				"!! Anchor Upgrades are not craftable!!"
 			],
-			dependencies: [I;288],
 			id: 277,
 			tasks: [{
 				id: 278,
@@ -92,10 +90,10 @@
 		{
 			title: "Gather 10 stone.",
 			icon: "minecraft:cobblestone",
-			x: -1.0d,
-			y: 2.0d,
+			x: 2.0d,
+			y: 0.5d,
 			description: ["If you press ~ while using any tool (or your hand), you will excavate an area."],
-			dependencies: [I;288],
+			dependencies: [I;286],
 			id: 284,
 			tasks: [{
 				id: 304,
@@ -118,8 +116,8 @@
 		{
 			title: "Gather 4 logs.",
 			icon: "minecraft:oak_log",
-			x: -1.0d,
-			y: 0.5d,
+			x: 2.0d,
+			y: -1.0d,
 			description: ["You can chop an entire tree by holding shift and hitting it with an axe!"],
 			dependencies: [I;288],
 			id: 286,
@@ -151,8 +149,8 @@
 		{
 			title: "Starting Kit!",
 			icon: "tombstone:impregnated_diamond",
-			x: -1.0d,
-			y: -1.0d,
+			x: 2.0d,
+			y: -3.0d,
 			shape: "hexagon",
 			description: [
 				"Welcome to Really Awesome Mods.",
@@ -199,7 +197,7 @@
 		{
 			title: "Enter your dreams!",
 			icon: "goodnightsleep:strange_bed_item",
-			x: 2.0d,
+			x: -2.0d,
 			y: -1.0d,
 			shape: "square",
 			description: [
@@ -240,7 +238,7 @@
 		{
 			title: "Obtain the mining dimension portal.",
 			icon: "yamda:portal",
-			x: 0.5d,
+			x: 0.0d,
 			y: -1.0d,
 			shape: "square",
 			description: ["Place the portal then right-click the portal to use it."],
@@ -253,7 +251,7 @@
 		},
 		{
 			title: "Craft a strange bed.",
-			x: 2.0d,
+			x: -2.0d,
 			y: 0.5d,
 			description: [
 				"During the day this bed will take you to the good dream.",
@@ -270,7 +268,7 @@
 		},
 		{
 			title: "Visit the mining dimension.",
-			x: 0.5d,
+			x: 0.0d,
 			y: 0.5d,
 			dependencies: [I;528],
 			id: 590,
@@ -286,6 +284,23 @@
 					id: "minecraft:gold_ingot",
 					Count: 4
 				}
+			}]
+		},
+		{
+			title: "Grave's Soul",
+			icon: "tombstone:decorative_grave_simple",
+			x: 4.0d,
+			y: -1.0d,
+			description: [
+				"Upon death, you will recieve a key. You can enchant this key to go back to your grave instantly. To enchant the key you may either craft it with an enderpearl or use a grave's soul.",
+				"Grave souls will appear at a placed grave over time.",
+				"You should place this grave near your home so you have an easy way back to your death location."
+			],
+			id: 602,
+			rewards: [{
+				id: 604,
+				type: "item",
+				item: "tombstone:decorative_grave_simple"
 			}]
 		}
 	]
