@@ -202,7 +202,7 @@
 			shape: "square",
 			description: [
 				"Craft a bed to obtain the items needed to build a strange bed.",
-				"!! Monsters will only spawn in the nightmare dimension!!"
+				"!! On Servers, monsters may be set to only spawn in the nightmare dimension!!"
 			],
 			id: 521,
 			tasks: [{
@@ -256,7 +256,7 @@
 			description: [
 				"During the day this bed will take you to the good dream.",
 				"During the night this bed will take you to the nightmare.",
-				"!! Monsters will only spawn in the nightmare!!"
+				"!! On Servers, monsters may be set to only spawn in the nightmare!!"
 			],
 			dependencies: [I;521],
 			id: 567,
