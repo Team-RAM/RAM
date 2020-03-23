@@ -4,23 +4,8 @@
       "duration": 3600,
       "items": [
         {
-          "name": "minecraft:stone_sword",
+          "name": "ftbquests:book",
           "quantity": 1,
-          "nbt": ""
-        },
-        {
-          "name": "minecraft:stone_pickaxe",
-          "quantity": 1,
-          "nbt": ""
-        },
-        {
-          "name": "minecraft:cooked_porkchop",
-          "quantity": 4,
-          "nbt": ""
-        },
-        {
-          "name": "minecraft:torch",
-          "quantity": 8,
           "nbt": ""
         }
       ]
