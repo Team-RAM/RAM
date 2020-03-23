@@ -1,9 +1,0 @@
-{
-  "name": "op",
-  "prefix": "\u00268[\u00264Op\u00268]",
-  "perms": [
-    "*"
-  ],
-  "parents": [],
-  "weight": 1000
-}
