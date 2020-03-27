@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Really Awesome Mods",
-  "version": "0.2.10",
+  "version": "0.2.9111",
   "author": "Yamza_, millificent_",
   "projectID": 357569,
   "files": [
@@ -733,6 +733,11 @@
     {
       "projectID": 351748,
       "fileID": 2897099,
+      "required": true
+    },
+    {
+      "projectID": 318255,
+      "fileID": 2903471,
       "required": true
     },
     {
