@@ -1,4 +1,4 @@
-https://jenkins.latmod.com/job/FTB-Chunks/lastSuccessfulBuild/artifact/build/libs/ftb-chunks-1.0.0.1.jar
+https://jenkins.latmod.com/job/FTB-Chunks/lastSuccessfulBuild/artifact/build/libs/ftb-chunks-1.0.1.4.jar
 https://jenkins.latmod.com/job/FTB-GUI-Library/lastSuccessfulBuild/artifact/build/libs/ftb-gui-library-1.0.0.14.jar
 https://jenkins.latmod.com/job/FTB-Teams/lastSuccessfulBuild/artifact/build/libs/ftb-teams-1.0.0.5.jar
 https://jenkins.latmod.com/job/FTB-Quests/lastSuccessfulBuild/artifact/build/libs/ftb-quests-2.0.2.244.jar

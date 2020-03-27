@@ -1,0 +1,466 @@
+========================================================
+Really Awesome Mods 0.2.9 --> Really Awesome Mods 0.2.10
+========================================================
+
+Added:
+- JEITweaker
+
+Updated:
+	Aquaculture 2 (Aquaculture-1.15.2-2.0.12.jar --> Aquaculture-1.15.2-2.0.13.jar):
+		Aquaculture-1.15.2-2.0.13.jar:
+			- Re-implemented & fixed Tackle Box shift-clicking
+
+	Biomes O' Plenty (Biomes O' Plenty 1.15.2-10.0.0.352 --> Biomes O' Plenty 1.15.2-10.0.0.353):
+		Biomes O' Plenty 1.15.2-10.0.0.353:
+			 github:
+			 * Update zh_cn.json (#1570)
+			 * * Update zh_cn.json
+			 * Hey, I fixed the error and completed some translations,
+			 * Can you merge it? Thank you in advance!
+			 * * Update zh_cn.json
+
+	Bookshelf (Bookshelf-1.15.2-5.1.4.jar --> Bookshelf-1.15.2-5.3.9.jar):
+		Bookshelf-1.15.2-5.3.9.jar:
+			 * Fixed curse enchantment modifier name. - Tyler Hancock Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?Bookshelf)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+		Bookshelf-1.15.2-5.3.8.jar:
+			 * Added modifier enchantment base. - Tyler Hancock Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?Bookshelf)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+		Bookshelf-1.15.2-5.3.7.jar:
+			 * Added support for enchantment entries. - Tyler Hancock Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?Bookshelf)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+		Bookshelf-1.15.2-5.3.6.jar:
+			 * Ticked version as new features were added. - Tyler Hancock 
+			 * getCurrentServer now makes use of Forge's internal state. - Tyler Hancock 
+			 * Added helper methods for getting mods from registry items and getting a mod name as a text component. - Tyler Hancock Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?Bookshelf)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+		Bookshelf-1.15.2-5.2.5.jar:
+			 * Removed BiomeUtils as this is now covered by Forge. 
+			 * Added utility method to check if a BlockPos is within a slime chunk. 
+			 * Added support for ILootCondition and IGlobalLootModifier in RegistryHelper. 
+			 * Added support for injecting/merging loot table files. 
+			 * Added helper to get the current server instance. 
+			 * Added loot conditions for biome tag, dimension type, redstone power, village, raid, slime chunk, and structure bounds. 
+			 * Added global loot modifiers for silk touch, conversions, the vanilla recipe types, and clearing the results. Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?Bookshelf)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+	Carpet Stairs Mod (Carpet Stairs Mod mc1.15 v1.3 --> Carpet Stairs Mod mc1.15 v1.3.1):
+		Carpet Stairs Mod mc1.15 v1.3.1:
+			Updated mod to run on the latest version of Forge.
+			Fixed a bug that would cause crash
+			Fixed some z-fighting issue with the double stairs/carpet block models
+			Removed unused json model
+
+	Corail Tombstone (Corail Tombstone 4.3.0 for 1.15.2 --> Corail Tombstone 4.3.1 for 1.15.2):
+		Corail Tombstone 4.3.1 for 1.15.2:
+			This mod supports mc version from 1.8.9 to 1.15.2
+			Minecraft Version = [1.15.2] - Forge Version [31.1.8+]
+			Latest : 4.3.1 - Recommended : 4.3.1
+			Changes 4.3.1 :
+
+			 * - "magic items" by fishing in the junk lootable requires an open water space for the entity hook (in prevision of 1.16, don't try to make a hole ;))
+			- client config to define the fog color (this doesn't influence what is seen by others players)
+			- client config to define when fog can appear (day, night, both, never)
+			- something Changes 4.3.0 :
+
+			 * - projectiles (by using the left hand) don't apply the tombstone weapon enchantments of the mainhand
+			- fix the translation of earn/lose knowledge (from the previous version changes)
+			- remove perk entries from the api (related to forge error handling)
+			- adapt skull reward from the advancement about the favorite grave (as only undead skulls/heads are useable for decorative grave)
+			- compat with minecolonies : killing citizens, pirates & barbarians affect player's alignment
+			- config to define the level required for familiar receptacle (10 by default)
+			- adjust contributor rewards to fit the latest contents
+			- config to define the duration of scrolls
+			- config to backup players just before their death (default is false)
+			- client config option to favor the tools on the hotbar when recovering a grave
+			- same sync on config file change for client config being shared on the server (the config gui already does it)
+			- re-add the original tombstone model (adapted)
+			- anvil recipes for white marble grave are now visible in JEI (engraved name) Changes 4.2.5 :
+
+			 * - integration TheOneProbe
+			- display the Y on lost tablet tooltip before the first teleportation
+			- re-use the same casting particle texture as 1.12.2
+			- new enchantment Plague Bringer (can't combine with Magic Siphon)
+			- config to limit Plague Bringer to bad alignment player (or he will be affected with the same bad effect) - default true
+			- config for unhandled harmful effects with nausea in by default (also rename the config for beneficial effects)
+			- avoid a vanilla bug where onEntityDamaged is called twice for player for the mainhand
+			- limit plague bringer & magic siphon to be effective only on mainhand Changes 4.2.4 :
+
+			 * - server configs are now in the usual config folder (#135)
+			- sync the server config to players on dedicated server (without the need to relog) Changes 4.2.3 :
+
+			 * - disabled magic items in config also disable the recipes in game (some of them have now a custom serializer "tombstone:disableable_shaped", "tombstone:disableable_shapeless" and are still editable in json for modpackers)
+			- loot entries are now done in builder allowing them to not be present when the magic item is disabled (require to reload the game)
+			- new item "tablet of cupidity" : a deceitful craftable version of lost tablets leading to others places
+			- remove beyondTheGrave damages from lost tablets
+			- update chinese translation (courtesy of Papadave66) Changes 4.2.2 :
+
+			 * - spanish translation (courtesy of EdicionGamer)
+			- a new perk Tomb Raider, for bad alignement player and if the config option Tomb Raiding is enabled, allowing to plunders some items in an abandoned grave. A grave is considered as abandoned based on the real time of the server : it's one day by default if the decayTime is not enabled and in the other case, it uses the decayTime adjusted by the level of knowledge of death of the plunderer (to allow them to acces faster theses graves than others players with a cap of 50% faster). The number of stolen items is variable and it's possible to not find all the items.
+			- hide disable items in creative tabs
+			- additional checks about cooldown if the gametime changes to an inconsistent value (fix #123)
+			- fix for the tablet of assistance (introduced in 4.2.0)
+			- some configs are now in the world save folder/serverConfig 
+
+	CraftTweaker (CraftTweaker-1.15.2-6.0.0.9.jar --> CraftTweaker-1.15.2-6.0.0.10.jar):
+		CraftTweaker-1.15.2-6.0.0.10.jar:
+			Current version: 6.0.0.10
+
+			 * [Fixed Shapeless recipes not displaying tags correctly](https://github.com/CraftTweaker/CraftTweaker/commit/6e82504eda010a4bbcdae083829eec2bf1ab91c2) - Jared - Thu Mar 26 16:09:10 2020 
+			 * [update forge and mappings](https://github.com/CraftTweaker/CraftTweaker/commit/25f90e830ba4811abd30e1a86873aee4c2515525) - Jared - Fri Feb 28 00:20:53 2020 
+			 * [Get the recipetype safer, hopefully. Close #927](https://github.com/CraftTweaker/CraftTweaker/commit/ea4a96caf94cbf43103ea16a4f47a5d2ea8a2577) - Jared - Wed Feb 26 23:09:51 2020 
+			 * [Fixed scripts bigger than 32k not working on servers](https://github.com/CraftTweaker/CraftTweaker/commit/250194edf597fc06b93c5017ad4d61e6398091d7) - Jared - Wed Feb 26 20:40:48 2020 
+			 * [made it possible to cast a string to an int and double](https://github.com/CraftTweaker/CraftTweaker/commit/634576292be37aba8cc5b6aef5a33e4ff900937e) - Jared - Tue Feb 18 23:13:45 2020 
+			 * [update jar file name and mods.toml](https://github.com/CraftTweaker/CraftTweaker/commit/41da80a7a30c6ff96286ccdc6039f4a0359e45e3) - Jared - Fri Feb 7 21:14:27 2020 
+			 * [port to 1.15.2](https://github.com/CraftTweaker/CraftTweaker/commit/a8be724fd6eb4a8e5c49af0bdaa4ec3e96af2fff) - Jared - Fri Feb 7 11:55:03 2020 
+			 * [add a way to check if a MCTag is a certain type of tag](https://github.com/CraftTweaker/CraftTweaker/commit/10a2b04483ce4032c6ffb8803b567e2dcbedce5a) - Jared - Fri Feb 7 11:39:02 2020 
+			 * [update MC and forge versions in toml and gradle](https://github.com/CraftTweaker/CraftTweaker/commit/457020bbf055aea2e4e6aad015309e6e9ccfacdf) - Jared - Wed Jan 22 21:36:34 2020 
+			 * [update changelog commit](https://github.com/CraftTweaker/CraftTweaker/commit/c9ef77624a3c438180d561f3ea05916e4738c83d) - Jared - Wed Jan 22 21:36:34 2020 
+			 * [port to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/b21c1f5da8ec69929d34647873c9729be2458e4e) - Jared - Wed Jan 22 21:36:34 2020 
+			 * [update JEI](https://github.com/CraftTweaker/CraftTweaker/commit/c1c4434a134398e429ba4ba62f7affe05e57f367) - Jared - Wed Jan 22 21:35:54 2020 
+			 * [update forge to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/39f45343748414de06395a6e2a23b185f317452c) - Jared - Wed Jan 22 21:35:54 2020 
+			 * [wrapper classes docs are now /vanilla/api/](https://github.com/CraftTweaker/CraftTweaker/commit/e524914f5b057a9c007dca1310638c2bcac53d31) - Jared - Sun Jan 19 22:18:46 2020 
+			 * [move all generated docs to /vanilla/api](https://github.com/CraftTweaker/CraftTweaker/commit/6a1d9f4f69025c20e450feef2ca561c7ab54ad03) - Jared - Sun Jan 19 22:15:13 2020 
+			 * [no more value = for docs annotation](https://github.com/CraftTweaker/CraftTweaker/commit/ba576f0a25678a6451080d23403ae3954d41d914) - Jared - Sun Jan 19 22:03:38 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/f3b595aa161e93f6ff90788b53fbea04ee9b265d) - kindlich - Sat Jan 11 13:58:34 2020 
+			 * [make YAML output be in folders](https://github.com/CraftTweaker/CraftTweaker/commit/0de76eb4e3008edf0963c65d83ee971b4963c20c) - Jared - Fri Jan 10 22:55:02 2020 
+			 * [ignore docsOut and src/generated](https://github.com/CraftTweaker/CraftTweaker/commit/c7f9f97ed3398bc61b0bf81f1050284fb0c6ca79) - Jared - Fri Jan 10 22:54:34 2020 
+			 * [update ZC to fix server crashes](https://github.com/CraftTweaker/CraftTweaker/commit/7c703a57a06fc9bb2ea7d2ecde673e7ff18f89ef) - Jared - Fri Jan 10 22:23:43 2020 
+			 * [update ZC](https://github.com/CraftTweaker/CraftTweaker/commit/224ad15e53c38b430dbd4230922d82f7f5b59977) - Jared - Fri Jan 10 19:21:41 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/5d9f252e406156b81bcadd720b95e8a9ddca43f4) - kindlich - Fri Jan 10 19:06:10 2020 
+			 * [Added IIngredient#asIData](https://github.com/CraftTweaker/CraftTweaker/commit/1f4761cdf63d7b8b9bd878ac2a34940a36a4eb17) - kindlich - Fri Jan 10 19:00:45 2020 
+			 * [Updated Doc location for Biome and BiomeSpawnEntry](https://github.com/CraftTweaker/CraftTweaker/commit/02cf6a708b3d163174ddfd31276807d941b78cdc) - kindlich - Fri Jan 10 18:58:57 2020 
+			 * [update ZS](https://github.com/CraftTweaker/CraftTweaker/commit/2839aed162ff778c0acd40472474a3fde50e83bc) - Jared - Wed Jan 8 17:53:38 2020 
+			 * [Removed test code for no wrapper file](https://github.com/CraftTweaker/CraftTweaker/commit/69fa5381ed1f6457342fd34fde78155ecbb4143b) - kindlich - Sun Jan 5 20:23:39 2020 
+			 * [DocumentProcessor: Clear the output directory first](https://github.com/CraftTweaker/CraftTweaker/commit/d64087adf887972238ba1ec7482ce8e83676f395) - kindlich - Sun Jan 5 20:20:35 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/9f960d9c5a301a942c48512e4ab2085a08d83ea9) - kindlich - Sun Jan 5 19:51:50 2020 
+			 * [Added some advancements as being wrapped](https://github.com/CraftTweaker/CraftTweaker/commit/57cc981aee01abaa689b872ab851d63a7db4b366) - kindlich - Wed Jan 1 23:45:25 2020 
+			 * [Fixed some issues with the wrapper Processor](https://github.com/CraftTweaker/CraftTweaker/commit/e22c6972784858c8118eb1485496f1ea1eb655c8) - kindlich - Wed Jan 1 23:44:59 2020 
+			 * [Forgot Some these](https://github.com/CraftTweaker/CraftTweaker/commit/54a5854f42414293ff8c6ea897f9c86a45956665) - kindlich - Wed Jan 1 22:56:12 2020 
+			 * [Event Wrapper and Comment cleanup](https://github.com/CraftTweaker/CraftTweaker/commit/13501a232699331ea342199b86ec938692e621ee) - kindlich - Wed Jan 1 21:35:22 2020 
+			 * [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/100bfb38141ec271a31e04e342f82cad6dc0a4a4) - kindlich - Wed Jan 1 16:43:17 2020 
+			 * [Removed 2nd MCWorld](https://github.com/CraftTweaker/CraftTweaker/commit/d82e4ef51904c0378c4025973a14dfdbb5b0da7c) - kindlich - Wed Jan 1 16:30:19 2020 
+			 * [Removed unused buildSrc](https://github.com/CraftTweaker/CraftTweaker/commit/0b782c48bb8d36950a00546258d0d63d9f98154c) - kindlich - Wed Jan 1 16:27:20 2020 
+			 * [Made Event listeners unregister themselves on a reload](https://github.com/CraftTweaker/CraftTweaker/commit/592e7d9862449a6f7285a65250be98296e3820d3) - kindlich - Wed Jan 1 16:25:55 2020 
+			 * [Only remove sidedActions when on the same side](https://github.com/CraftTweaker/CraftTweaker/commit/7d15faf7ae87abbc96d060cdc832b6cc957a7002) - kindlich - Wed Jan 1 16:24:36 2020 
+			 * [Added missing Document and ZenWrapper annotations](https://github.com/CraftTweaker/CraftTweaker/commit/42cd76858c4bb9901ac234f2bd2cc9bc342738d5) - kindlich - Wed Jan 1 16:23:38 2020 
+			 * [More work on wrappers](https://github.com/CraftTweaker/CraftTweaker/commit/a5f6a37ecd56898eefd2408b9e4177cba5927aba) - kindlich - Wed Jan 1 16:22:16 2020 
+			 * [Committing stuff before I do something stupid](https://github.com/CraftTweaker/CraftTweaker/commit/a93ea989e169113d715fa84e4144b8ca23491b06) - kindlich - Tue Dec 31 23:03:43 2019 
+			 * [Committing stuff before I do something stupid](https://github.com/CraftTweaker/CraftTweaker/commit/2c785dbd40fa4e6ad62d6574347041f85fa7984f) - kindlich - Tue Dec 31 21:46:11 2019 
+			 * [CTTooltipEvent handler working now.](https://github.com/CraftTweaker/CraftTweaker/commit/b43eefc90d69e5111b7a17fdac383bbf0487fc78) - kindlich - Fri Dec 27 16:52:33 2019 
+			 * [Some minor cleanup for Annotation Processors](https://github.com/CraftTweaker/CraftTweaker/commit/2e0897e84a4fbd7733d63d1fb054f80411fe929b) - kindlich - Thu Dec 26 23:07:54 2019 
+			 * [Simple yaml generation and fixed multiple classes being generated](https://github.com/CraftTweaker/CraftTweaker/commit/2912e29a540d1241f7616e3641a9a95f276019a1) - kindlich - Mon Dec 23 13:31:29 2019 
+			 * [Some cleanup](https://github.com/CraftTweaker/CraftTweaker/commit/18591fa7ac102e2cf11c172d9bc5e76b92b10624) - kindlich - Mon Dec 23 13:06:59 2019 
+			 * [Some more work on Expansions and declaredModid](https://github.com/CraftTweaker/CraftTweaker/commit/91eb925ba4ecdf5a03498677a572383547fd04cc) - kindlich - Mon Dec 23 12:53:29 2019 
+			 * [Started working on expansion classes](https://github.com/CraftTweaker/CraftTweaker/commit/4b68e0e43bd13b86d94b227b97a67094ae0981ea) - kindlich - Sun Dec 22 23:23:31 2019 
+			 * [Normal classes should be running now](https://github.com/CraftTweaker/CraftTweaker/commit/6b06dd25f2b4adb58c72eec818d5f87cafdc98f7) - kindlich - Sun Dec 22 21:15:31 2019 
+			 * [Base classes for Document Processor rewrite](https://github.com/CraftTweaker/CraftTweaker/commit/34fd8a748133dbc8a0c609ae9e21ef41336252d4) - kindlich - Sat Dec 21 22:42:42 2019 
+			 * [Start working on annotation processor rewrite](https://github.com/CraftTweaker/CraftTweaker/commit/bd6cf0c2cf376516896fa603fa3a9bc41911760f) - kindlich - Fri Dec 20 14:04:26 2019 
+			 * [Replaced IEventHandler with Consumer](https://github.com/CraftTweaker/CraftTweaker/commit/e0fcd372ad7143fa3a69f42d0c4fd59cf00e2986) - kindlich - Sat Dec 14 21:25:17 2019 
+			 * [event test](https://github.com/CraftTweaker/CraftTweaker/commit/98d834eed872ba45bb9ecd24b4bbab249b9f031a) - Jared - Thu Dec 12 18:43:10 2019 
+
+	Curios API (curios-FORGE-1.15.2-2.0.2.jar --> curios-FORGE-1.15.2-2.0.2.1.jar):
+		curios-FORGE-1.15.2-2.0.2.1.jar:
+			Changelog
+			All notable changes to this project will be documented in this file.
+			The format is based on [Keep a Changelog]() and this project does not adhere to [Semantic Versioning](). This project uses MCVERSION-MAJORMOD.MAJORAPI.MINOR.PATCH.
+			[2.0.2.1] - 2020.03.26
+			Added
+
+			 * Added Chinese localization (thank you EnterFor!) [2.0.2] - 2020.03.21
+			Added
+
+			 * Added support for curio attribute modifiers using NBT tags, simply replace "AttributeModifiers" with "CurioAttributeModifiers" [2.0.1] - 2020.03.08
+			Added
+
+			 * [API] ICurio#onCurioAnimate - Called every tick client-side only while curio is equipped [2.0] - 2020.02.24
+			Fixed
+
+			 * Fixed compatibility issue with Ensorcellation's Soulbound enchantment [#41](https://github.com/TheIllusiveC4/Curios/issues/41) [2.0-beta2] - 2020.01.26
+			Changed
+
+			 * Updated to 1.15.2 Added
+
+			 * Re-added JEI integration 
+			 * Added Japanese localization (thanks MORIMORI0317!) Fixed
+
+			 * Fixed generic curio slot icon showing missing texture [2.0-beta] - 2019.12.30
+			Changed
+
+			 * Ported to 1.15.1 
+			 * [API] ICurio#doRender -> ICurio#render 
+			 * Curio rendering no longer automatically applies sneaking translations 
+			 * Curio slot icons need to be manually stitched into the block texture atlas 
+
+	Dark Utilities (DarkUtilities-1.15.2-3.0.1.jar --> DarkUtilities-1.15.2-3.0.2.jar):
+		DarkUtilities-1.15.2-3.0.2.jar:
+			 * Import plate recipe now uses chest item tag. - Tyler Hancock Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?DarkUtilities)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+	DimStorage (DimStorage-1.15.2-3.0.2 --> DimStorage-1.15.2-3.0.3):
+		DimStorage-1.15.2-3.0.3:
+			- Fixed DimTablet 's bug
+
+	Ding (Ding-1.15.1-1.1.0.jar --> Ding-1.15.2-1.1.0.jar):
+		Ding-1.15.2-1.1.0.jar:
+			1.15.2-1.1.0:
+			- Built against MC 1.15.2.
+
+	Enchantment Descriptions (EnchantmentDescriptions-1.15.2-2.0.4.jar --> EnchantmentDescriptions-1.15.2-2.0.5.jar):
+		EnchantmentDescriptions-1.15.2-2.0.5.jar:
+			 * Added config options for showing owner name, the keybind activation requirement, and whether or not all items should have the tooltips. 
+			 * Refactored the code to have streamlined logic and error handling. 
+			 * Improved how descriptions are placed in the tooltip to make them easier to read. 
+			 * Updated MCP and Forge, added Bookshelf dep. Like the mod? Consider following me on [Twitter](https://twitter.com/darkhaxdev) and joining the [Discord]()
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?EnchantmentDescriptions)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+	Good Night's Sleep (Good Night's Sleep 1.15.2-v1.0.2 --> Good Night's Sleep 1.15.2-v1.0.3):
+		Good Night's Sleep 1.15.2-v1.0.3:
+			- Made Negatite and Zitrite more rare
+			- World-gen features are now registered properly
+
+	Inventory Tweaks Reborn (invtweaks-1.15.2-1.0.1.jar --> invtweaks-1.15.2-1.0.2.jar):
+		invtweaks-1.15.2-1.0.2.jar:
+			Fixes crash when certain sorting specs are omitted
+
+	JANOEO (JANOEO - 3.2 --> JANOEO - 3.2.1):
+		JANOEO - 3.2.1:
+			3.2.1
+
+			 * add tag(hardcoded) to be using with other mod. 3.2 (1.15.2)
+
+			 *  add storage block 
+			 * ruby 
+			 * sapphire 3.1.2 (1.15.1-2)
+
+			 * fix mod not working in 1.15.2 due to missing information in the meta-inf 3.1.1 (1.15.2)
+
+			 * port to 1.15.2 2.3(1.14.4) & 3.1(1.15.1)
+
+			 * fix bug on dense emerald ore in the nether(not generated) 
+			 *  add new ore 
+			 * ruby 
+			 * sapphire 
+			 * add a firework when i join a world 3.0(1.15.1)
+
+			 * port to 1.15.1 2.2(1.14.4)
+
+			 *  add dust 
+			 * diamond 
+			 * iron 
+			 * gold 
+			 * continue to rework the code of the mod 2.1.1(1.14.4)
+
+			 * fix mistake in 3 line of code, causing problem with the ore generation 2.1(1.14.4)
+
+			 *  add new mobs mechanism 
+			 * zombie pigman attack the player if the player break a nether ore 
+			 * enderman attack the player if the player break a end ore 2.0(1.14.4)
+
+			 * internal rework (code) 
+			 * add a highly modularity (more option in config file) 
+			 * update to forge 1.14.4-28.1.61 1.9.2(1.14.4)
+
+			 * fix english variants in tag name (aluminium vs aluminum) (once again...) 
+			 * fix missing recipes 1.9.1(1.14.4)
+
+			 * fix english variants in tag name (aluminium vs aluminum) 
+			 * fix missing file for ingots tag 1.9(1.14.4)
+
+			 * add lead, silver, uranium and aluminium ingot 1.8.1(1.14.4)
+
+			 * fix uranium ore with bad tags 
+			 * fix missing tag for silver and lead ore 1.8(1.14.4)
+
+			 * add lead and silver ore 
+			 * fix missing loot table 1.7(1.14.4)
+
+			 * add french localization 
+			 * add uranium ore 
+			 * add aluminium ore 
+			 * add data generator (change nothing for the client and server, only use for mod compilation and mod data generation) 
+			 * fix dense redstone ore 
+			 * update forge from 1.14.4-28.0.55 to 1.14.4-28.1.1 
+			 * update mcp from 20190912 to 20190915 1.6(1.14.4)
+
+			 * update mcp to 20190912 
+			 * dense ore phase 2, dense ore in the nether 
+			 * fix end/nether redstone ore do not stop lit 1.5(1.14.4)
+
+			 * add a config file 1.4(1.14.4)
+
+			 * add dense ore in overworld 1.3(1.14.4)
+
+			 * add copper and tin ore 
+			 * add copper and tin ingot 
+			 * add a new item group for the non-ore 1.2(1.14.4)
+
+			 * fix missing xp drop 
+			 * fix end/nether redstone ore 
+			 * add tags for more compatiblity with other mods 
+			 * rewrite/clean up the source code of the ore block 1.1(1.14.4)
+
+			 * add end ore generation 1.0(1.14.4)
+
+			 * initial release 
+
+	Lollipop (Lollipop-1.15.2-1.0.12.jar --> Lollipop-1.15.2-1.0.13.jar):
+		Lollipop-1.15.2-1.0.13.jar:
+			No changelog provided.
+
+	Mekanism (Mekanism-1.15.2-9.9.16.408.jar --> Mekanism-1.15.2-9.9.17.409.jar):
+		Mekanism-1.15.2-9.9.17.409.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[06bd72f](https://github.com/mekanism/Mekanism/commit/06bd72f6d2d12398768052d125f7d1e9ab8022a9) - Continued work on rewriting various parts of render resizable cuboid - Properly pass the light value we want to use to the cuboid we are rendering [#5800](https://github.com/mekanism/Mekanism/issues/5800) - Massively improve how things like water visually render in mechanical pipes (there is still more I plan on doing to further improve this) - Batch a bunch of the draws that we make via our render resizable cuboid [549dfac](https://github.com/mekanism/Mekanism/commit/549dfacdaf03d82c09113d8b633f88943107f0ff) - Work on consolidating factory implementation [adbb826](https://github.com/mekanism/Mekanism/commit/adbb826ad3daeefb83d6d40a4e33a710a94105b2) - Use suppliers to avoid setting references to other registries before they're initialized [7317370](https://github.com/mekanism/Mekanism/commit/7317370d30cf4c044ca5ead44b2b52d92a5a1040) - Further improve rendering of things like water in mechanical pipes, and batch rendering of turbine rotors that are inside of an industrial turbine [eb6b759](https://github.com/mekanism/Mekanism/commit/eb6b759f7b59250847d0e2f62793fe5e55f0f9d4) - Fix some broken casts, fix factory usage & storage [d8f5f49](https://github.com/mekanism/Mekanism/commit/d8f5f49042914caf5ca614463bd7c313563572e8) - Begin work on attribute system for blocks [beabfd4](https://github.com/mekanism/Mekanism/commit/beabfd4cf3a03555cea3445060aa9f5e5a206503) - Continue work on the new block framework [7683ab6](https://github.com/mekanism/Mekanism/commit/7683ab68a995061c95cd929b04a32a0e61412bad) - Continue working on attribute system [db6ce75](https://github.com/mekanism/Mekanism/commit/db6ce750387a920306baf56b2f0d27595529ed42) - Continued work on block consolidation [eb17c4d](https://github.com/mekanism/Mekanism/commit/eb17c4d9209aa5e82d983ee0fc741cc48cb5b9dd) - Restructure block types to avoid forcing TileEntities [e391302](https://github.com/mekanism/Mekanism/commit/e39130233ab1e7e18d3696ec994416d21fb7389f) - Remove some irrelevant tier-related code [a817632](https://github.com/mekanism/Mekanism/commit/a817632511b016aa0471538f6e6cea16e4d9336b) - Convert bins and induction cells/providers [449fc77](https://github.com/mekanism/Mekanism/commit/449fc778924420769786870a4834211efdd7113a) - Migrate energy cube, fluid tank, gas tank [b997ed9](https://github.com/mekanism/Mekanism/commit/b997ed9f94c786765920e91441c3ec23e9275097) - Continue consolidation, fix some issues [2ca177f](https://github.com/mekanism/Mekanism/commit/2ca177fe45452f62113cde23527b5fa977d4c106) - Fix accidental file removal [7ef0640](https://github.com/mekanism/Mekanism/commit/7ef064047db29c9d2000e61d0f0746596206d515) - Fixes and cleanup [76da82b](https://github.com/mekanism/Mekanism/commit/76da82b3c58fab29a83070c722fd6280e9f3af86) - Additional fixes [4d7e3a7](https://github.com/mekanism/Mekanism/commit/4d7e3a7e2f2a40f8e94af3751b0b3402dc87959a) - Add some helper methods to clean up attribute references [13fa2db](https://github.com/mekanism/Mekanism/commit/13fa2dbfd8dda2ca3455f7031b5716d5fdc35314) - Fix Induction Cells/Providers not exposing TileEntities [4a3b978](https://github.com/mekanism/Mekanism/commit/4a3b97889c438d67506f930774a99bb37a2efdd8) - Fix Logistical Sorter voxel model [3fd69fc](https://github.com/mekanism/Mekanism/commit/3fd69fc4a1d5b3531f53694449606191935a861a) - Initial draft of the Energy API rework, also fixed various typos/copy paste errors in the other handler's java docs that I came across while writing the spec [3e48bdf](https://github.com/mekanism/Mekanism/commit/3e48bdf4658273490b5e0b8db36116b8c18e79c1) - Write most of the base backend of the new Energy API. (Note does not currently compile) and fix various minor bugs in various handlers: - Fixed edge case in growStack that could theoretically allow for integer overflow - Fix misc comments/variable names being incorrect for that handler type (for example naming variables slots rather than tanks) - Added some validity checking to capacities of things [90ee1d7](https://github.com/mekanism/Mekanism/commit/90ee1d726b7adcd05924cf7431532192e5b496bf) - More work on converting to new energy API implementation, still does not compile [62d8c69](https://github.com/mekanism/Mekanism/commit/62d8c69554c594825a0e36c3300f44d2fe8e5b59) - Continued work on converting to the new energy API implementation, still does not compile [60cd291](https://github.com/mekanism/Mekanism/commit/60cd2912a3c20c620bfc9247026eea714416c836) - Continued work on converting to the new energy API implementation, still does not compile - Made Metallurgic infuser side config support configuring energy - Increased default energy buffer for quantum entangloporter from 16 million to 128 million (to match the default of the ultimate energy cube) - Start rewriting our handling of integrating with other energy systems. Rather than having specific handling for interacting with various handlers, we are moving towards having classes that wrap the other handlers into being able to be handled by our generic IStrictEnergyHandler [9512cd0](https://github.com/mekanism/Mekanism/commit/9512cd05346dd456a8d515bd2796c041c704d097) - Continued work on converting to the new energy API implementation, still does not compile - Moved redstone to energy from config to recipe system, and add a recipe for redstone block to energy - Modernized chargepad code, and made it able to charge items in the offhand [c991416](https://github.com/mekanism/Mekanism/commit/c99141669c5a18dbd10ae013c4c9f2bb2046d278) - Continued work on converting to the new energy API implementation, still does not compile - Unified more ejection code for energy, fluids, and gases [740a52d](https://github.com/mekanism/Mekanism/commit/740a52dd622927f0b05d7a48fac135cfb1783e76) - Mostly finished first pass at converting the induction matrix to the new energy system, still does not compile [a8bf276](https://github.com/mekanism/Mekanism/commit/a8bf2760cd036a04378e5bcb26e5f17a781bd992) - Continue work on converting to the new energy api, still does not compile [d7fe6dd](https://github.com/mekanism/Mekanism/commit/d7fe6ddb79bbfdfa80ca00b109ae0339a0e72c1f) - Still lots of bugs and things that have to be cleaned up/fixed, but it compiles again [1b7e8ac](https://github.com/mekanism/Mekanism/commit/1b7e8acbfa907b804220d90ea1cef459d9cb46f7) - Fix rebase errors, and make it compile again [0699994](https://github.com/mekanism/Mekanism/commit/0699994e3d207ebd76a3ce63ae5b9cf1614fa6cb) - Optimize imports and reformat code [71db700](https://github.com/mekanism/Mekanism/commit/71db700f0bb173641f4e4c54a2ef9a818e12481c) - Move energized items over to the new energy API with easier extensibility support for implementing other mods' energy handlers - Minor cleanup of some attribute stuff - More consistently not require energy in items when in creative [cdca82c](https://github.com/mekanism/Mekanism/commit/cdca82c9404b9fcad0821af3407655e5968d25d9) - Modernize electric bow implementation to extend vanilla's bow and more closely mirror some of the logic from it - Fixes some enchantments not working properly on the electric bow - Fixes custom arrows not always working as intended - Also made the hoes in Mekanism Tools implement a hoe tool type in case any mods look for one [01b414a](https://github.com/mekanism/Mekanism/commit/01b414a2cb9c60058c4378362d9347f0c09d6e00) - Use some util methods to cleanup rendering checks that got messier [e8fb5df](https://github.com/mekanism/Mekanism/commit/e8fb5df3c902e3304015bbb3e848c8dea4d7f963) - Cleanup code pertaining to conversion checks [2af649a](https://github.com/mekanism/Mekanism/commit/2af649a9fa15bcdf93837aa5cc6fb340b90caf3f) - Cleanup code pertaining to setting energy requirements for recipes [26d2831](https://github.com/mekanism/Mekanism/commit/26d2831564ab3dd87dfa106c4e1028b59901b599) - Fix mekanism tiles being incorrect in their check of if they are activatable, and cleanup a bit of code having to do with targets [66e59a7](https://github.com/mekanism/Mekanism/commit/66e59a7d0306c26b9bcae5b8187af2dcae0fe686) - First pass at experimenting with converting energy from a double to a FloatingLong, it compiles, but FloatingLong is not properly implemented yet [f3943ef](https://github.com/mekanism/Mekanism/commit/f3943efd87d0dc148eb5ab021464f00a64afb3ba) - Update dependencies, and setup JUnit [aa33eac](https://github.com/mekanism/Mekanism/commit/aa33eaca8051e30f16a322c2a379ac479d6e8735) - Fix a few bugs with FloatingLong and mostly implement the class, for now various parts of it are using temporary methods of calculating things. Also improve our TOP integration, making it so that our gas and infusion bar renderers look better, and replacing TOPs default energy display for our own blocks. Additionally made it so looking at our multiblocks show all the proper stats rather than having to look at the valve specifically [2f36a52](https://github.com/mekanism/Mekanism/commit/2f36a522b0cec3aed6448d58bd717be0a2a697fe) - Fix client side only method being used for resource location config, and fix modulo [a971911](https://github.com/mekanism/Mekanism/commit/a971911c98298ccb6c1d8714bd479a2a01eb80f7) - Fix accidental inversion of BasicEnergyContainer#insert return value, and fix typo in path for test classes [5cebdad](https://github.com/mekanism/Mekanism/commit/5cebdadfba593c083fde2ece8ae80bd790f69ec3) - Update docs to properly specify how to handle FloatingLongs for the energy api and when they can be modified and when they shouldn't be modified. Also remove some java docs that are incorrect due to us overwriting for more reasons than just to avoid a cached value such to check our validity predicates [222f601](https://github.com/mekanism/Mekanism/commit/222f601d2b2b05326c645285d029f68e11302918) - Reduce number of sync packets sent for mechanical pipes, pressurized tubes, and universal cables, and calculate the content scale on the server instead of the client. Also added some TODOs for some odd bugs unrelated to rendering that I ran into while testing [494ec79](https://github.com/mekanism/Mekanism/commit/494ec792645eab0db47b4c3e4dd94116852b53bb) - Fix the save share for networks not being calculated properly, and also fix the networks not updating their capacity before attempting to absorb a transmitter's buffer causing for a good number of contents to be voided when a single pipe was broken. Also fix not updating the capacity before accepting contents, causing for weird things to occur/break [e7e21e7](https://github.com/mekanism/Mekanism/commit/e7e21e7c46578dafddd5ad018e4a9c25714418b9) - Fix being to strict on caching various handler's read write settings when based on a side config [c955a73](https://github.com/mekanism/Mekanism/commit/c955a7363d9edbcf1313832ecc798ec5db44e6bd) - Fix laser particle not displaying properly, due to BasicEnergyContainer#extract not obeying the API spec of mutability [74938d0](https://github.com/mekanism/Mekanism/commit/74938d07e78cf292bc0ed31cfef4693edcff96ad) - Allow conversion to bypass rate limit of energy cube and gas tank, and fix improper deserialization of the decimal for floating longs for recipes, also fix filling items with energy in the EnergyInventorySlot, apparently two onContentsChanged calls were missing [05313f4](https://github.com/mekanism/Mekanism/commit/05313f4610aa500c6d4401141327bd511b88dc82) - Move energy multiplier for electrolysis recipe to a FloatingLong [4135faf](https://github.com/mekanism/Mekanism/commit/4135fafae0433cf8187406672592ca2e6feadd4e) - Improve FEIntegration implementation to better handle if we have multiple energy containers in the handler we are wrapping [0f78345](https://github.com/mekanism/Mekanism/commit/0f7834528bc05af68a88f2779b4b9d768d77e04e) - Use util method to make the energy cube scale increase look better and be a smoother transition, and also cleanup some multitank support/tooltip code [8727ac5](https://github.com/mekanism/Mekanism/commit/8727ac564c2b99e779e18aba44155287a4ee0ca5) - Cache capacities of a few different multiblocks [9e836a5](https://github.com/mekanism/Mekanism/commit/9e836a59ce6bf127cff007ba71d21faef48eb0e1) - Fix network scale calculations on reforming (a pipe being broken), and on merging of networks. [b56f8b9](https://github.com/mekanism/Mekanism/commit/b56f8b9ccf39eafecf2a5627e11030a4e9e43142) - Improve some of the checks for seeing if a container has "infinite" of a material [6880316](https://github.com/mekanism/Mekanism/commit/68803166ba949f0f9476c691f4a436ff8205bdda) - Minor cleanup to TransporterManager, removing the need for stack size trickery [3a9a9bd](https://github.com/mekanism/Mekanism/commit/3a9a9bd2670dfadf4fa38d5bc12a47b79b6b5e15) - Go through and cleanup a few TODOs from the Energy rewrite, and fix a few other issues with values being incorrect, as well as energy not syncing to the robit's gui [97bb8d4](https://github.com/mekanism/Mekanism/commit/97bb8d4bf64c69db18b9ea07dcd4ac6cce5461fa) - Cleanup some comments [c3f90c7](https://github.com/mekanism/Mekanism/commit/c3f90c7cbe3139a8d540adf5cb6e2fb61ae9155b) - Fix lastEnergyReceived [6331aa8](https://github.com/mekanism/Mekanism/commit/6331aa8074340c2e24c99eeba461f5b4d84eabc3) - Fix the energy matrix adding energy to the cached total rather than removing it when energy is removed [adfcd34](https://github.com/mekanism/Mekanism/commit/adfcd34950cabd62ab61bfd48c329954417f2b9f) - Implement proper range checks to CachedFloatingLongValue and switch it to strings representing it to properly support unsigned longs if we eventually switch to them. Also switch the SerializerHelper and Json serialization to doing it by number so that if/when we switch to unsigned long it works properly [c679c31](https://github.com/mekanism/Mekanism/commit/c679c317d77205455b2eedd3834d1ea006b40793) - Simulate insertion for inserting items into slots that has a slot limit larger than the item's max stack size, as the slot may allow for stacks up to a certain size but also be respecting the max stack size of the item. [#5988](https://github.com/mekanism/Mekanism/issues/5988) [94308f5](https://github.com/mekanism/Mekanism/commit/94308f54030f44ea15b4805614f6f15bb34d8f3c) - Implement multiplication for FloatingLongs without having to convert to string and use BigDecimal ([#5987](https://github.com/mekanism/Mekanism/issues/5987)) [a8ccd36](https://github.com/mekanism/Mekanism/commit/a8ccd36379b26b95056066da1f95a91ecc8beebe) - Set steam to actually have the correct temperature ([#5972](https://github.com/mekanism/Mekanism/issues/5972)) [0c62ea8](https://github.com/mekanism/Mekanism/commit/0c62ea89817951dc2121d03c5a7fc2e079649651) - Add test lib QuickTheories for property based testing of FloatingLong, and partially reorganize ordering of the FloatingLong class [c5a752f](https://github.com/mekanism/Mekanism/commit/c5a752ff7d122799459ef53a8b6a6a263e212ec5) - Spec change to FloatingLong so that the modifyEqual methods return the actual object, so that if it is called on a constant it instead returns a new clean value. Also add javadocs to methods in FloatingLong [8e97204](https://github.com/mekanism/Mekanism/commit/8e97204f4e49fdf1c8005391be19b3a9d0adfa6f) - Rewrite handling of upgrade recipes. For the most part properly handles transferring data now. It only does basic testing for finding a matching valid configuration, but if it cannot find one it just doesn't match as a valid input to the recipe [#5743](https://github.com/mekanism/Mekanism/issues/5743), and fix handling of initial container syncing on servers where there may be multiple players. [2711127](https://github.com/mekanism/Mekanism/commit/2711127eac3379a471c2019aa9b7cf484333d4e0) - Re-implement instantly turning blocks to active, and having a longer delay threshold before they are considered deactivated. Also fix client energy used calculations being incorrect due to the mutability of objects [a2bc3a0](https://github.com/mekanism/Mekanism/commit/a2bc3a0773539f45c3a7da4e850ecd05c6c9aad5) - Store FloatingLongs as a string in NBT to be able to easily switch to unsigned longs if we decide to without voiding saved energy again [5450d2d](https://github.com/mekanism/Mekanism/commit/5450d2df813e375f3a106a69f5609ca3737ecc21) - Fix handling of parsing doubles and make it so it parses them consistently [31dc0c8](https://github.com/mekanism/Mekanism/commit/31dc0c86014a539a245646a06dfa774c91fee31c) - Fix miner not properly refreshing chunks on changing radius, and don't attempt to check the tile at a position during world loading to hopefully remove the race condition/halting that can occur [#5897](https://github.com/mekanism/Mekanism/issues/5897) [#5978](https://github.com/mekanism/Mekanism/issues/5978) [05766a7](https://github.com/mekanism/Mekanism/commit/05766a7a29ba180575b7bfa991af330fca988cc9) - Display energy network capacity as FloatingLong [9132e4d](https://github.com/mekanism/Mekanism/commit/9132e4d922333f0c79ea268cc09f12a4b9619d57) - Convert FloatingLong to using an unsigned long ([#5991](https://github.com/mekanism/Mekanism/issues/5991)) [b509204](https://github.com/mekanism/Mekanism/commit/b509204f3f6d88da6ac7b69516a66b0e960e8ce3) - Bump version to 9.9.17 
+
+	Mekanism Generators (MekanismGenerators-1.15.2-9.9.16.408.jar --> MekanismGenerators-1.15.2-9.9.17.409.jar):
+		MekanismGenerators-1.15.2-9.9.17.409.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[06bd72f](https://github.com/mekanism/Mekanism/commit/06bd72f6d2d12398768052d125f7d1e9ab8022a9) - Continued work on rewriting various parts of render resizable cuboid - Properly pass the light value we want to use to the cuboid we are rendering [#5800](https://github.com/mekanism/Mekanism/issues/5800) - Massively improve how things like water visually render in mechanical pipes (there is still more I plan on doing to further improve this) - Batch a bunch of the draws that we make via our render resizable cuboid [549dfac](https://github.com/mekanism/Mekanism/commit/549dfacdaf03d82c09113d8b633f88943107f0ff) - Work on consolidating factory implementation [adbb826](https://github.com/mekanism/Mekanism/commit/adbb826ad3daeefb83d6d40a4e33a710a94105b2) - Use suppliers to avoid setting references to other registries before they're initialized [7317370](https://github.com/mekanism/Mekanism/commit/7317370d30cf4c044ca5ead44b2b52d92a5a1040) - Further improve rendering of things like water in mechanical pipes, and batch rendering of turbine rotors that are inside of an industrial turbine [eb6b759](https://github.com/mekanism/Mekanism/commit/eb6b759f7b59250847d0e2f62793fe5e55f0f9d4) - Fix some broken casts, fix factory usage & storage [d8f5f49](https://github.com/mekanism/Mekanism/commit/d8f5f49042914caf5ca614463bd7c313563572e8) - Begin work on attribute system for blocks [beabfd4](https://github.com/mekanism/Mekanism/commit/beabfd4cf3a03555cea3445060aa9f5e5a206503) - Continue work on the new block framework [7683ab6](https://github.com/mekanism/Mekanism/commit/7683ab68a995061c95cd929b04a32a0e61412bad) - Continue working on attribute system [db6ce75](https://github.com/mekanism/Mekanism/commit/db6ce750387a920306baf56b2f0d27595529ed42) - Continued work on block consolidation [eb17c4d](https://github.com/mekanism/Mekanism/commit/eb17c4d9209aa5e82d983ee0fc741cc48cb5b9dd) - Restructure block types to avoid forcing TileEntities [e391302](https://github.com/mekanism/Mekanism/commit/e39130233ab1e7e18d3696ec994416d21fb7389f) - Remove some irrelevant tier-related code [a817632](https://github.com/mekanism/Mekanism/commit/a817632511b016aa0471538f6e6cea16e4d9336b) - Convert bins and induction cells/providers [449fc77](https://github.com/mekanism/Mekanism/commit/449fc778924420769786870a4834211efdd7113a) - Migrate energy cube, fluid tank, gas tank [b997ed9](https://github.com/mekanism/Mekanism/commit/b997ed9f94c786765920e91441c3ec23e9275097) - Continue consolidation, fix some issues [2ca177f](https://github.com/mekanism/Mekanism/commit/2ca177fe45452f62113cde23527b5fa977d4c106) - Fix accidental file removal [7ef0640](https://github.com/mekanism/Mekanism/commit/7ef064047db29c9d2000e61d0f0746596206d515) - Fixes and cleanup [76da82b](https://github.com/mekanism/Mekanism/commit/76da82b3c58fab29a83070c722fd6280e9f3af86) - Additional fixes [4d7e3a7](https://github.com/mekanism/Mekanism/commit/4d7e3a7e2f2a40f8e94af3751b0b3402dc87959a) - Add some helper methods to clean up attribute references [13fa2db](https://github.com/mekanism/Mekanism/commit/13fa2dbfd8dda2ca3455f7031b5716d5fdc35314) - Fix Induction Cells/Providers not exposing TileEntities [4a3b978](https://github.com/mekanism/Mekanism/commit/4a3b97889c438d67506f930774a99bb37a2efdd8) - Fix Logistical Sorter voxel model [3fd69fc](https://github.com/mekanism/Mekanism/commit/3fd69fc4a1d5b3531f53694449606191935a861a) - Initial draft of the Energy API rework, also fixed various typos/copy paste errors in the other handler's java docs that I came across while writing the spec [3e48bdf](https://github.com/mekanism/Mekanism/commit/3e48bdf4658273490b5e0b8db36116b8c18e79c1) - Write most of the base backend of the new Energy API. (Note does not currently compile) and fix various minor bugs in various handlers: - Fixed edge case in growStack that could theoretically allow for integer overflow - Fix misc comments/variable names being incorrect for that handler type (for example naming variables slots rather than tanks) - Added some validity checking to capacities of things [90ee1d7](https://github.com/mekanism/Mekanism/commit/90ee1d726b7adcd05924cf7431532192e5b496bf) - More work on converting to new energy API implementation, still does not compile [62d8c69](https://github.com/mekanism/Mekanism/commit/62d8c69554c594825a0e36c3300f44d2fe8e5b59) - Continued work on converting to the new energy API implementation, still does not compile [60cd291](https://github.com/mekanism/Mekanism/commit/60cd2912a3c20c620bfc9247026eea714416c836) - Continued work on converting to the new energy API implementation, still does not compile - Made Metallurgic infuser side config support configuring energy - Increased default energy buffer for quantum entangloporter from 16 million to 128 million (to match the default of the ultimate energy cube) - Start rewriting our handling of integrating with other energy systems. Rather than having specific handling for interacting with various handlers, we are moving towards having classes that wrap the other handlers into being able to be handled by our generic IStrictEnergyHandler [9512cd0](https://github.com/mekanism/Mekanism/commit/9512cd05346dd456a8d515bd2796c041c704d097) - Continued work on converting to the new energy API implementation, still does not compile - Moved redstone to energy from config to recipe system, and add a recipe for redstone block to energy - Modernized chargepad code, and made it able to charge items in the offhand [c991416](https://github.com/mekanism/Mekanism/commit/c99141669c5a18dbd10ae013c4c9f2bb2046d278) - Continued work on converting to the new energy API implementation, still does not compile - Unified more ejection code for energy, fluids, and gases [740a52d](https://github.com/mekanism/Mekanism/commit/740a52dd622927f0b05d7a48fac135cfb1783e76) - Mostly finished first pass at converting the induction matrix to the new energy system, still does not compile [a8bf276](https://github.com/mekanism/Mekanism/commit/a8bf2760cd036a04378e5bcb26e5f17a781bd992) - Continue work on converting to the new energy api, still does not compile [d7fe6dd](https://github.com/mekanism/Mekanism/commit/d7fe6ddb79bbfdfa80ca00b109ae0339a0e72c1f) - Still lots of bugs and things that have to be cleaned up/fixed, but it compiles again [1b7e8ac](https://github.com/mekanism/Mekanism/commit/1b7e8acbfa907b804220d90ea1cef459d9cb46f7) - Fix rebase errors, and make it compile again [0699994](https://github.com/mekanism/Mekanism/commit/0699994e3d207ebd76a3ce63ae5b9cf1614fa6cb) - Optimize imports and reformat code [71db700](https://github.com/mekanism/Mekanism/commit/71db700f0bb173641f4e4c54a2ef9a818e12481c) - Move energized items over to the new energy API with easier extensibility support for implementing other mods' energy handlers - Minor cleanup of some attribute stuff - More consistently not require energy in items when in creative [cdca82c](https://github.com/mekanism/Mekanism/commit/cdca82c9404b9fcad0821af3407655e5968d25d9) - Modernize electric bow implementation to extend vanilla's bow and more closely mirror some of the logic from it - Fixes some enchantments not working properly on the electric bow - Fixes custom arrows not always working as intended - Also made the hoes in Mekanism Tools implement a hoe tool type in case any mods look for one [01b414a](https://github.com/mekanism/Mekanism/commit/01b414a2cb9c60058c4378362d9347f0c09d6e00) - Use some util methods to cleanup rendering checks that got messier [e8fb5df](https://github.com/mekanism/Mekanism/commit/e8fb5df3c902e3304015bbb3e848c8dea4d7f963) - Cleanup code pertaining to conversion checks [2af649a](https://github.com/mekanism/Mekanism/commit/2af649a9fa15bcdf93837aa5cc6fb340b90caf3f) - Cleanup code pertaining to setting energy requirements for recipes [26d2831](https://github.com/mekanism/Mekanism/commit/26d2831564ab3dd87dfa106c4e1028b59901b599) - Fix mekanism tiles being incorrect in their check of if they are activatable, and cleanup a bit of code having to do with targets [66e59a7](https://github.com/mekanism/Mekanism/commit/66e59a7d0306c26b9bcae5b8187af2dcae0fe686) - First pass at experimenting with converting energy from a double to a FloatingLong, it compiles, but FloatingLong is not properly implemented yet [f3943ef](https://github.com/mekanism/Mekanism/commit/f3943efd87d0dc148eb5ab021464f00a64afb3ba) - Update dependencies, and setup JUnit [aa33eac](https://github.com/mekanism/Mekanism/commit/aa33eaca8051e30f16a322c2a379ac479d6e8735) - Fix a few bugs with FloatingLong and mostly implement the class, for now various parts of it are using temporary methods of calculating things. Also improve our TOP integration, making it so that our gas and infusion bar renderers look better, and replacing TOPs default energy display for our own blocks. Additionally made it so looking at our multiblocks show all the proper stats rather than having to look at the valve specifically [2f36a52](https://github.com/mekanism/Mekanism/commit/2f36a522b0cec3aed6448d58bd717be0a2a697fe) - Fix client side only method being used for resource location config, and fix modulo [a971911](https://github.com/mekanism/Mekanism/commit/a971911c98298ccb6c1d8714bd479a2a01eb80f7) - Fix accidental inversion of BasicEnergyContainer#insert return value, and fix typo in path for test classes [5cebdad](https://github.com/mekanism/Mekanism/commit/5cebdadfba593c083fde2ece8ae80bd790f69ec3) - Update docs to properly specify how to handle FloatingLongs for the energy api and when they can be modified and when they shouldn't be modified. Also remove some java docs that are incorrect due to us overwriting for more reasons than just to avoid a cached value such to check our validity predicates [222f601](https://github.com/mekanism/Mekanism/commit/222f601d2b2b05326c645285d029f68e11302918) - Reduce number of sync packets sent for mechanical pipes, pressurized tubes, and universal cables, and calculate the content scale on the server instead of the client. Also added some TODOs for some odd bugs unrelated to rendering that I ran into while testing [494ec79](https://github.com/mekanism/Mekanism/commit/494ec792645eab0db47b4c3e4dd94116852b53bb) - Fix the save share for networks not being calculated properly, and also fix the networks not updating their capacity before attempting to absorb a transmitter's buffer causing for a good number of contents to be voided when a single pipe was broken. Also fix not updating the capacity before accepting contents, causing for weird things to occur/break [e7e21e7](https://github.com/mekanism/Mekanism/commit/e7e21e7c46578dafddd5ad018e4a9c25714418b9) - Fix being to strict on caching various handler's read write settings when based on a side config [c955a73](https://github.com/mekanism/Mekanism/commit/c955a7363d9edbcf1313832ecc798ec5db44e6bd) - Fix laser particle not displaying properly, due to BasicEnergyContainer#extract not obeying the API spec of mutability [74938d0](https://github.com/mekanism/Mekanism/commit/74938d07e78cf292bc0ed31cfef4693edcff96ad) - Allow conversion to bypass rate limit of energy cube and gas tank, and fix improper deserialization of the decimal for floating longs for recipes, also fix filling items with energy in the EnergyInventorySlot, apparently two onContentsChanged calls were missing [05313f4](https://github.com/mekanism/Mekanism/commit/05313f4610aa500c6d4401141327bd511b88dc82) - Move energy multiplier for electrolysis recipe to a FloatingLong [4135faf](https://github.com/mekanism/Mekanism/commit/4135fafae0433cf8187406672592ca2e6feadd4e) - Improve FEIntegration implementation to better handle if we have multiple energy containers in the handler we are wrapping [0f78345](https://github.com/mekanism/Mekanism/commit/0f7834528bc05af68a88f2779b4b9d768d77e04e) - Use util method to make the energy cube scale increase look better and be a smoother transition, and also cleanup some multitank support/tooltip code [8727ac5](https://github.com/mekanism/Mekanism/commit/8727ac564c2b99e779e18aba44155287a4ee0ca5) - Cache capacities of a few different multiblocks [9e836a5](https://github.com/mekanism/Mekanism/commit/9e836a59ce6bf127cff007ba71d21faef48eb0e1) - Fix network scale calculations on reforming (a pipe being broken), and on merging of networks. [b56f8b9](https://github.com/mekanism/Mekanism/commit/b56f8b9ccf39eafecf2a5627e11030a4e9e43142) - Improve some of the checks for seeing if a container has "infinite" of a material [6880316](https://github.com/mekanism/Mekanism/commit/68803166ba949f0f9476c691f4a436ff8205bdda) - Minor cleanup to TransporterManager, removing the need for stack size trickery [3a9a9bd](https://github.com/mekanism/Mekanism/commit/3a9a9bd2670dfadf4fa38d5bc12a47b79b6b5e15) - Go through and cleanup a few TODOs from the Energy rewrite, and fix a few other issues with values being incorrect, as well as energy not syncing to the robit's gui [97bb8d4](https://github.com/mekanism/Mekanism/commit/97bb8d4bf64c69db18b9ea07dcd4ac6cce5461fa) - Cleanup some comments [c3f90c7](https://github.com/mekanism/Mekanism/commit/c3f90c7cbe3139a8d540adf5cb6e2fb61ae9155b) - Fix lastEnergyReceived [6331aa8](https://github.com/mekanism/Mekanism/commit/6331aa8074340c2e24c99eeba461f5b4d84eabc3) - Fix the energy matrix adding energy to the cached total rather than removing it when energy is removed [adfcd34](https://github.com/mekanism/Mekanism/commit/adfcd34950cabd62ab61bfd48c329954417f2b9f) - Implement proper range checks to CachedFloatingLongValue and switch it to strings representing it to properly support unsigned longs if we eventually switch to them. Also switch the SerializerHelper and Json serialization to doing it by number so that if/when we switch to unsigned long it works properly [c679c31](https://github.com/mekanism/Mekanism/commit/c679c317d77205455b2eedd3834d1ea006b40793) - Simulate insertion for inserting items into slots that has a slot limit larger than the item's max stack size, as the slot may allow for stacks up to a certain size but also be respecting the max stack size of the item. [#5988](https://github.com/mekanism/Mekanism/issues/5988) [94308f5](https://github.com/mekanism/Mekanism/commit/94308f54030f44ea15b4805614f6f15bb34d8f3c) - Implement multiplication for FloatingLongs without having to convert to string and use BigDecimal ([#5987](https://github.com/mekanism/Mekanism/issues/5987)) [a8ccd36](https://github.com/mekanism/Mekanism/commit/a8ccd36379b26b95056066da1f95a91ecc8beebe) - Set steam to actually have the correct temperature ([#5972](https://github.com/mekanism/Mekanism/issues/5972)) [0c62ea8](https://github.com/mekanism/Mekanism/commit/0c62ea89817951dc2121d03c5a7fc2e079649651) - Add test lib QuickTheories for property based testing of FloatingLong, and partially reorganize ordering of the FloatingLong class [c5a752f](https://github.com/mekanism/Mekanism/commit/c5a752ff7d122799459ef53a8b6a6a263e212ec5) - Spec change to FloatingLong so that the modifyEqual methods return the actual object, so that if it is called on a constant it instead returns a new clean value. Also add javadocs to methods in FloatingLong [8e97204](https://github.com/mekanism/Mekanism/commit/8e97204f4e49fdf1c8005391be19b3a9d0adfa6f) - Rewrite handling of upgrade recipes. For the most part properly handles transferring data now. It only does basic testing for finding a matching valid configuration, but if it cannot find one it just doesn't match as a valid input to the recipe [#5743](https://github.com/mekanism/Mekanism/issues/5743), and fix handling of initial container syncing on servers where there may be multiple players. [2711127](https://github.com/mekanism/Mekanism/commit/2711127eac3379a471c2019aa9b7cf484333d4e0) - Re-implement instantly turning blocks to active, and having a longer delay threshold before they are considered deactivated. Also fix client energy used calculations being incorrect due to the mutability of objects [a2bc3a0](https://github.com/mekanism/Mekanism/commit/a2bc3a0773539f45c3a7da4e850ecd05c6c9aad5) - Store FloatingLongs as a string in NBT to be able to easily switch to unsigned longs if we decide to without voiding saved energy again [5450d2d](https://github.com/mekanism/Mekanism/commit/5450d2df813e375f3a106a69f5609ca3737ecc21) - Fix handling of parsing doubles and make it so it parses them consistently [31dc0c8](https://github.com/mekanism/Mekanism/commit/31dc0c86014a539a245646a06dfa774c91fee31c) - Fix miner not properly refreshing chunks on changing radius, and don't attempt to check the tile at a position during world loading to hopefully remove the race condition/halting that can occur [#5897](https://github.com/mekanism/Mekanism/issues/5897) [#5978](https://github.com/mekanism/Mekanism/issues/5978) [05766a7](https://github.com/mekanism/Mekanism/commit/05766a7a29ba180575b7bfa991af330fca988cc9) - Display energy network capacity as FloatingLong [9132e4d](https://github.com/mekanism/Mekanism/commit/9132e4d922333f0c79ea268cc09f12a4b9619d57) - Convert FloatingLong to using an unsigned long ([#5991](https://github.com/mekanism/Mekanism/issues/5991)) [b509204](https://github.com/mekanism/Mekanism/commit/b509204f3f6d88da6ac7b69516a66b0e960e8ce3) - Bump version to 9.9.17 
+
+	Mekanism Tools (MekanismTools-1.15.2-9.9.16.408.jar --> MekanismTools-1.15.2-9.9.17.409.jar):
+		MekanismTools-1.15.2-9.9.17.409.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[06bd72f](https://github.com/mekanism/Mekanism/commit/06bd72f6d2d12398768052d125f7d1e9ab8022a9) - Continued work on rewriting various parts of render resizable cuboid - Properly pass the light value we want to use to the cuboid we are rendering [#5800](https://github.com/mekanism/Mekanism/issues/5800) - Massively improve how things like water visually render in mechanical pipes (there is still more I plan on doing to further improve this) - Batch a bunch of the draws that we make via our render resizable cuboid [549dfac](https://github.com/mekanism/Mekanism/commit/549dfacdaf03d82c09113d8b633f88943107f0ff) - Work on consolidating factory implementation [adbb826](https://github.com/mekanism/Mekanism/commit/adbb826ad3daeefb83d6d40a4e33a710a94105b2) - Use suppliers to avoid setting references to other registries before they're initialized [7317370](https://github.com/mekanism/Mekanism/commit/7317370d30cf4c044ca5ead44b2b52d92a5a1040) - Further improve rendering of things like water in mechanical pipes, and batch rendering of turbine rotors that are inside of an industrial turbine [eb6b759](https://github.com/mekanism/Mekanism/commit/eb6b759f7b59250847d0e2f62793fe5e55f0f9d4) - Fix some broken casts, fix factory usage & storage [d8f5f49](https://github.com/mekanism/Mekanism/commit/d8f5f49042914caf5ca614463bd7c313563572e8) - Begin work on attribute system for blocks [beabfd4](https://github.com/mekanism/Mekanism/commit/beabfd4cf3a03555cea3445060aa9f5e5a206503) - Continue work on the new block framework [7683ab6](https://github.com/mekanism/Mekanism/commit/7683ab68a995061c95cd929b04a32a0e61412bad) - Continue working on attribute system [db6ce75](https://github.com/mekanism/Mekanism/commit/db6ce750387a920306baf56b2f0d27595529ed42) - Continued work on block consolidation [eb17c4d](https://github.com/mekanism/Mekanism/commit/eb17c4d9209aa5e82d983ee0fc741cc48cb5b9dd) - Restructure block types to avoid forcing TileEntities [e391302](https://github.com/mekanism/Mekanism/commit/e39130233ab1e7e18d3696ec994416d21fb7389f) - Remove some irrelevant tier-related code [a817632](https://github.com/mekanism/Mekanism/commit/a817632511b016aa0471538f6e6cea16e4d9336b) - Convert bins and induction cells/providers [449fc77](https://github.com/mekanism/Mekanism/commit/449fc778924420769786870a4834211efdd7113a) - Migrate energy cube, fluid tank, gas tank [b997ed9](https://github.com/mekanism/Mekanism/commit/b997ed9f94c786765920e91441c3ec23e9275097) - Continue consolidation, fix some issues [2ca177f](https://github.com/mekanism/Mekanism/commit/2ca177fe45452f62113cde23527b5fa977d4c106) - Fix accidental file removal [7ef0640](https://github.com/mekanism/Mekanism/commit/7ef064047db29c9d2000e61d0f0746596206d515) - Fixes and cleanup [76da82b](https://github.com/mekanism/Mekanism/commit/76da82b3c58fab29a83070c722fd6280e9f3af86) - Additional fixes [4d7e3a7](https://github.com/mekanism/Mekanism/commit/4d7e3a7e2f2a40f8e94af3751b0b3402dc87959a) - Add some helper methods to clean up attribute references [13fa2db](https://github.com/mekanism/Mekanism/commit/13fa2dbfd8dda2ca3455f7031b5716d5fdc35314) - Fix Induction Cells/Providers not exposing TileEntities [4a3b978](https://github.com/mekanism/Mekanism/commit/4a3b97889c438d67506f930774a99bb37a2efdd8) - Fix Logistical Sorter voxel model [3fd69fc](https://github.com/mekanism/Mekanism/commit/3fd69fc4a1d5b3531f53694449606191935a861a) - Initial draft of the Energy API rework, also fixed various typos/copy paste errors in the other handler's java docs that I came across while writing the spec [3e48bdf](https://github.com/mekanism/Mekanism/commit/3e48bdf4658273490b5e0b8db36116b8c18e79c1) - Write most of the base backend of the new Energy API. (Note does not currently compile) and fix various minor bugs in various handlers: - Fixed edge case in growStack that could theoretically allow for integer overflow - Fix misc comments/variable names being incorrect for that handler type (for example naming variables slots rather than tanks) - Added some validity checking to capacities of things [90ee1d7](https://github.com/mekanism/Mekanism/commit/90ee1d726b7adcd05924cf7431532192e5b496bf) - More work on converting to new energy API implementation, still does not compile [62d8c69](https://github.com/mekanism/Mekanism/commit/62d8c69554c594825a0e36c3300f44d2fe8e5b59) - Continued work on converting to the new energy API implementation, still does not compile [60cd291](https://github.com/mekanism/Mekanism/commit/60cd2912a3c20c620bfc9247026eea714416c836) - Continued work on converting to the new energy API implementation, still does not compile - Made Metallurgic infuser side config support configuring energy - Increased default energy buffer for quantum entangloporter from 16 million to 128 million (to match the default of the ultimate energy cube) - Start rewriting our handling of integrating with other energy systems. Rather than having specific handling for interacting with various handlers, we are moving towards having classes that wrap the other handlers into being able to be handled by our generic IStrictEnergyHandler [9512cd0](https://github.com/mekanism/Mekanism/commit/9512cd05346dd456a8d515bd2796c041c704d097) - Continued work on converting to the new energy API implementation, still does not compile - Moved redstone to energy from config to recipe system, and add a recipe for redstone block to energy - Modernized chargepad code, and made it able to charge items in the offhand [c991416](https://github.com/mekanism/Mekanism/commit/c99141669c5a18dbd10ae013c4c9f2bb2046d278) - Continued work on converting to the new energy API implementation, still does not compile - Unified more ejection code for energy, fluids, and gases [740a52d](https://github.com/mekanism/Mekanism/commit/740a52dd622927f0b05d7a48fac135cfb1783e76) - Mostly finished first pass at converting the induction matrix to the new energy system, still does not compile [a8bf276](https://github.com/mekanism/Mekanism/commit/a8bf2760cd036a04378e5bcb26e5f17a781bd992) - Continue work on converting to the new energy api, still does not compile [d7fe6dd](https://github.com/mekanism/Mekanism/commit/d7fe6ddb79bbfdfa80ca00b109ae0339a0e72c1f) - Still lots of bugs and things that have to be cleaned up/fixed, but it compiles again [1b7e8ac](https://github.com/mekanism/Mekanism/commit/1b7e8acbfa907b804220d90ea1cef459d9cb46f7) - Fix rebase errors, and make it compile again [0699994](https://github.com/mekanism/Mekanism/commit/0699994e3d207ebd76a3ce63ae5b9cf1614fa6cb) - Optimize imports and reformat code [71db700](https://github.com/mekanism/Mekanism/commit/71db700f0bb173641f4e4c54a2ef9a818e12481c) - Move energized items over to the new energy API with easier extensibility support for implementing other mods' energy handlers - Minor cleanup of some attribute stuff - More consistently not require energy in items when in creative [cdca82c](https://github.com/mekanism/Mekanism/commit/cdca82c9404b9fcad0821af3407655e5968d25d9) - Modernize electric bow implementation to extend vanilla's bow and more closely mirror some of the logic from it - Fixes some enchantments not working properly on the electric bow - Fixes custom arrows not always working as intended - Also made the hoes in Mekanism Tools implement a hoe tool type in case any mods look for one [01b414a](https://github.com/mekanism/Mekanism/commit/01b414a2cb9c60058c4378362d9347f0c09d6e00) - Use some util methods to cleanup rendering checks that got messier [e8fb5df](https://github.com/mekanism/Mekanism/commit/e8fb5df3c902e3304015bbb3e848c8dea4d7f963) - Cleanup code pertaining to conversion checks [2af649a](https://github.com/mekanism/Mekanism/commit/2af649a9fa15bcdf93837aa5cc6fb340b90caf3f) - Cleanup code pertaining to setting energy requirements for recipes [26d2831](https://github.com/mekanism/Mekanism/commit/26d2831564ab3dd87dfa106c4e1028b59901b599) - Fix mekanism tiles being incorrect in their check of if they are activatable, and cleanup a bit of code having to do with targets [66e59a7](https://github.com/mekanism/Mekanism/commit/66e59a7d0306c26b9bcae5b8187af2dcae0fe686) - First pass at experimenting with converting energy from a double to a FloatingLong, it compiles, but FloatingLong is not properly implemented yet [f3943ef](https://github.com/mekanism/Mekanism/commit/f3943efd87d0dc148eb5ab021464f00a64afb3ba) - Update dependencies, and setup JUnit [aa33eac](https://github.com/mekanism/Mekanism/commit/aa33eaca8051e30f16a322c2a379ac479d6e8735) - Fix a few bugs with FloatingLong and mostly implement the class, for now various parts of it are using temporary methods of calculating things. Also improve our TOP integration, making it so that our gas and infusion bar renderers look better, and replacing TOPs default energy display for our own blocks. Additionally made it so looking at our multiblocks show all the proper stats rather than having to look at the valve specifically [2f36a52](https://github.com/mekanism/Mekanism/commit/2f36a522b0cec3aed6448d58bd717be0a2a697fe) - Fix client side only method being used for resource location config, and fix modulo [a971911](https://github.com/mekanism/Mekanism/commit/a971911c98298ccb6c1d8714bd479a2a01eb80f7) - Fix accidental inversion of BasicEnergyContainer#insert return value, and fix typo in path for test classes [5cebdad](https://github.com/mekanism/Mekanism/commit/5cebdadfba593c083fde2ece8ae80bd790f69ec3) - Update docs to properly specify how to handle FloatingLongs for the energy api and when they can be modified and when they shouldn't be modified. Also remove some java docs that are incorrect due to us overwriting for more reasons than just to avoid a cached value such to check our validity predicates [222f601](https://github.com/mekanism/Mekanism/commit/222f601d2b2b05326c645285d029f68e11302918) - Reduce number of sync packets sent for mechanical pipes, pressurized tubes, and universal cables, and calculate the content scale on the server instead of the client. Also added some TODOs for some odd bugs unrelated to rendering that I ran into while testing [494ec79](https://github.com/mekanism/Mekanism/commit/494ec792645eab0db47b4c3e4dd94116852b53bb) - Fix the save share for networks not being calculated properly, and also fix the networks not updating their capacity before attempting to absorb a transmitter's buffer causing for a good number of contents to be voided when a single pipe was broken. Also fix not updating the capacity before accepting contents, causing for weird things to occur/break [e7e21e7](https://github.com/mekanism/Mekanism/commit/e7e21e7c46578dafddd5ad018e4a9c25714418b9) - Fix being to strict on caching various handler's read write settings when based on a side config [c955a73](https://github.com/mekanism/Mekanism/commit/c955a7363d9edbcf1313832ecc798ec5db44e6bd) - Fix laser particle not displaying properly, due to BasicEnergyContainer#extract not obeying the API spec of mutability [74938d0](https://github.com/mekanism/Mekanism/commit/74938d07e78cf292bc0ed31cfef4693edcff96ad) - Allow conversion to bypass rate limit of energy cube and gas tank, and fix improper deserialization of the decimal for floating longs for recipes, also fix filling items with energy in the EnergyInventorySlot, apparently two onContentsChanged calls were missing [05313f4](https://github.com/mekanism/Mekanism/commit/05313f4610aa500c6d4401141327bd511b88dc82) - Move energy multiplier for electrolysis recipe to a FloatingLong [4135faf](https://github.com/mekanism/Mekanism/commit/4135fafae0433cf8187406672592ca2e6feadd4e) - Improve FEIntegration implementation to better handle if we have multiple energy containers in the handler we are wrapping [0f78345](https://github.com/mekanism/Mekanism/commit/0f7834528bc05af68a88f2779b4b9d768d77e04e) - Use util method to make the energy cube scale increase look better and be a smoother transition, and also cleanup some multitank support/tooltip code [8727ac5](https://github.com/mekanism/Mekanism/commit/8727ac564c2b99e779e18aba44155287a4ee0ca5) - Cache capacities of a few different multiblocks [9e836a5](https://github.com/mekanism/Mekanism/commit/9e836a59ce6bf127cff007ba71d21faef48eb0e1) - Fix network scale calculations on reforming (a pipe being broken), and on merging of networks. [b56f8b9](https://github.com/mekanism/Mekanism/commit/b56f8b9ccf39eafecf2a5627e11030a4e9e43142) - Improve some of the checks for seeing if a container has "infinite" of a material [6880316](https://github.com/mekanism/Mekanism/commit/68803166ba949f0f9476c691f4a436ff8205bdda) - Minor cleanup to TransporterManager, removing the need for stack size trickery [3a9a9bd](https://github.com/mekanism/Mekanism/commit/3a9a9bd2670dfadf4fa38d5bc12a47b79b6b5e15) - Go through and cleanup a few TODOs from the Energy rewrite, and fix a few other issues with values being incorrect, as well as energy not syncing to the robit's gui [97bb8d4](https://github.com/mekanism/Mekanism/commit/97bb8d4bf64c69db18b9ea07dcd4ac6cce5461fa) - Cleanup some comments [c3f90c7](https://github.com/mekanism/Mekanism/commit/c3f90c7cbe3139a8d540adf5cb6e2fb61ae9155b) - Fix lastEnergyReceived [6331aa8](https://github.com/mekanism/Mekanism/commit/6331aa8074340c2e24c99eeba461f5b4d84eabc3) - Fix the energy matrix adding energy to the cached total rather than removing it when energy is removed [adfcd34](https://github.com/mekanism/Mekanism/commit/adfcd34950cabd62ab61bfd48c329954417f2b9f) - Implement proper range checks to CachedFloatingLongValue and switch it to strings representing it to properly support unsigned longs if we eventually switch to them. Also switch the SerializerHelper and Json serialization to doing it by number so that if/when we switch to unsigned long it works properly [c679c31](https://github.com/mekanism/Mekanism/commit/c679c317d77205455b2eedd3834d1ea006b40793) - Simulate insertion for inserting items into slots that has a slot limit larger than the item's max stack size, as the slot may allow for stacks up to a certain size but also be respecting the max stack size of the item. [#5988](https://github.com/mekanism/Mekanism/issues/5988) [94308f5](https://github.com/mekanism/Mekanism/commit/94308f54030f44ea15b4805614f6f15bb34d8f3c) - Implement multiplication for FloatingLongs without having to convert to string and use BigDecimal ([#5987](https://github.com/mekanism/Mekanism/issues/5987)) [a8ccd36](https://github.com/mekanism/Mekanism/commit/a8ccd36379b26b95056066da1f95a91ecc8beebe) - Set steam to actually have the correct temperature ([#5972](https://github.com/mekanism/Mekanism/issues/5972)) [0c62ea8](https://github.com/mekanism/Mekanism/commit/0c62ea89817951dc2121d03c5a7fc2e079649651) - Add test lib QuickTheories for property based testing of FloatingLong, and partially reorganize ordering of the FloatingLong class [c5a752f](https://github.com/mekanism/Mekanism/commit/c5a752ff7d122799459ef53a8b6a6a263e212ec5) - Spec change to FloatingLong so that the modifyEqual methods return the actual object, so that if it is called on a constant it instead returns a new clean value. Also add javadocs to methods in FloatingLong [8e97204](https://github.com/mekanism/Mekanism/commit/8e97204f4e49fdf1c8005391be19b3a9d0adfa6f) - Rewrite handling of upgrade recipes. For the most part properly handles transferring data now. It only does basic testing for finding a matching valid configuration, but if it cannot find one it just doesn't match as a valid input to the recipe [#5743](https://github.com/mekanism/Mekanism/issues/5743), and fix handling of initial container syncing on servers where there may be multiple players. [2711127](https://github.com/mekanism/Mekanism/commit/2711127eac3379a471c2019aa9b7cf484333d4e0) - Re-implement instantly turning blocks to active, and having a longer delay threshold before they are considered deactivated. Also fix client energy used calculations being incorrect due to the mutability of objects [a2bc3a0](https://github.com/mekanism/Mekanism/commit/a2bc3a0773539f45c3a7da4e850ecd05c6c9aad5) - Store FloatingLongs as a string in NBT to be able to easily switch to unsigned longs if we decide to without voiding saved energy again [5450d2d](https://github.com/mekanism/Mekanism/commit/5450d2df813e375f3a106a69f5609ca3737ecc21) - Fix handling of parsing doubles and make it so it parses them consistently [31dc0c8](https://github.com/mekanism/Mekanism/commit/31dc0c86014a539a245646a06dfa774c91fee31c) - Fix miner not properly refreshing chunks on changing radius, and don't attempt to check the tile at a position during world loading to hopefully remove the race condition/halting that can occur [#5897](https://github.com/mekanism/Mekanism/issues/5897) [#5978](https://github.com/mekanism/Mekanism/issues/5978) [05766a7](https://github.com/mekanism/Mekanism/commit/05766a7a29ba180575b7bfa991af330fca988cc9) - Display energy network capacity as FloatingLong [9132e4d](https://github.com/mekanism/Mekanism/commit/9132e4d922333f0c79ea268cc09f12a4b9619d57) - Convert FloatingLong to using an unsigned long ([#5991](https://github.com/mekanism/Mekanism/issues/5991)) [b509204](https://github.com/mekanism/Mekanism/commit/b509204f3f6d88da6ac7b69516a66b0e960e8ce3) - Bump version to 9.9.17 
+
+	Passthrough Signs (PassthroughSigns-1.15.1-2.3.2.jar --> PassthroughSigns-1.15.2-2.3.3.jar):
+		PassthroughSigns-1.15.2-2.3.3.jar:
+			- Added BlockRayTraceResult when right-clicking a sign - hopefully prevents potential issues with some modded blocks
+			- Set Quark config as enabled by default
+
+	Powah! (Powah-1.15.2-1.1.10.jar --> Powah-1.15.2-1.1.11.jar):
+		Powah-1.15.2-1.1.11.jar:
+			1.1.11
+			- Rewrite the network system, this should fix all problem in the multi player world.
+			- Updated [Lollipop](https://www.curseforge.com/minecraft/mc-mods/lollipop/files) to 1.0.13
+			1.1.10
+			- Re-Fixed bug when can not change channels, Redstone settings and side config.
+			- Added Chinese localization zh_cn.json, Thanks to EnterFor.
+			- Updated Lollipop to 1.0.12
+			1.1.9
+			- Added support for energizing recipes from json like vanilla, examples: [http://bit.ly/3baHdLr]().
+			- Fixed buttons not functioning in multiPlayer world.
+			- Fixed empty tags.
+			- Updated Lollipop to 1.0.11
+			1.1.8
+			- Fixed Energy data not appearing in TOP/Waila.
+			- Fixed redstone stop magmator from receiving fluids.
+			- Replaced some recipe tags with actual item stacks until empty tags bux got fixed.
+			- Added new command to generate CraftTweaker example zs script instead of generating on startup.
+			- Updated Lollipop to 1.0.10
+			Important NOTE!!: There is two bugs still can't fix them: (empty forge tags) and (some times button not functioning in multiPlayer world)
+			hoping i can fix theme in the next release, also i'm experiencing some health issues and that's why im slowly working on this mod and 3 other
+			projects two of theme are not released yet.
+			1.1.7
+			- Added hovering hud to energizing rods to see the energy stored.
+			- Separated redstone on/off for generators from the energy transfer.
+			- Updated Lollipop to 1.0.9
+			1.1.6
+			- Fixed Uraninite ores not generating in some biomes/dimensions, Closes #49.
+			- Fixed cables power delivery sorting.
+			- Updated Lollipop to 1.0.8
+			1.1.5
+			- Fixed Binding card causing a client crash, Closes #47.
+			- Fixed dry ice not dropping because of missing loot table.
+			- Updated Lollipop to 1.0.7
+			1.1.4
+			- Fixed a dummy dump server crash
+			- Updated Lollipop to 1.0.6
+			1.1.3
+			- Fixed Gui configuration screen offset.
+			- Fixed weird block lighting.
+			- Updated Lollipop to 1.0.5
+			1.1.2
+			- Fixed Manual 2 items pages has the same text Closes #40.
+			1.1.1
+			- Fixed some slots not rendering in to the GUI.
+			- Added missing GUI's screen titles.
+			- Updated Lollipop to 1.0.4
+			1.1.0
+			- Fixed Magmator fluid wrong rendering.
+			- Added Blazing Crystal block as a heat source for the Thermo gen with heat of 2800c.
+			- Changed Nitro crystal recipe output from 24 to 16.
+			- Updated Lollipop to 1.0.3
+			1.0.3
+			- Re-Implemented crafttweaker for energizing recipes.
+			- Added recipe for the manual (forgot to add it in last version).
+			- Fixed some blocks not keeping their energy when broken.
+			- Updated Lollipop to 1.0.2
+			1.0.2
+			- Re-added the manual with new entries for batteries and lens of ender and updated some screenshots.
+			- Fixed cables has wrong config.
+			- Fixed reactor tooltip.
+			1.0.1
+			- Fixed reactor placing overlay not rendering correctly.
+			- Updated Lollipop to 1.0.1.
+			1.0.0
+			- Added Two new tiers "Starter" and "Nitro".
+			- Added Batteries charge items when is in player inventory.
+			- Now Energy Hopper, Energy discharger and Player transmitter all has the known tiers.
+			- Added Dimensional binding card a replacement of Dimensional player transmitter.
+			- Reworked most of models/textures.
+			- Rebalanced energy outputs and some crafting recipes.
+			- the Book (manual) still WIP!!
+			- 1.15.2 initial release.
+			- Updated Lollipop to 1.0.0.
+			- Require forge 31.1.12 or higher.
+			NOTE!: this is the first initial release, it may contains bug or crash your world.
+
+	Powder Power [FORGE] (PowderPower-1.15.2-3.1.47.jar --> PowderPower-1.15.2-3.1.48.jar):
+		PowderPower-1.15.2-3.1.48.jar:
+			UPDATES:
+
+			 * - Updated Forge to 31.1.27 
+			 * - Updated MCP mappings 
+			 * - Updated Curios API to 2.0.2 
+			 * - Re-added Wood Powder, also Forge tagged as wood dust 
+
+	Ring of Attraction [FORGE] (RingOfAttraction-1.15.2-1.1.21.jar --> RingOfAttraction-1.15.2-1.1.22.jar):
+		RingOfAttraction-1.15.2-1.1.22.jar:
+			- Updated Forge to 31.1.27
+			- Updated Curios to 2.0.2
+
+	The One Probe (theoneprobe-1.15-2.0.1.jar --> theoneprobe-1.15-2.0.2.jar):
+		theoneprobe-1.15-2.0.2.jar:
+			- pupnewfster did various fixes on The One Probe:
+			 - Fixed checking for empty liquids
+			 - Fix mob spawner's showing an error for the entity type when on servers
+			 - Fix viewing brewing information of brewing stands
+			 - Fix a few config options always being reset due to being "invalid". The config system does not fully support non ArrayList defaults, unless you provide a custom element validator
+			 - Switch from using ByteBuf to PacketBuffer, it is a bit of a mess in the API and has a couple TODOs of things that should be done in 1.16, but in order to keep backwards compat it was needed
+			 - Send dimension type by registry name rather than int id to ensure that they match on both the client and server
+
+	The Veggie Way [FORGE] (TheVeggieWay-1.15.2-2.1.22.jar --> TheVeggieWay-1.15.2-2.1.23.jar):
+		TheVeggieWay-1.15.2-2.1.23.jar:
+			Updated Forge to 31.1.27
+			Some new textures - thanks to Vio
+
+	YAMDA - Yet Another Mining Dimension Attempt (YAMDA-5.0.1.jar --> YAMDA-5.0.2.jar):
+		YAMDA-5.0.2.jar:
+			 * Added config for allowing to sleep in mining dim - Sunekaer 
+			 * Added config for allowing disabling mobspawn in mining dim - Sunekaer 
+			 * Updated forge and mappings - Sunekaer 
+
+Removed:
+- ColouredChat
+
+Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).
