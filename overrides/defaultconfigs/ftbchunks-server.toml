@@ -1,3 +1,4 @@
+#Disables fake players like miners and auto-clickers.
 disable_fake_players = false
 #Max claimed chunks.
 #-1 - Up to permissions / default
@@ -7,4 +8,7 @@ max_claimed_chunks = 100
 #-1 - Up to permissions / default
 #Range: > -1
 max_force_loaded_chunks = 0
+#Forced modes won't let players change their ally settings.
+#Allowed Values: DEFAULT, FORCED_ALL, FORCED_NONE
+ally_mode = "DEFAULT"
 
