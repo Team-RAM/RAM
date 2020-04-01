@@ -46,7 +46,7 @@
 	Gravisand = true
 	"Metal Buttons" = true
 	"Obsidian Plate" = true
-	"Pistons Move Tile Entities" = true
+	"Pistons Move Tile Entities" = false
 	"Feeding Trough" = true
 
 	[automation.dispensers_place_blocks]
@@ -1038,7 +1038,7 @@
 				"Is Blacklist" = false
 
 [client]
-	"Greener Grass" = true
+	"Greener Grass" = false
 	"Variant Animal Textures" = true
 	"Back Button Keybind" = true
 	"Improved Tooltips" = true
