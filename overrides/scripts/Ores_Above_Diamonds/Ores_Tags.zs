@@ -19,3 +19,4 @@ Add oredicts - Yoosk
 
 <tag:forge:ores/amethyst>.addBlocks(<blockstate:oresabovediamonds:nether_amethyst_ore>, <blockstate:oresabovediamonds:amethyst_ore>, <blockstate:oresabovediamonds:end_amethyst_ore>);
 <tag:forge:ores/black_opal>.addBlocks(<blockstate:oresabovediamonds:black_opal_ore>, <blockstate:oresabovediamonds:nether_black_opal_ore>, <blockstate:oresabovediamonds:end_black_opal_ore>);
+*/

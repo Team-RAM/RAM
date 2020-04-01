@@ -43,3 +43,4 @@ Add oredicts - Yoosk
 <tag:forge:ores/positite>.addBlocks(<blockstate:goodnightsleep:positite_ore>);
 <tag:forge:ores/rainbow>.addBlocks(<blockstate:goodnightsleep:rainbow_ore>);
 <tag:forge:ores/candy>.addBlocks(<blockstate:goodnightsleep:candy_ore>);
+*/

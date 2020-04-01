@@ -89,3 +89,4 @@ Add oredicts - Yoosk
 <tag:forge:oresdense/iron>.addBlocks(<blockstate:janoeo:dense_iron_nether_ore>, <blockstate:janoeo:dense_iron_ore>);
 <tag:forge:oresdense/lapis>.addBlocks(<blockstate:janoeo:dense_lapis_nether_ore>, <blockstate:janoeo:dense_lapis_ore>);
 <tag:forge:oresdense/redstone>.addBlocks(<blockstate:janoeo:dense_redstone_ore>, <blockstate:janoeo:dense_redstone_nether_ore>);
+*/

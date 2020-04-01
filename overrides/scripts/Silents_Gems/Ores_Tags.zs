@@ -25,4 +25,5 @@ Add oredicts - Yoosk
 <tag:forge:ores/multi>.addBlocks(<blockstate:silentgems:multi_ore_classic>, <blockstate:silentgems:multi_ore_dark>, <blockstate:silentgems:multi_ore_light>);
 <tag:forge:ores/chaos>.addBlocks(<blockstate:silentgems:chaos_ore>);
 <tag:forge:ores/ender>.addBlocks(<blockstate:silentgems:ender_ore>);
+*/
 

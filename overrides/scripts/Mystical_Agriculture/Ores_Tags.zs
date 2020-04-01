@@ -25,3 +25,4 @@ Add oredicts - Yoosk
 <tag:forge:ores/prosperity>.addBlocks(<blockstate:mysticalagriculture:prosperity_ore>);
 <tag:forge:ores/inferium>.addBlocks(<blockstate:mysticalagriculture:inferium_ore>);
 <tag:forge:ores/soulium>.addBlocks(<blockstate:mysticalagriculture:soulium_ore>);
+*/

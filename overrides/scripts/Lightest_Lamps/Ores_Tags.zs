@@ -17,3 +17,4 @@ Add oredicts - Yoosk
 <tag:forge:ores/boron>.addItems(<item:lightestlamp:boron_ore>);
 
 <tag:forge:ores/boron>.addBlocks(<blockstate:lightestlamp:boron_ore>);
+*/

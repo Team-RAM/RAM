@@ -17,3 +17,4 @@ Add oredicts - Yoosk
 <tag:forge:ores/uraninite>.createBlockTag();
 
 <tag:forge:ores/uraninite>.addBlocks(<blockstate:powah:uraninite_ore_poor>, <blockstate:powah:uraninite_ore>, <blockstate:powah:uraninite_ore_dense>);
+*/
