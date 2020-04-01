@@ -1,12 +1,13 @@
-===============================================================
-Really Awesome Mods 0.2.10 --> RAM - Really Awesome Mods 0.2.11
-===============================================================
+=========================================================
+Really Awesome Mods 0.2.10 --> Really Awesome Mods 0.2.11
+=========================================================
 
-Update Forge to 31.1.30
+Update Forge to 31.1.34
 
 Added:
 - AutoRegLib
 - Building Gadgets
+- Open Loader
 - Quark
 - Quark Oddities
 
