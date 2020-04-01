@@ -5,6 +5,7 @@ Add oredicts - Yoosk
 */
 
 //Add tags to ores
+/*
 <tag:forge:ores/multi>.createItemTag();
 <tag:forge:ores/chaos>.createItemTag();
 <tag:forge:ores/ender>.createItemTag();

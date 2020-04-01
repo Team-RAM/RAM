@@ -5,6 +5,7 @@ Add oredicts - Yoosk
 */
 
 //Add tags to ores
+/*
 <tag:forge:ores/black_opal>.createItemTag();
 
 <tag:forge:ores/black_opal>.createBlockTag();

@@ -7,6 +7,7 @@ Add oredicts - Yoosk
 //Add tags to dense ores
 
 //add dense ores to their respective ores
+/*
 <tag:forge:ores/copper>.addItems(<item:janoeo:dense_copper_ore>);
 <tag:forge:ores/quartz>.addItems(<item:janoeo:dense_quartz_nether_ore>);
 <tag:forge:ores/tin>.addItems(<item:janoeo:dense_tin_ore>);

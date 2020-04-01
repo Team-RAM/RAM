@@ -5,6 +5,7 @@ Add oredicts - Yoosk
 */
 
 //Add tags to ores
+/*
 <tag:forge:ores/dimensionalshard>.createItemTag();
 
 <tag:forge:ores/dimensionalshard>.createBlockTag();

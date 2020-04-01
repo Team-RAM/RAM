@@ -5,6 +5,7 @@ Add oredicts - Yoosk
 */
 
 //Add tags to ores
+/*
 <tag:forge:ores/prosperity>.createItemTag();
 <tag:forge:ores/inferium>.createItemTag();
 <tag:forge:ores/soulium>.createItemTag();

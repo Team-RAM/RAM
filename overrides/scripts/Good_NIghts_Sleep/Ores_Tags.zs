@@ -5,6 +5,7 @@ Add oredicts - Yoosk
 */
 
 //Add tags to ores
+/*
 <tag:forge:ores>.addItems(<item:goodnightsleep:lapis_ore>, <item:goodnightsleep:coal_ore>, <item:goodnightsleep:negatite_ore>, <item:goodnightsleep:zitrite_ore>, <item:goodnightsleep:necrum_ore>, <item:goodnightsleep:positite_ore>, <item:goodnightsleep:rainbow_ore>, <item:goodnightsleep:candy_ore>);
 
 <tag:forge:ores>.addBlocks(<blockstate:goodnightsleep:lapis_ore>, <blockstate:goodnightsleep:coal_ore>, <blockstate:goodnightsleep:negatite_ore>, <blockstate:goodnightsleep:zitrite_ore>, <blockstate:goodnightsleep:necrum_ore>, <blockstate:goodnightsleep:positite_ore>, <blockstate:goodnightsleep:rainbow_ore>, <blockstate:goodnightsleep:candy_ore>);
