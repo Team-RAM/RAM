@@ -1,0 +1,14 @@
+{
+	"scripts": [
+		{"file": "debug.js"},
+		{"file": "good_nights_sleep/tags.js"},
+		{"file": "janoeo/tags.js"},
+		{"file": "lightest_lamps/tags.js"},
+		{"file": "mystical_agriculture/tags.js"},
+		{"file": "ores_above_diamonds/tags.js"},
+		{"file": "powah/tags.js"},
+		{"file": "rftools/tags.js"},
+		{"file": "silents_gems/tags.js"}
+//		{"file": "silents_gems/token_compat.js"}
+	]
+}
