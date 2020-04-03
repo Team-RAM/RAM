@@ -1,6 +1,6 @@
  /*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~TeamRAM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Add XLFoods salt to salt oredict - Yamza
+Add XLFoods salt to salt oredict - Yamza, Yoosk
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
 function tagFunction(event) {

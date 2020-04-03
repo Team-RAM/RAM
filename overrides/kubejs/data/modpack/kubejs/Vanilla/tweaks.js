@@ -1,4 +1,12 @@
- function  recipesFunction(e) {
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~TeamRAM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Vanilla Tweaks
+Rotten Flesh into Leather - Credit: Skanders
+Hopper Alt, Clay Blocks to Clay Ball, Chest Conversion - Credit: Amcro
+Yamza, Yoosk
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+function  recipesFunction(e) {
 
   //variables
   var flesh = ['minecraft:rotten_flesh'];

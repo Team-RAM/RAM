@@ -1,6 +1,12 @@
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~TeamRAM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Add fixed recipe compression recipe for blaze rod - Yoosk
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
  function  recipesFunction(e) {
  	
   e.remove({ id: 'silents_mechanisms:compressing/blaze_rod' })
+
   e.recipes.silents_mechanisms.compressing({
     process_time: 400,
     ingredient: {
