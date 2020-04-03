@@ -17,7 +17,7 @@
 		{"file": "rftools/shield_template.js"},
 		{"file": "rftools/tags.js"},
 		{"file": "silents_gems/tags.js"},
-//		{"file": "silents_gems/token_compat.js"},
+		{"file": "silents_gems/token_compat.js"},
 		{"file": "silents_mechanisms/blaze_powder.js"},
 		{"file": "simplechunkloaders/tweaks.js"},
 		{"file": "vanilla/tags.js"},
