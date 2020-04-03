@@ -3,6 +3,7 @@
 Add fixed recipes for shield template blocks - Yoosk
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
+/*
 //Remove old recipes
 craftingTable.removeRecipe(<item:rftoolsbuilder:blue_shield_template_block>);
 craftingTable.removeRecipe(<item:rftoolsbuilder:red_shield_template_block>);
@@ -30,4 +31,4 @@ craftingTable.addShaped("yellow_block", <item:rftoolsbuilder:yellow_shield_templ
 		[[<tag:minecraft:wool>, <tag:minecraft:wool>, <tag:minecraft:wool>], 
 		[<tag:forge:dyes/yellow>, <tag:forge:glass>, <tag:forge:dyes/yellow>],
 		[<tag:minecraft:wool>, <tag:minecraft:wool>, <tag:minecraft:wool>]]);
-
+*/

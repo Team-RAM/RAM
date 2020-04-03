@@ -13,6 +13,7 @@
 		{"file": "ores_above_diamonds/tags.js"},
 		{"file": "powah/tags.js"},
 		{"file": "rftools/tags.js"},
+		{"file": "rftools/shield_template.js"},
 		{"file": "silents_gems/tags.js"}
 //		{"file": "silents_gems/token_compat.js"}
 	]
