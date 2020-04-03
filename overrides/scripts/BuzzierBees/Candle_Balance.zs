@@ -8,6 +8,7 @@ Balance Adjustment:
 */
 
 
+/*
 
 //Remove Blue Orchid Candle, Dandelion Candle, Oxeye Daisy Candle
 craftingTable.removeRecipe(<item:buzzierbees:blue_orchid_scented_candle>);
@@ -31,3 +32,5 @@ craftingTable.addShaped("dandelion_candle_balance", <item:buzzierbees:dandelion_
 craftingTable.addShaped("oxeye_daisy_balance", <item:buzzierbees:oxeye_daisy_scented_candle>,
 		[[<item:buzzierbees:candle>, <item:minecraft:blaze_powder>], 
 		[<item:minecraft:oxeye_daisy>, <item:minecraft:nether_star>]], null);
+		
+*/

@@ -1,6 +1,7 @@
 {
 	"scripts": [
 		{"file": "debug.js"},
+		{"file": "buzzierbees/candle_balance.js"},
 		{"file": "good_nights_sleep/tags.js"},
 		{"file": "janoeo/tags.js"},
 		{"file": "lightest_lamps/tags.js"},
