@@ -5,7 +5,7 @@ Rotten Flesh into Leather - Credit: Skanders
 Hopper Alt, Clay Blocks to Clay Ball, Chest Conversion - Credit: Amcro
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-
+/*
 //Craft Rotten Flesh into Leather
 craftingTable.addShaped("flesh_2_lether", <item:minecraft:leather>,
 		[[<item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>,<item:minecraft:rotten_flesh>], 
@@ -55,6 +55,4 @@ craftingTable.addShaped("comparator_alt", <item:minecraft:comparator>,
 		[[<tag:forge:dusts/redstone>, <tag:forge:dusts/redstone>, <tag:forge:dusts/redstone>], 
 		[<tag:forge:rods/wooden>, <tag:forge:gems/quartz>, <tag:forge:rods/wooden>],
 		[<tag:forge:stone>, <tag:forge:stone>, <tag:forge:stone>]]);
-		
-		
-		
+*/
