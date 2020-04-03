@@ -1,9 +1,11 @@
 {
 	"scripts": [
+		{"file": "debug.js"},
+		{"file": "utilities.js"},
+		//
 		{"file": "buzzierbees/candle_balance.js"},
 		{"file": "cyclic/config.js"},
 		{"file": "dark_utilities/config.js"},
-		{"file": "debug.js"},
 		{"file": "fruit_trees/tags.js"},
 		{"file": "good_nights_sleep/tags.js"},
 		{"file": "janoeo/tags.js"},
