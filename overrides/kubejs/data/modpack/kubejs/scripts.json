@@ -1,9 +1,9 @@
 {
 	"scripts": [
-		{"file": "debug.js"},
 		{"file": "buzzierbees/candle_balance.js"},
 		{"file": "cyclic/config.js"},
 		{"file": "dark_utilities/config.js"},
+		{"file": "debug.js"},
 		{"file": "fruit_trees/tags.js"},
 		{"file": "good_nights_sleep/tags.js"},
 		{"file": "janoeo/tags.js"},
@@ -12,12 +12,14 @@
 		{"file": "mystical_agriculture/tags.js"},
 		{"file": "ores_above_diamonds/tags.js"},
 		{"file": "powah/tags.js"},
-		{"file": "rftools/tags.js"},
 		{"file": "rftools/shield_template.js"},
+		{"file": "rftools/tags.js"},
 		{"file": "silents_gems/tags.js"}
 //		{"file": "silents_gems/token_compat.js"},
 		{"file": "silents_mechanisms/blaze_powder.js"},
 		{"file": "vanilla/tags.js"},
-		{"file": "vanilla/tweaks.js"}
+		{"file": "vanilla/tweaks.js"},
+		{"file": "xlfoods/tags.js"},
+		{"file": "xlfoods/tweaks.js"}
 	]
 }
