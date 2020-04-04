@@ -3,7 +3,9 @@
 Player Damage Rune - Yamza, Yoosk
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-function  recipesFunction(e) {
-  e.remove({output: 'darkutils:rune_damage_player'});
+function recipesFunction(e) {
+    e.remove({
+        output: 'darkutils:rune_damage_player'
+    });
 }
-events.listen(['recipes'], recipesFunction );
+events.listen(['recipes'], recipesFunction);
