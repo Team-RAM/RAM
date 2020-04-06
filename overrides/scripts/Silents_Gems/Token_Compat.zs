@@ -4,7 +4,7 @@ Token Compatability - Yamza, Darkere
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
 
-
+/*
 //Craft cyclic:beheading Token
 craftingTable.addShaped("cyclic_beheading_token", <item:silentgems:enchantment_token>.withTag({TokenEnchantments: [{lvl: 1, id: "cyclic:beheading" as string}]}),
 		[[<tag:forge:heads>, <tag:forge:gems/onyx>, <tag:forge:heads>], 
@@ -178,3 +178,4 @@ craftingTable.addShaped("tombstone_soulbound_token", <item:silentgems:enchantmen
 		[[<tag:tombstone:grave_marbles>, <tag:forge:gems/opal>, <tag:tombstone:grave_marbles>], 
 		[<tag:forge:gems/opal>, <item:silentgems:blank_token>, <tag:forge:gems/opal>],
 		[<tag:tombstone:grave_marbles>, <tag:forge:gems/opal>, <tag:tombstone:grave_marbles>]]);
+		*/
