@@ -1,6 +1,8 @@
 
 #General settings
 [general]
+	#Regular expression to take the items in the inventory and put them in the DimTablet
+	path = "^.*_ore.*|diamond|redstone|emerald|cobblestone|coal|lapis_lazuli"
 	#Allow players to make DimChest private, default: true
 	allowPrivateNetwork = true
 	#It is the diameter in which DimChest checks the inventories, default: 3

@@ -44,36 +44,6 @@
 	#Range: 0 ~ 256
 	weight = 3
 
-#amplifiedsnowytundra biome generation
-[amplifiedsnowytundra_biome]
-	#depth describes the height of the biome. 
-	#default is 1.9
-	#Range: 1.0 ~ 10.0
-	depth = 1.9
-	#scale is height variation. 
-	#default is 2.3
-	#Range: 1.0 ~ 10.0
-	scale = 2.3
-	#weight of the biome (set to 0 to disable generation). 
-	#default is 3
-	#Range: 0 ~ 256
-	weight = 3
-
-#amplifieddarkforest biome generation
-[amplifieddarkforest_biome]
-	#depth describes the height of the biome. 
-	#default is 1.9
-	#Range: 1.0 ~ 10.0
-	depth = 1.9
-	#scale is height variation. 
-	#default is 2.3
-	#Range: 1.0 ~ 10.0
-	scale = 2.3
-	#weight of the biome (set to 0 to disable generation). 
-	#default is 3
-	#Range: 0 ~ 256
-	weight = 3
-
 #amplifieddesert biome generation
 [amplifieddesert_biome]
 	#depth describes the height of the biome. 
@@ -91,6 +61,66 @@
 
 #amplifiedbirchforest biome generation
 [amplifiedbirchforest_biome]
+	#depth describes the height of the biome. 
+	#default is 1.9
+	#Range: 1.0 ~ 10.0
+	depth = 1.9
+	#scale is height variation. 
+	#default is 2.3
+	#Range: 1.0 ~ 10.0
+	scale = 2.3
+	#weight of the biome (set to 0 to disable generation). 
+	#default is 3
+	#Range: 0 ~ 256
+	weight = 3
+
+#amplifiedicespikes biome generation
+[amplifiedicespikes_biome]
+	#depth describes the height of the biome. 
+	#default is 1.9
+	#Range: 1.0 ~ 10.0
+	depth = 1.9
+	#scale is height variation. 
+	#default is 2.3
+	#Range: 1.0 ~ 10.0
+	scale = 2.3
+	#weight of the biome (set to 0 to disable generation). 
+	#default is 3
+	#Range: 0 ~ 256
+	weight = 3
+
+#amplifiedsavanna biome generation
+[amplifiedsavanna_biome]
+	#depth describes the height of the biome. 
+	#default is 1.9
+	#Range: 1.0 ~ 10.0
+	depth = 1.9
+	#scale is height variation. 
+	#default is 2.3
+	#Range: 1.0 ~ 10.0
+	scale = 2.3
+	#weight of the biome (set to 0 to disable generation). 
+	#default is 3
+	#Range: 0 ~ 256
+	weight = 3
+
+#amplifiedsnowytundra biome generation
+[amplifiedsnowytundra_biome]
+	#depth describes the height of the biome. 
+	#default is 1.9
+	#Range: 1.0 ~ 10.0
+	depth = 1.9
+	#scale is height variation. 
+	#default is 2.3
+	#Range: 1.0 ~ 10.0
+	scale = 2.3
+	#weight of the biome (set to 0 to disable generation). 
+	#default is 3
+	#Range: 0 ~ 256
+	weight = 3
+
+#amplifieddarkforest biome generation
+[amplifieddarkforest_biome]
 	#depth describes the height of the biome. 
 	#default is 1.9
 	#Range: 1.0 ~ 10.0
@@ -136,21 +166,6 @@
 
 #amplifiedmushroom biome generation
 [amplifiedmushroom_biome]
-	#depth describes the height of the biome. 
-	#default is 1.9
-	#Range: 1.0 ~ 10.0
-	depth = 1.9
-	#scale is height variation. 
-	#default is 2.3
-	#Range: 1.0 ~ 10.0
-	scale = 2.3
-	#weight of the biome (set to 0 to disable generation). 
-	#default is 3
-	#Range: 0 ~ 256
-	weight = 3
-
-#amplifiedicespikes biome generation
-[amplifiedicespikes_biome]
 	#depth describes the height of the biome. 
 	#default is 1.9
 	#Range: 1.0 ~ 10.0

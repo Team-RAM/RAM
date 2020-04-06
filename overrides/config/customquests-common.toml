@@ -1,3 +1,0 @@
-#Gives the player a Questing Device when loading into a world if the player doesn't have one yet in their inventory
-giveDeviceOnLogin = true
-

@@ -11,3 +11,7 @@
 	#Should items of this material have the enchanted glow.
 	hasEffect = false
 
+[silents_mechanisms]
+	#The byproduct material to output in Silent's Mechanisms' Crusher.
+	byproduct = "minecraft:cobblestone"
+

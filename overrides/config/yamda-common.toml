@@ -1,6 +1,8 @@
 
 #YAMDA Config.
 [common]
+	#Should hostile mobs spawn not?
+	disableHostileMobs = true
 	#Should the layers top of the world be dirt and grass
 	grass_enable = true
 	#Should you be able to sleep in the dimension
