@@ -1,0 +1,26 @@
+{
+  "name": "default",
+  "prefix": "\u00268[\u00267Player\u00268]",
+  "suffix": "",
+  "perms": [
+    "serverutils.back",
+    "serverutils.delhome",
+    "serverutils.home",
+    "serverutils.maxhome_2",
+    "serverutils.homes",
+    "serverutils.msg",
+    "serverutils.msg.toggle",
+    "serverutils.respond",
+    "serverutils.rtp",
+    "serverutils.sethome",
+    "serverutils.spawn",
+    "serverutils.tpa",
+    "serverutils.tpa.here",
+    "serverutils.tpa.deny",
+    "serverutils.tpa.accept",
+    "serverutils.warp",
+    "serverutils.warps"
+  ],
+  "parents": [],
+  "weight": 0
+}
