@@ -2,7 +2,8 @@
 Really Awesome Mods 0.2.10 --> Really Awesome Mods 0.3.0
 ========================================================
 
-Updare Forge to 31.1.38
+Update Forge to 31.1.38
+
 
 Added:
 - AutoRegLib
@@ -200,7 +201,10 @@ Updated:
 		Industrial Agriculture[Core] 1.15.2-1.6.7:
 			- added crux support for all Mystical Agriculture seed.
 
-	Inventory Tweaks Reborn (invtweaks-1.15.2-1.0.2.jar --> invtweaks-1.15.2-2.0.1.jar):
+	Inventory Tweaks Reborn (invtweaks-1.15.2-1.0.2.jar --> invtweaks-1.15.2-2.0.2.jar):
+		invtweaks-1.15.2-2.0.2.jar:
+			Really fix dedicated server crash, hopefully
+
 		invtweaks-1.15.2-2.0.1.jar:
 			Fix crash on dedicated servers
 
@@ -301,7 +305,12 @@ Updated:
 		PowderPower-1.15.2-3.1.49.jar:
 			Added Chinese translation
 
-	Ring of Attraction [FORGE] (RingOfAttraction-1.15.2-1.1.22.jar --> RingOfAttraction-1.15.2-1.1.24.jar):
+	Ring of Attraction [FORGE] (RingOfAttraction-1.15.2-1.1.22.jar --> RingOfAttraction-1.15.2-1.1.25.jar):
+		RingOfAttraction-1.15.2-1.1.25.jar:
+			Converted to Deferred Register method
+			Updated Forge to 31.1.37
+			Updated MCP mappings
+
 		RingOfAttraction-1.15.2-1.1.24.jar:
 			Updated Forge to 31.1.36
 			Updated MCP
