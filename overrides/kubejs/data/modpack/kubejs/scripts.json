@@ -2,6 +2,7 @@
 	"scripts": [
 		{"file": "utility/debug.js"},
 		{"file": "utility/addtagstoevents.js"},
+		{"file": "utility/unification.js"},
 		//
 		{"file": "buzzierbees/candle_balance.js"},
 		{"file": "cyclic/config.js"},
