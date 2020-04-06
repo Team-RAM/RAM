@@ -1,8 +1,8 @@
-==========================================================
+========================================================
 Really Awesome Mods 0.2.10 --> Really Awesome Mods 0.3.0
-==========================================================
+========================================================
 
-Update Forge to 31.1.36
+Updare Forge to 31.1.38
 
 Added:
 - AutoRegLib
@@ -200,7 +200,10 @@ Updated:
 		Industrial Agriculture[Core] 1.15.2-1.6.7:
 			- added crux support for all Mystical Agriculture seed.
 
-	Inventory Tweaks Reborn (invtweaks-1.15.2-1.0.2.jar --> invtweaks-1.15.2-2.0.0.jar):
+	Inventory Tweaks Reborn (invtweaks-1.15.2-1.0.2.jar --> invtweaks-1.15.2-2.0.1.jar):
+		invtweaks-1.15.2-2.0.1.jar:
+			Fix crash on dedicated servers
+
 		invtweaks-1.15.2-2.0.0.jar:
 			The start of client-side functionality
 
