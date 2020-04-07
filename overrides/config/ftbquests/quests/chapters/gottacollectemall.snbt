@@ -6,8 +6,8 @@
 	icon: "minecraft:oak_sapling",
 	quests: [
 		{
-			x: -14.5d,
-			y: -8.5d,
+			x: -6.5d,
+			y: -13.0d,
 			id: 388,
 			tasks: [{
 				id: 389,
@@ -16,8 +16,8 @@
 			}]
 		},
 		{
-			x: -12.5d,
-			y: -0.5d,
+			x: -2.5d,
+			y: -11.0d,
 			id: 392,
 			tasks: [{
 				id: 393,
@@ -26,8 +26,8 @@
 			}]
 		},
 		{
-			x: -11.5d,
-			y: -8.5d,
+			x: -2.5d,
+			y: -10.0d,
 			id: 394,
 			tasks: [{
 				id: 395,
@@ -36,8 +36,8 @@
 			}]
 		},
 		{
-			x: -11.5d,
-			y: -7.5d,
+			x: -2.5d,
+			y: -9.0d,
 			id: 396,
 			tasks: [{
 				id: 397,
@@ -46,8 +46,8 @@
 			}]
 		},
 		{
-			x: -5.5d,
-			y: -6.5d,
+			x: 6.5d,
+			y: -8.0d,
 			id: 398,
 			tasks: [{
 				id: 399,
@@ -56,8 +56,8 @@
 			}]
 		},
 		{
-			x: -14.5d,
-			y: -7.5d,
+			x: -6.5d,
+			y: -12.0d,
 			id: 400,
 			tasks: [{
 				id: 401,
@@ -66,8 +66,8 @@
 			}]
 		},
 		{
-			x: -14.5d,
-			y: -6.5d,
+			x: -6.5d,
+			y: -11.0d,
 			id: 402,
 			tasks: [{
 				id: 403,
@@ -76,8 +76,8 @@
 			}]
 		},
 		{
-			x: -14.5d,
-			y: -5.5d,
+			x: -6.5d,
+			y: -10.0d,
 			id: 404,
 			tasks: [{
 				id: 405,
@@ -86,8 +86,8 @@
 			}]
 		},
 		{
-			x: -14.5d,
-			y: -4.5d,
+			x: -6.5d,
+			y: -9.0d,
 			id: 406,
 			tasks: [{
 				id: 407,
@@ -96,8 +96,8 @@
 			}]
 		},
 		{
-			x: -14.5d,
-			y: -3.5d,
+			x: -6.5d,
+			y: -8.0d,
 			id: 408,
 			tasks: [{
 				id: 409,
@@ -106,8 +106,8 @@
 			}]
 		},
 		{
-			x: -14.5d,
-			y: -2.5d,
+			x: -5.5d,
+			y: -13.0d,
 			id: 410,
 			tasks: [{
 				id: 411,
@@ -116,8 +116,8 @@
 			}]
 		},
 		{
-			x: -14.5d,
-			y: -1.5d,
+			x: -5.5d,
+			y: -12.0d,
 			id: 412,
 			tasks: [{
 				id: 413,
@@ -126,8 +126,8 @@
 			}]
 		},
 		{
-			x: -14.5d,
-			y: -0.5d,
+			x: -5.5d,
+			y: -11.0d,
 			id: 414,
 			tasks: [{
 				id: 415,
@@ -136,8 +136,8 @@
 			}]
 		},
 		{
-			x: -13.5d,
-			y: -3.5d,
+			x: -4.5d,
+			y: -11.0d,
 			id: 416,
 			tasks: [{
 				id: 417,
@@ -146,8 +146,8 @@
 			}]
 		},
 		{
-			x: -13.5d,
-			y: -2.5d,
+			x: -4.5d,
+			y: -10.0d,
 			id: 418,
 			tasks: [{
 				id: 419,
@@ -156,8 +156,8 @@
 			}]
 		},
 		{
-			x: -13.5d,
-			y: -1.5d,
+			x: -4.5d,
+			y: -9.0d,
 			id: 420,
 			tasks: [{
 				id: 421,
@@ -166,8 +166,8 @@
 			}]
 		},
 		{
-			x: -13.5d,
-			y: -0.5d,
+			x: -4.5d,
+			y: -8.0d,
 			id: 422,
 			tasks: [{
 				id: 423,
@@ -176,8 +176,8 @@
 			}]
 		},
 		{
-			x: -12.5d,
-			y: -8.5d,
+			x: -3.5d,
+			y: -13.0d,
 			id: 424,
 			tasks: [{
 				id: 425,
@@ -186,8 +186,8 @@
 			}]
 		},
 		{
-			x: -12.5d,
-			y: -7.5d,
+			x: -3.5d,
+			y: -12.0d,
 			id: 426,
 			tasks: [{
 				id: 427,
@@ -196,8 +196,8 @@
 			}]
 		},
 		{
-			x: -12.5d,
-			y: -6.5d,
+			x: -3.5d,
+			y: -11.0d,
 			id: 428,
 			tasks: [{
 				id: 429,
@@ -206,8 +206,8 @@
 			}]
 		},
 		{
-			x: -12.5d,
-			y: -5.5d,
+			x: -3.5d,
+			y: -10.0d,
 			id: 430,
 			tasks: [{
 				id: 431,
@@ -216,8 +216,8 @@
 			}]
 		},
 		{
-			x: -12.5d,
-			y: -4.5d,
+			x: -3.5d,
+			y: -9.0d,
 			id: 432,
 			tasks: [{
 				id: 433,
@@ -226,8 +226,8 @@
 			}]
 		},
 		{
-			x: -12.5d,
-			y: -3.5d,
+			x: -3.5d,
+			y: -8.0d,
 			id: 434,
 			tasks: [{
 				id: 435,
@@ -236,8 +236,8 @@
 			}]
 		},
 		{
-			x: -12.5d,
-			y: -2.5d,
+			x: -2.5d,
+			y: -13.0d,
 			id: 436,
 			tasks: [{
 				id: 437,
@@ -246,8 +246,8 @@
 			}]
 		},
 		{
-			x: -12.5d,
-			y: -1.5d,
+			x: -2.5d,
+			y: -12.0d,
 			id: 438,
 			tasks: [{
 				id: 439,
@@ -256,8 +256,8 @@
 			}]
 		},
 		{
-			x: -13.5d,
-			y: -8.5d,
+			x: -5.5d,
+			y: -10.0d,
 			id: 603,
 			tasks: [{
 				id: 605,
@@ -266,8 +266,8 @@
 			}]
 		},
 		{
-			x: -13.5d,
-			y: -7.5d,
+			x: -5.5d,
+			y: -9.0d,
 			id: 606,
 			tasks: [{
 				id: 607,
@@ -276,8 +276,8 @@
 			}]
 		},
 		{
-			x: -13.5d,
-			y: -6.5d,
+			x: -5.5d,
+			y: -8.0d,
 			id: 608,
 			tasks: [{
 				id: 609,
@@ -286,8 +286,8 @@
 			}]
 		},
 		{
-			x: -13.5d,
-			y: -5.5d,
+			x: -4.5d,
+			y: -13.0d,
 			id: 610,
 			tasks: [{
 				id: 611,
@@ -296,8 +296,8 @@
 			}]
 		},
 		{
-			x: -13.5d,
-			y: -4.5d,
+			x: -4.5d,
+			y: -12.0d,
 			id: 612,
 			tasks: [{
 				id: 613,
@@ -306,8 +306,8 @@
 			}]
 		},
 		{
-			x: -11.5d,
-			y: -6.5d,
+			x: -2.5d,
+			y: -8.0d,
 			id: 618,
 			tasks: [{
 				id: 619,
@@ -316,8 +316,8 @@
 			}]
 		},
 		{
-			x: -11.5d,
-			y: -5.5d,
+			x: -1.5d,
+			y: -13.0d,
 			id: 620,
 			tasks: [{
 				id: 621,
@@ -326,8 +326,8 @@
 			}]
 		},
 		{
-			x: -11.5d,
-			y: -3.5d,
+			x: -1.5d,
+			y: -11.0d,
 			id: 622,
 			tasks: [{
 				id: 623,
@@ -336,8 +336,8 @@
 			}]
 		},
 		{
-			x: -11.5d,
-			y: -2.5d,
+			x: -1.5d,
+			y: -10.0d,
 			id: 624,
 			tasks: [{
 				id: 625,
@@ -346,8 +346,8 @@
 			}]
 		},
 		{
-			x: -11.5d,
-			y: -4.5d,
+			x: -1.5d,
+			y: -12.0d,
 			id: 626,
 			tasks: [{
 				id: 627,
@@ -356,8 +356,8 @@
 			}]
 		},
 		{
-			x: -11.5d,
-			y: -1.5d,
+			x: -1.5d,
+			y: -9.0d,
 			id: 628,
 			tasks: [{
 				id: 629,
@@ -366,8 +366,8 @@
 			}]
 		},
 		{
-			x: -11.5d,
-			y: -0.5d,
+			x: -1.5d,
+			y: -8.0d,
 			id: 630,
 			tasks: [{
 				id: 631,
@@ -376,8 +376,8 @@
 			}]
 		},
 		{
-			x: -10.5d,
-			y: -8.5d,
+			x: -0.5d,
+			y: -13.0d,
 			id: 632,
 			tasks: [{
 				id: 633,
@@ -386,8 +386,8 @@
 			}]
 		},
 		{
-			x: -10.5d,
-			y: -7.5d,
+			x: -0.5d,
+			y: -12.0d,
 			id: 634,
 			tasks: [{
 				id: 635,
@@ -396,8 +396,8 @@
 			}]
 		},
 		{
-			x: -10.5d,
-			y: -6.5d,
+			x: -0.5d,
+			y: -11.0d,
 			id: 638,
 			tasks: [{
 				id: 639,
@@ -406,8 +406,8 @@
 			}]
 		},
 		{
-			x: -10.5d,
-			y: -5.5d,
+			x: -0.5d,
+			y: -10.0d,
 			id: 640,
 			tasks: [{
 				id: 641,
@@ -416,8 +416,8 @@
 			}]
 		},
 		{
-			x: -10.5d,
-			y: -4.5d,
+			x: -0.5d,
+			y: -9.0d,
 			id: 642,
 			tasks: [{
 				id: 643,
@@ -426,8 +426,8 @@
 			}]
 		},
 		{
-			x: -10.5d,
-			y: -3.5d,
+			x: -0.5d,
+			y: -8.0d,
 			id: 644,
 			tasks: [{
 				id: 645,
@@ -436,8 +436,8 @@
 			}]
 		},
 		{
-			x: -10.5d,
-			y: -2.5d,
+			x: 0.5d,
+			y: -13.0d,
 			id: 646,
 			tasks: [{
 				id: 647,
@@ -446,8 +446,8 @@
 			}]
 		},
 		{
-			x: -10.5d,
-			y: -1.5d,
+			x: 0.5d,
+			y: -12.0d,
 			id: 648,
 			tasks: [{
 				id: 649,
@@ -456,8 +456,8 @@
 			}]
 		},
 		{
-			x: -10.5d,
-			y: -0.5d,
+			x: 0.5d,
+			y: -11.0d,
 			id: 650,
 			tasks: [{
 				id: 651,
@@ -466,8 +466,8 @@
 			}]
 		},
 		{
-			x: -9.5d,
-			y: -8.5d,
+			x: 0.5d,
+			y: -10.0d,
 			id: 652,
 			tasks: [{
 				id: 653,
@@ -476,8 +476,8 @@
 			}]
 		},
 		{
-			x: -9.5d,
-			y: -7.5d,
+			x: 0.5d,
+			y: -9.0d,
 			id: 656,
 			tasks: [{
 				id: 657,
@@ -486,8 +486,8 @@
 			}]
 		},
 		{
-			x: -9.5d,
-			y: -6.5d,
+			x: 0.5d,
+			y: -8.0d,
 			id: 658,
 			tasks: [{
 				id: 659,
@@ -496,8 +496,8 @@
 			}]
 		},
 		{
-			x: -9.5d,
-			y: -5.5d,
+			x: 1.5d,
+			y: -13.0d,
 			id: 660,
 			tasks: [{
 				id: 661,
@@ -506,8 +506,8 @@
 			}]
 		},
 		{
-			x: -9.5d,
-			y: -4.5d,
+			x: 1.5d,
+			y: -12.0d,
 			id: 662,
 			tasks: [{
 				id: 663,
@@ -516,8 +516,8 @@
 			}]
 		},
 		{
-			x: -9.5d,
-			y: -3.5d,
+			x: 1.5d,
+			y: -11.0d,
 			id: 664,
 			tasks: [{
 				id: 665,
@@ -526,8 +526,8 @@
 			}]
 		},
 		{
-			x: -9.5d,
-			y: -2.5d,
+			x: 1.5d,
+			y: -10.0d,
 			id: 666,
 			tasks: [{
 				id: 667,
@@ -536,8 +536,8 @@
 			}]
 		},
 		{
-			x: -9.5d,
-			y: -1.5d,
+			x: 1.5d,
+			y: -9.0d,
 			id: 668,
 			tasks: [{
 				id: 669,
@@ -546,8 +546,8 @@
 			}]
 		},
 		{
-			x: -9.5d,
-			y: -0.5d,
+			x: 1.5d,
+			y: -8.0d,
 			id: 670,
 			tasks: [{
 				id: 671,
@@ -556,8 +556,8 @@
 			}]
 		},
 		{
-			x: -8.5d,
-			y: -8.5d,
+			x: 2.5d,
+			y: -13.0d,
 			id: 672,
 			tasks: [{
 				id: 673,
@@ -566,8 +566,8 @@
 			}]
 		},
 		{
-			x: -8.5d,
-			y: -7.5d,
+			x: 2.5d,
+			y: -12.0d,
 			id: 674,
 			tasks: [{
 				id: 675,
@@ -576,8 +576,8 @@
 			}]
 		},
 		{
-			x: -8.5d,
-			y: -6.5d,
+			x: 2.5d,
+			y: -11.0d,
 			id: 676,
 			tasks: [{
 				id: 677,
@@ -586,8 +586,8 @@
 			}]
 		},
 		{
-			x: -8.5d,
-			y: -5.5d,
+			x: 2.5d,
+			y: -10.0d,
 			id: 678,
 			tasks: [{
 				id: 679,
@@ -596,8 +596,8 @@
 			}]
 		},
 		{
-			x: -8.5d,
-			y: -4.5d,
+			x: 2.5d,
+			y: -9.0d,
 			id: 680,
 			tasks: [{
 				id: 681,
@@ -606,8 +606,8 @@
 			}]
 		},
 		{
-			x: -8.5d,
-			y: -3.5d,
+			x: 2.5d,
+			y: -8.0d,
 			id: 682,
 			tasks: [{
 				id: 683,
@@ -616,8 +616,8 @@
 			}]
 		},
 		{
-			x: -8.5d,
-			y: -2.5d,
+			x: 3.5d,
+			y: -13.0d,
 			id: 684,
 			tasks: [{
 				id: 685,
@@ -626,8 +626,8 @@
 			}]
 		},
 		{
-			x: -8.5d,
-			y: -1.5d,
+			x: 3.5d,
+			y: -12.0d,
 			id: 686,
 			tasks: [{
 				id: 687,
@@ -636,8 +636,8 @@
 			}]
 		},
 		{
-			x: -8.5d,
-			y: -0.5d,
+			x: 3.5d,
+			y: -11.0d,
 			id: 688,
 			tasks: [{
 				id: 689,
@@ -646,8 +646,8 @@
 			}]
 		},
 		{
-			x: -7.5d,
-			y: -8.5d,
+			x: 3.5d,
+			y: -10.0d,
 			id: 690,
 			tasks: [{
 				id: 691,
@@ -656,8 +656,8 @@
 			}]
 		},
 		{
-			x: -7.5d,
-			y: -7.5d,
+			x: 3.5d,
+			y: -9.0d,
 			id: 692,
 			tasks: [{
 				id: 693,
@@ -666,8 +666,8 @@
 			}]
 		},
 		{
-			x: -7.5d,
-			y: -6.5d,
+			x: 3.5d,
+			y: -8.0d,
 			id: 694,
 			tasks: [{
 				id: 695,
@@ -676,8 +676,8 @@
 			}]
 		},
 		{
-			x: -7.5d,
-			y: -5.5d,
+			x: 4.5d,
+			y: -13.0d,
 			id: 696,
 			tasks: [{
 				id: 697,
@@ -686,8 +686,8 @@
 			}]
 		},
 		{
-			x: -7.5d,
-			y: -4.5d,
+			x: 4.5d,
+			y: -12.0d,
 			id: 698,
 			tasks: [{
 				id: 699,
@@ -696,8 +696,8 @@
 			}]
 		},
 		{
-			x: -7.5d,
-			y: -3.5d,
+			x: 4.5d,
+			y: -11.0d,
 			id: 700,
 			tasks: [{
 				id: 701,
@@ -706,8 +706,8 @@
 			}]
 		},
 		{
-			x: -7.5d,
-			y: -2.5d,
+			x: 4.5d,
+			y: -10.0d,
 			id: 702,
 			tasks: [{
 				id: 703,
@@ -716,8 +716,8 @@
 			}]
 		},
 		{
-			x: -7.5d,
-			y: -1.5d,
+			x: 4.5d,
+			y: -9.0d,
 			id: 704,
 			tasks: [{
 				id: 705,
@@ -726,8 +726,8 @@
 			}]
 		},
 		{
-			x: -7.5d,
-			y: -0.5d,
+			x: 4.5d,
+			y: -8.0d,
 			id: 706,
 			tasks: [{
 				id: 707,
@@ -736,8 +736,8 @@
 			}]
 		},
 		{
-			x: -6.5d,
-			y: -8.5d,
+			x: 5.5d,
+			y: -13.0d,
 			id: 708,
 			tasks: [{
 				id: 709,
@@ -746,8 +746,8 @@
 			}]
 		},
 		{
-			x: -6.5d,
-			y: -7.5d,
+			x: 5.5d,
+			y: -12.0d,
 			id: 710,
 			tasks: [{
 				id: 711,
@@ -756,8 +756,8 @@
 			}]
 		},
 		{
-			x: -6.5d,
-			y: -6.5d,
+			x: 5.5d,
+			y: -11.0d,
 			id: 712,
 			tasks: [{
 				id: 713,
@@ -766,8 +766,8 @@
 			}]
 		},
 		{
-			x: -6.5d,
-			y: -5.5d,
+			x: 5.5d,
+			y: -10.0d,
 			id: 714,
 			tasks: [{
 				id: 715,
@@ -776,8 +776,8 @@
 			}]
 		},
 		{
-			x: -6.5d,
-			y: -4.5d,
+			x: 5.5d,
+			y: -9.0d,
 			id: 716,
 			tasks: [{
 				id: 717,
@@ -786,8 +786,8 @@
 			}]
 		},
 		{
-			x: -6.5d,
-			y: -3.5d,
+			x: 5.5d,
+			y: -8.0d,
 			id: 718,
 			tasks: [{
 				id: 719,
@@ -796,8 +796,8 @@
 			}]
 		},
 		{
-			x: -6.5d,
-			y: -2.5d,
+			x: 6.5d,
+			y: -13.0d,
 			id: 720,
 			tasks: [{
 				id: 721,
@@ -806,8 +806,8 @@
 			}]
 		},
 		{
-			x: -6.5d,
-			y: -1.5d,
+			x: 6.5d,
+			y: -12.0d,
 			id: 722,
 			tasks: [{
 				id: 723,
@@ -816,8 +816,8 @@
 			}]
 		},
 		{
-			x: -6.5d,
-			y: -0.5d,
+			x: 6.5d,
+			y: -11.0d,
 			id: 724,
 			tasks: [{
 				id: 725,
@@ -826,8 +826,8 @@
 			}]
 		},
 		{
-			x: -5.5d,
-			y: -8.5d,
+			x: 6.5d,
+			y: -10.0d,
 			id: 726,
 			tasks: [{
 				id: 727,
@@ -836,8 +836,8 @@
 			}]
 		},
 		{
-			x: -5.5d,
-			y: -7.5d,
+			x: 6.5d,
+			y: -9.0d,
 			id: 728,
 			tasks: [{
 				id: 729,
@@ -846,8 +846,8 @@
 			}]
 		},
 		{
-			x: -14.5d,
-			y: 1.0d,
+			x: -3.0d,
+			y: -6.0d,
 			id: 730,
 			tasks: [{
 				id: 731,
@@ -856,8 +856,8 @@
 			}]
 		},
 		{
-			x: -14.5d,
-			y: 2.0d,
+			x: -3.0d,
+			y: -5.0d,
 			id: 732,
 			tasks: [{
 				id: 733,
@@ -866,8 +866,8 @@
 			}]
 		},
 		{
-			x: -14.5d,
-			y: 3.0d,
+			x: -3.0d,
+			y: -4.0d,
 			id: 734,
 			tasks: [{
 				id: 735,
@@ -876,8 +876,8 @@
 			}]
 		},
 		{
-			x: -14.5d,
-			y: 4.0d,
+			x: -3.0d,
+			y: -3.0d,
 			id: 736,
 			tasks: [{
 				id: 737,
@@ -886,8 +886,8 @@
 			}]
 		},
 		{
-			x: -14.5d,
-			y: 5.0d,
+			x: -3.0d,
+			y: -2.0d,
 			id: 738,
 			tasks: [{
 				id: 739,
@@ -896,8 +896,8 @@
 			}]
 		},
 		{
-			x: -14.5d,
-			y: 6.0d,
+			x: -3.0d,
+			y: -1.0d,
 			id: 740,
 			tasks: [{
 				id: 741,
@@ -906,8 +906,8 @@
 			}]
 		},
 		{
-			x: -13.5d,
-			y: 1.0d,
+			x: -2.0d,
+			y: -6.0d,
 			id: 742,
 			tasks: [{
 				id: 743,
@@ -916,8 +916,8 @@
 			}]
 		},
 		{
-			x: -13.5d,
-			y: 2.0d,
+			x: -2.0d,
+			y: -5.0d,
 			id: 744,
 			tasks: [{
 				id: 745,
@@ -926,8 +926,8 @@
 			}]
 		},
 		{
-			x: -13.5d,
-			y: 3.0d,
+			x: -2.0d,
+			y: -4.0d,
 			id: 746,
 			tasks: [{
 				id: 747,
@@ -936,8 +936,8 @@
 			}]
 		},
 		{
-			x: -13.5d,
-			y: 4.0d,
+			x: -2.0d,
+			y: -3.0d,
 			id: 748,
 			tasks: [{
 				id: 749,
@@ -946,8 +946,8 @@
 			}]
 		},
 		{
-			x: -13.5d,
-			y: 5.0d,
+			x: -2.0d,
+			y: -2.0d,
 			id: 750,
 			tasks: [{
 				id: 751,
@@ -956,8 +956,8 @@
 			}]
 		},
 		{
-			x: -13.5d,
-			y: 6.0d,
+			x: -2.0d,
+			y: -1.0d,
 			id: 752,
 			tasks: [{
 				id: 753,
@@ -966,8 +966,8 @@
 			}]
 		},
 		{
-			x: -12.5d,
-			y: 1.0d,
+			x: -1.0d,
+			y: -6.0d,
 			id: 754,
 			tasks: [{
 				id: 755,
@@ -976,8 +976,8 @@
 			}]
 		},
 		{
-			x: -12.5d,
-			y: 2.0d,
+			x: -1.0d,
+			y: -5.0d,
 			id: 756,
 			tasks: [{
 				id: 757,
@@ -986,8 +986,8 @@
 			}]
 		},
 		{
-			x: -12.5d,
-			y: 3.0d,
+			x: -1.0d,
+			y: -4.0d,
 			id: 758,
 			tasks: [{
 				id: 759,
@@ -996,8 +996,8 @@
 			}]
 		},
 		{
-			x: -12.5d,
-			y: 4.0d,
+			x: -1.0d,
+			y: -3.0d,
 			id: 760,
 			tasks: [{
 				id: 761,
@@ -1006,8 +1006,8 @@
 			}]
 		},
 		{
-			x: -12.5d,
-			y: 5.0d,
+			x: -1.0d,
+			y: -2.0d,
 			id: 764,
 			tasks: [{
 				id: 765,
@@ -1016,8 +1016,8 @@
 			}]
 		},
 		{
-			x: -12.5d,
-			y: 6.0d,
+			x: -1.0d,
+			y: -1.0d,
 			id: 766,
 			tasks: [{
 				id: 767,
@@ -1026,8 +1026,8 @@
 			}]
 		},
 		{
-			x: -11.5d,
-			y: 1.0d,
+			x: 0.0d,
+			y: -6.0d,
 			id: 768,
 			tasks: [{
 				id: 769,
@@ -1042,8 +1042,8 @@
 			}]
 		},
 		{
-			x: -11.5d,
-			y: 2.0d,
+			x: 0.0d,
+			y: -5.0d,
 			id: 770,
 			tasks: [{
 				id: 771,
@@ -1052,8 +1052,8 @@
 			}]
 		},
 		{
-			x: -11.5d,
-			y: 3.0d,
+			x: 0.0d,
+			y: -4.0d,
 			id: 774,
 			tasks: [{
 				id: 775,
@@ -1062,8 +1062,8 @@
 			}]
 		},
 		{
-			x: -11.5d,
-			y: 4.0d,
+			x: 0.0d,
+			y: -3.0d,
 			id: 776,
 			tasks: [{
 				id: 777,
@@ -1072,8 +1072,8 @@
 			}]
 		},
 		{
-			x: -11.5d,
-			y: 5.0d,
+			x: 0.0d,
+			y: -2.0d,
 			id: 778,
 			tasks: [{
 				id: 779,
@@ -1082,8 +1082,8 @@
 			}]
 		},
 		{
-			x: -11.5d,
-			y: 6.0d,
+			x: 0.0d,
+			y: -1.0d,
 			id: 780,
 			tasks: [{
 				id: 781,
@@ -1092,8 +1092,8 @@
 			}]
 		},
 		{
-			x: -10.5d,
-			y: 1.0d,
+			x: 1.0d,
+			y: -6.0d,
 			id: 782,
 			tasks: [{
 				id: 783,
@@ -1102,8 +1102,8 @@
 			}]
 		},
 		{
-			x: -10.5d,
-			y: 2.0d,
+			x: 1.0d,
+			y: -5.0d,
 			id: 784,
 			tasks: [{
 				id: 785,
@@ -1112,8 +1112,8 @@
 			}]
 		},
 		{
-			x: -10.5d,
-			y: 3.0d,
+			x: 1.0d,
+			y: -4.0d,
 			id: 786,
 			tasks: [{
 				id: 787,
@@ -1122,8 +1122,8 @@
 			}]
 		},
 		{
-			x: -10.5d,
-			y: 4.0d,
+			x: 1.0d,
+			y: -3.0d,
 			id: 788,
 			tasks: [{
 				id: 789,
@@ -1132,8 +1132,8 @@
 			}]
 		},
 		{
-			x: -10.5d,
-			y: 5.0d,
+			x: 1.0d,
+			y: -2.0d,
 			id: 790,
 			tasks: [{
 				id: 791,
@@ -1142,8 +1142,8 @@
 			}]
 		},
 		{
-			x: -10.5d,
-			y: 6.0d,
+			x: 1.0d,
+			y: -1.0d,
 			id: 792,
 			tasks: [{
 				id: 793,
@@ -1152,8 +1152,8 @@
 			}]
 		},
 		{
-			x: -9.5d,
-			y: 1.0d,
+			x: 2.0d,
+			y: -6.0d,
 			id: 794,
 			tasks: [{
 				id: 795,
@@ -1168,8 +1168,8 @@
 			}]
 		},
 		{
-			x: -9.5d,
-			y: 2.0d,
+			x: 2.0d,
+			y: -5.0d,
 			id: 796,
 			tasks: [{
 				id: 797,
@@ -1178,8 +1178,8 @@
 			}]
 		},
 		{
-			x: -9.5d,
-			y: 3.0d,
+			x: 2.0d,
+			y: -4.0d,
 			id: 798,
 			tasks: [{
 				id: 799,
@@ -1188,8 +1188,8 @@
 			}]
 		},
 		{
-			x: -9.5d,
-			y: 4.0d,
+			x: 2.0d,
+			y: -3.0d,
 			id: 800,
 			tasks: [{
 				id: 801,
@@ -1198,8 +1198,8 @@
 			}]
 		},
 		{
-			x: -9.5d,
-			y: 5.0d,
+			x: 2.0d,
+			y: -2.0d,
 			id: 802,
 			tasks: [{
 				id: 803,
@@ -1208,8 +1208,8 @@
 			}]
 		},
 		{
-			x: -9.5d,
-			y: 6.0d,
+			x: 2.0d,
+			y: -1.0d,
 			id: 804,
 			tasks: [{
 				id: 805,
@@ -1218,8 +1218,8 @@
 			}]
 		},
 		{
-			x: -8.5d,
-			y: 1.0d,
+			x: 3.0d,
+			y: -6.0d,
 			id: 806,
 			tasks: [{
 				id: 807,
@@ -1228,8 +1228,8 @@
 			}]
 		},
 		{
-			x: -8.5d,
-			y: 2.0d,
+			x: 3.0d,
+			y: -5.0d,
 			id: 808,
 			tasks: [{
 				id: 809,
@@ -1238,13 +1238,1683 @@
 			}]
 		},
 		{
-			x: -8.5d,
-			y: 3.0d,
+			x: 3.0d,
+			y: -4.0d,
 			id: 810,
 			tasks: [{
 				id: 811,
 				type: "item",
 				item: "minecraft:cod"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 2.0d,
+			id: 636,
+			tasks: [{
+				id: 637,
+				type: "item",
+				item: "botania:pink_mystical_flower"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 1.0d,
+			id: 654,
+			tasks: [{
+				id: 655,
+				type: "item",
+				item: "botania:green_mystical_flower"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 1.0d,
+			id: 762,
+			tasks: [{
+				id: 763,
+				type: "item",
+				item: "botania:white_mystical_flower"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 2.0d,
+			id: 772,
+			tasks: [{
+				id: 773,
+				type: "item",
+				item: "botania:light_gray_mystical_flower"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 1.0d,
+			id: 812,
+			tasks: [{
+				id: 813,
+				type: "item",
+				item: "botania:brown_mystical_flower"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 4.0d,
+			id: 814,
+			tasks: [{
+				id: 815,
+				type: "item",
+				item: "botania:blue_mystical_flower"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 4.0d,
+			id: 816,
+			tasks: [{
+				id: 817,
+				type: "item",
+				item: "botania:orange_mystical_flower"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 3.0d,
+			id: 818,
+			tasks: [{
+				id: 819,
+				type: "item",
+				item: "botania:gray_mystical_flower"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 4.0d,
+			id: 820,
+			tasks: [{
+				id: 821,
+				type: "item",
+				item: "botania:black_mystical_flower"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 6.0d,
+			id: 822,
+			tasks: [{
+				id: 823,
+				type: "item",
+				item: "botania:lime_mystical_flower"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 2.0d,
+			id: 824,
+			tasks: [{
+				id: 825,
+				type: "item",
+				item: "botania:cyan_mystical_flower"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 5.0d,
+			id: 826,
+			tasks: [{
+				id: 827,
+				type: "item",
+				item: "botania:magenta_mystical_flower"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 3.0d,
+			id: 828,
+			tasks: [{
+				id: 829,
+				type: "item",
+				item: "botania:red_mystical_flower"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 6.0d,
+			id: 830,
+			tasks: [{
+				id: 831,
+				type: "item",
+				item: "botania:purple_mystical_flower"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 5.0d,
+			id: 832,
+			tasks: [{
+				id: 833,
+				type: "item",
+				item: "botania:yellow_mystical_flower"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 3.0d,
+			id: 836,
+			tasks: [{
+				id: 837,
+				type: "item",
+				item: "botania:light_blue_mystical_flower"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 5.0d,
+			id: 838,
+			tasks: [{
+				id: 839,
+				type: "item",
+				item: "botania:dandelifeon"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 6.0d,
+			id: 840,
+			tasks: [{
+				id: 841,
+				type: "item",
+				item: "botania:endoflame"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 1.0d,
+			id: 842,
+			tasks: [{
+				id: 843,
+				type: "item",
+				item: "botania:entropinnyum"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 2.0d,
+			id: 844,
+			tasks: [{
+				id: 845,
+				type: "item",
+				item: "botania:gourmaryllis"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 3.0d,
+			id: 846,
+			tasks: [{
+				id: 847,
+				type: "item",
+				item: "botania:hydroangeas"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 4.0d,
+			id: 848,
+			tasks: [{
+				id: 849,
+				type: "item",
+				item: "botania:kekimurus"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 5.0d,
+			id: 850,
+			tasks: [{
+				id: 851,
+				type: "item",
+				item: "botania:munchdew"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 6.0d,
+			id: 852,
+			tasks: [{
+				id: 853,
+				type: "item",
+				item: "botania:narslimmus"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 1.0d,
+			id: 854,
+			tasks: [{
+				id: 855,
+				type: "item",
+				item: "botania:rafflowsia"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 2.0d,
+			id: 856,
+			tasks: [{
+				id: 857,
+				type: "item",
+				item: "botania:rosa_arcana"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 3.0d,
+			id: 858,
+			tasks: [{
+				id: 859,
+				type: "item",
+				item: "botania:shulk_me_not"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 4.0d,
+			id: 860,
+			tasks: [{
+				id: 861,
+				type: "item",
+				item: "botania:spectrolus"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 5.0d,
+			id: 862,
+			tasks: [{
+				id: 863,
+				type: "item",
+				item: "botania:thermalily"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 6.0d,
+			id: 864,
+			tasks: [{
+				id: 865,
+				type: "item",
+				item: "botania:agricarnation"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 1.0d,
+			id: 866,
+			tasks: [{
+				id: 867,
+				type: "item",
+				item: "botania:bellethorn"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 2.0d,
+			id: 868,
+			tasks: [{
+				id: 869,
+				type: "item",
+				item: "botania:bergamute"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 3.0d,
+			id: 870,
+			tasks: [{
+				id: 871,
+				type: "item",
+				item: "botania:bubbell"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 4.0d,
+			id: 872,
+			tasks: [{
+				id: 873,
+				type: "item",
+				item: "botania:clayconia"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 5.0d,
+			id: 874,
+			tasks: [{
+				id: 875,
+				type: "item",
+				item: "botania:daffomill"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 6.0d,
+			id: 876,
+			tasks: [{
+				id: 877,
+				type: "item",
+				item: "botania:dreadthorn"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.0d,
+			id: 878,
+			tasks: [{
+				id: 879,
+				type: "item",
+				item: "botania:exoflame"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 2.0d,
+			id: 880,
+			tasks: [{
+				id: 881,
+				type: "item",
+				item: "botania:fallen_kanade"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 3.0d,
+			id: 882,
+			tasks: [{
+				id: 883,
+				type: "item",
+				item: "botania:heisei_dream"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 4.0d,
+			id: 884,
+			tasks: [{
+				id: 885,
+				type: "item",
+				item: "botania:hopperhock"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 5.0d,
+			id: 886,
+			tasks: [{
+				id: 887,
+				type: "item",
+				item: "botania:hyacidus"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 6.0d,
+			id: 888,
+			tasks: [{
+				id: 889,
+				type: "item",
+				item: "botania:jaded_amaranthus"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 1.0d,
+			id: 890,
+			tasks: [{
+				id: 891,
+				type: "item",
+				item: "botania:jiyuulia"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 2.0d,
+			id: 892,
+			tasks: [{
+				id: 893,
+				type: "item",
+				item: "botania:loonium"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 3.0d,
+			id: 894,
+			tasks: [{
+				id: 895,
+				type: "item",
+				item: "botania:marimorphosis"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 4.0d,
+			id: 896,
+			tasks: [{
+				id: 897,
+				type: "item",
+				item: "botania:medumone"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 5.0d,
+			id: 898,
+			tasks: [{
+				id: 899,
+				type: "item",
+				item: "botania:orechid"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 6.0d,
+			id: 900,
+			tasks: [{
+				id: 901,
+				type: "item",
+				item: "botania:orechid_ignem"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 1.0d,
+			id: 902,
+			tasks: [{
+				id: 903,
+				type: "item",
+				item: "botania:pollidisiac"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 2.0d,
+			id: 904,
+			tasks: [{
+				id: 905,
+				type: "item",
+				item: "botania:rannuncarpus"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 3.0d,
+			id: 906,
+			tasks: [{
+				id: 907,
+				type: "item",
+				item: "botania:solegnolia"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 4.0d,
+			id: 908,
+			tasks: [{
+				id: 909,
+				type: "item",
+				item: "botania:spectranthemum"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 5.0d,
+			id: 910,
+			tasks: [{
+				id: 911,
+				type: "item",
+				item: "botania:tangleberrie"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 6.0d,
+			id: 912,
+			tasks: [{
+				id: 913,
+				type: "item",
+				item: "botania:tigerseye"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 1.0d,
+			id: 914,
+			tasks: [{
+				id: 915,
+				type: "item",
+				item: "botania:vinculotus"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 8.0d,
+			id: 916,
+			tasks: [{
+				id: 917,
+				type: "item",
+				item: "mysticalagriculture:stone_essence"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 9.0d,
+			id: 918,
+			tasks: [{
+				id: 919,
+				type: "item",
+				item: "mysticalagriculture:dirt_essence"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 10.0d,
+			id: 920,
+			tasks: [{
+				id: 921,
+				type: "item",
+				item: "mysticalagriculture:wood_essence"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 11.0d,
+			id: 922,
+			tasks: [{
+				id: 923,
+				type: "item",
+				item: "mysticalagriculture:ice_essence"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 12.0d,
+			id: 924,
+			tasks: [{
+				id: 925,
+				type: "item",
+				item: "mysticalagriculture:nature_essence"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 13.0d,
+			id: 926,
+			tasks: [{
+				id: 927,
+				type: "item",
+				item: "mysticalagriculture:dye_essence"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 8.0d,
+			id: 928,
+			tasks: [{
+				id: 929,
+				type: "item",
+				item: "mysticalagriculture:nether_essence"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 9.0d,
+			id: 930,
+			tasks: [{
+				id: 931,
+				type: "item",
+				item: "mysticalagriculture:coal_essence"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 10.0d,
+			id: 932,
+			tasks: [{
+				id: 933,
+				type: "item",
+				item: "mysticalagriculture:coral_essence"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 11.0d,
+			id: 934,
+			tasks: [{
+				id: 935,
+				type: "item",
+				item: "mysticalagriculture:pig_essence"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 12.0d,
+			id: 936,
+			tasks: [{
+				id: 937,
+				type: "item",
+				item: "mysticalagriculture:chicken_essence"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 13.0d,
+			id: 938,
+			tasks: [{
+				id: 939,
+				type: "item",
+				item: "mysticalagriculture:cow_essence"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 8.0d,
+			id: 940,
+			tasks: [{
+				id: 941,
+				type: "item",
+				item: "mysticalagriculture:sheep_essence"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 9.0d,
+			id: 942,
+			tasks: [{
+				id: 943,
+				type: "item",
+				item: "mysticalagriculture:squid_essence"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 10.0d,
+			id: 944,
+			tasks: [{
+				id: 945,
+				type: "item",
+				item: "mysticalagriculture:fish_essence"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 11.0d,
+			id: 946,
+			tasks: [{
+				id: 947,
+				type: "item",
+				item: "mysticalagriculture:slime_essence"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 12.0d,
+			id: 948,
+			tasks: [{
+				id: 949,
+				type: "item",
+				item: "mysticalagriculture:turtle_essence"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 13.0d,
+			id: 950,
+			tasks: [{
+				id: 951,
+				type: "item",
+				item: "mysticalagriculture:panda_essence"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 8.0d,
+			id: 952,
+			tasks: [{
+				id: 953,
+				type: "item",
+				item: "mysticalagriculture:fox_essence"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 9.0d,
+			id: 954,
+			tasks: [{
+				id: 955,
+				type: "item",
+				item: "mysticalagriculture:bat_essence"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 10.0d,
+			id: 956,
+			tasks: [{
+				id: 957,
+				type: "item",
+				item: "mysticalagriculture:cat_essence"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 11.0d,
+			id: 958,
+			tasks: [{
+				id: 959,
+				type: "item",
+				item: "mysticalagriculture:wolf_essence"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 12.0d,
+			id: 960,
+			tasks: [{
+				id: 961,
+				type: "item",
+				item: "mysticalagriculture:parrot_essence"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 13.0d,
+			id: 962,
+			tasks: [{
+				id: 963,
+				type: "item",
+				item: "mysticalagriculture:iron_essence"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 8.0d,
+			id: 964,
+			tasks: [{
+				id: 965,
+				type: "item",
+				item: "mysticalagriculture:nether_quartz_essence"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 9.0d,
+			id: 966,
+			tasks: [{
+				id: 967,
+				type: "item",
+				item: "mysticalagriculture:glowstone_essence"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 10.0d,
+			id: 968,
+			tasks: [{
+				id: 969,
+				type: "item",
+				item: "mysticalagriculture:redstone_essence"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 11.0d,
+			id: 970,
+			tasks: [{
+				id: 971,
+				type: "item",
+				item: "mysticalagriculture:obsidian_essence"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 12.0d,
+			id: 972,
+			tasks: [{
+				id: 973,
+				type: "item",
+				item: "mysticalagriculture:prismarine_essence"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 13.0d,
+			id: 974,
+			tasks: [{
+				id: 975,
+				type: "item",
+				item: "mysticalagriculture:zombie_essence"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 8.0d,
+			id: 976,
+			tasks: [{
+				id: 977,
+				type: "item",
+				item: "mysticalagriculture:skeleton_essence"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 9.0d,
+			id: 978,
+			tasks: [{
+				id: 979,
+				type: "item",
+				item: "mysticalagriculture:creeper_essence"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 10.0d,
+			id: 980,
+			tasks: [{
+				id: 981,
+				type: "item",
+				item: "mysticalagriculture:spider_essence"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 11.0d,
+			id: 982,
+			tasks: [{
+				id: 983,
+				type: "item",
+				item: "mysticalagriculture:rabbit_essence"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 12.0d,
+			id: 984,
+			tasks: [{
+				id: 985,
+				type: "item",
+				item: "mysticalagriculture:llama_essence"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 13.0d,
+			id: 986,
+			tasks: [{
+				id: 987,
+				type: "item",
+				item: "mysticalagriculture:husk_essence"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 8.0d,
+			id: 988,
+			tasks: [{
+				id: 989,
+				type: "item",
+				item: "mysticalagriculture:silverfish_essence"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 9.0d,
+			id: 990,
+			tasks: [{
+				id: 991,
+				type: "item",
+				item: "mysticalagriculture:drowned_essence"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 10.0d,
+			id: 992,
+			tasks: [{
+				id: 993,
+				type: "item",
+				item: "mysticalagriculture:guardian_essence"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 11.0d,
+			id: 994,
+			tasks: [{
+				id: 995,
+				type: "item",
+				item: "mysticalagriculture:dolphin_essence"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 12.0d,
+			id: 996,
+			tasks: [{
+				id: 997,
+				type: "item",
+				item: "mysticalagriculture:zombie_pigman_essence"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 13.0d,
+			id: 998,
+			tasks: [{
+				id: 999,
+				type: "item",
+				item: "mysticalagriculture:stray_essence"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 8.0d,
+			id: 1000,
+			tasks: [{
+				id: 1001,
+				type: "item",
+				item: "mysticalagriculture:vex_essence"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 9.0d,
+			id: 1002,
+			tasks: [{
+				id: 1003,
+				type: "item",
+				item: "mysticalagriculture:polar_bear_essence"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 10.0d,
+			id: 1004,
+			tasks: [{
+				id: 1005,
+				type: "item",
+				item: "mysticalagriculture:horse_essence"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 11.0d,
+			id: 1006,
+			tasks: [{
+				id: 1007,
+				type: "item",
+				item: "mysticalagriculture:witch_essence"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 12.0d,
+			id: 1008,
+			tasks: [{
+				id: 1009,
+				type: "item",
+				item: "mysticalagriculture:gold_essence"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 13.0d,
+			id: 1010,
+			tasks: [{
+				id: 1011,
+				type: "item",
+				item: "mysticalagriculture:lapis_lazuli_essence"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 8.0d,
+			id: 1012,
+			tasks: [{
+				id: 1013,
+				type: "item",
+				item: "mysticalagriculture:end_essence"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 9.0d,
+			id: 1014,
+			tasks: [{
+				id: 1015,
+				type: "item",
+				item: "mysticalagriculture:experience_essence"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 10.0d,
+			id: 1016,
+			tasks: [{
+				id: 1017,
+				type: "item",
+				item: "mysticalagriculture:blaze_essence"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 11.0d,
+			id: 1018,
+			tasks: [{
+				id: 1019,
+				type: "item",
+				item: "mysticalagriculture:ghast_essence"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 12.0d,
+			id: 1020,
+			tasks: [{
+				id: 1021,
+				type: "item",
+				item: "mysticalagriculture:enderman_essence"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 13.0d,
+			id: 1022,
+			tasks: [{
+				id: 1023,
+				type: "item",
+				item: "mysticalagriculture:ravager_essence"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 8.0d,
+			id: 1024,
+			tasks: [{
+				id: 1025,
+				type: "item",
+				item: "mysticalagriculture:magma_cube_essence"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 9.0d,
+			id: 1026,
+			tasks: [{
+				id: 1027,
+				type: "item",
+				item: "mysticalagriculture:pillager_essence"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 10.0d,
+			id: 1028,
+			tasks: [{
+				id: 1029,
+				type: "item",
+				item: "mysticalagriculture:endermite_essence"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 11.0d,
+			id: 1030,
+			tasks: [{
+				id: 1031,
+				type: "item",
+				item: "mysticalagriculture:shulker_essence"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 12.0d,
+			id: 1032,
+			tasks: [{
+				id: 1033,
+				type: "item",
+				item: "mysticalagriculture:villager_essence"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 13.0d,
+			id: 1034,
+			tasks: [{
+				id: 1035,
+				type: "item",
+				item: "mysticalagriculture:vindicator_essence"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 8.0d,
+			id: 1036,
+			tasks: [{
+				id: 1037,
+				type: "item",
+				item: "mysticalagriculture:phantom_essence"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 9.0d,
+			id: 1038,
+			tasks: [{
+				id: 1039,
+				type: "item",
+				item: "mysticalagriculture:mooshroom_essence"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 10.0d,
+			id: 1040,
+			tasks: [{
+				id: 1041,
+				type: "item",
+				item: "mysticalagriculture:diamond_essence"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 11.0d,
+			id: 1042,
+			tasks: [{
+				id: 1043,
+				type: "item",
+				item: "mysticalagriculture:emerald_essence"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 12.0d,
+			id: 1044,
+			tasks: [{
+				id: 1045,
+				type: "item",
+				item: "mysticalagriculture:wither_skeleton_essence"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 13.0d,
+			id: 1046,
+			tasks: [{
+				id: 1047,
+				type: "item",
+				item: "mysticalagriculture:evoker_essence"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 8.0d,
+			id: 1048,
+			tasks: [{
+				id: 1049,
+				type: "item",
+				item: "mysticalagriculture:nether_star_essence"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 9.0d,
+			id: 1050,
+			tasks: [{
+				id: 1051,
+				type: "item",
+				item: "mysticalagriculture:dragon_egg_essence"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 10.0d,
+			id: 1052,
+			tasks: [{
+				id: 1053,
+				type: "item",
+				item: "mysticalagriculture:redstone_alloy_essence"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 11.0d,
+			id: 1054,
+			tasks: [{
+				id: 1055,
+				type: "item",
+				item: "mysticalagriculture:brass_essence"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 12.0d,
+			id: 1056,
+			tasks: [{
+				id: 1057,
+				type: "item",
+				item: "mysticalagriculture:compressed_iron_essence"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 13.0d,
+			id: 1058,
+			tasks: [{
+				id: 1059,
+				type: "item",
+				item: "mysticalagriculture:aluminum_steel_essence"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 8.0d,
+			id: 1060,
+			tasks: [{
+				id: 1061,
+				type: "item",
+				item: "mysticalagriculture:zinc_essence"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 9.0d,
+			id: 1062,
+			tasks: [{
+				id: 1063,
+				type: "item",
+				item: "mysticalagriculture:lead_essence"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 10.0d,
+			id: 1064,
+			tasks: [{
+				id: 1065,
+				type: "item",
+				item: "mysticalagriculture:ingot_uran_essence"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 11.0d,
+			id: 1066,
+			tasks: [{
+				id: 1067,
+				type: "item",
+				item: "mysticalagriculture:dark_set_essence"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 12.0d,
+			id: 1068,
+			tasks: [{
+				id: 1069,
+				type: "item",
+				item: "mysticalagriculture:steel_essence"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 13.0d,
+			id: 1070,
+			tasks: [{
+				id: 1071,
+				type: "item",
+				item: "mysticalagriculture:silver_essence"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 8.0d,
+			id: 1072,
+			tasks: [{
+				id: 1073,
+				type: "item",
+				item: "mysticalagriculture:bismuth_steel_essence"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 9.0d,
+			id: 1074,
+			tasks: [{
+				id: 1075,
+				type: "item",
+				item: "mysticalagriculture:osmium_essence"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 10.0d,
+			id: 1076,
+			tasks: [{
+				id: 1077,
+				type: "item",
+				item: "mysticalagriculture:ingot_lum_essence"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 11.0d,
+			id: 1078,
+			tasks: [{
+				id: 1079,
+				type: "item",
+				item: "mysticalagriculture:bronze_essence"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 12.0d,
+			id: 1080,
+			tasks: [{
+				id: 1081,
+				type: "item",
+				item: "mysticalagriculture:classic_set_essence"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 13.0d,
+			id: 1082,
+			tasks: [{
+				id: 1083,
+				type: "item",
+				item: "mysticalagriculture:bismuth_essence"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 8.0d,
+			id: 1084,
+			tasks: [{
+				id: 1085,
+				type: "item",
+				item: "mysticalagriculture:nickel_essence"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 9.0d,
+			id: 1086,
+			tasks: [{
+				id: 1087,
+				type: "item",
+				item: "mysticalagriculture:invar_essence"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 10.0d,
+			id: 1088,
+			tasks: [{
+				id: 1089,
+				type: "item",
+				item: "mysticalagriculture:refined_obsidian_essence"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 11.0d,
+			id: 1090,
+			tasks: [{
+				id: 1091,
+				type: "item",
+				item: "mysticalagriculture:refined_iron_essence"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 12.0d,
+			id: 1092,
+			tasks: [{
+				id: 1093,
+				type: "item",
+				item: "mysticalagriculture:refined_glowstone_essence"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 13.0d,
+			id: 1094,
+			tasks: [{
+				id: 1095,
+				type: "item",
+				item: "mysticalagriculture:ingot_ender_essence"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 8.0d,
+			id: 1096,
+			tasks: [{
+				id: 1097,
+				type: "item",
+				item: "mysticalagriculture:sulfur_essence"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 9.0d,
+			id: 1098,
+			tasks: [{
+				id: 1099,
+				type: "item",
+				item: "mysticalagriculture:light_set_essence"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 10.0d,
+			id: 1100,
+			tasks: [{
+				id: 1101,
+				type: "item",
+				item: "mysticalagriculture:ingot_signal_essence"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 11.0d,
+			id: 1102,
+			tasks: [{
+				id: 1103,
+				type: "item",
+				item: "mysticalagriculture:copper_essence"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 12.0d,
+			id: 1104,
+			tasks: [{
+				id: 1105,
+				type: "item",
+				item: "mysticalagriculture:electrum_essence"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 13.0d,
+			id: 1106,
+			tasks: [{
+				id: 1107,
+				type: "item",
+				item: "mysticalagriculture:pink_slime_essence"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 8.0d,
+			id: 1108,
+			tasks: [{
+				id: 1109,
+				type: "item",
+				item: "mysticalagriculture:tin_essence"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 9.0d,
+			id: 1110,
+			tasks: [{
+				id: 1111,
+				type: "item",
+				item: "mysticalagriculture:aluminum_essence"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 10.0d,
+			id: 1112,
+			tasks: [{
+				id: 1113,
+				type: "item",
+				item: "mysticalagriculture:bismuth_brass_essence"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 11.0d,
+			id: 1114,
+			tasks: [{
+				id: 1115,
+				type: "item",
+				item: "mysticalagriculture:plastic_essence"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 12.0d,
+			id: 1116,
+			tasks: [{
+				id: 1117,
+				type: "item",
+				item: "mysticalagriculture:platinum_essence"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 13.0d,
+			id: 1118,
+			tasks: [{
+				id: 1119,
+				type: "item",
+				item: "mysticalagriculture:salt_essence"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 8.0d,
+			id: 1120,
+			tasks: [{
+				id: 1121,
+				type: "item",
+				item: "mysticalagriculture:uranium_essence"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 9.0d,
+			id: 1122,
+			tasks: [{
+				id: 1123,
+				type: "item",
+				item: "mysticalagriculture:graphite_essence"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 10.0d,
+			id: 1124,
+			tasks: [{
+				id: 1125,
+				type: "item",
+				item: "mysticalagriculture:titanium_essence"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 11.0d,
+			id: 1126,
+			tasks: [{
+				id: 1127,
+				type: "item",
+				item: "mysticalagriculture:rubber_essence"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 12.0d,
+			id: 1128,
+			tasks: [{
+				id: 1129,
+				type: "item",
+				item: "mysticalagriculture:silicon_essence"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 13.0d,
+			id: 1130,
+			tasks: [{
+				id: 1131,
+				type: "item",
+				item: "mysticalagriculture:chrome_essence"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 8.0d,
+			id: 1132,
+			tasks: [{
+				id: 1133,
+				type: "item",
+				item: "mysticalagriculture:constantan_essence"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 9.0d,
+			id: 1134,
+			tasks: [{
+				id: 1135,
+				type: "item",
+				item: "mysticalagriculture:iridium_essence"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 10.0d,
+			id: 1136,
+			tasks: [{
+				id: 1137,
+				type: "item",
+				item: "mysticalagriculture:saltpeter_essence"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 11.0d,
+			id: 1138,
+			tasks: [{
+				id: 1139,
+				type: "item",
+				item: "mysticalagriculture:mithril_essence"
 			}]
 		}
 	]
