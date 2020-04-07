@@ -1,14 +1,14 @@
-========================================================
+﻿========================================================
 Really Awesome Mods 0.2.10 --> Really Awesome Mods 0.3.0
 ========================================================
 
-Update Forge to 31.1.38
-
+Update Forge to 31.1.36
 
 Added:
 - AutoRegLib
 - Botania
 - Building Gadgets
+- In Control!
 - KubeJS
 - Lithium (Forge)
 - Open Loader
@@ -21,6 +21,14 @@ Added:
 - Server Utilities
 
 Updated:
+	AttributeFix (AttributeFix-1.15.2-7.0.1.jar --> AttributeFix-1.15.2-7.0.2.jar):
+		AttributeFix-1.15.2-7.0.2.jar:
+			 * Built against latest Forge and MCP - Tyler Hancock Like the mod? Consider following me on [Twitter](https://twitter.com/darkhaxdev) and joining the [Discord]()
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?AttributeFix)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
 	Buzzier Bees (Buzzier Bees - 1.3 --> Buzzier Bees - 1.4):
 		Buzzier Bees - 1.4:
 			Florist has been rewritten and merged into this mod.
@@ -201,7 +209,10 @@ Updated:
 		Industrial Agriculture[Core] 1.15.2-1.6.7:
 			- added crux support for all Mystical Agriculture seed.
 
-	Inventory Tweaks Reborn (invtweaks-1.15.2-1.0.2.jar --> invtweaks-1.15.2-2.0.2.jar):
+	Inventory Tweaks Reborn (invtweaks-1.15.2-1.0.2.jar --> invtweaks-1.15.2-2.0.3.jar):
+		invtweaks-1.15.2-2.0.3.jar:
+			Fix inventory sorting not working when completely full
+
 		invtweaks-1.15.2-2.0.2.jar:
 			Really fix dedicated server crash, hopefully
 
@@ -690,6 +701,7 @@ Removed:
 - Lithium (Fabric)
 - Ma Chat
 - Ma Essentials
+- PeacefulSurface
 - The Veggie Way [FORGE]
 - XL Food Mod
 - 🍊 Fruit Trees
