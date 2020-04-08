@@ -29,8 +29,6 @@
     "command.ftbchunks.info",
     "command.ftbchunks.unclaim",
     "command.ftbchunks.unload",
-    "command.ftbquests",
-    "command.ftbquests.editing.mode",
     "command.ftbteams",
     "command.ftbteams.create",
     "command.ftbteams.create.name",
