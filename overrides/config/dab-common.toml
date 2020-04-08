@@ -12,7 +12,7 @@
 	#weight of the biome (set to 0 to disable generation). 
 	#default is 3
 	#Range: 0 ~ 256
-	weight = 3
+	weight = 2
 
 #amplifiedgiantsprucetaiga biome generation
 [amplifiedgiantsprucetaiga_biome]
@@ -27,7 +27,7 @@
 	#weight of the biome (set to 0 to disable generation). 
 	#default is 3
 	#Range: 0 ~ 256
-	weight = 3
+	weight = 2
 
 #amplifiedtaiga biome generation
 [amplifiedtaiga_biome]
@@ -42,7 +42,7 @@
 	#weight of the biome (set to 0 to disable generation). 
 	#default is 3
 	#Range: 0 ~ 256
-	weight = 3
+	weight = 2
 
 #amplifieddesert biome generation
 [amplifieddesert_biome]
@@ -57,7 +57,7 @@
 	#weight of the biome (set to 0 to disable generation). 
 	#default is 3
 	#Range: 0 ~ 256
-	weight = 3
+	weight = 2
 
 #amplifiedbirchforest biome generation
 [amplifiedbirchforest_biome]
@@ -72,7 +72,7 @@
 	#weight of the biome (set to 0 to disable generation). 
 	#default is 3
 	#Range: 0 ~ 256
-	weight = 3
+	weight = 2
 
 #amplifiedicespikes biome generation
 [amplifiedicespikes_biome]
@@ -87,7 +87,7 @@
 	#weight of the biome (set to 0 to disable generation). 
 	#default is 3
 	#Range: 0 ~ 256
-	weight = 3
+	weight = 2
 
 #amplifiedsavanna biome generation
 [amplifiedsavanna_biome]
@@ -102,7 +102,7 @@
 	#weight of the biome (set to 0 to disable generation). 
 	#default is 3
 	#Range: 0 ~ 256
-	weight = 3
+	weight = 2
 
 #amplifiedsnowytundra biome generation
 [amplifiedsnowytundra_biome]
@@ -117,7 +117,7 @@
 	#weight of the biome (set to 0 to disable generation). 
 	#default is 3
 	#Range: 0 ~ 256
-	weight = 3
+	weight = 2
 
 #amplifieddarkforest biome generation
 [amplifieddarkforest_biome]
@@ -132,7 +132,7 @@
 	#weight of the biome (set to 0 to disable generation). 
 	#default is 3
 	#Range: 0 ~ 256
-	weight = 3
+	weight = 2
 
 #amplifiedforest biome generation
 [amplifiedforest_biome]
@@ -147,7 +147,7 @@
 	#weight of the biome (set to 0 to disable generation). 
 	#default is 3
 	#Range: 0 ~ 256
-	weight = 3
+	weight = 2
 
 #amplifiedbadlands biome generation
 [amplifiedbadlands_biome]
@@ -162,7 +162,7 @@
 	#weight of the biome (set to 0 to disable generation). 
 	#default is 3
 	#Range: 0 ~ 256
-	weight = 3
+	weight = 2
 
 #amplifiedmushroom biome generation
 [amplifiedmushroom_biome]
@@ -177,7 +177,7 @@
 	#weight of the biome (set to 0 to disable generation). 
 	#default is 3
 	#Range: 0 ~ 256
-	weight = 3
+	weight = 2
 
 #amplifiedjungle biome generation
 [amplifiedjungle_biome]
@@ -192,5 +192,5 @@
 	#weight of the biome (set to 0 to disable generation). 
 	#default is 3
 	#Range: 0 ~ 256
-	weight = 3
+	weight = 2
 
