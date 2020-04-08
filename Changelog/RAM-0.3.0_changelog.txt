@@ -156,7 +156,16 @@ Updated:
 			- Fixed essence recipes in Mystical Agriculture overlapping
 			- Fixed cucumber-tags.json file not replacing "null" values if there's an item available
 
-	Cyclic (Cyclic-1.15.2-0.2.0.jar --> Cyclic-1.15.2-0.3.1.jar):
+	Cyclic (Cyclic-1.15.2-0.2.0.jar --> Cyclic-1.15.2-0.3.2.jar):
+		Cyclic-1.15.2-0.3.2.jar:
+			Fixed fire charm particles crashing serverside.
+			Fixed harvester not producing netherwart.
+			Fixed handheld item rendering.
+			Torch launcher is immensely less likely to place in invalid spots.
+			Experience pylon gives more information when using it, and now works with empty bottles.
+			When Ender Eye Reuse is used, the entity will Always shatter and never drop an item.
+			Experience pylon now has much higher capacity. 
+
 		Cyclic-1.15.2-0.3.1.jar:
 			Added item pipes
 			added fluid pipes
@@ -1125,5 +1134,11 @@ Removed:
 - The Veggie Way [FORGE]
 - XL Food Mod
 - 🍊 Fruit Trees
+
+Config:
+Reduced biome weight of DAB
+Reduced biome weight of Vampire Forest
+Re-enabled Reusable Enderpearl
+Enabled snow accumulation
 
 Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).
