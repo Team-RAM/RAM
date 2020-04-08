@@ -34,21 +34,6 @@
 		#Enable this feature. If false, the other settings in this category are ignored.
 		enabled = false
 
-	[item.grading]
-
-		#Settings for random grading of ungraded materials. This affects gear items crafted with ungraded parts, not parts graded in the part analyzer.
-		#Grading follows a normal distribution, which means that values closer to the mean (average) are more common.
-		[item.grading.random]
-			#Apply the same grade to all parts on the tool. This makes stats more random.
-			sameOnAllParts = true
-			#The maximum grade that ungraded parts can receive.
-			max = "S"
-			#The mean (average) grade assigned to ungraded parts.
-			mean = "C"
-			#The standard deviation (how 'spread out' the curve is) for random grading. Must be non-negative.
-			#Setting to zero would disable all randomness and grade all parts at the mean.
-			standardDeviation = 1.5
-
 	#Silent Gear allows some items to be used to place blocks.
 	#You can change which items place blocks and what other items they can activate.
 	[item.blockPlacers]

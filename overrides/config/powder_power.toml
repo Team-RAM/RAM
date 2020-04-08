@@ -19,6 +19,11 @@
 	#Range: 0 ~ 16
 	trilium_chestplate_armor_protection = 10
 
+[token_settings]
+	#Haste Token block break speed
+	#Range: 10 ~ 100
+	haste_token_break_speed = 30
+
 [material_values]
 	#Base Durability of the Trilium Tool Set
 	#Range: 0 ~ 999999

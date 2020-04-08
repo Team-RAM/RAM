@@ -1,0 +1,19 @@
+{
+	id: 614,
+	filename: "botania",
+	order_index: 7,
+	title: "Botania",
+	icon: "botania:spark",
+	quests: [{
+		title: "Begin Botania",
+		icon: "botania:lexicon",
+		x: -1.0d,
+		y: 0.0d,
+		id: 615,
+		rewards: [{
+			id: 617,
+			type: "item",
+			item: "botania:lexicon"
+		}]
+	}]
+}

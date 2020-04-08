@@ -1,0 +1,10 @@
+{
+  "name": "startingkit",
+  "kit": [
+    {
+      "nbt": "{id:\"ftbquests:book\",Count:1b}"
+    }
+  ],
+  "cooldown": 0,
+  "isDefault": true
+}

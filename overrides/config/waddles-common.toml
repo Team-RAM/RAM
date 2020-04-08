@@ -12,7 +12,7 @@
 	#Range: 0 ~ 64
 	max = 4
 	#Range: 0 ~ 100
-	weight = 2
+	weight = 4
 
 ["spawnable biomes"]
 	#BiomeDictionary types to include & exclude.

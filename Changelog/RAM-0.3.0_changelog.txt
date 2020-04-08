@@ -1,0 +1,1144 @@
+========================================================
+Really Awesome Mods 0.2.10 --> Really Awesome Mods 0.3.0
+========================================================
+
+Update Forge to 31.1.36
+
+Added:
+- AutoRegLib
+- Botania
+- Building Gadgets
+- KubeJS
+- Lithium (Forge)
+- Open Loader
+- Pam's HarvestCraft 2 - Crops
+- Pam's HarvestCraft 2 - Food Core
+- Pam's HarvestCraft 2 - Trees
+- Quark
+- Quark Oddities
+- Reliquary v1.3
+- Server Utilities
+
+Updated:
+	AttributeFix (AttributeFix-1.15.2-7.0.1.jar --> AttributeFix-1.15.2-7.0.2.jar):
+		AttributeFix-1.15.2-7.0.2.jar:
+			 * Built against latest Forge and MCP - Tyler Hancock Like the mod? Consider following me on [Twitter](https://twitter.com/darkhaxdev) and joining the [Discord]()
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?AttributeFix)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+	Buzzier Bees (Buzzier Bees - 1.3 --> Buzzier Bees - 1.4):
+		Buzzier Bees - 1.4:
+			Florist has been rewritten and merged into this mod.
+			New Beehives, flowers, and flower pots!
+			- Hibiscus Flowers - new flowers found in the Jungle! - Hanging Flower Pots & More Pottables - Most plants are pottable now, and includes some mod compatibility as well! - Daybloom was renamed to Yellow Hibiscus - Jolyce was renamed to Dianthus - Bamboo, Poise, and River Beehives (Poise has temporary texture) - Hidden Warped and Crimson Beehives (Warped has temporary texture) - Scented Candles for Atmospheric plants! - Fixed an issue with Bug Bottle duplication - Bee Bottles now retain Bee health - Honey Slime spawn egg colors are fixed - Honey Slimes can no longer be found
+			- Crystallized Honey no longer breaks from item entities
+			- Updated Biomes o' Plenty Beehive assets (Qbert)
+			- Scented Candles for Upgrade Aquatic plants!
+
+	Carpet Stairs Mod (Archived file --> Carpet Stairs Mod mc1.15 v1.4.1	):
+		Carpet Stairs Mod mc1.15 v1.4.1	:
+			Bug fix, de-spaghettied some code that utilised deprecated method that could cause server crash.
+
+		Carpet Stairs Mod mc1.15 v1.4.1	:
+			Reworked some hacky spaghetti code that was causing an issue in other languges.
+
+		Carpet Stairs Mod mc1.15 v1.4:
+			Carpet Stairs are now slimmer by default by two standard pixels units shorter on each side. When you place another carpet next to one though, that side will then fill out back to being full sized. The conditions are currently only set to fill out of it's a stair carpet on the side.
+
+		Carpet Stairs Mod mc1.15 v1.3.2:
+			Updated mod to run on the latest version of Forge.
+			Fixed a bug that would cause crash
+			Fixed some z-fighting issue with the double stairs/carpet block models
+			Removed unused json model
+			Reupload to proper name version of 1.3.2
+
+	Corail Tombstone (Corail Tombstone 4.3.1 for 1.15.2 --> Corail Tombstone 4.3.3 for 1.15.2):
+		Corail Tombstone 4.3.3 for 1.15.2:
+			This mod supports mc version from 1.8.9 to 1.15.2
+			Minecraft Version = [1.15.2] - Forge Version [31.1.8+]
+			Latest : 4.3.3 - Recommended : 4.3.1
+			Changes 4.3.3 :
+
+			 * - command tbteleportDeath, to teleport to the last death point (with a config for the cooldown, disabled by default)
+			- command tbbind, allowing to memorize some locations and teleport to them later (with a config for the cooldown to teleport, disabled by default)
+			-> the cd of tbbind won't work in this version, but fixed in next release
+			- config to allow the fishing condition inOpenWater (to find lost tablets)
+			- small fix about the cooldown of requestteleport (it reads another cooldown on load) Changes 4.3.2 :
+
+			 * - command tbteleportbiome (based on 1.16)
+			- command tbrequestteleport (with a config for the cooldown, not enabled by default)
+			 + rename the existing command to tbacceptteleport
+			- config for the max duration of stolen effect with magic siphon
+			- config for the duration of applied effect by plague bringer
+			- improvements about the preserved effects on death
+			- config to enable to auto-equip on respawn after a death
+			- the config about lost tablet rarity is now on 1000
+			- adapt the loot condition about fishing (requires still water for any space at Y <= the bobber, accept lilypad) Changes 4.3.1 :
+
+			 * - "magic items" by fishing in the junk lootable requires an open water space for the entity hook (in prevision of 1.16, don't try to make a hole ;))
+			- client config to define the fog color (this doesn't influence what is seen by others players)
+			- client config to define when fog can appear (day, night, both, never)
+			- something Changes 4.3.0 :
+
+			 * - projectiles (by using the left hand) don't apply the tombstone weapon enchantments of the mainhand
+			- fix the translation of earn/lose knowledge (from the previous version changes)
+			- remove perk entries from the api (related to forge error handling)
+			- adapt skull reward from the advancement about the favorite grave (as only undead skulls/heads are useable for decorative grave)
+			- compat with minecolonies : killing citizens, pirates & barbarians affect player's alignment
+			- config to define the level required for familiar receptacle (10 by default)
+			- adjust contributor rewards to fit the latest contents
+			- config to define the duration of scrolls
+			- config to backup players just before their death (default is false)
+			- client config option to favor the tools on the hotbar when recovering a grave
+			- same sync on config file change for client config being shared on the server (the config gui already does it)
+			- re-add the original tombstone model (adapted)
+			- anvil recipes for white marble grave are now visible in JEI (engraved name) Changes 4.2.5 :
+
+			 * - integration TheOneProbe
+			- display the Y on lost tablet tooltip before the first teleportation
+			- re-use the same casting particle texture as 1.12.2
+			- new enchantment Plague Bringer (can't combine with Magic Siphon)
+			- config to limit Plague Bringer to bad alignment player (or he will be affected with the same bad effect) - default true
+			- config for unhandled harmful effects with nausea in by default (also rename the config for beneficial effects)
+			- avoid a vanilla bug where onEntityDamaged is called twice for player for the mainhand
+			- limit plague bringer & magic siphon to be effective only on mainhand 
+
+		Corail Tombstone 4.3.2 for 1.15.2:
+			This mod supports mc version from 1.8.9 to 1.15.2
+			Minecraft Version = [1.15.2] - Forge Version [31.1.8+]
+			Latest : 4.3.2 - Recommended : 4.3.1
+			Changes 4.3.2 :
+
+			 * - command tbteleportbiome (based on 1.16)
+			- command tbrequestteleport (with a config for the cooldown, not enabled by default)
+			 + rename the existing command to tbacceptteleport
+			- config for the max duration of stolen effect with magic siphon
+			- config for the duration of applied effect by plague bringer
+			- improvements about the preserved effects on death
+			- config to enable to auto-equip on respawn after a death
+			- the config about lost tablet rarity is now on 1000
+			- adapt the loot condition about fishing (requires still water for any space at Y <= the bobber, accept lilypad) Changes 4.3.1 :
+
+			 * - "magic items" by fishing in the junk lootable requires an open water space for the entity hook (in prevision of 1.16, don't try to make a hole ;))
+			- client config to define the fog color (this doesn't influence what is seen by others players)
+			- client config to define when fog can appear (day, night, both, never)
+			- something Changes 4.3.0 :
+
+			 * - projectiles (by using the left hand) don't apply the tombstone weapon enchantments of the mainhand
+			- fix the translation of earn/lose knowledge (from the previous version changes)
+			- remove perk entries from the api (related to forge error handling)
+			- adapt skull reward from the advancement about the favorite grave (as only undead skulls/heads are useable for decorative grave)
+			- compat with minecolonies : killing citizens, pirates & barbarians affect player's alignment
+			- config to define the level required for familiar receptacle (10 by default)
+			- adjust contributor rewards to fit the latest contents
+			- config to define the duration of scrolls
+			- config to backup players just before their death (default is false)
+			- client config option to favor the tools on the hotbar when recovering a grave
+			- same sync on config file change for client config being shared on the server (the config gui already does it)
+			- re-add the original tombstone model (adapted)
+			- anvil recipes for white marble grave are now visible in JEI (engraved name) Changes 4.2.5 :
+
+			 * - integration TheOneProbe
+			- display the Y on lost tablet tooltip before the first teleportation
+			- re-use the same casting particle texture as 1.12.2
+			- new enchantment Plague Bringer (can't combine with Magic Siphon)
+			- config to limit Plague Bringer to bad alignment player (or he will be affected with the same bad effect) - default true
+			- config for unhandled harmful effects with nausea in by default (also rename the config for beneficial effects)
+			- avoid a vanilla bug where onEntityDamaged is called twice for player for the mainhand
+			- limit plague bringer & magic siphon to be effective only on mainhand 
+
+	Cucumber Library (Cucumber-1.15.2-3.0.3.jar --> Cucumber-1.15.2-3.0.4.jar):
+		Cucumber-1.15.2-3.0.4.jar:
+			Release 3.0.4 for MC 1.15.2
+			Changes:
+			- Fixed essence recipes in Mystical Agriculture overlapping
+			- Fixed cucumber-tags.json file not replacing "null" values if there's an item available
+
+	Cyclic (Cyclic-1.15.2-0.2.0.jar --> Cyclic-1.15.2-0.3.2.jar):
+		Cyclic-1.15.2-0.3.2.jar:
+			Fixed fire charm particles crashing serverside.
+			Fixed harvester not producing netherwart.
+			Fixed handheld item rendering.
+			Torch launcher is immensely less likely to place in invalid spots.
+			Experience pylon gives more information when using it, and now works with empty bottles.
+			When Ender Eye Reuse is used, the entity will Always shatter and never drop an item.
+			Experience pylon now has much higher capacity. 
+
+		Cyclic-1.15.2-0.3.1.jar:
+			Added item pipes
+			added fluid pipes
+			New item Cable wrench
+			added structure builder
+			Changed some other things, this is an alpha build for testing but its pretty stable.
+
+		Cyclic-1.15.2-0.3.0.jar:
+			Fixed logpsam from fluid tank
+			Added powered anvil, three building items, block randomizer, Anti-gravity ring.
+			Many items now correctly consume durability and play sounds
+			Still beta release report issues as they are found and enjoy
+
+	DimStorage (DimStorage-1.15.2-3.0.3 --> DimStorage-1.15.2-3.1.0):
+		DimStorage-1.15.2-3.1.0:
+			- The liquid update!
+
+	Elementary Staffs (1.7 --> 1.7.1):
+		1.7.1:
+			A new Update :D
+			Changelog:
+			-All Staff Recipes now Grouped
+			-Added Enchantment with the name "Magical Power" its increase the power of a staff (it can only found in dungeons)
+			-The Wind Staff was renewed (replaced old function)
+			-Water Staff have now Sounds
+			-Bubble have now Particle
+			-Staff Size Changed
+			-Added Particle and Sound for Ice Staff
+			-Change the Damage of all Staffs (now like the Better Dungeon mod)
+			-Upgraded forge to 31.1.30
+
+	Extra Boats (Version 1.3.0 for Minecraft 1.15.2 --> Version 1.3.2 for Minecraft 1.15.2):
+		Version 1.3.2 for Minecraft 1.15.2:
+			- Boats with chests are now craftable with modded wooden chests
+			- Updated driftwood boat textures
+
+		Version 1.3.1 for Minecraft 1.15.2:
+			- Changed the color of hive boats to be consistent with the ones from Buzzier Bees
+			- Fixed incorrect burning times
+			- Upgrade Aquatic, Bamboo Blocks, Bloomful, Swamp Expansion, Endergetic Expansion and Atmospheric boats no longer have missing textures when newer versions of the previously mentioned mods are installed
+
+	Forbidden and Arcanus (forbidden_arcanus-1.15.2-1.2-beta-3.jar --> forbidden_arcanus-1.15.2-1.2-beta-4.jar):
+		forbidden_arcanus-1.15.2-1.2-beta-4.jar:
+			forbidden_arcanus-1.15.2-1.2-beta-4
+			-you should now be able to open the Forbiddenmicon without crashing the game
+			-Updated zh_cn translation
+			-Added Blast Furnace/Smoker recipes
+
+	I Like Wood (ilikewood-1.15.2-2.2.0.1 --> ilikewood-1.15.2-2.2.2.0):
+		ilikewood-1.15.2-2.2.2.0:
+			Added posts + stripped posts
+
+		ilikewood-1.15.2-2.2.1.0:
+			JEI support for crafting tables
+
+	Industrial Agriculture (Industrial Agriculture[Core] 1.15.2-1.6.6 --> Industrial Agriculture[Core] 1.15.2-1.7.0):
+		Industrial Agriculture[Core] 1.15.2-1.7.0:
+			- Added a way to add cruxes to Mystical Agriculture seeds
+
+		Industrial Agriculture[Core] 1.15.2-1.6.7:
+			- added crux support for all Mystical Agriculture seed.
+
+	Inventory Tweaks Reborn (invtweaks-1.15.2-1.0.2.jar --> invtweaks-1.15.2-2.0.3.jar):
+		invtweaks-1.15.2-2.0.3.jar:
+			Fix inventory sorting not working when completely full
+
+		invtweaks-1.15.2-2.0.2.jar:
+			Really fix dedicated server crash, hopefully
+
+		invtweaks-1.15.2-2.0.1.jar:
+			Fix crash on dedicated servers
+
+		invtweaks-1.15.2-2.0.0.jar:
+			The start of client-side functionality
+
+		invtweaks-1.15.2-1.0.3.jar:
+			Fix support w/ certain inventories
+
+	JAOPCA (JAOPCA-1.15.2-3.0.0.21.jar --> JAOPCA-1.15.2-3.2.0.8.jar):
+		JAOPCA-1.15.2-3.2.0.8.jar:
+			Added material localizations
+			Added Chinese translations
+
+	Lollipop (Lollipop-1.15.2-1.0.13.jar --> Lollipop-1.15.2-1.0.14.jar):
+		Lollipop-1.15.2-1.0.14.jar:
+			No changelog provided.
+
+	Mekanism (Mekanism-1.15.2-9.9.17.409.jar --> Mekanism-1.15.2-9.9.18.410.jar):
+		Mekanism-1.15.2-9.9.18.410.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[d32dd87](https://github.com/mekanism/Mekanism/commit/d32dd8717a558904fa346300c6aa6cf7c7429586) - Fix QE voxel model, improve interactions with TransitRequest/TransitResponse to make code cleaner and prevent some unnecessary computation [90eaa7b](https://github.com/mekanism/Mekanism/commit/90eaa7bbbec94756561d3a1c80198882c884238d) - Allow Fluid Tanks to push overflow water to upper tanks even if auto-eject is enabled. Also, mild performance enhancement. [6f1b2e9](https://github.com/mekanism/Mekanism/commit/6f1b2e98ad473d8341efe2c2082a1635da953692) - Cache pathfinder score alongside path itself, further reducing computation [e463776](https://github.com/mekanism/Mekanism/commit/e46377691a35e92b0bad7e5b0955af6a4b805bdc) - Fix energy usage of free runners when stopping fall damage, and make it only reduce the damage by as much as it has energy for. Also add a hud display string to show how much energy is currently stored in the free runners being worn [d47e417](https://github.com/mekanism/Mekanism/commit/d47e41764d91ae0d801a55595b46657d145f674d) - Fix dynamic tanks and boilers voiding contents on load [6de9665](https://github.com/mekanism/Mekanism/commit/6de9665224801e5b7da2f68240a63494f117e6ca) - Implement more advanced pathfinding caching, preventing single transmitter updates from flushing the game-wide cache This should lead to pretty substantial performance increases, especially in large servers [9294e3e](https://github.com/mekanism/Mekanism/commit/9294e3ecb774dd2dd4cface80e8142067af3735f) - Rewrite how mode changing for items works internally, and change it so using the mode change key makes the mode go forwards, and holding shift (sneak) and using the mode change key makes it go back one mode (note: this is how it used to go forwards) [#5833](https://github.com/mekanism/Mekanism/issues/5833) - Moved atomic disassembler to using the mode change key rather than sneak right clicking - Added support for scrolling for all mode items that get used in your hand - Added a few more lang keys for when modes change, and changed a couple lang keys slightly to be more "unified" - Changed key bindings to set their "category" as the localization string for Mekanism rather than directly as Mekanism - Made mode change keys only get tracked when not in GUIs - Added changeable keybinds for showing machine descriptions [#5158](https://github.com/mekanism/Mekanism/issues/5158) [4574219](https://github.com/mekanism/Mekanism/commit/4574219828f7e57ad19c3e3110c1c9131d0990b5) - Change network unique id and multiblock unique id to actually being UUIDs this will cause most multiblocks to lose their data on initial load. Fixed turbines not quite working properly due to the accidental loss of the correct block [545145e](https://github.com/mekanism/Mekanism/commit/545145ee9eab421baf778914622b497451994150) - Fix setting energy values in GUIs [#5996](https://github.com/mekanism/Mekanism/issues/5996) [d7166a4](https://github.com/mekanism/Mekanism/commit/d7166a4c4bc9dbdf74a7a229c8eb5932df085b44) - Cache the baked quads for transmitter contents, drastically improving the FPS [#5127](https://github.com/mekanism/Mekanism/issues/5127) [1a344f2](https://github.com/mekanism/Mekanism/commit/1a344f2aa67e30cd7da665fd546646e4838bf261) - Start work on making networks sync to clients more accurately and not require the client to request an update from the network. - The contents of the network don't sync yet on first load - Various bugs need to be fixed about the visual connections of incompatible networks, though I believe this might have been broken earlier during the port from 1.12 [053cb08](https://github.com/mekanism/Mekanism/commit/053cb089e7f05c782e59947943d36ccfb5843ce5) - Fix some invalid connections from rendering [21945d5](https://github.com/mekanism/Mekanism/commit/21945d5be4e4f3fbd91c85aff4b8641a518f76cf) - Stop networks from having a specific client side tick, as they no longer need/use it [0ce1684](https://github.com/mekanism/Mekanism/commit/0ce1684f1d3f702c5bfbb7f3c2e4457436812004) - Improve network auto disconnection [f917691](https://github.com/mekanism/Mekanism/commit/f9176912f81a56ebfd163b5a582180444ce701ca) - Further improve the logic, by not allowing connecting to orphan transmitters if it can have incompatible networks. Instead once a network claims an orphan then it updates the connections [b1af021](https://github.com/mekanism/Mekanism/commit/b1af021c8ada2f3ae42e0b3eee38e7def1a40708) - Improve how we invalidate the transmitter's model, hopefully should finally resolve [#5922](https://github.com/mekanism/Mekanism/issues/5922) [dcdd2c3](https://github.com/mekanism/Mekanism/commit/dcdd2c38694d6bdb1352f18a5ae6b5cb9fb1b775) - Use our own custom handling for drawing selection boxes of some of the more advanced ones. [#5747](https://github.com/mekanism/Mekanism/issues/5747) Eventually we may try to further improve it so it draws lines at angles and such, but for now this is a quick and easy way to massively improve the FPS [a27ae7e](https://github.com/mekanism/Mekanism/commit/a27ae7e8a4abbfda60d902d1ce2e770fdf051435) - Define a way to sync less information on non initial update packets. Use this to do the initial sync for what is in the contents of pressurized tubes, mechanical pipes, and universal cables [c0cb85e](https://github.com/mekanism/Mekanism/commit/c0cb85ebbbc28ba4faa130d19db60c517dd99df6) - Fixed Robit crafting, added tighter JEI integration to Robit & Formulaic Assemblicator [671b449](https://github.com/mekanism/Mekanism/commit/671b44987a544d6912bdce4ef3783915270d3033) - Fixed multiblocks not sparkling when reforming, fix allowed frame blocks for multiblocks [91f69e5](https://github.com/mekanism/Mekanism/commit/91f69e5a714a4725e9988014fa517b0d3a242825) - Fix CME ([#6009](https://github.com/mekanism/Mekanism/issues/6009)) [2d4eaa1](https://github.com/mekanism/Mekanism/commit/2d4eaa18012ceb9a97fd1cea8f52985c37b63d74) - Fix various issues with rendering not updating properly when incompatible networks merge after becoming compatible, or if the network is empty, and the "type" that is passing through it changes Note: There are still some issues with the networks not properly merging/once unmerged again, visually are able to connect [1732b2b](https://github.com/mekanism/Mekanism/commit/1732b2bbc2991e68e141659f68903ce6d6662d69) - Add some safety checking against zero capacity networks [#6010](https://github.com/mekanism/Mekanism/issues/6010) [5b2c63c](https://github.com/mekanism/Mekanism/commit/5b2c63cf7951cbb8e88cbad9777fb1f6b4a17f11) - Fix fallback for before configs load for pipe pull rate limit. [#6011](https://github.com/mekanism/Mekanism/issues/6011) [d9a2e29](https://github.com/mekanism/Mekanism/commit/d9a2e299843b38b4f8ef5f74df231b1bbed1e3fd) - Slightly improve logic for connecting pressurized tubes or mechanical pipes [9e85eff](https://github.com/mekanism/Mekanism/commit/9e85effc14f12fb697eb80583b787014846483ec) - Further optimize mark dirty of our tiles so that we can call them in a way that does not have to recheck the blockstate if we don't believe it has changed [#5997](https://github.com/mekanism/Mekanism/issues/5997) [acf8dc3](https://github.com/mekanism/Mekanism/commit/acf8dc3c342e7650fcff8069efb5a33e3764d23e) - Fix not properly handling attempting to send large amounts of items at once [f0dc5e6](https://github.com/mekanism/Mekanism/commit/f0dc5e62c6dc89710a490feb6b45f5bd42953d1d) - Cleanup not properly handling input/output supported checks for entangloporter side configs, and also reduce amount of duplicate code needed for creating proxies for valves in multiblocks [51b7400](https://github.com/mekanism/Mekanism/commit/51b7400191fefa93fb61405a7dc76ae5bec07e43) - Fix bio generator not actually needing fuel to produce power [#6017](https://github.com/mekanism/Mekanism/issues/6017) and improve its fluid scale calculation [13424b6](https://github.com/mekanism/Mekanism/commit/13424b63ba4bff369e69e0f9396229742bdbd073) - Fix Coord4D constructor [88c2e33](https://github.com/mekanism/Mekanism/commit/88c2e3389e338123ede95df6ba3b444a5551c16e) - Work on moving gui interactions to a newer packet system [76ad73c](https://github.com/mekanism/Mekanism/commit/76ad73c7fbf6cffedde6742a19ba81981bebbddc) - Fix heat network flow translation [1c3ae0f](https://github.com/mekanism/Mekanism/commit/1c3ae0fb39cb302aac7f3c95efbe01a1eb9f66d7) - Fix a couple lang issues, and make it so that the directions are localizable [b5b6af7](https://github.com/mekanism/Mekanism/commit/b5b6af7da283513b88c5ca81ae796c13df46cdb7) - create ja_jp.json ([#6025](https://github.com/mekanism/Mekanism/issues/6025)) [e3cb07c](https://github.com/mekanism/Mekanism/commit/e3cb07c787e2fe5273c1706bf2e204140d4e2280) - Adjust indentation to match other json files, and remove the old ja_jp.lang file now that it has been properly ported [4c17257](https://github.com/mekanism/Mekanism/commit/4c172573c36337102926298a0eb4b8b0be8dafa6) - Bump dev forge version and bump TOP version to directly make use of the new PacketBuffer params [91a5eb3](https://github.com/mekanism/Mekanism/commit/91a5eb318c3581d609aeee9ec511923797a4c8d6) - Write backend for creating sounds.json files via data generators an move our sounds.json files over to being made via data generators. Also strip out the optional replace tag from tags when it is default, and strip out forge's new optional list from tags when there are none set [4ad99b3](https://github.com/mekanism/Mekanism/commit/4ad99b3299e9f89c4b2aa1165bd4e8b97603b177) - Cleanup our implementation of having all types of tags be able to be provided from a single class so as to make it more easily extensible [ca61a0d](https://github.com/mekanism/Mekanism/commit/ca61a0d1dc2203466bba7f757a79d07062bc8af4) - Continue work on rewriting how we handle packets, and cleanup some constructor calls [89bc6ce](https://github.com/mekanism/Mekanism/commit/89bc6cea961092a134d3c42f2723f3f31798f22b) - Continue work on rewriting how we handle packets [67785a7](https://github.com/mekanism/Mekanism/commit/67785a7fe339dcdb02edd40fa7dd6611548b8a1e) - Move transporter syncing to its own packet rather than using PacketTileEntity [ee2571d](https://github.com/mekanism/Mekanism/commit/ee2571d87210eef770cab58fafb9d36a267863ef) - Continue work on rewriting our packet handling system [3bcf9bc](https://github.com/mekanism/Mekanism/commit/3bcf9bc344fb585ed4e13a638dd3e57aa6769d46) - Rewrite handling of flamethrower, jetpack, and gas mask active state sync [fc20942](https://github.com/mekanism/Mekanism/commit/fc209427df79cb3fead8228d85594533addb06b0) - Continue work on rewriting handling of packets [27e0ff4](https://github.com/mekanism/Mekanism/commit/27e0ff46bc16546a878b0368d0f7112b2ea40389) - Cleanup implementation of security update packet [67fee8f](https://github.com/mekanism/Mekanism/commit/67fee8f4be7913f53c92c3dcb89522f5b2ef3f65) - Make it easier for modules to register their own packet handlers and move generator's packet to being in its own packet handler [4fbc92d](https://github.com/mekanism/Mekanism/commit/4fbc92de418a75a2b23bee8b4c1b2eb249786b28) - Remove the need for TileNetworkList [5fba2b7](https://github.com/mekanism/Mekanism/commit/5fba2b7a02ce6d9aa6f3558946efafd013735ce0) - Fix some issues with recipe upgrading [#6019](https://github.com/mekanism/Mekanism/issues/6019), and also improve performance of calculations so that we don't bother checking items that don't have any NBT. Also fix the majority of items ending up with an empty mekData tag, and fix jei subtype interpreter not working if one item supports multiple types of data [9243dcc](https://github.com/mekanism/Mekanism/commit/9243dcc552c7bc27a2dfa0f824e5333ba511233e) - Split portable teleporter packet into a client to server packet and a server to client response packet [c6533a3](https://github.com/mekanism/Mekanism/commit/c6533a3e1337ee9f9ebcf7815e16c8b1f302358e) - Rewrite handling of gauge dropper and add support for handling infusion types in it [#5821](https://github.com/mekanism/Mekanism/issues/5821). Also make "durability bar" for storage items like gas display the color of the stored gas [0e50209](https://github.com/mekanism/Mekanism/commit/0e502097dbb58167f29677af7ef712f6024b5c2a) - Void excess energy for upgrade recipes, fixes not being able to craft a robit with filled energy tablets [87e98e2](https://github.com/mekanism/Mekanism/commit/87e98e2aac8d0c73e2903ea29ae3a7943ee14af5) - Bump version to 9.9.18 
+
+	Mekanism Generators (MekanismGenerators-1.15.2-9.9.17.409.jar --> MekanismGenerators-1.15.2-9.9.18.410.jar):
+		MekanismGenerators-1.15.2-9.9.18.410.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[d32dd87](https://github.com/mekanism/Mekanism/commit/d32dd8717a558904fa346300c6aa6cf7c7429586) - Fix QE voxel model, improve interactions with TransitRequest/TransitResponse to make code cleaner and prevent some unnecessary computation [90eaa7b](https://github.com/mekanism/Mekanism/commit/90eaa7bbbec94756561d3a1c80198882c884238d) - Allow Fluid Tanks to push overflow water to upper tanks even if auto-eject is enabled. Also, mild performance enhancement. [6f1b2e9](https://github.com/mekanism/Mekanism/commit/6f1b2e98ad473d8341efe2c2082a1635da953692) - Cache pathfinder score alongside path itself, further reducing computation [e463776](https://github.com/mekanism/Mekanism/commit/e46377691a35e92b0bad7e5b0955af6a4b805bdc) - Fix energy usage of free runners when stopping fall damage, and make it only reduce the damage by as much as it has energy for. Also add a hud display string to show how much energy is currently stored in the free runners being worn [d47e417](https://github.com/mekanism/Mekanism/commit/d47e41764d91ae0d801a55595b46657d145f674d) - Fix dynamic tanks and boilers voiding contents on load [6de9665](https://github.com/mekanism/Mekanism/commit/6de9665224801e5b7da2f68240a63494f117e6ca) - Implement more advanced pathfinding caching, preventing single transmitter updates from flushing the game-wide cache This should lead to pretty substantial performance increases, especially in large servers [9294e3e](https://github.com/mekanism/Mekanism/commit/9294e3ecb774dd2dd4cface80e8142067af3735f) - Rewrite how mode changing for items works internally, and change it so using the mode change key makes the mode go forwards, and holding shift (sneak) and using the mode change key makes it go back one mode (note: this is how it used to go forwards) [#5833](https://github.com/mekanism/Mekanism/issues/5833) - Moved atomic disassembler to using the mode change key rather than sneak right clicking - Added support for scrolling for all mode items that get used in your hand - Added a few more lang keys for when modes change, and changed a couple lang keys slightly to be more "unified" - Changed key bindings to set their "category" as the localization string for Mekanism rather than directly as Mekanism - Made mode change keys only get tracked when not in GUIs - Added changeable keybinds for showing machine descriptions [#5158](https://github.com/mekanism/Mekanism/issues/5158) [4574219](https://github.com/mekanism/Mekanism/commit/4574219828f7e57ad19c3e3110c1c9131d0990b5) - Change network unique id and multiblock unique id to actually being UUIDs this will cause most multiblocks to lose their data on initial load. Fixed turbines not quite working properly due to the accidental loss of the correct block [545145e](https://github.com/mekanism/Mekanism/commit/545145ee9eab421baf778914622b497451994150) - Fix setting energy values in GUIs [#5996](https://github.com/mekanism/Mekanism/issues/5996) [d7166a4](https://github.com/mekanism/Mekanism/commit/d7166a4c4bc9dbdf74a7a229c8eb5932df085b44) - Cache the baked quads for transmitter contents, drastically improving the FPS [#5127](https://github.com/mekanism/Mekanism/issues/5127) [1a344f2](https://github.com/mekanism/Mekanism/commit/1a344f2aa67e30cd7da665fd546646e4838bf261) - Start work on making networks sync to clients more accurately and not require the client to request an update from the network. - The contents of the network don't sync yet on first load - Various bugs need to be fixed about the visual connections of incompatible networks, though I believe this might have been broken earlier during the port from 1.12 [053cb08](https://github.com/mekanism/Mekanism/commit/053cb089e7f05c782e59947943d36ccfb5843ce5) - Fix some invalid connections from rendering [21945d5](https://github.com/mekanism/Mekanism/commit/21945d5be4e4f3fbd91c85aff4b8641a518f76cf) - Stop networks from having a specific client side tick, as they no longer need/use it [0ce1684](https://github.com/mekanism/Mekanism/commit/0ce1684f1d3f702c5bfbb7f3c2e4457436812004) - Improve network auto disconnection [f917691](https://github.com/mekanism/Mekanism/commit/f9176912f81a56ebfd163b5a582180444ce701ca) - Further improve the logic, by not allowing connecting to orphan transmitters if it can have incompatible networks. Instead once a network claims an orphan then it updates the connections [b1af021](https://github.com/mekanism/Mekanism/commit/b1af021c8ada2f3ae42e0b3eee38e7def1a40708) - Improve how we invalidate the transmitter's model, hopefully should finally resolve [#5922](https://github.com/mekanism/Mekanism/issues/5922) [dcdd2c3](https://github.com/mekanism/Mekanism/commit/dcdd2c38694d6bdb1352f18a5ae6b5cb9fb1b775) - Use our own custom handling for drawing selection boxes of some of the more advanced ones. [#5747](https://github.com/mekanism/Mekanism/issues/5747) Eventually we may try to further improve it so it draws lines at angles and such, but for now this is a quick and easy way to massively improve the FPS [a27ae7e](https://github.com/mekanism/Mekanism/commit/a27ae7e8a4abbfda60d902d1ce2e770fdf051435) - Define a way to sync less information on non initial update packets. Use this to do the initial sync for what is in the contents of pressurized tubes, mechanical pipes, and universal cables [c0cb85e](https://github.com/mekanism/Mekanism/commit/c0cb85ebbbc28ba4faa130d19db60c517dd99df6) - Fixed Robit crafting, added tighter JEI integration to Robit & Formulaic Assemblicator [671b449](https://github.com/mekanism/Mekanism/commit/671b44987a544d6912bdce4ef3783915270d3033) - Fixed multiblocks not sparkling when reforming, fix allowed frame blocks for multiblocks [91f69e5](https://github.com/mekanism/Mekanism/commit/91f69e5a714a4725e9988014fa517b0d3a242825) - Fix CME ([#6009](https://github.com/mekanism/Mekanism/issues/6009)) [2d4eaa1](https://github.com/mekanism/Mekanism/commit/2d4eaa18012ceb9a97fd1cea8f52985c37b63d74) - Fix various issues with rendering not updating properly when incompatible networks merge after becoming compatible, or if the network is empty, and the "type" that is passing through it changes Note: There are still some issues with the networks not properly merging/once unmerged again, visually are able to connect [1732b2b](https://github.com/mekanism/Mekanism/commit/1732b2bbc2991e68e141659f68903ce6d6662d69) - Add some safety checking against zero capacity networks [#6010](https://github.com/mekanism/Mekanism/issues/6010) [5b2c63c](https://github.com/mekanism/Mekanism/commit/5b2c63cf7951cbb8e88cbad9777fb1f6b4a17f11) - Fix fallback for before configs load for pipe pull rate limit. [#6011](https://github.com/mekanism/Mekanism/issues/6011) [d9a2e29](https://github.com/mekanism/Mekanism/commit/d9a2e299843b38b4f8ef5f74df231b1bbed1e3fd) - Slightly improve logic for connecting pressurized tubes or mechanical pipes [9e85eff](https://github.com/mekanism/Mekanism/commit/9e85effc14f12fb697eb80583b787014846483ec) - Further optimize mark dirty of our tiles so that we can call them in a way that does not have to recheck the blockstate if we don't believe it has changed [#5997](https://github.com/mekanism/Mekanism/issues/5997) [acf8dc3](https://github.com/mekanism/Mekanism/commit/acf8dc3c342e7650fcff8069efb5a33e3764d23e) - Fix not properly handling attempting to send large amounts of items at once [f0dc5e6](https://github.com/mekanism/Mekanism/commit/f0dc5e62c6dc89710a490feb6b45f5bd42953d1d) - Cleanup not properly handling input/output supported checks for entangloporter side configs, and also reduce amount of duplicate code needed for creating proxies for valves in multiblocks [51b7400](https://github.com/mekanism/Mekanism/commit/51b7400191fefa93fb61405a7dc76ae5bec07e43) - Fix bio generator not actually needing fuel to produce power [#6017](https://github.com/mekanism/Mekanism/issues/6017) and improve its fluid scale calculation [13424b6](https://github.com/mekanism/Mekanism/commit/13424b63ba4bff369e69e0f9396229742bdbd073) - Fix Coord4D constructor [88c2e33](https://github.com/mekanism/Mekanism/commit/88c2e3389e338123ede95df6ba3b444a5551c16e) - Work on moving gui interactions to a newer packet system [76ad73c](https://github.com/mekanism/Mekanism/commit/76ad73c7fbf6cffedde6742a19ba81981bebbddc) - Fix heat network flow translation [1c3ae0f](https://github.com/mekanism/Mekanism/commit/1c3ae0fb39cb302aac7f3c95efbe01a1eb9f66d7) - Fix a couple lang issues, and make it so that the directions are localizable [b5b6af7](https://github.com/mekanism/Mekanism/commit/b5b6af7da283513b88c5ca81ae796c13df46cdb7) - create ja_jp.json ([#6025](https://github.com/mekanism/Mekanism/issues/6025)) [e3cb07c](https://github.com/mekanism/Mekanism/commit/e3cb07c787e2fe5273c1706bf2e204140d4e2280) - Adjust indentation to match other json files, and remove the old ja_jp.lang file now that it has been properly ported [4c17257](https://github.com/mekanism/Mekanism/commit/4c172573c36337102926298a0eb4b8b0be8dafa6) - Bump dev forge version and bump TOP version to directly make use of the new PacketBuffer params [91a5eb3](https://github.com/mekanism/Mekanism/commit/91a5eb318c3581d609aeee9ec511923797a4c8d6) - Write backend for creating sounds.json files via data generators an move our sounds.json files over to being made via data generators. Also strip out the optional replace tag from tags when it is default, and strip out forge's new optional list from tags when there are none set [4ad99b3](https://github.com/mekanism/Mekanism/commit/4ad99b3299e9f89c4b2aa1165bd4e8b97603b177) - Cleanup our implementation of having all types of tags be able to be provided from a single class so as to make it more easily extensible [ca61a0d](https://github.com/mekanism/Mekanism/commit/ca61a0d1dc2203466bba7f757a79d07062bc8af4) - Continue work on rewriting how we handle packets, and cleanup some constructor calls [89bc6ce](https://github.com/mekanism/Mekanism/commit/89bc6cea961092a134d3c42f2723f3f31798f22b) - Continue work on rewriting how we handle packets [67785a7](https://github.com/mekanism/Mekanism/commit/67785a7fe339dcdb02edd40fa7dd6611548b8a1e) - Move transporter syncing to its own packet rather than using PacketTileEntity [ee2571d](https://github.com/mekanism/Mekanism/commit/ee2571d87210eef770cab58fafb9d36a267863ef) - Continue work on rewriting our packet handling system [3bcf9bc](https://github.com/mekanism/Mekanism/commit/3bcf9bc344fb585ed4e13a638dd3e57aa6769d46) - Rewrite handling of flamethrower, jetpack, and gas mask active state sync [fc20942](https://github.com/mekanism/Mekanism/commit/fc209427df79cb3fead8228d85594533addb06b0) - Continue work on rewriting handling of packets [27e0ff4](https://github.com/mekanism/Mekanism/commit/27e0ff46bc16546a878b0368d0f7112b2ea40389) - Cleanup implementation of security update packet [67fee8f](https://github.com/mekanism/Mekanism/commit/67fee8f4be7913f53c92c3dcb89522f5b2ef3f65) - Make it easier for modules to register their own packet handlers and move generator's packet to being in its own packet handler [4fbc92d](https://github.com/mekanism/Mekanism/commit/4fbc92de418a75a2b23bee8b4c1b2eb249786b28) - Remove the need for TileNetworkList [5fba2b7](https://github.com/mekanism/Mekanism/commit/5fba2b7a02ce6d9aa6f3558946efafd013735ce0) - Fix some issues with recipe upgrading [#6019](https://github.com/mekanism/Mekanism/issues/6019), and also improve performance of calculations so that we don't bother checking items that don't have any NBT. Also fix the majority of items ending up with an empty mekData tag, and fix jei subtype interpreter not working if one item supports multiple types of data [9243dcc](https://github.com/mekanism/Mekanism/commit/9243dcc552c7bc27a2dfa0f824e5333ba511233e) - Split portable teleporter packet into a client to server packet and a server to client response packet [c6533a3](https://github.com/mekanism/Mekanism/commit/c6533a3e1337ee9f9ebcf7815e16c8b1f302358e) - Rewrite handling of gauge dropper and add support for handling infusion types in it [#5821](https://github.com/mekanism/Mekanism/issues/5821). Also make "durability bar" for storage items like gas display the color of the stored gas [0e50209](https://github.com/mekanism/Mekanism/commit/0e502097dbb58167f29677af7ef712f6024b5c2a) - Void excess energy for upgrade recipes, fixes not being able to craft a robit with filled energy tablets [87e98e2](https://github.com/mekanism/Mekanism/commit/87e98e2aac8d0c73e2903ea29ae3a7943ee14af5) - Bump version to 9.9.18 
+
+	Mekanism Tools (MekanismTools-1.15.2-9.9.17.409.jar --> MekanismTools-1.15.2-9.9.18.410.jar):
+		MekanismTools-1.15.2-9.9.18.410.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[d32dd87](https://github.com/mekanism/Mekanism/commit/d32dd8717a558904fa346300c6aa6cf7c7429586) - Fix QE voxel model, improve interactions with TransitRequest/TransitResponse to make code cleaner and prevent some unnecessary computation [90eaa7b](https://github.com/mekanism/Mekanism/commit/90eaa7bbbec94756561d3a1c80198882c884238d) - Allow Fluid Tanks to push overflow water to upper tanks even if auto-eject is enabled. Also, mild performance enhancement. [6f1b2e9](https://github.com/mekanism/Mekanism/commit/6f1b2e98ad473d8341efe2c2082a1635da953692) - Cache pathfinder score alongside path itself, further reducing computation [e463776](https://github.com/mekanism/Mekanism/commit/e46377691a35e92b0bad7e5b0955af6a4b805bdc) - Fix energy usage of free runners when stopping fall damage, and make it only reduce the damage by as much as it has energy for. Also add a hud display string to show how much energy is currently stored in the free runners being worn [d47e417](https://github.com/mekanism/Mekanism/commit/d47e41764d91ae0d801a55595b46657d145f674d) - Fix dynamic tanks and boilers voiding contents on load [6de9665](https://github.com/mekanism/Mekanism/commit/6de9665224801e5b7da2f68240a63494f117e6ca) - Implement more advanced pathfinding caching, preventing single transmitter updates from flushing the game-wide cache This should lead to pretty substantial performance increases, especially in large servers [9294e3e](https://github.com/mekanism/Mekanism/commit/9294e3ecb774dd2dd4cface80e8142067af3735f) - Rewrite how mode changing for items works internally, and change it so using the mode change key makes the mode go forwards, and holding shift (sneak) and using the mode change key makes it go back one mode (note: this is how it used to go forwards) [#5833](https://github.com/mekanism/Mekanism/issues/5833) - Moved atomic disassembler to using the mode change key rather than sneak right clicking - Added support for scrolling for all mode items that get used in your hand - Added a few more lang keys for when modes change, and changed a couple lang keys slightly to be more "unified" - Changed key bindings to set their "category" as the localization string for Mekanism rather than directly as Mekanism - Made mode change keys only get tracked when not in GUIs - Added changeable keybinds for showing machine descriptions [#5158](https://github.com/mekanism/Mekanism/issues/5158) [4574219](https://github.com/mekanism/Mekanism/commit/4574219828f7e57ad19c3e3110c1c9131d0990b5) - Change network unique id and multiblock unique id to actually being UUIDs this will cause most multiblocks to lose their data on initial load. Fixed turbines not quite working properly due to the accidental loss of the correct block [545145e](https://github.com/mekanism/Mekanism/commit/545145ee9eab421baf778914622b497451994150) - Fix setting energy values in GUIs [#5996](https://github.com/mekanism/Mekanism/issues/5996) [d7166a4](https://github.com/mekanism/Mekanism/commit/d7166a4c4bc9dbdf74a7a229c8eb5932df085b44) - Cache the baked quads for transmitter contents, drastically improving the FPS [#5127](https://github.com/mekanism/Mekanism/issues/5127) [1a344f2](https://github.com/mekanism/Mekanism/commit/1a344f2aa67e30cd7da665fd546646e4838bf261) - Start work on making networks sync to clients more accurately and not require the client to request an update from the network. - The contents of the network don't sync yet on first load - Various bugs need to be fixed about the visual connections of incompatible networks, though I believe this might have been broken earlier during the port from 1.12 [053cb08](https://github.com/mekanism/Mekanism/commit/053cb089e7f05c782e59947943d36ccfb5843ce5) - Fix some invalid connections from rendering [21945d5](https://github.com/mekanism/Mekanism/commit/21945d5be4e4f3fbd91c85aff4b8641a518f76cf) - Stop networks from having a specific client side tick, as they no longer need/use it [0ce1684](https://github.com/mekanism/Mekanism/commit/0ce1684f1d3f702c5bfbb7f3c2e4457436812004) - Improve network auto disconnection [f917691](https://github.com/mekanism/Mekanism/commit/f9176912f81a56ebfd163b5a582180444ce701ca) - Further improve the logic, by not allowing connecting to orphan transmitters if it can have incompatible networks. Instead once a network claims an orphan then it updates the connections [b1af021](https://github.com/mekanism/Mekanism/commit/b1af021c8ada2f3ae42e0b3eee38e7def1a40708) - Improve how we invalidate the transmitter's model, hopefully should finally resolve [#5922](https://github.com/mekanism/Mekanism/issues/5922) [dcdd2c3](https://github.com/mekanism/Mekanism/commit/dcdd2c38694d6bdb1352f18a5ae6b5cb9fb1b775) - Use our own custom handling for drawing selection boxes of some of the more advanced ones. [#5747](https://github.com/mekanism/Mekanism/issues/5747) Eventually we may try to further improve it so it draws lines at angles and such, but for now this is a quick and easy way to massively improve the FPS [a27ae7e](https://github.com/mekanism/Mekanism/commit/a27ae7e8a4abbfda60d902d1ce2e770fdf051435) - Define a way to sync less information on non initial update packets. Use this to do the initial sync for what is in the contents of pressurized tubes, mechanical pipes, and universal cables [c0cb85e](https://github.com/mekanism/Mekanism/commit/c0cb85ebbbc28ba4faa130d19db60c517dd99df6) - Fixed Robit crafting, added tighter JEI integration to Robit & Formulaic Assemblicator [671b449](https://github.com/mekanism/Mekanism/commit/671b44987a544d6912bdce4ef3783915270d3033) - Fixed multiblocks not sparkling when reforming, fix allowed frame blocks for multiblocks [91f69e5](https://github.com/mekanism/Mekanism/commit/91f69e5a714a4725e9988014fa517b0d3a242825) - Fix CME ([#6009](https://github.com/mekanism/Mekanism/issues/6009)) [2d4eaa1](https://github.com/mekanism/Mekanism/commit/2d4eaa18012ceb9a97fd1cea8f52985c37b63d74) - Fix various issues with rendering not updating properly when incompatible networks merge after becoming compatible, or if the network is empty, and the "type" that is passing through it changes Note: There are still some issues with the networks not properly merging/once unmerged again, visually are able to connect [1732b2b](https://github.com/mekanism/Mekanism/commit/1732b2bbc2991e68e141659f68903ce6d6662d69) - Add some safety checking against zero capacity networks [#6010](https://github.com/mekanism/Mekanism/issues/6010) [5b2c63c](https://github.com/mekanism/Mekanism/commit/5b2c63cf7951cbb8e88cbad9777fb1f6b4a17f11) - Fix fallback for before configs load for pipe pull rate limit. [#6011](https://github.com/mekanism/Mekanism/issues/6011) [d9a2e29](https://github.com/mekanism/Mekanism/commit/d9a2e299843b38b4f8ef5f74df231b1bbed1e3fd) - Slightly improve logic for connecting pressurized tubes or mechanical pipes [9e85eff](https://github.com/mekanism/Mekanism/commit/9e85effc14f12fb697eb80583b787014846483ec) - Further optimize mark dirty of our tiles so that we can call them in a way that does not have to recheck the blockstate if we don't believe it has changed [#5997](https://github.com/mekanism/Mekanism/issues/5997) [acf8dc3](https://github.com/mekanism/Mekanism/commit/acf8dc3c342e7650fcff8069efb5a33e3764d23e) - Fix not properly handling attempting to send large amounts of items at once [f0dc5e6](https://github.com/mekanism/Mekanism/commit/f0dc5e62c6dc89710a490feb6b45f5bd42953d1d) - Cleanup not properly handling input/output supported checks for entangloporter side configs, and also reduce amount of duplicate code needed for creating proxies for valves in multiblocks [51b7400](https://github.com/mekanism/Mekanism/commit/51b7400191fefa93fb61405a7dc76ae5bec07e43) - Fix bio generator not actually needing fuel to produce power [#6017](https://github.com/mekanism/Mekanism/issues/6017) and improve its fluid scale calculation [13424b6](https://github.com/mekanism/Mekanism/commit/13424b63ba4bff369e69e0f9396229742bdbd073) - Fix Coord4D constructor [88c2e33](https://github.com/mekanism/Mekanism/commit/88c2e3389e338123ede95df6ba3b444a5551c16e) - Work on moving gui interactions to a newer packet system [76ad73c](https://github.com/mekanism/Mekanism/commit/76ad73c7fbf6cffedde6742a19ba81981bebbddc) - Fix heat network flow translation [1c3ae0f](https://github.com/mekanism/Mekanism/commit/1c3ae0fb39cb302aac7f3c95efbe01a1eb9f66d7) - Fix a couple lang issues, and make it so that the directions are localizable [b5b6af7](https://github.com/mekanism/Mekanism/commit/b5b6af7da283513b88c5ca81ae796c13df46cdb7) - create ja_jp.json ([#6025](https://github.com/mekanism/Mekanism/issues/6025)) [e3cb07c](https://github.com/mekanism/Mekanism/commit/e3cb07c787e2fe5273c1706bf2e204140d4e2280) - Adjust indentation to match other json files, and remove the old ja_jp.lang file now that it has been properly ported [4c17257](https://github.com/mekanism/Mekanism/commit/4c172573c36337102926298a0eb4b8b0be8dafa6) - Bump dev forge version and bump TOP version to directly make use of the new PacketBuffer params [91a5eb3](https://github.com/mekanism/Mekanism/commit/91a5eb318c3581d609aeee9ec511923797a4c8d6) - Write backend for creating sounds.json files via data generators an move our sounds.json files over to being made via data generators. Also strip out the optional replace tag from tags when it is default, and strip out forge's new optional list from tags when there are none set [4ad99b3](https://github.com/mekanism/Mekanism/commit/4ad99b3299e9f89c4b2aa1165bd4e8b97603b177) - Cleanup our implementation of having all types of tags be able to be provided from a single class so as to make it more easily extensible [ca61a0d](https://github.com/mekanism/Mekanism/commit/ca61a0d1dc2203466bba7f757a79d07062bc8af4) - Continue work on rewriting how we handle packets, and cleanup some constructor calls [89bc6ce](https://github.com/mekanism/Mekanism/commit/89bc6cea961092a134d3c42f2723f3f31798f22b) - Continue work on rewriting how we handle packets [67785a7](https://github.com/mekanism/Mekanism/commit/67785a7fe339dcdb02edd40fa7dd6611548b8a1e) - Move transporter syncing to its own packet rather than using PacketTileEntity [ee2571d](https://github.com/mekanism/Mekanism/commit/ee2571d87210eef770cab58fafb9d36a267863ef) - Continue work on rewriting our packet handling system [3bcf9bc](https://github.com/mekanism/Mekanism/commit/3bcf9bc344fb585ed4e13a638dd3e57aa6769d46) - Rewrite handling of flamethrower, jetpack, and gas mask active state sync [fc20942](https://github.com/mekanism/Mekanism/commit/fc209427df79cb3fead8228d85594533addb06b0) - Continue work on rewriting handling of packets [27e0ff4](https://github.com/mekanism/Mekanism/commit/27e0ff46bc16546a878b0368d0f7112b2ea40389) - Cleanup implementation of security update packet [67fee8f](https://github.com/mekanism/Mekanism/commit/67fee8f4be7913f53c92c3dcb89522f5b2ef3f65) - Make it easier for modules to register their own packet handlers and move generator's packet to being in its own packet handler [4fbc92d](https://github.com/mekanism/Mekanism/commit/4fbc92de418a75a2b23bee8b4c1b2eb249786b28) - Remove the need for TileNetworkList [5fba2b7](https://github.com/mekanism/Mekanism/commit/5fba2b7a02ce6d9aa6f3558946efafd013735ce0) - Fix some issues with recipe upgrading [#6019](https://github.com/mekanism/Mekanism/issues/6019), and also improve performance of calculations so that we don't bother checking items that don't have any NBT. Also fix the majority of items ending up with an empty mekData tag, and fix jei subtype interpreter not working if one item supports multiple types of data [9243dcc](https://github.com/mekanism/Mekanism/commit/9243dcc552c7bc27a2dfa0f824e5333ba511233e) - Split portable teleporter packet into a client to server packet and a server to client response packet [c6533a3](https://github.com/mekanism/Mekanism/commit/c6533a3e1337ee9f9ebcf7815e16c8b1f302358e) - Rewrite handling of gauge dropper and add support for handling infusion types in it [#5821](https://github.com/mekanism/Mekanism/issues/5821). Also make "durability bar" for storage items like gas display the color of the stored gas [0e50209](https://github.com/mekanism/Mekanism/commit/0e502097dbb58167f29677af7ef712f6024b5c2a) - Void excess energy for upgrade recipes, fixes not being able to craft a robit with filled energy tablets [87e98e2](https://github.com/mekanism/Mekanism/commit/87e98e2aac8d0c73e2903ea29ae3a7943ee14af5) - Bump version to 9.9.18 
+
+	Mining Gadgets (MiningGadgets-1.3.1 --> MiningGadgets-1.3.5):
+		MiningGadgets-1.3.5:
+			Latest updates to Mining Gadgets including sounds and some visual tweaks.
+
+	Nature's Aura (NaturesAura-23.3.jar --> NaturesAura-23.5.jar):
+		NaturesAura-23.5.jar:
+			- Fixed configs not being respected for book content
+			- Fixed the extraneous firestarter collision box
+			- Fixed some items missing in recipes in the book
+
+		NaturesAura-23.4.jar:
+			- Fixed a depth rendering issue with particles and certain mods
+			- Fixed a possible patchouli mod ordering issue that caused multiblocks to break the book (fun)
+
+	Ores Above Diamonds (Ores Above Diamonds 1.15 - v3.2 --> Ores Above Diamonds 1.15 - v3.3):
+		Ores Above Diamonds 1.15 - v3.3:
+			- Amethyst and Black Opal related items have their names colored!
+			- Amethyst and Black Opal spawn rates were increased to compensate for more accurate vanilla continuity. They are now 3x rarer and 9x rarer respectively.
+			DELETE YOUR OLD CONFIG FILE IF YOU ARE UPDATING FROM A PREVIOUS VERSION! Thanks, and enjoy!
+
+	Patchouli (Patchouli-1.15.2-1.2-28.jar --> Patchouli-1.15.2-1.2-30.jar):
+		Patchouli-1.15.2-1.2-30.jar:
+			- Suppress quick lookup in all book guis, restriction may be relaxed later
+			- Fix page numbers being treated like spread numbers and vice versa in many places in the mod.
+
+		Patchouli-1.15.2-1.2-29.jar:
+			- Fix some blocks rendering incorrectly in multiblocks
+			- Potential fix for the "everything becomes boxes" font bug
+			- Fix quick lookup not working for custom books
+			- Expose the ability to open a specific entry from the API.
+
+	Phosphor (Forge) (Archived file --> Phosphor mc1.15.2-0.5.2+build.4):
+		Phosphor mc1.15.2-0.5.2+build.4:
+			This update contains a number of performance improvements and bug fixes. In particular, world generation times should be improved by upwards of 20-30% and micro-stutter which occurs when moving around in the world (caused by trying to unload light data arrays) should be mostly resolved.
+
+	Powah! (Powah-1.15.2-1.1.11.jar --> Powah-1.15.2-1.1.12.jar):
+		Powah-1.15.2-1.1.12.jar:
+			1.1.12
+			- Now you can see the progress of the Energizing orb when using the one probe.
+			- Added comparator support for forge energy.
+			- Added Storage block for uraninite.
+			- Added recipe for smelting uraninite ore directly, Closes #62.
+			- Fixed Thermo generators behaving weird, Closes #64
+			- Updated [Lollipop](https://www.curseforge.com/minecraft/mc-mods/lollipop/files) to 1.0.14.
+			1.1.11
+			- Did full rewrite for the network system, this should fix all problem in the multi player world.
+			- Updated Lollipop to 1.0.13
+			This release tested multiple times in dedicated server, thanks to all testers in our discord.
+			1.1.10
+			- Re-Fixed bug when can not change channels, Redstone settings and side config.
+			- Added Chinese localization zh_cn.json, Thanks to EnterFor.
+			- Updated Lollipop to 1.0.12
+			1.1.9
+			- Added support for energizing recipes from json like vanilla, examples: [http://bit.ly/3baHdLr]().
+			- Fixed buttons not functioning in multiPlayer world.
+			- Fixed empty tags.
+			- Updated Lollipop to 1.0.11
+			1.1.8
+			- Fixed Energy data not appearing in TOP/Waila.
+			- Fixed redstone stop magmator from receiving fluids.
+			- Replaced some recipe tags with actual item stacks until empty tags bux got fixed.
+			- Added new command to generate CraftTweaker example zs script instead of generating on startup.
+			- Updated Lollipop to 1.0.10
+			Important NOTE!!: There is two bugs still can't fix them: (empty forge tags) and (some times button not functioning in multiPlayer world)
+			hoping i can fix theme in the next release, also i'm experiencing some health issues and that's why im slowly working on this mod and 3 other
+			projects two of theme are not released yet.
+			1.1.7
+			- Added hovering hud to energizing rods to see the energy stored.
+			- Separated redstone on/off for generators from the energy transfer.
+			- Updated Lollipop to 1.0.9
+			1.1.6
+			- Fixed Uraninite ores not generating in some biomes/dimensions, Closes #49.
+			- Fixed cables power delivery sorting.
+			- Updated Lollipop to 1.0.8
+			1.1.5
+			- Fixed Binding card causing a client crash, Closes #47.
+			- Fixed dry ice not dropping because of missing loot table.
+			- Updated Lollipop to 1.0.7
+			1.1.4
+			- Fixed a dummy dump server crash
+			- Updated Lollipop to 1.0.6
+			1.1.3
+			- Fixed Gui configuration screen offset.
+			- Fixed weird block lighting.
+			- Updated Lollipop to 1.0.5
+			1.1.2
+			- Fixed Manual 2 items pages has the same text Closes #40.
+			1.1.1
+			- Fixed some slots not rendering in to the GUI.
+			- Added missing GUI's screen titles.
+			- Updated Lollipop to 1.0.4
+			1.1.0
+			- Fixed Magmator fluid wrong rendering.
+			- Added Blazing Crystal block as a heat source for the Thermo gen with heat of 2800c.
+			- Changed Nitro crystal recipe output from 24 to 16.
+			- Updated Lollipop to 1.0.3
+			1.0.3
+			- Re-Implemented crafttweaker for energizing recipes.
+			- Added recipe for the manual (forgot to add it in last version).
+			- Fixed some blocks not keeping their energy when broken.
+			- Updated Lollipop to 1.0.2
+			1.0.2
+			- Re-added the manual with new entries for batteries and lens of ender and updated some screenshots.
+			- Fixed cables has wrong config.
+			- Fixed reactor tooltip.
+			1.0.1
+			- Fixed reactor placing overlay not rendering correctly.
+			- Updated Lollipop to 1.0.1.
+			1.0.0
+			- Added Two new tiers "Starter" and "Nitro".
+			- Added Batteries charge items when is in player inventory.
+			- Now Energy Hopper, Energy discharger and Player transmitter all has the known tiers.
+			- Added Dimensional binding card a replacement of Dimensional player transmitter.
+			- Reworked most of models/textures.
+			- Rebalanced energy outputs and some crafting recipes.
+			- the Book (manual) still WIP!!
+			- 1.15.2 initial release.
+			- Updated Lollipop to 1.0.0.
+			- Require forge 31.1.12 or higher.
+			NOTE!: this is the first initial release, it may contains bug or crash your world.
+
+	Powder Power [FORGE] (PowderPower-1.15.2-3.1.48.jar --> PowderPower-1.15.2-3.1.54.jar):
+		PowderPower-1.15.2-3.1.54.jar:
+			UPDATES:
+
+			 * - Added more Tokens to be used in Belt slots 
+			 * - Converted tokens that used Sneak + right-click to Shift + right-click 
+
+		PowderPower-1.15.2-3.1.53.jar:
+			Updated Forge to 31.1.36
+			Updated Curios API to 2.0.2.1
+			Added a few Easter eggs of sort
+
+			 * Removed Enderchest checking on Token effects 
+			 * Adjusted the Token of Night Vision texture 
+			 * Added new Unseen Token, which makes the player unseen by Phantoms while in inventory, unseen to many other mobs while in main hand and off hand is empty 
+
+		PowderPower-1.15.2-3.1.52.jar:
+			Updated Forge to 31.1.35
+			Updated MCP mappings
+
+		PowderPower-1.15.2-3.1.51.jar:
+			UPDATES:
+
+			 * - Nerfed Attack Resistance Token which now gives Resistance I 
+			 * - Added new Greater Attack Resistance Token which gives Resistance II 
+			 * - Nerfed Strength Token which gives now Strength I 
+			 * - Added new Greater Strength Token which gives Strength II 
+			 * - Nerfed Absorption Token which gives 1/3 less per update than before and max of 5 yellow hearts (10 absorption points) 
+			 * - Added Greater Absorption Token that gives what original version gave and max of 10 yellow hearts (20 absorption points) 
+			 * - Fixed bug that was giving an extra half yellow heart 
+			 * - Fixed Healing Token recipe to use medium, not trillium 
+			 * - Nerfed Healing Token to just have health and food refresh, moved other perks to Greater Healing Token 
+			 * - Added Greater Healing Token that adds full saturation, extinguish flame, and clears any active potion effects (good or bad) 
+
+		PowderPower-1.15.2-3.1.50.jar:
+			 * - Updated Forge to 31.1.30 
+			 * - Re-coded the Haste Token. It no longer use the vanilla Haste effect, it provides an event-based, efficiency-like effect directly by increasing player break speed, the break speed can be adjusted in the config 
+			 * - Adjusted the Paxels so that they respect proper tool types of Pickaxe, Axe, and Shovel 
+
+		PowderPower-1.15.2-3.1.49.jar:
+			Added Chinese translation
+
+	Ring of Attraction [FORGE] (RingOfAttraction-1.15.2-1.1.22.jar --> RingOfAttraction-1.15.2-1.1.25.jar):
+		RingOfAttraction-1.15.2-1.1.25.jar:
+			Converted to Deferred Register method
+			Updated Forge to 31.1.37
+			Updated MCP mappings
+
+		RingOfAttraction-1.15.2-1.1.24.jar:
+			Updated Forge to 31.1.36
+			Updated MCP
+			Some internal code clean-up
+
+		RingOfAttraction-1.15.2-1.1.23.jar:
+			Updated Forge to 31.1.30
+			Updated Curios API to 2.0.2.1
+			Updated MCP mappings
+
+	Silent Gear (SilentGear-1.15.2-1.5.4+79.jar --> SilentGear-1.15.2-1.5.6+81.jar):
+		SilentGear-1.15.2-1.5.6+81.jar:
+			# Changelog
+			The format is based on [Keep a Changelog]([https://keepachangelog.com/en/1.0.0/]()),
+			and this project adheres to [Semantic Versioning]([https://semver.org/spec/v2.0.0.html]()).
+			## [1.5.6] - 2020-04-07
+			### Added
+			- Attribute modifier traits. These will apply attribute modifiers to gear items based on the type of gear and the trait level.
+			### Changed
+			- (API) Replace Lombok getters with normal getters. API unchanged, just makes the code clearer.
+			## [1.5.5] - 2020-04-03
+			### Removed
+			- Part analyzer advancement
+			### Fixed
+			- Possible solution for CME in PartManager [#104]
+			## [1.5.4] - 2020-03-18
+			### Fixed
+			- Main parts still showing grade tooltip [#83]
+			## [1.5.3] - 2020-03-06
+			### Added
+			- Mine and Slash integration via new data pack system (AzureDoom) [#94]
+			## [1.5.2] - 2020-02-20
+			### Fixed
+			- Stone torch (wall version) transparency issue
+			## [1.5.1] - 2020-02-11
+			### Fixed
+			- Crimson iron dust and ore chunks are no longer hidden when Silent's Mechanisms is not installed [#87]
+			- Cutout blocks (flax, stone torch) rendering incorrectly [#86]
+			- Version in crafting station screen showing 1.14.4 instead of actual Minecraft version [#85]
+			## [1.5.0] - 2020-02-01
+			Ported to Minecraft 1.15.2
+			### Added
+			- Login message to warn the player when parts and traits fail to load. Instructs the player on what to search for in their log file ("Failed to reload data packs").
+			### Removed
+			- The part analyzer and part grading. See issue [#83]([https://github.com/SilentChaos512/Silent-Gear/issues/83](https://github.com/SilentChaos512/Silent-Gear/issues/83)) for plans/discussion.
+			## [1.4.6] - 2019-12-25
+			### Fixed
+			- Tooltip crash with gear, possibly caused by removed traits [#81]
+			- Fix some harmless(?) warning about material grade command arguments [#80]
+			## [1.4.5] - 2019-11-25
+			### Changed
+			- Armor now gains Mine and Slash stats (AzureZhen) [#78, #79]
+			- Remove material mixing tooltip from blueprints, as they are no longer true [#73)]
+			## [1.4.4] - 2019-11-05
+			### Added
+			- End stone main part
+			### Changed
+			- Increased lumber axe melee damage
+			### Fixed
+			- Possibly fixes part crafting items being scrambled in worlds where items have been added/removed [#74]
+			## [1.4.3] - 2019-10-01
+			### Added
+			- Lumber axe (finally). Chops down entire trees by breaking a single block. Trees are defined as logs with leaves attached. The standard block tags for logs and leaves are used. Textures may need some work...
+			### Fixed
+			- Possibly fixed crash caused by Console HUD [#68, #53]
+			## [1.4.2] - 2019-09-29
+			### Added
+			- (API) `IGearPart#onGearDamaged`
+			### Fixed
+			- Crafting station dropping inventory when rotated
+			## [1.4.1] - 2019-09-18
+			### Fixed
+			- Part analyzer not dropping inventory when broken [#62]
+			- Axes breaking permanently when stripping bark [#63]
+			- Broken shovels being usable with Dirt2Path [#63]
+			## [1.4.0] - 2019-09-13
+			Bump required Forge version to 28.1+, Silent Lib 4.4.0
+			### Fixed
+			- Should make part and trait maps thread-safe (I hope) [#59]
+			### Fixed
+			- Upgrade parts applying to invalid gear items
+			## [1.3.11] - 2019-09-10
+			### Changed
+			- Data paths for parts and traits changed. silentgear/parts is now silentgear_parts and silentgear/traits is now silentgear_traits. Files in the old location will still load for now.
+			### Fixed
+			- Hidden parts appearing on the parts screen in the crafting station
+			- Sound type of flax plants
+			## [1.3.10] - 2019-09-04
+			Update requires Forge 28.0.83 or higher
+			### Added
+			- A joke part: barrier
+			### Changed
+			- Part names and prefixes are now serialized like vanilla text (`translate` to translate, `text` for literal text). Old part files will load correctly.
+			- Part name prefixes no longer nested in `name`, moved to `name_prefix`
+			### Fixed
+			- Armor not using blended colors
+			- Should fix barrier items being produced when salvaging some items
+			## [1.3.9] - 2019-08-19
+			### Added
+			- Gear name prefixes. Can be added to individual parts (see rough rods for any example), or through an event (GearNamePrefixesEvent)
+			### Changed
+			- Mine and Slash random drops are now tier 1 minimum
+			- Mine and Slash random drops should now be salvagable
+			### Fixed
+			- Hammer dupe [#51]
+			- JEI failing to load on servers [#52]
+			- JEI complaining about QuickRepairRecipe
+			## [1.3.8] - 2019-08-13
+			### Fixed
+			- Mine and Slash compatibility race condition
+			## [1.3.7] - 2019-08-13
+			### Added
+			- Basic compatibility for Mine and Slash
+			### Fixed
+			- Parts blacklisted for "all" gear types not actually being blacklisted
+			## [1.3.6] - 2019-08-12
+			### Added
+			- Stat multiplier configs for gear. These allow the stat values of all items to be increased or decreased without overwriting every part file.
+			- Gear type blacklist to part tooltips
+			- Texture for phantom light item, translated name [#44]
+			### Fixed
+			- Ranged damage stat being ignored
+			## [1.3.5] - 2019-08-06
+			Updated for Forge 28.0.45
+			### Fixed
+			- Tool head swapping restoring durability in some cases... for real this time [#45]
+			## [1.3.4] - 2019-08-02
+			### Added
+			- Custom tipped upgrades should now show up in JEI and creative tabs
+			- A couple more advancements
+			- Sort button to parts GUI. This is no longer a drop down list, it just cycles the options (just wanted a quick fix for right now)
+			### Fixed
+			- Parts with malformed JSON not raising an error (may not detect all cases still...) [#41]
+			- Tool head swapping restoring durability in some cases [#43]
+			- Some armor items missing color
+			## [1.3.3] - 2019-07-30
+			### Changed
+			- Make parsing of part crafting items less strict. The `item` property will be removed if `tag` is present. Undefined tags will no longer prevent the part from loading (but you still won't be able to craft with it, of course)
+			### Fixed
+			- Hammers destroying the NBT of certain blocks, like shulker boxes and soul urns [Silent's Gems #384]
+			- Color handlers crashing the game in some cases [#39]
+			## [1.3.2] - 2019-07-28
+			### Added
+			- Custom tipped upgrades. This is a single item which allows the part to be changed with NBT. Just set "PartID" to the ID of the part. For the crafting items of the part, replace the usual "normal" object with an empty "custom_tipped_upgrade" object. You will need to create the recipe for the upgrade yourself.
+			- The "nerfed gear" config is back. Disabled by default. You can set any damageable item to have reduced durability, to encourage use of Silent Gear over vanilla items (or items from other mods if you wish). This may not work for all items.
+			### Changed
+			- Part analyzer optimized a bit. Should reduce tick time when it's not working.
+			- Lite gear models reworked. Added grip layer to tools. Some layers support a very limited set of alternate textures.
+			- Internal changes to how parts are detected. May reduce performance slightly in some cases. This was needed for custom tipped upgrades.
+			## [1.3.1] - 2019-07-24
+			### Added
+			- A `hidden` property for traits. Hidden traits will not be shown in the list of traits on an item, unless advanced tooltips (F3+H) are enabled.
+			- Trait conditions, which allow conditions to be assigned to traits on parts. The part will not apply the trait to a gear item if the conditions are not met.
+			### Fixed
+			- Some gear crafting recipes not working [#36]
+			- Diamond and glowstone tip upgrades not having the Lustrous trait
+			## [1.3.0] - 2019-07-23
+			- Update to 1.14.4
+			## [1.2.4] - 2019-07-22
+			### Fixed
+			- Random crash with Silent's Gems
+			## [1.2.3] - 2019-07-21
+			### Added
+			- Config to enable additional logging for loading and syncing parts and traits
+			- Tier 3 analyzer catalyst tag (no items in it by default)
+			- Recipe to replace the head of a tool. Craft a tool with a tool head (a tool with only main parts). The old head is retained.
+			- Spear blueprints to the "swords" loot pool for the blueprint package
+			### Changed
+			- Trait descriptions are now shown in item tooltips when the Alt key is held down
+			- Parts with zero armor durability are automatically blacklisted for armor crafting. Similarly, zero durability will blacklist all other gear types.
+			### Fixed
+			- Traits not loading on OS X
+			- Gear type blacklist for parts now actually works
+			- Some armor textures being broken
+			- Overrode vanilla's dumb repair recipe again... This disables crafting grid "repairs" of Silent Gear items, but the grindstone still works.
+			## [1.2.2] - 2019-07-17
+			### Added
+			- New trait type, `silentgear:nbt_trait`. This will add arbitrary NBT to gear items when crafted.
+			- Missing models for crossbow blueprints and templates
+			- Crusher recipes (Silent's Mechanisms) for crimson iron ore
+			- Notify players on login of part and trait files that failed to load
+			### Changed
+			- Trait lists in tooltips tweaked (hopefully they won't be confused for enchantments?)
+			- Sickles reset sweet berry bushes to age 1 (same as picking berries from them normally)
+			- Machetes can now break multiple bamboo blocks at once
+			### Fixed
+			- Sickles duplicating dirt from grass blocks, possibly some other related issues
+			## [1.2.1] - 2019-07-11
+			### Added
+			- Crossbows. These have some minor animation issues (because vanilla is dumb), but they function correctly.
+			### Changed
+			- Random grading now assigns the same grade to all parts. Added a config which can revert to the old behavior.
+			### Fixed
+			- Some issues with the JEI plugin on servers
+			- Blended head colors including non-main parts
+			- Possibly improves part analyzer performance
+			## [1.2.0] - 2019-07-01
+			Updated for Minecraft 1.14.3
+			## [1.1.3] - 2019-06-24
+			JEI plugin is up to date. Recommended Forge is 26.0.51 or later.
+			### Added
+			- A few new traits, assigned to some existing parts
+			### Changed
+			- Small change to trait level calculations
+			- Blueprint paper recipe now uses the vanilla blue dye item only, until Forge fixes the blue dye tag
+			## [1.1.2] - 2019-06-21
+			### Added
+			- Loot condition `silentgear:has_part`, which can check if a gear item has a particular part. Can also check the grade of the part.
+			- Loot condition `silentgear:has_trait`, which can check if a gear item has a given trait
+			- Gear stat changes are now logged in the debug log. There will be a config for this later, but for right now it is forced on.
+			### Fixed
+			- Issue where trait data was not being sent completely during client login
+			## [1.1.1] - 2019-06-20
+			### Added
+			- Netherwood slabs and stairs
+			- Recipe advancements (most recipes will show in the recipe book when you get certain items)
+			- New command, `sgear_random_gear` which will give randomized gear items
+			- Loot table function for setting specific parts on a gear item
+			- Chinese translation (zh_cn, by XuyuEre)
+			### Fixed
+			- Example gear items not appearing in the creative tab
+			## [1.1.0] - 2019-06-17
+			### Added
+			- Configs for random grading. You can adjust the mean, standard deviation, and max grade.
+			- Gear with mixed main parts will blend the colors, but with much greater weight on earlier parts
+			### Removed
+			- Blue flower and black/blue dyes (use cornflowers and new vanilla dyes instead)
+			### Changed
+			- Netherwood tree generation (more leaves, subject to change)
+			## [1.0.12] - 2019-05-11
+			### Changed
+			- Blueprints and templates now have the output item in their name, instead of the tooltip
+			### Fixed
+			- Stats not calculating correctly in some cases (e.g. tip upgrades) [#27]
+			- Bow "lite" models are animated now
+			- Rod and bowstring blueprints/templates being consumed during crafting
+			## [1.0.11] - 2019-05-08
+			### Added
+			- Command to recalculate stats on all of a player's gear (can target multiple players)
+			- Command to list all registered parts. Also shows how many of each type there are.
+			### Fixed
+			- Parts and traits should now sync all needed data with clients
+			- Fix gear losing their stats during recalculations (e.g. ka-chink)
+			- Flax plants not growing
+			## [1.0.10] - 2019-05-08
+			### Added
+			- Config to disable enchanted effect on gear items (this adds a new client config file). Since the effect is broken on vanilla models, this is disabled by default.
+			- Spears. They are weaker than swords, but have a much longer reach. These may need some balancing still.
+			### Fixed
+			- Should fix gear parts and traits not syncing to clients on LAN games
+			## [1.0.9] - 2019-04-24
+			### Added
+			- JEI plugin has been updated
+			### Fixed
+			- "Unknown part type" error when connecting to servers
+			- Bows not being enchantable
+			- Blocks connecting to analyzers improperly
+			## [1.0.8] - 2019-04-15
+			Small tweak needed by Silent's Gems 3.0.11.
+			## [1.0.7] - 2019-04-07
+			### Added
+			- Analyzer catalyst, which will increase the median grade when grading parts. These are set by item tags and there are two tiers (`silentgear:analyzer_catalyst/tier1` and `silentgear:analyzer_catalyst/tier2`). By default, tier 1 is glowstone dust, and tier 2 is glittery dust, a new item.
+			### Changed
+			- Rod-less tools (heads) will now hurt you when used. Ouch!
+			- Hammers are no longer effective on "extra materials" like circuits (redstone, ladders) and glass
+			- Durability max is now Integer.MAX_VALUE (2^32-1) and Armor Durability max is 1/16th of that (134,217,727)
+			### Fixed
+			- Hammers breaking unbreakable blocks
+			- Parts GUI is working again (access in the crafting station GUI)
+			- Some broken/missing translations
+			## [1.0.6] - 2019-03-30
+			### Added
+			- Stone torches (craft with coal/charcoal and stone rods)
+			- Potted blue flower and netherwood saplings (just use the block on a flower pot)
+			- Flax is obtainable, look for wild flax plants in plains or mountain biomes.
+			- Sinew is now obtainable
+			### Removed
+			- Item of flax plant (block still exists, but you will get a warning on world load)
+			### Changed
+			- Rewrote gear crafting recipe code to allow recipes to show up in the recipe book and REI (probably JEI as well, have not tested). The recipe JSON files are still the same. If you didn't know, you can completely replace these recipes with data packs!
+			- Better temporary models for everything but bows. Still waiting on Forge for the proper model system to come back. These new models will likely become a config option, as they are probably much easier on less powerful hardware.
+			### Fixed
+			- Block-placing feature is back. Right-click while holding a compatible tool (SGear pickaxe, shovel, or axe by default) to place the block in the slot after the tool, or the last slot of your hotbar. Also works with the torch bandolier (from the Torch Bandolier mod).
+			- Lustrous trait being 15 times more powerful than intended. Also increased the bonus from sky light; block light is 75% as effective.
+			## [1.0.5] - 2019-03-19
+			Tweaks some things which will be needed for the next Silent's Gems release, which will add gear souls (replaces tool souls from older versions). Minor API changes.
+			### Added
+			- Lock stats command is back
+			### Fixed
+			- Armor recipes now reference the correct blueprints
+			- (Partially) When connecting to a dedicated server, information about traits and gear parts is synced to the client. Unfortunately, this happens too late and tooltips usually do not update.
+			## [1.0.4] - 2019-03-08
+			Traits are mostly implemented. There are a few that do not function yet, but it should be possible to create custom traits again.
+			### Fixed
+			- Tools having wrong attack damage and speed modifiers (removed equipment JSON files entirely) [#24]
+			- Example gear generates correctly
+			- Armor no longer says it's missing a rod
+			- Fix armor item color (custom worn armor is still colorless)
+			- A few misc tooltip-related issues
+			## [1.0.3] - 2019-03-07
+			Temporary workaround for Forge issue #5577, Silent Gear [issue #25]([https://github.com/SilentChaos512/Silent-Gear/issues/25](https://github.com/SilentChaos512/Silent-Gear/issues/25)). This allows players to connect to servers and LAN games. I have noticed their are issues with gear parts not syncing to the client, which I am pretty sure is unrelated. Gear items can still be crafted and used normally as far as I know, they just look wrong.
+			## [1.0.2] - 2019-03-03
+			### Added
+			- Improved temporary gear models. They do not display upgrades or support unique textures, but... it's something. Now we wait for Forge to fix stuff.
+			- Grade argument to "sgear_parts add" command.
+			## [1.0.1] - 2019-02-28
+			### Added
+			- World generation (flowers, netherwood, and crimson iron)
+			### Changed
+			- Crafting station part slots removed. This leaves just the crafting grid and side storage.
+			### Fixed
+			- Blocks with GUIs can be opened again
+			- Flower and netherwood sapling models corrected
+			## [1.0.0] - 2019-02-24
+			Port to 1.13.2. Bumped version to 1.0.0 because of major changes, but this is still an alpha of course.
+			- Old part files are not compatible and must be updated.
+			- Parts are now added with **datapacks**. Files should be in `data/<namespace>/silentgear/parts/`, where `<namespace>` is a unique ID for your datapack. You can organize files into subfolders as well (e.g. have a folder for main parts, a separate folder for rods, etc.) This is optional, but encouraged.
+			- Gear **models do not work**, you will see white outlines instead (the items still work, of course)
+			- Tool heads removed... sort of. Crafting a blueprint with main parts only creates a rodless tool (head).
+			 - Tool heads are technically their respective tool. You can use them, but some stats are reduced until you attach a rod. May add additional penalties later.
+			 - You can also place the tool rod (and bowstring for bows) in the crafting grid at the same time to craft the whole tool in one go!
+			- Traits are broken right now
+			- None of the blocks function yet
+
+		SilentGear-1.15.2-1.5.5+80.jar:
+			# Changelog
+			The format is based on [Keep a Changelog]([https://keepachangelog.com/en/1.0.0/]()),
+			and this project adheres to [Semantic Versioning]([https://semver.org/spec/v2.0.0.html]()).
+			## [1.5.5]
+			### Removed
+			- Part analyzer advancement
+			### Fixed
+			- Possible solution for CME in PartManager [#104]
+			## [1.5.4] - 2020-03-18
+			### Fixed
+			- Main parts still showing grade tooltip [#83]
+			## [1.5.3] - 2020-03-06
+			### Added
+			- Mine and Slash integration via new data pack system (AzureDoom) [#94]
+			## [1.5.2] - 2020-02-20
+			### Fixed
+			- Stone torch (wall version) transparency issue
+			## [1.5.1] - 2020-02-11
+			### Fixed
+			- Crimson iron dust and ore chunks are no longer hidden when Silent's Mechanisms is not installed [#87]
+			- Cutout blocks (flax, stone torch) rendering incorrectly [#86]
+			- Version in crafting station screen showing 1.14.4 instead of actual Minecraft version [#85]
+			## [1.5.0] - 2020-02-01
+			Ported to Minecraft 1.15.2
+			### Added
+			- Login message to warn the player when parts and traits fail to load. Instructs the player on what to search for in their log file ("Failed to reload data packs").
+			### Removed
+			- The part analyzer and part grading. See issue [#83]([https://github.com/SilentChaos512/Silent-Gear/issues/83](https://github.com/SilentChaos512/Silent-Gear/issues/83)) for plans/discussion.
+			## [1.4.6] - 2019-12-25
+			### Fixed
+			- Tooltip crash with gear, possibly caused by removed traits [#81]
+			- Fix some harmless(?) warning about material grade command arguments [#80]
+			## [1.4.5] - 2019-11-25
+			### Changed
+			- Armor now gains Mine and Slash stats (AzureZhen) [#78, #79]
+			- Remove material mixing tooltip from blueprints, as they are no longer true [#73)]
+			## [1.4.4] - 2019-11-05
+			### Added
+			- End stone main part
+			### Changed
+			- Increased lumber axe melee damage
+			### Fixed
+			- Possibly fixes part crafting items being scrambled in worlds where items have been added/removed [#74]
+			## [1.4.3] - 2019-10-01
+			### Added
+			- Lumber axe (finally). Chops down entire trees by breaking a single block. Trees are defined as logs with leaves attached. The standard block tags for logs and leaves are used. Textures may need some work...
+			### Fixed
+			- Possibly fixed crash caused by Console HUD [#68, #53]
+			## [1.4.2] - 2019-09-29
+			### Added
+			- (API) `IGearPart#onGearDamaged`
+			### Fixed
+			- Crafting station dropping inventory when rotated
+			## [1.4.1] - 2019-09-18
+			### Fixed
+			- Part analyzer not dropping inventory when broken [#62]
+			- Axes breaking permanently when stripping bark [#63]
+			- Broken shovels being usable with Dirt2Path [#63]
+			## [1.4.0] - 2019-09-13
+			Bump required Forge version to 28.1+, Silent Lib 4.4.0
+			### Fixed
+			- Should make part and trait maps thread-safe (I hope) [#59]
+			### Fixed
+			- Upgrade parts applying to invalid gear items
+			## [1.3.11] - 2019-09-10
+			### Changed
+			- Data paths for parts and traits changed. silentgear/parts is now silentgear_parts and silentgear/traits is now silentgear_traits. Files in the old location will still load for now.
+			### Fixed
+			- Hidden parts appearing on the parts screen in the crafting station
+			- Sound type of flax plants
+			## [1.3.10] - 2019-09-04
+			Update requires Forge 28.0.83 or higher
+			### Added
+			- A joke part: barrier
+			### Changed
+			- Part names and prefixes are now serialized like vanilla text (`translate` to translate, `text` for literal text). Old part files will load correctly.
+			- Part name prefixes no longer nested in `name`, moved to `name_prefix`
+			### Fixed
+			- Armor not using blended colors
+			- Should fix barrier items being produced when salvaging some items
+			## [1.3.9] - 2019-08-19
+			### Added
+			- Gear name prefixes. Can be added to individual parts (see rough rods for any example), or through an event (GearNamePrefixesEvent)
+			### Changed
+			- Mine and Slash random drops are now tier 1 minimum
+			- Mine and Slash random drops should now be salvagable
+			### Fixed
+			- Hammer dupe [#51]
+			- JEI failing to load on servers [#52]
+			- JEI complaining about QuickRepairRecipe
+			## [1.3.8] - 2019-08-13
+			### Fixed
+			- Mine and Slash compatibility race condition
+			## [1.3.7] - 2019-08-13
+			### Added
+			- Basic compatibility for Mine and Slash
+			### Fixed
+			- Parts blacklisted for "all" gear types not actually being blacklisted
+			## [1.3.6] - 2019-08-12
+			### Added
+			- Stat multiplier configs for gear. These allow the stat values of all items to be increased or decreased without overwriting every part file.
+			- Gear type blacklist to part tooltips
+			- Texture for phantom light item, translated name [#44]
+			### Fixed
+			- Ranged damage stat being ignored
+			## [1.3.5] - 2019-08-06
+			Updated for Forge 28.0.45
+			### Fixed
+			- Tool head swapping restoring durability in some cases... for real this time [#45]
+			## [1.3.4] - 2019-08-02
+			### Added
+			- Custom tipped upgrades should now show up in JEI and creative tabs
+			- A couple more advancements
+			- Sort button to parts GUI. This is no longer a drop down list, it just cycles the options (just wanted a quick fix for right now)
+			### Fixed
+			- Parts with malformed JSON not raising an error (may not detect all cases still...) [#41]
+			- Tool head swapping restoring durability in some cases [#43]
+			- Some armor items missing color
+			## [1.3.3] - 2019-07-30
+			### Changed
+			- Make parsing of part crafting items less strict. The `item` property will be removed if `tag` is present. Undefined tags will no longer prevent the part from loading (but you still won't be able to craft with it, of course)
+			### Fixed
+			- Hammers destroying the NBT of certain blocks, like shulker boxes and soul urns [Silent's Gems #384]
+			- Color handlers crashing the game in some cases [#39]
+			## [1.3.2] - 2019-07-28
+			### Added
+			- Custom tipped upgrades. This is a single item which allows the part to be changed with NBT. Just set "PartID" to the ID of the part. For the crafting items of the part, replace the usual "normal" object with an empty "custom_tipped_upgrade" object. You will need to create the recipe for the upgrade yourself.
+			- The "nerfed gear" config is back. Disabled by default. You can set any damageable item to have reduced durability, to encourage use of Silent Gear over vanilla items (or items from other mods if you wish). This may not work for all items.
+			### Changed
+			- Part analyzer optimized a bit. Should reduce tick time when it's not working.
+			- Lite gear models reworked. Added grip layer to tools. Some layers support a very limited set of alternate textures.
+			- Internal changes to how parts are detected. May reduce performance slightly in some cases. This was needed for custom tipped upgrades.
+			## [1.3.1] - 2019-07-24
+			### Added
+			- A `hidden` property for traits. Hidden traits will not be shown in the list of traits on an item, unless advanced tooltips (F3+H) are enabled.
+			- Trait conditions, which allow conditions to be assigned to traits on parts. The part will not apply the trait to a gear item if the conditions are not met.
+			### Fixed
+			- Some gear crafting recipes not working [#36]
+			- Diamond and glowstone tip upgrades not having the Lustrous trait
+			## [1.3.0] - 2019-07-23
+			- Update to 1.14.4
+			## [1.2.4] - 2019-07-22
+			### Fixed
+			- Random crash with Silent's Gems
+			## [1.2.3] - 2019-07-21
+			### Added
+			- Config to enable additional logging for loading and syncing parts and traits
+			- Tier 3 analyzer catalyst tag (no items in it by default)
+			- Recipe to replace the head of a tool. Craft a tool with a tool head (a tool with only main parts). The old head is retained.
+			- Spear blueprints to the "swords" loot pool for the blueprint package
+			### Changed
+			- Trait descriptions are now shown in item tooltips when the Alt key is held down
+			- Parts with zero armor durability are automatically blacklisted for armor crafting. Similarly, zero durability will blacklist all other gear types.
+			### Fixed
+			- Traits not loading on OS X
+			- Gear type blacklist for parts now actually works
+			- Some armor textures being broken
+			- Overrode vanilla's dumb repair recipe again... This disables crafting grid "repairs" of Silent Gear items, but the grindstone still works.
+			## [1.2.2] - 2019-07-17
+			### Added
+			- New trait type, `silentgear:nbt_trait`. This will add arbitrary NBT to gear items when crafted.
+			- Missing models for crossbow blueprints and templates
+			- Crusher recipes (Silent's Mechanisms) for crimson iron ore
+			- Notify players on login of part and trait files that failed to load
+			### Changed
+			- Trait lists in tooltips tweaked (hopefully they won't be confused for enchantments?)
+			- Sickles reset sweet berry bushes to age 1 (same as picking berries from them normally)
+			- Machetes can now break multiple bamboo blocks at once
+			### Fixed
+			- Sickles duplicating dirt from grass blocks, possibly some other related issues
+			## [1.2.1] - 2019-07-11
+			### Added
+			- Crossbows. These have some minor animation issues (because vanilla is dumb), but they function correctly.
+			### Changed
+			- Random grading now assigns the same grade to all parts. Added a config which can revert to the old behavior.
+			### Fixed
+			- Some issues with the JEI plugin on servers
+			- Blended head colors including non-main parts
+			- Possibly improves part analyzer performance
+			## [1.2.0] - 2019-07-01
+			Updated for Minecraft 1.14.3
+			## [1.1.3] - 2019-06-24
+			JEI plugin is up to date. Recommended Forge is 26.0.51 or later.
+			### Added
+			- A few new traits, assigned to some existing parts
+			### Changed
+			- Small change to trait level calculations
+			- Blueprint paper recipe now uses the vanilla blue dye item only, until Forge fixes the blue dye tag
+			## [1.1.2] - 2019-06-21
+			### Added
+			- Loot condition `silentgear:has_part`, which can check if a gear item has a particular part. Can also check the grade of the part.
+			- Loot condition `silentgear:has_trait`, which can check if a gear item has a given trait
+			- Gear stat changes are now logged in the debug log. There will be a config for this later, but for right now it is forced on.
+			### Fixed
+			- Issue where trait data was not being sent completely during client login
+			## [1.1.1] - 2019-06-20
+			### Added
+			- Netherwood slabs and stairs
+			- Recipe advancements (most recipes will show in the recipe book when you get certain items)
+			- New command, `sgear_random_gear` which will give randomized gear items
+			- Loot table function for setting specific parts on a gear item
+			- Chinese translation (zh_cn, by XuyuEre)
+			### Fixed
+			- Example gear items not appearing in the creative tab
+			## [1.1.0] - 2019-06-17
+			### Added
+			- Configs for random grading. You can adjust the mean, standard deviation, and max grade.
+			- Gear with mixed main parts will blend the colors, but with much greater weight on earlier parts
+			### Removed
+			- Blue flower and black/blue dyes (use cornflowers and new vanilla dyes instead)
+			### Changed
+			- Netherwood tree generation (more leaves, subject to change)
+			## [1.0.12] - 2019-05-11
+			### Changed
+			- Blueprints and templates now have the output item in their name, instead of the tooltip
+			### Fixed
+			- Stats not calculating correctly in some cases (e.g. tip upgrades) [#27]
+			- Bow "lite" models are animated now
+			- Rod and bowstring blueprints/templates being consumed during crafting
+			## [1.0.11] - 2019-05-08
+			### Added
+			- Command to recalculate stats on all of a player's gear (can target multiple players)
+			- Command to list all registered parts. Also shows how many of each type there are.
+			### Fixed
+			- Parts and traits should now sync all needed data with clients
+			- Fix gear losing their stats during recalculations (e.g. ka-chink)
+			- Flax plants not growing
+			## [1.0.10] - 2019-05-08
+			### Added
+			- Config to disable enchanted effect on gear items (this adds a new client config file). Since the effect is broken on vanilla models, this is disabled by default.
+			- Spears. They are weaker than swords, but have a much longer reach. These may need some balancing still.
+			### Fixed
+			- Should fix gear parts and traits not syncing to clients on LAN games
+			## [1.0.9] - 2019-04-24
+			### Added
+			- JEI plugin has been updated
+			### Fixed
+			- "Unknown part type" error when connecting to servers
+			- Bows not being enchantable
+			- Blocks connecting to analyzers improperly
+			## [1.0.8] - 2019-04-15
+			Small tweak needed by Silent's Gems 3.0.11.
+			## [1.0.7] - 2019-04-07
+			### Added
+			- Analyzer catalyst, which will increase the median grade when grading parts. These are set by item tags and there are two tiers (`silentgear:analyzer_catalyst/tier1` and `silentgear:analyzer_catalyst/tier2`). By default, tier 1 is glowstone dust, and tier 2 is glittery dust, a new item.
+			### Changed
+			- Rod-less tools (heads) will now hurt you when used. Ouch!
+			- Hammers are no longer effective on "extra materials" like circuits (redstone, ladders) and glass
+			- Durability max is now Integer.MAX_VALUE (2^32-1) and Armor Durability max is 1/16th of that (134,217,727)
+			### Fixed
+			- Hammers breaking unbreakable blocks
+			- Parts GUI is working again (access in the crafting station GUI)
+			- Some broken/missing translations
+			## [1.0.6] - 2019-03-30
+			### Added
+			- Stone torches (craft with coal/charcoal and stone rods)
+			- Potted blue flower and netherwood saplings (just use the block on a flower pot)
+			- Flax is obtainable, look for wild flax plants in plains or mountain biomes.
+			- Sinew is now obtainable
+			### Removed
+			- Item of flax plant (block still exists, but you will get a warning on world load)
+			### Changed
+			- Rewrote gear crafting recipe code to allow recipes to show up in the recipe book and REI (probably JEI as well, have not tested). The recipe JSON files are still the same. If you didn't know, you can completely replace these recipes with data packs!
+			- Better temporary models for everything but bows. Still waiting on Forge for the proper model system to come back. These new models will likely become a config option, as they are probably much easier on less powerful hardware.
+			### Fixed
+			- Block-placing feature is back. Right-click while holding a compatible tool (SGear pickaxe, shovel, or axe by default) to place the block in the slot after the tool, or the last slot of your hotbar. Also works with the torch bandolier (from the Torch Bandolier mod).
+			- Lustrous trait being 15 times more powerful than intended. Also increased the bonus from sky light; block light is 75% as effective.
+			## [1.0.5] - 2019-03-19
+			Tweaks some things which will be needed for the next Silent's Gems release, which will add gear souls (replaces tool souls from older versions). Minor API changes.
+			### Added
+			- Lock stats command is back
+			### Fixed
+			- Armor recipes now reference the correct blueprints
+			- (Partially) When connecting to a dedicated server, information about traits and gear parts is synced to the client. Unfortunately, this happens too late and tooltips usually do not update.
+			## [1.0.4] - 2019-03-08
+			Traits are mostly implemented. There are a few that do not function yet, but it should be possible to create custom traits again.
+			### Fixed
+			- Tools having wrong attack damage and speed modifiers (removed equipment JSON files entirely) [#24]
+			- Example gear generates correctly
+			- Armor no longer says it's missing a rod
+			- Fix armor item color (custom worn armor is still colorless)
+			- A few misc tooltip-related issues
+			## [1.0.3] - 2019-03-07
+			Temporary workaround for Forge issue #5577, Silent Gear [issue #25]([https://github.com/SilentChaos512/Silent-Gear/issues/25](https://github.com/SilentChaos512/Silent-Gear/issues/25)). This allows players to connect to servers and LAN games. I have noticed their are issues with gear parts not syncing to the client, which I am pretty sure is unrelated. Gear items can still be crafted and used normally as far as I know, they just look wrong.
+			## [1.0.2] - 2019-03-03
+			### Added
+			- Improved temporary gear models. They do not display upgrades or support unique textures, but... it's something. Now we wait for Forge to fix stuff.
+			- Grade argument to "sgear_parts add" command.
+			## [1.0.1] - 2019-02-28
+			### Added
+			- World generation (flowers, netherwood, and crimson iron)
+			### Changed
+			- Crafting station part slots removed. This leaves just the crafting grid and side storage.
+			### Fixed
+			- Blocks with GUIs can be opened again
+			- Flower and netherwood sapling models corrected
+			## [1.0.0] - 2019-02-24
+			Port to 1.13.2. Bumped version to 1.0.0 because of major changes, but this is still an alpha of course.
+			- Old part files are not compatible and must be updated.
+			- Parts are now added with **datapacks**. Files should be in `data/<namespace>/silentgear/parts/`, where `<namespace>` is a unique ID for your datapack. You can organize files into subfolders as well (e.g. have a folder for main parts, a separate folder for rods, etc.) This is optional, but encouraged.
+			- Gear **models do not work**, you will see white outlines instead (the items still work, of course)
+			- Tool heads removed... sort of. Crafting a blueprint with main parts only creates a rodless tool (head).
+			 - Tool heads are technically their respective tool. You can use them, but some stats are reduced until you attach a rod. May add additional penalties later.
+			 - You can also place the tool rod (and bowstring for bows) in the crafting grid at the same time to craft the whole tool in one go!
+			- Traits are broken right now
+			- None of the blocks function yet
+
+	Simple Discord Rich Presence (SimpleDiscordRichPresence-1.15.2-1.2.4.jar --> SimpleDiscordRichPresence-1.15.2-1.2.6.jar):
+		SimpleDiscordRichPresence-1.15.2-1.2.6.jar:
+			 * Changed logo message to lang key - Sunekaer 
+
+		SimpleDiscordRichPresence-1.15.2-1.2.5.jar:
+			 * Changed message and imageName to use lang key and dim path for imageKey - Sunekaer 
+			 * Updated forge and mappings - Sunekaer 
+
+	Simply Backpacks (simplybackpacks-1.15.2-1.4.3.jar --> simplybackpacks-1.15.2-1.4.5.jar):
+		simplybackpacks-1.15.2-1.4.5.jar:
+			Removed some old debug logging.
+
+		simplybackpacks-1.15.2-1.4.4.jar:
+			Fixed auto pickup status not showing in tooltip if disabled.
+			Added auto pickup switch in the filter GUI.
+
+	Transport (Transport-1.15.2-2.1.3.jar --> Transport-1.15.2-2.2.0.jar):
+		Transport-1.15.2-2.2.0.jar:
+			New:
+			* Patchouli Guide! (Special thanks to FreneticScribbler who helped with this)
+			* Blocks
+			* Rails
+			* Bumper Rail - A fancy rail ending
+			* Switch - Go straight or diverge
+			* Wye Switch - Go Left or go Right!
+			* Items
+			* Rail Breaker - It's a wrench basically
+			* Point Machines - Behaviors for Controlling Switches!
+			* Manual - Place a Lever and manually controller
+			* Redstone - Place a repeater and control via redstone
+			* Comparator - Use a Comparator to compare against a cart's signal
+
+	Vampirism - Become a vampire! (Vampirism-1.15.2-1.6.0-alpha+20200322-1138 --> Vampirism-1.15.2-1.6.0-alpha+20200329-0140):
+		Vampirism-1.15.2-1.6.0-alpha+20200329-0140:
+			This version should not be used in your 'productive' world. It contains the latest features, but also the latest bugs.
+			 Probably not all features are finished.
+			 To see what might have changed visit our Github page and browse the latest commits.
+
+	Waddles (Waddles-1.15.2-0.8.5.jar --> Waddles-1.15.2-0.8.6.jar):
+		Waddles-1.15.2-0.8.6.jar:
+			- Doubled default weight (From 2 to 4)
+			- Added current recommended version of Forge as a requirement
+
+	☃ Snow! Real Magic! (SnowRealMagic-1.15.2-1.7.2.jar --> SnowRealMagic-1.15.2-1.7.4.jar):
+		SnowRealMagic-1.15.2-1.7.4.jar:
+			Fix face culling
+
+		SnowRealMagic-1.15.2-1.7.3.jar:
+			Fix random chunk crash
+			Improve graphic performance
+
+Removed:
+- CraftTweaker
+- Double Doors
+- Durability101
+- Edit Sign
+- Following Villagers
+- Harvest
+- Lightest Lamps
+- Lithium (Fabric)
+- Ma Chat
+- Ma Essentials
+- The Veggie Way [FORGE]
+- XL Food Mod
+- 🍊 Fruit Trees
+
+Config:
+Reduced biome weight of DAB
+Reduced biome weight of Vampire Forest
+Re-enabled Reusable Enderpearl
+Enabled snow accumulation
+
+Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).

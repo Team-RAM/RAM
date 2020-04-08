@@ -23,7 +23,7 @@
 	generateDarkRunestone = true
 	#Maximum Runestone veins per chunk
 	#Range: 1 ~ 10000000
-	RunestoneCount = 3
+	RunestoneCount = 2
 	#Generate Dark Stone
 	generateDarkStone = true
 	#Maximum size of Arcane Crystal Ore vein
@@ -37,10 +37,10 @@
 	maxDarkStoneVeinSize = 20
 	#Maximum size of Runestone vein
 	#Range: 0 ~ 500
-	maxRunestoneVeinSize = 4
+	maxRunestoneVeinSize = 3
 	#Maximum height for the Dark Stone
 	#Range: 1 ~ 256
-	DarkStoneMaxHeight = 9
+	DarkStoneMaxHeight = 8
 	#Maximum size of Dark Runestone vein
 	#Range: 0 ~ 500
 	maxDarkRunestoneVeinSize = 4
