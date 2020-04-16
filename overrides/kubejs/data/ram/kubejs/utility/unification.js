@@ -42,29 +42,29 @@ function metalUnification(event, metalName,  unifiedItems, unusedMetalsTags )
     {
     var  fullName = '#'+parentTags[i]+ metalName;
  
-    //'forge:ingots/'
-    if( i === 0)
-    {
-	  var  iapName = 'iapmekanism:'+metalName;
-      var  mystName = 'mysticalagriculture:essence/common/'+metalName+'_ingot';
-      event.remove({ id: iapName });
-      event.remove({ id: mystName });
-      event.remove({ output: '#forge:ingots/' + metalName, type: 'minecraft:smelting' })
-      event.remove({ output: '#forge:ingots/' + metalName, type: 'minecraft:blasting' })
-      event.recipes.minecraft.smelting(unifiedItems[i], '#forge:dusts/' + metalName)
-      event.recipes.minecraft.smelting(unifiedItems[i], '#forge:ores/' + metalName)
-      event.recipes.minecraft.blasting(unifiedItems[i], '#forge:dusts/' + metalName)
-      event.recipes.minecraft.blasting(unifiedItems[i], '#forge:ores/' + metalName)
-    }
-
-    if(!( unifiedItems[i] === SKIP))
+        if(!( unifiedItems[i] === SKIP))
         {  
+            //'forge:ingots/'
+            if( i === 0)
+            {
+                var  iapName = 'iapmekanism:'+metalName;
+                var  mystName = 'mysticalagriculture:essence/common/'+metalName+'_ingot';
+                event.remove({ id: iapName });
+                event.remove({ id: mystName });
+                event.remove({ output: '#forge:ingots/' + metalName, type: 'minecraft:smelting' })
+                event.remove({ output: '#forge:ingots/' + metalName, type: 'minecraft:blasting' })
+                event.recipes.minecraft.smelting(unifiedItems[i], '#forge:dusts/' + metalName)
+                event.recipes.minecraft.smelting(unifiedItems[i], '#forge:ores/' + metalName)
+                event.recipes.minecraft.blasting(unifiedItems[i], '#forge:dusts/' + metalName)
+                event.recipes.minecraft.blasting(unifiedItems[i], '#forge:ores/' + metalName)
+            }
+
             event.replaceInput(fullName, unifiedItems[i]);
             event.replaceOutput(fullName, unifiedItems[i]); 
 
             for(var m=0;m<unusedMetalsTags[i].length;m++)
             {
-                event.shapeless(unifiedItems[i], unusedMetalsTags[i][m]);	
+                event.shapeless(unifiedItems[i], unusedMetalsTags[i][m]);
             }
         }
     }
