@@ -10,7 +10,7 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "RAM -DEV",
+  "name": "RAM",
   "version": "0.3.1",
   "author": "TeamRAM",
   "projectID": 357569,
@@ -688,6 +688,11 @@
     {
       "projectID": 299540,
       "fileID": 2856529,
+      "required": true
+    },
+    {
+      "projectID": 365281,
+      "fileID": 2892580,
       "required": true
     },
     {
