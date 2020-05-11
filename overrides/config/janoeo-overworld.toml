@@ -2,7 +2,7 @@
 #Common config for janoeo
 [janoeo]
 	#Dense coal ore generation: disable / enable
-	denseCoalOreGen = true
+	denseCoalOreGen = false
 	#Sapphire ore generation: disable / enable
 	sapphireOreGen = true
 	#Copper ore generation: disable / enable
@@ -10,29 +10,33 @@
 	#Tin ore generation: disable / enable
 	tinOreGen = true
 	#Dense tin ore generation: disable / enable
-	denseTinOreGen = true
+	denseTinOreGen = false
 	#Lead ore generation: disable / enable
 	leadOreGen = true
 	#Dense gold ore generation: disable / enable
-	denseGoldOreGen = true
+	denseGoldOreGen = false
 	#Ruby ore generation: disable / enable
 	rubyOreGen = true
+	#Amethyst ore generation: disable / enable
+	amethystOreGen = true
+	#Zinc ore generation: disable / enable
+	zincOreGen = true
 	#Dense emerald ore generation: disable / enable
-	denseEmeraldOreGen = true
+	denseEmeraldOreGen = false
 	#Dense diamond ore generation: disable / enable
-	denseDiamondOreGen = true
+	denseDiamondOreGen = false
 	#Dense lapis ore generation: disable / enable
-	denseLapisOreGen = true
+	denseLapisOreGen = false
 	#Silver ore generation: disable / enable
 	silverOreGen = true
 	#Aluminium ore generation: disable / enable
 	aluminiumOreGen = true
 	#Dense copper ore generation: disable / enable
-	denseCopperOreGen = true
+	denseCopperOreGen = false
 	#Dense iron ore generation: disable / enable
-	denseIronOreGen = true
+	denseIronOreGen = false
 	#Dense redstone ore generation: disable / enable
-	denseRedstoneOreGen = true
+	denseRedstoneOreGen = false
 	#Uranium ore generation: disable / enable
 	uraniumOreGen = true
 
