@@ -1,14 +1,15 @@
-============================================
-Really Awesome Mods 0.3.0 --> RAM -DEV 0.3.1
-============================================
+=============================================================
+Really Awesome Mods 0.3.0 --> RAM - Really Awesome Mods 0.3.1
+=============================================================
 
 Added:
 - Akashic Tome
-- Compact Ores
 - CraftTweaker
 - Glassential
 - Just Enough Resources (JER)
 - Morph-o-Tool
+- RFTools Control
+- ServerConfig Updater
 - Slime Tweaks
 
 Updated:
@@ -1827,7 +1828,10 @@ Updated:
 			* Fixed the recipes for the vanilla recipe book
 			* Moved most of the configs from common to server (so that they are saved with the world and synced to the client)
 
-	RFTools Storage (rftoolsstorage-1.15-1.0.3-alpha.jar --> rftoolsstorage-1.15-1.1.1-beta.jar):
+	RFTools Storage (rftoolsstorage-1.15-1.0.3-alpha.jar --> rftoolsstorage-1.15-1.1.2-beta.jar):
+		rftoolsstorage-1.15-1.1.2-beta.jar:
+			* Fixed a crash in the tooltip of the storage modules
+
 		rftoolsstorage-1.15-1.1.1-beta.jar:
 			* Dependency fix
 
@@ -1841,7 +1845,11 @@ Updated:
 			* Fixed the recipes for the vanilla recipe book
 			* Moved most of the configs from common to server (so that they are saved with the world and synced to the client)
 
-	RFTools Utility (rftoolsutility-1.15-2.0.1-alpha.jar --> rftoolsutility-1.15-2.1.1-beta.jar):
+	RFTools Utility (rftoolsutility-1.15-2.0.1-alpha.jar --> rftoolsutility-1.15-2.1.2-beta.jar):
+		rftoolsutility-1.15-2.1.2-beta.jar:
+			* Fixed a problem with the tablet making an ugly sound when opening the gui. Thanks Darkere!
+			* Fixed a crash in the crafter
+
 		rftoolsutility-1.15-2.1.1-beta.jar:
 			* Dependency fix
 			* Fixed a hard dependency on TOP
@@ -5122,7 +5130,10 @@ Updated:
 			* fix trainer house loot table
 			* slightly increase vampire spawn rate outside the vampire biome and decrease it inside
 
-	XNet (xnet-1.15-2.0.2-alpha.jar --> xnet-1.15-2.1.1-beta.jar):
+	XNet (xnet-1.15-2.0.2-alpha.jar --> xnet-1.15-2.1.2-beta.jar):
+		xnet-1.15-2.1.2-beta.jar:
+			* AKAStacks fixed a problem with breaking facades causing the network to unlink
+
 		xnet-1.15-2.1.1-beta.jar:
 			* Dependency fix
 
