@@ -1,9 +1,5 @@
 {
 	"scripts": [
-		{"file": "utility/debug.js"},
-		{"file": "utility/addtagstoevents.js"},
-		{"file": "utility/unification.js"},
-		//
 		{"file": "buzzierbees/candle_balance.js"},
 		{"file": "cyclic/config.js"},
 		{"file": "dark_utilities/config.js"},
@@ -25,8 +21,12 @@
 		{"file": "silents_mechanisms/tags.js"},
 		{"file": "simplechunkloaders/tweaks.js"},
 		{"file": "vanilla/tags.js"},
-		{"file": "vanilla/tweaks.js"}
+		{"file": "vanilla/tweaks.js"},
 //		{"file": "xlfoods/tags.js"},
-//		{"file": "xlfoods/tweaks.js"}
+//		{"file": "xlfoods/tweaks.js"},
+////////////////////////////////////////////////////////////
+		{"file": "utility/debug.js"},
+		{"file": "utility/addtagstoevents.js"},
+		{"file": "utility/unification.js"}
 	]
 }

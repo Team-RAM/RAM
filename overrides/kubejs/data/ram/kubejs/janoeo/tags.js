@@ -17,7 +17,7 @@ function janoeoTagFunction(event) {
         ['tin', 'janoeo:dense_tin_ore'],
     ];
 
-    var parentTags = ['forge:ores', 'forge:oresdense'];
+    var parentTags = ['forge:oresdense'];
     addTagsToEvents(event, parentTags, ores);
 }
 events.listen(['item.tags', 'block.tags'], janoeoTagFunction);

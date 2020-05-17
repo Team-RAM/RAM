@@ -1,6 +1,6 @@
 /*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~TeamRAM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Metal unification - Yoosk, Uteki
+Metal unification - Yoosk, Teki
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
 var parentTags = ['forge:ingots/','forge:dusts/','forge:storage_blocks/','forge:nuggets/','forge:ores/'];
@@ -18,13 +18,11 @@ var metals = [
     ['tin',['silents_mechanisms:tin_ingot', 'silents_mechanisms:tin_dust', 'silents_mechanisms:tin_block', 'silents_mechanisms:tin_nugget', 'janoeo:tin_ore']],
     ['uranium',['silents_mechanisms:uranium_ingot', 'silents_mechanisms:uranium_dust', 'silents_mechanisms:uranium_block', 'silents_mechanisms:uranium_nugget', 'janoeo:uranium_ore']],
     ['coal',[SKIP, 'silents_mechanisms:coal_dust', SKIP, SKIP, SKIP]]
-    ];
-    
-var unusedMetals = new Array(metals.length);
-
+];
 
 function recipesUnification(event) {
-   metalUnifications(event, metals);
+    removeUnusedMetalTags(event);
+    metalUnifications(event, metals);
 }
 
 
@@ -32,85 +30,73 @@ function metalUnifications(event, metals)
 {
     for(var i=0;i<metals.length;i++)
     {
-        metalUnification(event, metals[i][0],  metals[i][1],unusedMetals[i]);
+        metalUnification(event, metals[i][0],  metals[i][1]);
     }
 }
 
-function metalUnification(event, metalName,  unifiedItems, unusedMetalsTags )
+function metalUnification(event, metalName,  unifiedItems)
 {
     for(var i=0;i<parentTags.length;i++)
     {
-    var  fullName = '#'+parentTags[i]+ metalName;
- 
-    //'forge:ingots/'
-    if( i === 0)
-    {
-	  var  iapName = 'iapmekanism:'+metalName;
-      var  mystName = 'mysticalagriculture:essence/common/'+metalName+'_ingot';
-      event.remove({ id: iapName });
-      event.remove({ id: mystName });
-      event.remove({ output: '#forge:ingots/' + metalName, type: 'minecraft:smelting' })
-      event.remove({ output: '#forge:ingots/' + metalName, type: 'minecraft:blasting' })
-      event.recipes.minecraft.smelting(unifiedItems[i], '#forge:dusts/' + metalName)
-      event.recipes.minecraft.smelting(unifiedItems[i], '#forge:ores/' + metalName)
-      event.recipes.minecraft.blasting(unifiedItems[i], '#forge:dusts/' + metalName)
-      event.recipes.minecraft.blasting(unifiedItems[i], '#forge:ores/' + metalName)
-    }
+        var  fullName = '#'+parentTags[i]+ metalName;
 
-    if(!( unifiedItems[i] === SKIP))
-        {  
+        if(!( unifiedItems[i] === SKIP))
+        {
+            //'forge:ingots/'
+            if( i === 0)
+            {
+              var  iapName = 'iapmekanism:'+metalName;
+              var  mystName = 'mysticalagriculture:essence/common/'+metalName+'_ingot';
+              event.remove({ id: iapName });
+              event.remove({ id: mystName });
+              event.remove({ output: '#forge:ingots/' + metalName, type: 'minecraft:smelting' })
+              event.remove({ output: '#forge:ingots/' + metalName, type: 'minecraft:blasting' })
+              event.recipes.minecraft.smelting(unifiedItems[i], '#forge:dusts/' + metalName)
+              event.recipes.minecraft.smelting(unifiedItems[i], '#forge:ores/' + metalName)
+              event.recipes.minecraft.blasting(unifiedItems[i], '#forge:dusts/' + metalName)
+              event.recipes.minecraft.blasting(unifiedItems[i], '#forge:ores/' + metalName)
+            }
+            //All
             event.replaceInput(fullName, unifiedItems[i]);
             event.replaceOutput(fullName, unifiedItems[i]); 
-
-            for(var m=0;m<unusedMetalsTags[i].length;m++)
-            {
-                event.shapeless(unifiedItems[i], unusedMetalsTags[i][m]);	
-            }
         }
     }
 }
 
 
-function getUnusedMetalTags(event) 
+function removeUnusedMetalTags(event) 
 {
-
-     for(var i=0;i<metals.length;i++)
+    for(var i=0;i<metals.length;i++)
     {
-        getUnusedMetalInformation(event, metals[i][0],  metals[i][1], i);
+        removeUnusedMetalTag(event, metals[i][0],  metals[i][1], i);
     }
 }
 
-function getUnusedMetalInformation(event, metalName, unifiedItems, metalId)
+function removeUnusedMetalTag(event, metalName, unifiedItems, metalId)
 {
-   
-    unusedMetals[metalId] = new Array(parentTags.length);
     for(var i=0;i<parentTags.length;i++)
     {
-    var  fullName = parentTags[i]+ metalName;
-    unusedMetals[metalId][i]= new Array();
- 
-    if(!( unifiedItems[i] === SKIP))
-    {  
-    
-       var stackSet = ingredient.of('#'+fullName).stacks;
+        var  fullName = parentTags[i]+ metalName;
 
-         var iterator = stackSet.iterator();
+        if(!( unifiedItems[i] === SKIP))
+        {  
+            var stackSet = ingredient.of('#'+fullName).stacks;
+            var iterator = stackSet.iterator();
+            var index = 0;
          
-         var index = 0;
-         while(iterator.hasNext())
-         {
-             var itemWithApostrophes = iterator.next().toString();
-             var item = itemWithApostrophes.substring(1, itemWithApostrophes.length-1);
-       
-           if(!(item ===  unifiedItems[i]) & (item.indexOf("dense") ===-1))
-           {
-            unusedMetals[metalId][i].push(item);
-           }
-           index++;
-         }
+             while(iterator.hasNext())
+             {
+                 var itemWithApostrophes = iterator.next().toString();
+                 var item = itemWithApostrophes.substring(1, itemWithApostrophes.length-1);
+              
+               if(!(item ===  unifiedItems[i]) & (item.indexOf("dense") ===-1))
+               {
+                    event.shapeless(unifiedItems[i], item);	
+               }
+               index++;
+             }
+        }
     }
 }
 
-}
-events.listen('item.tags', getUnusedMetalTags);
 events.listen('recipes', recipesUnification);
