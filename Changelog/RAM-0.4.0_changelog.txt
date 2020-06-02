@@ -1,5 +1,5 @@
 ===================================================================
-RAM - Really Awesome Mods 0.3.1 --> RAM   Really Awesome Mods 0.4.0
+RAM - Really Awesome Mods 0.3.1 --> RAM - Really Awesome Mods 0.4.0
 ===================================================================
 
 Added:
@@ -640,32 +640,6 @@ Updated:
 			* Pongo Sapiens
 			* Darkosto
 
-	Elementary Staffs (1.7.2 --> 1.8):
-		1.8:
-			THE ARCHERY UPDATE
-			Changes:
-			* Added Magical Arrows
-			* Fixxed the Bubble Size
-			* Added Crafting Recipe
-			* New Textures for Wind Staff and Wind Essence
-			* Arrow Pickup Item changed to Arrow
-			* Added new Config
-			* The heart is removed when the thrower dies
-
-		1.8a02:
-			Note: This is a Alpha!
-			Changes:
-			* Added Crafting Recipe
-			* Fixxed the Bubble Size
-			* New Textures for Wind Staff and Wind Essence
-			* Arrow Pickup Item changed to Arrow
-
-		1.8a01:
-			Note: Its a Alpha.
-			When you find buggs please report these.
-			Changes:
-			-Added Magical Arrows (Currently unrecoverable)
-
 	Enchantment Descriptions (EnchantmentDescriptions-1.15.2-2.0.8.jar --> EnchantmentDescriptions-1.15.2-2.0.9.jar):
 		EnchantmentDescriptions-1.15.2-2.0.9.jar:
 			* Fixed english language indenting. - Tyler Hancock
@@ -687,13 +661,6 @@ Updated:
 			Fixed search field being unusable after clicking a filter (or losing focus otherwise)
 			Fixed backspace in search bar not updating the market offers
 			Fixed payment overrides in groupOverrides not working
-
-	Forbidden and Arcanus (forbidden_arcanus-1.15.2-1.3.1.jar --> forbidden_arcanus-1.15.2-1.4-beta-1.jar):
-		forbidden_arcanus-1.15.2-1.4-beta-1.jar:
-			forbidden_arcanus-1.15.2-1.4-beta-1
-			-Added Pixie Entity (not finished, doesnt spawn yet)
-			-Changed Indestructible Enchantment (Items that have it will no longer take any damage at all)
-			-Fixed a Crash (Missing Particle RegistryObject)
 
 	Industrial Foregoing (industrial-foregoing-1.15.2-2.3.0-6f57752.jar --> industrial-foregoing-1.15.2-2.3.2-e3bf186.jar):
 		industrial-foregoing-1.15.2-2.3.2-e3bf186.jar:
