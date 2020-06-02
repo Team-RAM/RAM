@@ -1,0 +1,53 @@
+{
+	"type": "cluster",
+	"stone": "minecraft:stone",
+	"ore": "minecraft:redstone_ore",
+	"rarity": 100,
+	"density": 100,
+	"indicator": {
+		"blocks": [
+			{
+				"block": "minecraft:dirt",
+				"weight": 2
+			},
+			{
+				"block": "minecraft:coarse_dirt",
+				"weight": 3
+			},
+			{
+				"block": "minecraft:grass_block",
+				"weight": 10
+			},
+			{
+				"block": "minecraft:poppy",
+				"weight": 10
+			},
+			{
+				"block": "biomesoplenty:rose",
+				"weight": 10
+			},
+			{
+				"block": "minecraft:red_tulip",
+				"weight": 10
+			},
+		],
+		"rarity": 1,
+		"blocks_under": [
+			{
+				"block": "minecraft:grass_block"
+			},
+			{
+				"block": "minecraft:podzol"
+			},
+			{
+				"block": "minecraft:mycelium"
+			},
+			{
+				"block": "minecraft:dirt"
+			},
+			{
+				"block": "minecraft:coarse_dirt"
+			}
+		]
+	}
+}

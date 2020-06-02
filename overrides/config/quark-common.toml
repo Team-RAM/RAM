@@ -86,8 +86,10 @@
 
 [building]
 	"Duskbound Blocks" = true
+	"Cobblestone Bricks" = true
 	"More Brick Types" = true
 	"Soul Sandstone" = true
+	"Gold Bars" = true
 	"Quilted Wool" = true
 	"Compressed Blocks" = true
 	Thatch = true
@@ -104,6 +106,7 @@
 	Midori = true
 	"More Stone Variants" = true
 	"Framed Glass" = true
+	"Fairy Rings" = true
 	"Tallow And Candles" = true
 	Turf = true
 	"Paper Decor" = true
@@ -138,6 +141,7 @@
 		"Enable Cactus Block" = true
 		"Enable Apple Crate" = true
 		"Charcoal Block and Blaze Lantern Stay On Fire Forever" = true
+		"Enable Bonded Rabbit Hide" = true
 		"Enable Charcoal Block" = true
 		"Enable Gunpowder Sack" = true
 		"Enable Potato Crate" = true
@@ -163,6 +167,15 @@
 		"Enable Snow Bricks" = true
 		#This also includes Red Sandstone Bricks and Soul Sandstone Bricks
 		"Enable Sandstone Bricks" = true
+
+	[building.fairy_rings]
+		"Forest Chance" = 0.00625
+		Ores = ["minecraft:emerald_ore", "minecraft:diamond_ore"]
+		"Plains Chance" = 0.0025
+
+		[building.fairy_rings.dimensions]
+			Dimensions = ["minecraft:overworld"]
+			"Is Blacklist" = false
 
 	[building.tallow_and_candles]
 		"Candles Fall" = true
@@ -193,8 +206,10 @@
 
 [tools]
 	Pickarang = true
-	"Ancient Tomes" = true
 	"Pathfinder Maps" = true
+	"Bottled Cloud" = true
+	"Color Runes" = true
+	"Ancient Tomes" = true
 	"Slime In A Bucket" = true
 	Camera = true
 	Trowel = true
@@ -203,6 +218,19 @@
 		#Amount of blocks placed is this value + 1. Default is 255 (4 stacks).
 		#Set to 0 to make the Trowel unbreakable
 		"Trowel Max Durability" = 255
+
+	[tools.bottled_cloud]
+		"Cloud Level Top" = 132
+		"Cloud Level Bottom" = 127
+
+	[tools.ancient_tomes]
+		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
+		"Dungeon Weight" = 20
+		"Item Quality" = 2
+		"Apply Cost" = 35
+		"Library Weight" = 30
+		"Monster Box Weight" = 5
+		"Merge Cost" = 35
 
 	[tools.pathfinder_maps]
 		#In this section you can add custom Pathfinder Maps. This works for both vanilla and modded biomes.
@@ -223,14 +251,13 @@
 		Customs = []
 		"Xp From Trade" = 5
 
-	[tools.ancient_tomes]
-		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
-		"Dungeon Weight" = 20
-		"Item Quality" = 2
-		"Apply Cost" = 35
-		"Library Weight" = 30
-		"Monster Box Weight" = 5
-		"Merge Cost" = 35
+	[tools.color_runes]
+		"Jungle Temple Weight" = 8
+		"Desert Temple Weight" = 8
+		"Dungeon Weight" = 10
+		"Item Quality" = 0
+		"Apply Cost" = 15
+		"Nether Fortress Weight" = 8
 
 	[tools.pickarang]
 		#22.5 is ender chests, 25.0 is monster boxes, 50 is obsidian. Most things are below 5.
@@ -250,6 +277,7 @@
 	"Armed Armor Stands" = true
 	"Lock Rotation" = true
 	"Dragon Scales" = true
+	"Replace Scaffolding" = true
 	"Axe Leaf Harvesting" = true
 	"Sign Editing" = true
 	"Dirt To Path" = true
@@ -319,6 +347,7 @@
 	[tweaks.reacharound_placing]
 		Leniency = 0.5
 		Whitelist = []
+		"Display Horizontal" = "<  >"
 		Display = "[  ]"
 
 	[tweaks.improved_sleeping]
@@ -360,6 +389,10 @@
 		"Boost Strength" = 0.5
 		"Max Speed" = 1.0
 
+	[tweaks.replace_scaffolding]
+		#How many times the algorithm for finding out where a block would be placed is allowed to turn. If you set this to large values (> 3) it may start producing weird effects.
+		"Max Bounces" = 1
+
 [world]
 	"New Stone Types" = true
 	"Lush Underground Biome" = true
@@ -380,7 +413,7 @@
 	"Slime Underground Biome" = true
 	"Spider Nest Underground Biome" = true
 	"Monster Box" = true
-	Crevices = true
+	Crevices = false
 	"Nether Obsidian Spikes" = true
 	"Mega Caves" = true
 
@@ -403,7 +436,7 @@
 
 		[world.big_stone_clusters.marble]
 			"Horizontal Size" = 14
-			Rarity = 4
+			Rarity = 10
 			"Min Y Level" = 20
 			"Horizontal Variation" = 9
 			Enabled = true
@@ -412,7 +445,7 @@
 			"Vertical Variation" = 9
 
 			[world.big_stone_clusters.marble.biomes]
-				"Biome Types" = ["PLAINS"]
+				"Biome Types" = []
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.marble.dimensions]
@@ -439,7 +472,7 @@
 
 		[world.big_stone_clusters.limestone]
 			"Horizontal Size" = 14
-			Rarity = 4
+			Rarity = 1
 			"Min Y Level" = 20
 			"Horizontal Variation" = 9
 			Enabled = true
@@ -448,7 +481,7 @@
 			"Vertical Variation" = 9
 
 			[world.big_stone_clusters.limestone.biomes]
-				"Biome Types" = ["SWAMP", "OCEAN"]
+				"Biome Types" = []
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.limestone.dimensions]
@@ -457,7 +490,7 @@
 
 		[world.big_stone_clusters.granite]
 			"Horizontal Size" = 14
-			Rarity = 4
+			Rarity = 10
 			"Min Y Level" = 20
 			"Horizontal Variation" = 9
 			Enabled = true
@@ -466,7 +499,7 @@
 			"Vertical Variation" = 9
 
 			[world.big_stone_clusters.granite.biomes]
-				"Biome Types" = ["MOUNTAIN", "HILLS"]
+				"Biome Types" = []
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.granite.dimensions]
@@ -475,7 +508,7 @@
 
 		[world.big_stone_clusters.andesite]
 			"Horizontal Size" = 14
-			Rarity = 4
+			Rarity = 10
 			"Min Y Level" = 20
 			"Horizontal Variation" = 9
 			Enabled = true
@@ -484,7 +517,7 @@
 			"Vertical Variation" = 9
 
 			[world.big_stone_clusters.andesite.biomes]
-				"Biome Types" = ["FOREST"]
+				"Biome Types" = []
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.andesite.dimensions]
@@ -493,7 +526,7 @@
 
 		[world.big_stone_clusters.slate]
 			"Horizontal Size" = 14
-			Rarity = 4
+			Rarity = 5
 			"Min Y Level" = 20
 			"Horizontal Variation" = 9
 			Enabled = true
@@ -502,7 +535,7 @@
 			"Vertical Variation" = 9
 
 			[world.big_stone_clusters.slate.biomes]
-				"Biome Types" = ["COLD"]
+				"Biome Types" = []
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.slate.dimensions]
@@ -511,7 +544,7 @@
 
 		[world.big_stone_clusters.diorite]
 			"Horizontal Size" = 14
-			Rarity = 4
+			Rarity = 10
 			"Min Y Level" = 20
 			"Horizontal Variation" = 9
 			Enabled = true
@@ -520,7 +553,7 @@
 			"Vertical Variation" = 9
 
 			[world.big_stone_clusters.diorite.biomes]
-				"Biome Types" = ["SAVANNA", "JUNGLE", "MUSHROOM"]
+				"Biome Types" = []
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.diorite.dimensions]
@@ -529,7 +562,7 @@
 
 		[world.big_stone_clusters.jasper]
 			"Horizontal Size" = 14
-			Rarity = 4
+			Rarity = 5
 			"Min Y Level" = 20
 			"Horizontal Variation" = 9
 			Enabled = true
@@ -538,7 +571,7 @@
 			"Vertical Variation" = 9
 
 			[world.big_stone_clusters.jasper.biomes]
-				"Biome Types" = ["MESA", "SANDY"]
+				"Biome Types" = []
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.jasper.dimensions]
@@ -1107,6 +1140,7 @@
 		#minecraft:mending=minecraft:carrot_on_a_stick
 		"Enchanting Additional Stacks" = []
 		"Food Tooltips" = true
+		"Show Saturation" = true
 		"Map Tooltips" = true
 		"Enchanting Stacks" = ["minecraft:diamond_sword", "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_axe", "minecraft:diamond_hoe", "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots", "minecraft:shears", "minecraft:bow", "minecraft:fishing_rod", "minecraft:crossbow", "minecraft:trident", "minecraft:elytra", "quark:pickarang"]
 
@@ -1123,6 +1157,7 @@
 [oddities]
 	"Totem Of Holding" = true
 	Backpack = true
+	"Matrix Enchanting" = false
 	Magnets = true
 	Pipes = true
 
@@ -1141,6 +1176,50 @@
 		"Magnetic Whitelist" = ["minecraft:chipped_anvil", "minecraft:damaged_anvil"]
 		#Any items you place in this list will be derived so that any block made of it will become magnetizable
 		"Magnetic Derivation List" = ["minecraft:iron_ingot"]
+
+	[oddities.matrix_enchanting]
+		#Set to false to disable the ability to influence enchantment outcomes with candles (requires the Tallow and Candles module enabled)
+		"Allow Influencing" = true
+		#A list of enchantment IDs you don't want the enchantment table to be able to create
+		"Disallowed Enchantments" = []
+		#The maximum enchanting power the matrix enchanter can accept
+		"Max Bookshelves" = 15
+		#How much to multiply the frequency of pieces where at least one of the same type has been generated
+		"Dupe Multiplier" = 1.4
+		#How much the min level requirement for adding a new piece to a book should increase per each bookshelf being used
+		"Min Level Scale Factor Book" = 2.0
+		#At which piece count the calculation for the min level should default to increasing one per piece rather than using the scale factor
+		"Min Level Cutoff" = 10
+		#Should this be X, the price of a piece increase by 1 every X pieces you generate
+		"Piece Price Scale" = 9
+		#Matrix Enchanting can be done with water instead of air around the enchanting table. Set this to false to disable this behaviour.
+		"Allow Underwater Enchanting" = true
+		#How many pieces you can generate without any bookshelves
+		"Base Max Piece Count" = 3
+		#How much each candle influences an enchantment. This works as a multiplier to its weight
+		"Influence Power" = 0.125
+		#Set to false to disable the tooltip for items with pending enchantments
+		"Show Tooltip" = true
+		#Set to false to disable the ability to create Enchanted Books
+		"Allow Books" = true
+		#The higher this is, the better enchantments you'll get on books
+		"Book Enchantability" = 12
+		#An array of influences each candle should apply. This list must be 16 elements long, and is in order of wool colors.
+		"Influences List" = ["minecraft:unbreaking", "minecraft:fire_protection", "minecraft:knockback,minecraft:punch", "minecraft:feather_falling", "minecraft:looting,minecraft:fortune,minecraft:luck_of_the_sea", "minecraft:blast_protection", "minecraft:silk_touch,minecraft:channeling", "minecraft:bane_of_arthropods", "minecraft:protection", "minecraft:respiration,minecraft:loyalty,minecraft:infinity", "minecraft:sweeping,minecraft:multishot", "minecraft:efficiency,minecraft:sharpness,minecraft:lure,minecraft:power,minecraft:impaling,minecraft:quick_charge", "minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide", "minecraft:thorns,minecraft:piercing", "minecraft:fire_aspect,minecraft:flame", "minecraft:smite,minecraft:projectile_protection"]
+		#How many pieces a single Lapis can generate
+		"Charge Per Lapis" = 4
+		#How many pieces you can generate without any bookshelves (for Books)
+		"Base Max Piece Count Book" = 1
+		#How much to multiply the frequency of pieces where incompatible pieces have been generated
+		"Incompatible Multiplier" = 0.0
+		#How much the min level requirement for adding a new piece should increase for each piece added (up until the value of Min Level Cutoff)
+		"Min Level Scale Factor" = 1.5
+		#Set this to true to allow treasure enchantments to be rolled as pieces
+		"Allow Treasures" = false
+		#By default, enchantment rarities are fuzzed a bit to feel better with the new system. Set this to false to override this behaviour.
+		"Normalize Rarity" = true
+		#The max amount of candles that can influence a single enchantment
+		"Influence Max" = 4
 
 	[oddities.backpack]
 		"Enable Ravager Hide" = true

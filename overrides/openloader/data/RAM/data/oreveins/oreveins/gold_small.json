@@ -1,0 +1,48 @@
+{
+	"type": "curve",
+	"stone": "minecraft:stone",
+	"ore": "minecraft:gold_ore",
+	"rarity": 15,
+	"density": 100,
+	"vertical_size":5,
+	"horizontal_size":3,
+	"max_y": 50,
+	"indicator": {
+		"blocks": [
+			{
+				"block": "botania:yellow_mystical_flower",
+				"weight": 1
+			},
+			{
+				"block": "minecraft:dandelion",
+				"weight": 5
+			},
+			{
+				"block": "minecraft:grass_block",
+				"weight": 10
+			},
+			{
+				"block": "minecraft:air",
+				"weight": 5
+			}
+		],
+		"rarity": 1,
+		"blocks_under": [
+			{
+				"block": "minecraft:grass_block"
+			},
+			{
+				"block": "minecraft:podzol"
+			},
+			{
+				"block": "minecraft:mycelium"
+			},
+			{
+				"block": "minecraft:dirt"
+			},
+			{
+				"block": "minecraft:coarse_dirt"
+			}
+		]
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"type": "pipe",
+	"stone": "minecraft:stone",
+	"ore": "minecraft:iron_ore",
+	"rarity": 30,
+	"density": 30,
+	"vertical_size":5,
+	"horizontal_size":2,
+	"indicator": {
+		"blocks": [
+			{
+				"block": "minecraft:dirt",
+				"weight": 5
+			},
+			{
+				"block": "minecraft:coarse_dirt",
+				"weight": 5
+			},
+			{
+				"block": "minecraft:grass_block",
+				"weight": 35
+			}
+		],
+		"rarity": 1,
+		"replace_surface": true,
+		"blocks_under": [
+			{
+				"block": "minecraft:grass_block"
+			},
+			{
+				"block": "minecraft:podzol"
+			},
+			{
+				"block": "minecraft:mycelium"
+			},
+			{
+				"block": "minecraft:dirt"
+			},
+			{
+				"block": "minecraft:coarse_dirt"
+			}
+		]
+	}
+}
