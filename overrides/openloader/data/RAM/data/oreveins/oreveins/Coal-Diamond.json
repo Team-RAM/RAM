@@ -1,0 +1,55 @@
+{
+	"type": "cluster",
+	"stone": "minecraft:stone",
+	"ore": [
+        {
+            "block": "minecraft:coal_ore",
+            "weight": 95
+        },
+        {
+            "block": "minecraft:diamond_ore",
+            "weight": 5
+        }
+    ],
+	"rarity": 100,
+	"density": 200,
+	"indicator": {
+		"blocks": [
+			{
+				"block": "minecraft:dirt",
+				"weight": 2
+			},
+			{
+				"block": "enviromats:alabaster_black",
+				"weight": 3
+			},
+			{
+				"block": "minecraft:grass_block",
+				"weight": 10
+			},
+			{
+				"block": "quark:basalt",
+				"weight": 10
+			}
+			
+		],
+		"rarity": 1,
+		"blocks_under": [
+			{
+				"block": "minecraft:grass_block"
+			},
+			{
+				"block": "minecraft:podzol"
+			},
+			{
+				"block": "minecraft:mycelium"
+			},
+			{
+				"block": "minecraft:dirt"
+			},
+			{
+				"block": "minecraft:coarse_dirt"
+			}
+		]
+	}
+}
