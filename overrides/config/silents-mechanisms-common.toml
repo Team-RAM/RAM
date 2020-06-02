@@ -1,7 +1,7 @@
 
 [general]
 	#Shows a message in chat warning the player that the mod is early in development
-	showBetaWelcomeMessage = true
+	showBetaWelcomeMessage = false
 
 #All world generation settings require you to restart Minecraft!
 [world]
@@ -25,7 +25,7 @@
 			#Minimum Y-coordinate (base height) of veins
 			minHeight = 0
 			#Number of veins per chunk
-			veinCount = 1
+			veinCount = 3
 			#Maximum Y-coordinate (highest level) of veins
 			maxHeight = 24
 			#Size of veins
@@ -33,11 +33,11 @@
 
 		[world.gen.BAUXITE]
 			#Minimum Y-coordinate (base height) of veins
-			minHeight = 15
+			minHeight = 30
 			#Number of veins per chunk
-			veinCount = 6
+			veinCount = 5
 			#Maximum Y-coordinate (highest level) of veins
-			maxHeight = 50
+			maxHeight = 70
 			#Size of veins
 			veinSize = 8
 
@@ -45,17 +45,17 @@
 			#Minimum Y-coordinate (base height) of veins
 			minHeight = 0
 			#Number of veins per chunk
-			veinCount = 0
+			veinCount = 5
 			#Maximum Y-coordinate (highest level) of veins
-			maxHeight = 40
+			maxHeight = 30
 			#Size of veins
 			veinSize = 8
 
 		[world.gen.TIN]
 			#Minimum Y-coordinate (base height) of veins
-			minHeight = 20
+			minHeight = 30
 			#Number of veins per chunk
-			veinCount = 0
+			veinCount = 6
 			#Maximum Y-coordinate (highest level) of veins
 			maxHeight = 80
 			#Size of veins
@@ -65,7 +65,7 @@
 			#Minimum Y-coordinate (base height) of veins
 			minHeight = 5
 			#Number of veins per chunk
-			veinCount = 1
+			veinCount = 0
 			#Maximum Y-coordinate (highest level) of veins
 			maxHeight = 20
 			#Size of veins
@@ -73,9 +73,9 @@
 
 		[world.gen.COPPER]
 			#Minimum Y-coordinate (base height) of veins
-			minHeight = 40
+			minHeight = 30
 			#Number of veins per chunk
-			veinCount = 0
+			veinCount = 6
 			#Maximum Y-coordinate (highest level) of veins
 			maxHeight = 90
 			#Size of veins
@@ -85,17 +85,17 @@
 			#Minimum Y-coordinate (base height) of veins
 			minHeight = 16
 			#Number of veins per chunk
-			veinCount = 4
+			veinCount = 2
 			#Maximum Y-coordinate (highest level) of veins
 			maxHeight = 64
 			#Size of veins
-			veinSize = 8
+			veinSize = 4
 
 		[world.gen.ZINC]
 			#Minimum Y-coordinate (base height) of veins
 			minHeight = 20
 			#Number of veins per chunk
-			veinCount = 4
+			veinCount = 3
 			#Maximum Y-coordinate (highest level) of veins
 			maxHeight = 60
 			#Size of veins
@@ -105,7 +105,7 @@
 			#Minimum Y-coordinate (base height) of veins
 			minHeight = 0
 			#Number of veins per chunk
-			veinCount = 0
+			veinCount = 5
 			#Maximum Y-coordinate (highest level) of veins
 			maxHeight = 30
 			#Size of veins

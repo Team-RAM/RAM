@@ -10,6 +10,10 @@
 	#Enderman anger range on end ore harvest: disable / enable
 	#Range: 0 ~ 128
 	endermanAngerRange = 10
+	#Gravel ore generation: disable / enable
+	gravelOreGen = true
+	#Extra nether ore generation: disable / enable
+	extraNetherOreGen = true
 	#End ore generation: disable / enable
 	endOreGen = true
 	#Enderman anger on end ore harvest: disable / enable
