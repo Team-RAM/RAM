@@ -2,10 +2,10 @@
 // temporary fix to prevent IE workbench crashing
 
 craftingTable.removeRecipe(<item:immersiveengineering:workbench>);
-<item:immersiveengineering:workbench>.setDisplayName("DISABLED DUE TO CRASHES");
+mods.jei.JEI.addInfo(<item:immersiveengineering:workbench>, ["Disabled, Crashing"]);
 
 craftingTable.addShapeless("IEQF1", <item:immersiveengineering:electron_tube>*3, 
-[<tag:forge/glass>,<tag:forge:plates/nickel>,<item:immersiveengineering:wire_copper>,<item:minecraft:redstone>]);
+[<tag:forge:glass>,<tag:forge:plates/nickel>,<item:immersiveengineering:wire_copper>,<item:minecraft:redstone>]);
 
 craftingTable.addShapeless("IEQF2", <item:immersiveengineering:circuit_board>,
  [<item:immersiveengineering:insulating_glass>,<tag:forge:plates/copper>,<item:immersiveengineering:electron_tube>]);
