@@ -446,7 +446,7 @@
 
 			[world.big_stone_clusters.marble.biomes]
 				"Biome Types" = []
-				"Is Blacklist" = false
+				"Is Blacklist" = true
 
 			[world.big_stone_clusters.marble.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -482,7 +482,7 @@
 
 			[world.big_stone_clusters.limestone.biomes]
 				"Biome Types" = []
-				"Is Blacklist" = false
+				"Is Blacklist" = true
 
 			[world.big_stone_clusters.limestone.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -500,7 +500,7 @@
 
 			[world.big_stone_clusters.granite.biomes]
 				"Biome Types" = []
-				"Is Blacklist" = false
+				"Is Blacklist" = true
 
 			[world.big_stone_clusters.granite.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -518,7 +518,7 @@
 
 			[world.big_stone_clusters.andesite.biomes]
 				"Biome Types" = []
-				"Is Blacklist" = false
+				"Is Blacklist" = true
 
 			[world.big_stone_clusters.andesite.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -536,7 +536,7 @@
 
 			[world.big_stone_clusters.slate.biomes]
 				"Biome Types" = []
-				"Is Blacklist" = false
+				"Is Blacklist" = true
 
 			[world.big_stone_clusters.slate.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -554,7 +554,7 @@
 
 			[world.big_stone_clusters.diorite.biomes]
 				"Biome Types" = []
-				"Is Blacklist" = false
+				"Is Blacklist" = true
 
 			[world.big_stone_clusters.diorite.dimensions]
 				Dimensions = ["minecraft:overworld"]

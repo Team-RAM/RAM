@@ -1,0 +1,824 @@
+===================================================================
+RAM - Really Awesome Mods 0.4.0 --> RAM - Really Awesome Mods 0.4.1
+===================================================================
+
+Added:
+- Charm
+- Collective
+- Crash Utilities
+- Create
+- Guide-API Village and Pillage
+- Immersive Engineering
+- Regrowth
+- Reload Audio Driver (RAD)
+- StoneCatalysts
+- Strange
+- Villager Names
+
+Updated:
+	Camera Mod ([1.15.2] Camera Mod 1.6.8 --> [1.15.2] Camera Mod 1.6.9):
+		[1.15.2] Camera Mod 1.6.9:
+			* Fixed WAILA image frame HUD
+
+	Corail Tombstone (Corail Tombstone 4.3.8 for 1.15.2 --> Corail Tombstone 4.4.0 for 1.15.2):
+		Corail Tombstone 4.4.0 for 1.15.2:
+			This mod supports mc version from 1.8.9 to 1.15.2
+			Minecraft Version = [1.15.2] - Forge Version [31.2.0+]
+			Latest : 4.4.0 - Recommended : 4.3.8
+			Changes 4.4.0 :
+			* - adapt the voodoo poppet (cover more cases, ex : drown -> suffocation)
+			* improvement about teleport placement
+			* client config to allow to interact graves by sneaking (default is true)
+			* config option for the duration of the effects in seconds applied by voodoo poppet protection (default is 60)
+			* new scroll for lightning resistance
+			Changes 4.3.8 :
+			* - traditional chinese translation (courtesy of Yappy2000d)
+			* avoid to use the clone event (preventing potential incompatibility with others mods)
+			-> this also means that you won't see the grave's key in the death screen
+			* additional check when getting the server (and log disparities, related to #172 & #173)
+			* update to new forge RB
+
+	Curios API (curios-FORGE-1.15.2-2.0.2.3.jar --> curios-FORGE-1.15.2-2.0.2.4.jar):
+		curios-FORGE-1.15.2-2.0.2.4.jar:
+			Changelog
+			All notable changes to this project will be documented in this file.
+			The format is based on [Keep a Changelog]() and this project does not adhere to [Semantic Versioning](). This project uses MCVERSION-MAJORMOD.MAJORAPI.MINOR.PATCH.
+			[2.0.2.4] - 2020.06.03
+			Changed
+			* Curios scroll bar has more precise scrolling and the scroll position now persists during a session
+			[2.0.2.3] - 2020.05.31
+			Fixed
+			* Fixed empty item states being ticked while in Curio slots [#50](https://github.com/TheIllusiveC4/Curios/issues/50)
+			[2.0.2.2] - 2020.04.19
+			Changed
+			* Changed Recipe Book to dedicated implementation [#48](https://github.com/TheIllusiveC4/Curios/issues/48)
+			* Compressed texture files (thanks Darkhax!) [#49](https://github.com/TheIllusiveC4/Curios/pull/49)
+			[2.0.2.1] - 2020.03.26
+			Added
+			* Added Chinese localization (thank you EnterFor!)
+			[2.0.2] - 2020.03.21
+			Added
+			* Added support for curio attribute modifiers using NBT tags, simply replace "AttributeModifiers" with "CurioAttributeModifiers"
+			[2.0.1] - 2020.03.08
+			Added
+			* [API] ICurio#onCurioAnimate - Called every tick client-side only while curio is equipped
+			[2.0] - 2020.02.24
+			Fixed
+			* Fixed compatibility issue with Ensorcellation's Soulbound enchantment [#41](https://github.com/TheIllusiveC4/Curios/issues/41)
+			[2.0-beta2] - 2020.01.26
+			Changed
+			* Updated to 1.15.2
+			Added
+			* Re-added JEI integration
+			* Added Japanese localization (thanks MORIMORI0317!)
+			Fixed
+			* Fixed generic curio slot icon showing missing texture
+			[2.0-beta] - 2019.12.30
+			Changed
+			* Ported to 1.15.1
+			* [API] ICurio#doRender -> ICurio#render
+			* Curio rendering no longer automatically applies sneaking translations
+			* Curio slot icons need to be manually stitched into the block texture atlas
+
+	Forbidden and Arcanus (forbidden_arcanus-1.15.2-1.3.1.jar --> forbidden_arcanus-1.15.2-1.4-beta-2.jar):
+		forbidden_arcanus-1.15.2-1.4-beta-2.jar:
+			forbidden_arcanus-1.15.2-1.4-beta-2
+			-Fix a Server Crash
+
+		forbidden_arcanus-1.15.2-1.4-beta-1.jar:
+			forbidden_arcanus-1.15.2-1.4-beta-1
+			-Added Pixie Entity (not finished, doesnt spawn yet)
+			-Changed Indestructible Enchantment (Items that have it will no longer take any damage at all)
+			-Fixed a Crash (Missing Particle RegistryObject)
+
+	McJtyLib (mcjtylib-1.15-4.1.0-beta.jar --> mcjtylib-1.15-4.1.1-beta.jar):
+		mcjtylib-1.15-4.1.1-beta.jar:
+			* Fixed potential crashes in key handling
+
+	Powder Power [FORGE] (PowderPower-1.15.2-3.1.64.jar --> PowderPower-1.15.2-3.1.65.jar):
+		PowderPower-1.15.2-3.1.65.jar:
+			Updated Curious API
+			Updated MCP mappings
+
+	RFTools Builder (rftoolsbuilder-1.15-2.1.2-beta.jar --> rftoolsbuilder-1.15-2.1.3-beta.jar):
+		rftoolsbuilder-1.15-2.1.3-beta.jar:
+			* Fixed the builder so it no longer voids items if there are no suitable storages
+
+	RFTools Storage (rftoolsstorage-1.15-1.1.3-beta.jar --> rftoolsstorage-1.15-1.1.4-beta.jar):
+		rftoolsstorage-1.15-1.1.4-beta.jar:
+			* Fixed various problems with modular storage. It was mostly broken after last update
+
+	Ring of Attraction [FORGE] (RingOfAttraction-1.15.2-1.1.33.jar --> RingOfAttraction-1.15.2-1.1.34.jar):
+		RingOfAttraction-1.15.2-1.1.34.jar:
+			Updated Curious API
+			Updated MCP mappings
+
+	Silent Gear (SilentGear-1.15.2-1.7.1+94.jar --> SilentGear-1.15.2-1.7.2+96.jar):
+		SilentGear-1.15.2-1.7.2+96.jar:
+			# Changelog
+			The format is based on [Keep a Changelog]([https://keepachangelog.com/en/1.0.0/]()),
+			and this project adheres to [Semantic Versioning]([https://semver.org/spec/v2.0.0.html]()).
+			## [1.7.2] - 2020-06-05
+			### Added
+			* Moar new traits!
+			* Cursed - Reduces luck. Cancels with Lucky. Max level 7, same as Lucky.
+			* Magnetic - Pulls in nearby items, range based on level
+			* Terminus - Creates and places stone blocks, costs 1 durability per use
+			* A couple of secret traits of questionable usefulness...
+			* Shears (NOTE: these do not function correctly because of missing Forge patches!) [#103]
+			* `/sgear_mats` command for interacting with new WIP material system (currently unused)
+			### Changed
+			* The `silentgear:refractive` trait type has been replaced with `silentgear:block_placer`, which can be made to place any block!
+			### Fixed
+			* Flammable's item destroyed message not giving the item name
+			* Shields not being enchantable
+			## [1.7.1] - 2020-05-29
+			### Added
+			* Flammable trait (only on wood by default). Flammable items take damage if the player is on fire and the item is equipped. They can also be used as fuel in furnaces, with the burn time being proportional to the item's durability.
+			### Fixed
+			* Attribute traits (Lucky) stacking each time item is equipped [#129]
+			* Parts GUI not displaying stats correctly [#128]
+			## [1.7.0] - 2020-05-20
+			### Added
+			* Command to export part data to a TSV file, `/sgear_parts dump`. A TSV file can be imported into any spreadsheet program.
+			* Spoon trait. This allows any part to function like a spoon upgrade. It will only work on pickaxes, same as before.
+			* Crushing trait. Increases armor and decreases attack damage as gear is damaged.
+			* ru_ru.json lang file (vanja-san) [#118]
+			### Changed
+			* Reworked some gear tooltip stuff. Synergy is under stats. Traits are more clearly labeled.
+			* (API) - Stats are now a Forge registry and should be registered using the Register event.
+			* Stat names with the `silentgear` namespace can continue to omit the namespace in JSON files, others should include it.
+			* The stat multiplier config settings are currently broken
+			### Fixed
+			* Balanced armor and shield repairs (now based on armor durability stat) [#123]
+			* Blueprint paper recipe not accepting tagged dyes [#122]
+			* Duplication of upgrade parts in some cases [#121]
+			* `silentgear:has_part` and `silentgear:has_trait` loot conditions not working for weapons
+			## [1.6.4] - 2020-05-13
+			### Added
+			* Indestructible trait, prevents durability loss (not found on any default part for now, but the trait does work)
+			* Lucky trait, increases luck when in main or off hand
+			### Changed
+			* Refractive trait now places phantom lights on right-click at the cost of 5 durability [#105]
+			* Phantom lights now generate particles
+			* Broken armor no longer renders on the player
+			* Prettified stat tooltips on gear items (with colors!)
+			* (API) Traits can now modify the right-click action of tools
+			### Fixed
+			* Ranged speed stat not working on bows [#119]
+			* Bows and crossbows displaying "When in main hand" with no modifiers
+			## [1.6.3] - 2020-05-07
+			### Changed
+			* Shield durability is now based on the "armor durability" stat. Iron shields should be the same durability as vanilla shields.
+			* Reworked the way stat modifiers are read from part JSONs. Old files are still compatible. New style is less verbose.
+			### Fixed
+			* Shield models in wrong location (Partonetrain) [#117]
+			* Shields not having any color [#114]
+			* Netherwood sticks will no longer lower durability below 20
+			* Multiple modifiers on a single stat for a part not working
+			## [1.6.2] - 2020-05-02
+			### Fixed
+			* Possible crash with armor and Quark [#115]
+			* Possible solution for CME in PartManager [#104]
+			* "Add harvest level" stat modifiers not working (ornate gold rod from SGems). This moves the "max" operation to right after the "avg" operation. Shouldn't effect stat calculations in most other cases. [#70]
+			* Armor showing "When in main hand" in tooltip
+			## [1.6.1] - 2020-04-27
+			### Added
+			* Paxels are back! Requires 5 mains and a rod. Small durability bonus, small penalty to harvest speed and enchantability. [#114]
+			* Shields are here (technically). Model currently has issues and colors do not work. Not sure how to fix this just yet. [#114]
+			### Fixed
+			* Netherwood trees not spawning [#110]
+			* A possible lumber axe crash when used on large trees [#84]
+			* (API) `PartData.onAddedToGear` being called too often [[Super Multi-Drills #19]([https://github.com/SilentChaos512/SuperMultiDrills/issues/19](https://github.com/SilentChaos512/SuperMultiDrills/issues/19))]
+			## [1.6.0] - 2020-04-20
+			### Added
+			* (API) `IGearPart.randomizeData`, creates a PartData object used during random gear generation
+			### Changed
+			* Move all gear crafting recipes to their own tab in JEI [#106]
+			* (API) PartTypes can now specify a fallback part, deprecates `PartManager.tryGetFallback`
+			* (API) Gear class maps in ModItems now use ResourceLocations for keys, to allow other mods to add gear types
+			### Fixed
+			* Swapping gear parts will now attempt to return the replaced parts in the crafting grid
+			* Part names being underlined after viewing them in the parts menu
+			* Gear randomizer not selecting parts in some cases
+			* Random gear command not working with command blocks
+			* Salvager attaching grade NBT to returned items
+			## [1.5.8] - 2020-04-15
+			### Fixed
+			* Server crash caused by new command added in 1.5.7 [#112]
+			* Issues with armor coloring being incorrect, adds a couple new texture properties to part JSONs (see [Silent's Gems #454]([https://github.com/SilentChaos512/SilentGems/issues/454](https://github.com/SilentChaos512/SilentGems/issues/454)))
+			* `armor_color` - The color of the armor model (defaults to `fallback_color`)
+			* `armor_texture` - The prefix of the armor texture path (defaults to `texture_suffix`)
+			* You can leave these new properties out (default) in most cases
+			* This fix disables color blending for armor models (items will still show blending)
+			## [1.5.7] - 2020-04-12
+			Requires Forge 31.1.18 or higher
+			### Added
+			* Command to show parts GUI (`/sgear_parts show_gui`). Does not require OP perms. [#107]
+			* Crimson iron and steel blocks [#88]
+			* Golden nether banana [#88]
+			### Changed
+			* Updated compatible items to remove from drop system of Mine and Slash (AzureDoom) [#97]
+			* `/sgear_parts list` no longer requires OP perms
+			### Fixed
+			* Magmatic trait not working [#109]
+			## [1.5.6] - 2020-04-07
+			### Added
+			* Attribute modifier traits. These will apply attribute modifiers to gear items based on the type of gear and the trait level.
+			### Changed
+			* (API) Replace Lombok getters with normal getters. API unchanged, just makes the code clearer.
+			## [1.5.5] - 2020-04-03
+			### Removed
+			* Part analyzer advancement
+			### Fixed
+			* Possible solution for CME in PartManager [#104]
+			## [1.5.4] - 2020-03-18
+			### Fixed
+			* Main parts still showing grade tooltip [#83]
+			## [1.5.3] - 2020-03-06
+			### Added
+			* Mine and Slash integration via new data pack system (AzureDoom) [#94]
+			## [1.5.2] - 2020-02-20
+			### Fixed
+			* Stone torch (wall version) transparency issue
+			## [1.5.1] - 2020-02-11
+			### Fixed
+			* Crimson iron dust and ore chunks are no longer hidden when Silent's Mechanisms is not installed [#87]
+			* Cutout blocks (flax, stone torch) rendering incorrectly [#86]
+			* Version in crafting station screen showing 1.14.4 instead of actual Minecraft version [#85]
+			## [1.5.0] - 2020-02-01
+			Ported to Minecraft 1.15.2
+			### Added
+			* Login message to warn the player when parts and traits fail to load. Instructs the player on what to search for in their log file ("Failed to reload data packs").
+			### Removed
+			* The part analyzer and part grading. See issue [#83]([https://github.com/SilentChaos512/Silent-Gear/issues/83](https://github.com/SilentChaos512/Silent-Gear/issues/83)) for plans/discussion.
+			## [1.4.6] - 2019-12-25
+			### Fixed
+			* Tooltip crash with gear, possibly caused by removed traits [#81]
+			* Fix some harmless(?) warning about material grade command arguments [#80]
+			## [1.4.5] - 2019-11-25
+			### Changed
+			* Armor now gains Mine and Slash stats (AzureZhen) [#78, #79]
+			* Remove material mixing tooltip from blueprints, as they are no longer true [#73)]
+			## [1.4.4] - 2019-11-05
+			### Added
+			* End stone main part
+			### Changed
+			* Increased lumber axe melee damage
+			### Fixed
+			* Possibly fixes part crafting items being scrambled in worlds where items have been added/removed [#74]
+			## [1.4.3] - 2019-10-01
+			### Added
+			* Lumber axe (finally). Chops down entire trees by breaking a single block. Trees are defined as logs with leaves attached. The standard block tags for logs and leaves are used. Textures may need some work...
+			### Fixed
+			* Possibly fixed crash caused by Console HUD [#68, #53]
+			## [1.4.2] - 2019-09-29
+			### Added
+			* (API) `IGearPart#onGearDamaged`
+			### Fixed
+			* Crafting station dropping inventory when rotated
+			## [1.4.1] - 2019-09-18
+			### Fixed
+			* Part analyzer not dropping inventory when broken [#62]
+			* Axes breaking permanently when stripping bark [#63]
+			* Broken shovels being usable with Dirt2Path [#63]
+			## [1.4.0] - 2019-09-13
+			Bump required Forge version to 28.1+, Silent Lib 4.4.0
+			### Fixed
+			* Should make part and trait maps thread-safe (I hope) [#59]
+			### Fixed
+			* Upgrade parts applying to invalid gear items
+			## [1.3.11] - 2019-09-10
+			### Changed
+			* Data paths for parts and traits changed. silentgear/parts is now silentgear_parts and silentgear/traits is now silentgear_traits. Files in the old location will still load for now.
+			### Fixed
+			* Hidden parts appearing on the parts screen in the crafting station
+			* Sound type of flax plants
+			## [1.3.10] - 2019-09-04
+			Update requires Forge 28.0.83 or higher
+			### Added
+			* A joke part: barrier
+			### Changed
+			* Part names and prefixes are now serialized like vanilla text (`translate` to translate, `text` for literal text). Old part files will load correctly.
+			* Part name prefixes no longer nested in `name`, moved to `name_prefix`
+			### Fixed
+			* Armor not using blended colors
+			* Should fix barrier items being produced when salvaging some items
+			## [1.3.9] - 2019-08-19
+			### Added
+			* Gear name prefixes. Can be added to individual parts (see rough rods for any example), or through an event (GearNamePrefixesEvent)
+			### Changed
+			* Mine and Slash random drops are now tier 1 minimum
+			* Mine and Slash random drops should now be salvagable
+			### Fixed
+			* Hammer dupe [#51]
+			* JEI failing to load on servers [#52]
+			* JEI complaining about QuickRepairRecipe
+			## [1.3.8] - 2019-08-13
+			### Fixed
+			* Mine and Slash compatibility race condition
+			## [1.3.7] - 2019-08-13
+			### Added
+			* Basic compatibility for Mine and Slash
+			### Fixed
+			* Parts blacklisted for "all" gear types not actually being blacklisted
+			## [1.3.6] - 2019-08-12
+			### Added
+			* Stat multiplier configs for gear. These allow the stat values of all items to be increased or decreased without overwriting every part file.
+			* Gear type blacklist to part tooltips
+			* Texture for phantom light item, translated name [#44]
+			### Fixed
+			* Ranged damage stat being ignored
+			## [1.3.5] - 2019-08-06
+			Updated for Forge 28.0.45
+			### Fixed
+			* Tool head swapping restoring durability in some cases... for real this time [#45]
+			## [1.3.4] - 2019-08-02
+			### Added
+			* Custom tipped upgrades should now show up in JEI and creative tabs
+			* A couple more advancements
+			* Sort button to parts GUI. This is no longer a drop down list, it just cycles the options (just wanted a quick fix for right now)
+			### Fixed
+			* Parts with malformed JSON not raising an error (may not detect all cases still...) [#41]
+			* Tool head swapping restoring durability in some cases [#43]
+			* Some armor items missing color
+			## [1.3.3] - 2019-07-30
+			### Changed
+			* Make parsing of part crafting items less strict. The `item` property will be removed if `tag` is present. Undefined tags will no longer prevent the part from loading (but you still won't be able to craft with it, of course)
+			### Fixed
+			* Hammers destroying the NBT of certain blocks, like shulker boxes and soul urns [Silent's Gems #384]
+			* Color handlers crashing the game in some cases [#39]
+			## [1.3.2] - 2019-07-28
+			### Added
+			* Custom tipped upgrades. This is a single item which allows the part to be changed with NBT. Just set "PartID" to the ID of the part. For the crafting items of the part, replace the usual "normal" object with an empty "custom_tipped_upgrade" object. You will need to create the recipe for the upgrade yourself.
+			* The "nerfed gear" config is back. Disabled by default. You can set any damageable item to have reduced durability, to encourage use of Silent Gear over vanilla items (or items from other mods if you wish). This may not work for all items.
+			### Changed
+			* Part analyzer optimized a bit. Should reduce tick time when it's not working.
+			* Lite gear models reworked. Added grip layer to tools. Some layers support a very limited set of alternate textures.
+			* Internal changes to how parts are detected. May reduce performance slightly in some cases. This was needed for custom tipped upgrades.
+			## [1.3.1] - 2019-07-24
+			### Added
+			* A `hidden` property for traits. Hidden traits will not be shown in the list of traits on an item, unless advanced tooltips (F3+H) are enabled.
+			* Trait conditions, which allow conditions to be assigned to traits on parts. The part will not apply the trait to a gear item if the conditions are not met.
+			### Fixed
+			* Some gear crafting recipes not working [#36]
+			* Diamond and glowstone tip upgrades not having the Lustrous trait
+			## [1.3.0] - 2019-07-23
+			* Update to 1.14.4
+			## [1.2.4] - 2019-07-22
+			### Fixed
+			* Random crash with Silent's Gems
+			## [1.2.3] - 2019-07-21
+			### Added
+			* Config to enable additional logging for loading and syncing parts and traits
+			* Tier 3 analyzer catalyst tag (no items in it by default)
+			* Recipe to replace the head of a tool. Craft a tool with a tool head (a tool with only main parts). The old head is retained.
+			* Spear blueprints to the "swords" loot pool for the blueprint package
+			### Changed
+			* Trait descriptions are now shown in item tooltips when the Alt key is held down
+			* Parts with zero armor durability are automatically blacklisted for armor crafting. Similarly, zero durability will blacklist all other gear types.
+			### Fixed
+			* Traits not loading on OS X
+			* Gear type blacklist for parts now actually works
+			* Some armor textures being broken
+			* Overrode vanilla's dumb repair recipe again... This disables crafting grid "repairs" of Silent Gear items, but the grindstone still works.
+			## [1.2.2] - 2019-07-17
+			### Added
+			* New trait type, `silentgear:nbt_trait`. This will add arbitrary NBT to gear items when crafted.
+			* Missing models for crossbow blueprints and templates
+			* Crusher recipes (Silent's Mechanisms) for crimson iron ore
+			* Notify players on login of part and trait files that failed to load
+			### Changed
+			* Trait lists in tooltips tweaked (hopefully they won't be confused for enchantments?)
+			* Sickles reset sweet berry bushes to age 1 (same as picking berries from them normally)
+			* Machetes can now break multiple bamboo blocks at once
+			### Fixed
+			* Sickles duplicating dirt from grass blocks, possibly some other related issues
+			## [1.2.1] - 2019-07-11
+			### Added
+			* Crossbows. These have some minor animation issues (because vanilla is dumb), but they function correctly.
+			### Changed
+			* Random grading now assigns the same grade to all parts. Added a config which can revert to the old behavior.
+			### Fixed
+			* Some issues with the JEI plugin on servers
+			* Blended head colors including non-main parts
+			* Possibly improves part analyzer performance
+			## [1.2.0] - 2019-07-01
+			Updated for Minecraft 1.14.3
+			## [1.1.3] - 2019-06-24
+			JEI plugin is up to date. Recommended Forge is 26.0.51 or later.
+			### Added
+			* A few new traits, assigned to some existing parts
+			### Changed
+			* Small change to trait level calculations
+			* Blueprint paper recipe now uses the vanilla blue dye item only, until Forge fixes the blue dye tag
+			## [1.1.2] - 2019-06-21
+			### Added
+			* Loot condition `silentgear:has_part`, which can check if a gear item has a particular part. Can also check the grade of the part.
+			* Loot condition `silentgear:has_trait`, which can check if a gear item has a given trait
+			* Gear stat changes are now logged in the debug log. There will be a config for this later, but for right now it is forced on.
+			### Fixed
+			* Issue where trait data was not being sent completely during client login
+			## [1.1.1] - 2019-06-20
+			### Added
+			* Netherwood slabs and stairs
+			* Recipe advancements (most recipes will show in the recipe book when you get certain items)
+			* New command, `sgear_random_gear` which will give randomized gear items
+			* Loot table function for setting specific parts on a gear item
+			* Chinese translation (zh_cn, by XuyuEre)
+			### Fixed
+			* Example gear items not appearing in the creative tab
+			## [1.1.0] - 2019-06-17
+			### Added
+			* Configs for random grading. You can adjust the mean, standard deviation, and max grade.
+			* Gear with mixed main parts will blend the colors, but with much greater weight on earlier parts
+			### Removed
+			* Blue flower and black/blue dyes (use cornflowers and new vanilla dyes instead)
+			### Changed
+			* Netherwood tree generation (more leaves, subject to change)
+			## [1.0.12] - 2019-05-11
+			### Changed
+			* Blueprints and templates now have the output item in their name, instead of the tooltip
+			### Fixed
+			* Stats not calculating correctly in some cases (e.g. tip upgrades) [#27]
+			* Bow "lite" models are animated now
+			* Rod and bowstring blueprints/templates being consumed during crafting
+			## [1.0.11] - 2019-05-08
+			### Added
+			* Command to recalculate stats on all of a player's gear (can target multiple players)
+			* Command to list all registered parts. Also shows how many of each type there are.
+			### Fixed
+			* Parts and traits should now sync all needed data with clients
+			* Fix gear losing their stats during recalculations (e.g. ka-chink)
+			* Flax plants not growing
+			## [1.0.10] - 2019-05-08
+			### Added
+			* Config to disable enchanted effect on gear items (this adds a new client config file). Since the effect is broken on vanilla models, this is disabled by default.
+			* Spears. They are weaker than swords, but have a much longer reach. These may need some balancing still.
+			### Fixed
+			* Should fix gear parts and traits not syncing to clients on LAN games
+			## [1.0.9] - 2019-04-24
+			### Added
+			* JEI plugin has been updated
+			### Fixed
+			* "Unknown part type" error when connecting to servers
+			* Bows not being enchantable
+			* Blocks connecting to analyzers improperly
+			## [1.0.8] - 2019-04-15
+			Small tweak needed by Silent's Gems 3.0.11.
+			## [1.0.7] - 2019-04-07
+			### Added
+			* Analyzer catalyst, which will increase the median grade when grading parts. These are set by item tags and there are two tiers (`silentgear:analyzer_catalyst/tier1` and `silentgear:analyzer_catalyst/tier2`). By default, tier 1 is glowstone dust, and tier 2 is glittery dust, a new item.
+			### Changed
+			* Rod-less tools (heads) will now hurt you when used. Ouch!
+			* Hammers are no longer effective on "extra materials" like circuits (redstone, ladders) and glass
+			* Durability max is now Integer.MAX_VALUE (2^32-1) and Armor Durability max is 1/16th of that (134,217,727)
+			### Fixed
+			* Hammers breaking unbreakable blocks
+			* Parts GUI is working again (access in the crafting station GUI)
+			* Some broken/missing translations
+			## [1.0.6] - 2019-03-30
+			### Added
+			* Stone torches (craft with coal/charcoal and stone rods)
+			* Potted blue flower and netherwood saplings (just use the block on a flower pot)
+			* Flax is obtainable, look for wild flax plants in plains or mountain biomes.
+			* Sinew is now obtainable
+			### Removed
+			* Item of flax plant (block still exists, but you will get a warning on world load)
+			### Changed
+			* Rewrote gear crafting recipe code to allow recipes to show up in the recipe book and REI (probably JEI as well, have not tested). The recipe JSON files are still the same. If you didn't know, you can completely replace these recipes with data packs!
+			* Better temporary models for everything but bows. Still waiting on Forge for the proper model system to come back. These new models will likely become a config option, as they are probably much easier on less powerful hardware.
+			### Fixed
+			* Block-placing feature is back. Right-click while holding a compatible tool (SGear pickaxe, shovel, or axe by default) to place the block in the slot after the tool, or the last slot of your hotbar. Also works with the torch bandolier (from the Torch Bandolier mod).
+			* Lustrous trait being 15 times more powerful than intended. Also increased the bonus from sky light; block light is 75% as effective.
+			## [1.0.5] - 2019-03-19
+			Tweaks some things which will be needed for the next Silent's Gems release, which will add gear souls (replaces tool souls from older versions). Minor API changes.
+			### Added
+			* Lock stats command is back
+			### Fixed
+			* Armor recipes now reference the correct blueprints
+			* (Partially) When connecting to a dedicated server, information about traits and gear parts is synced to the client. Unfortunately, this happens too late and tooltips usually do not update.
+			## [1.0.4] - 2019-03-08
+			Traits are mostly implemented. There are a few that do not function yet, but it should be possible to create custom traits again.
+			### Fixed
+			* Tools having wrong attack damage and speed modifiers (removed equipment JSON files entirely) [#24]
+			* Example gear generates correctly
+			* Armor no longer says it's missing a rod
+			* Fix armor item color (custom worn armor is still colorless)
+			* A few misc tooltip-related issues
+			## [1.0.3] - 2019-03-07
+			Temporary workaround for Forge issue #5577, Silent Gear [issue #25]([https://github.com/SilentChaos512/Silent-Gear/issues/25](https://github.com/SilentChaos512/Silent-Gear/issues/25)). This allows players to connect to servers and LAN games. I have noticed their are issues with gear parts not syncing to the client, which I am pretty sure is unrelated. Gear items can still be crafted and used normally as far as I know, they just look wrong.
+			## [1.0.2] - 2019-03-03
+			### Added
+			* Improved temporary gear models. They do not display upgrades or support unique textures, but... it's something. Now we wait for Forge to fix stuff.
+			* Grade argument to "sgear_parts add" command.
+			## [1.0.1] - 2019-02-28
+			### Added
+			* World generation (flowers, netherwood, and crimson iron)
+			### Changed
+			* Crafting station part slots removed. This leaves just the crafting grid and side storage.
+			### Fixed
+			* Blocks with GUIs can be opened again
+			* Flower and netherwood sapling models corrected
+			## [1.0.0] - 2019-02-24
+			Port to 1.13.2. Bumped version to 1.0.0 because of major changes, but this is still an alpha of course.
+			* Old part files are not compatible and must be updated.
+			* Parts are now added with **datapacks**. Files should be in `data/<namespace>/silentgear/parts/`, where `<namespace>` is a unique ID for your datapack. You can organize files into subfolders as well (e.g. have a folder for main parts, a separate folder for rods, etc.) This is optional, but encouraged.
+			* Gear **models do not work**, you will see white outlines instead (the items still work, of course)
+			* Tool heads removed... sort of. Crafting a blueprint with main parts only creates a rodless tool (head).
+			* Tool heads are technically their respective tool. You can use them, but some stats are reduced until you attach a rod. May add additional penalties later.
+			* You can also place the tool rod (and bowstring for bows) in the crafting grid at the same time to craft the whole tool in one go!
+			* Traits are broken right now
+			* None of the blocks function yet
+
+	Silent's Mechanisms (SilentMechanisms-1.15.2-0.7.1+51.jar --> SilentMechanisms-1.15.2-0.7.2+52.jar):
+		SilentMechanisms-1.15.2-0.7.2+52.jar:
+			# Changelog
+			The format is based on [Keep a Changelog]([https://keepachangelog.com/en/1.0.0/]()),
+			and this project adheres to [Semantic Versioning]([https://semver.org/spec/v2.0.0.html]()).
+			## [0.7.2] - 2020-06-02
+			### Fixed
+			* CC: Tweaked compatibility updated (requires version 1.88+) [#83, #84]
+			* Alloy machine frame recipe will now accept tagged steels (Mekanism, etc.) [#81]
+			## [0.7.1] - 2020-05-05
+			### Added
+			* Fog color for oil and diesel (DcZipPL) [#74]
+			* Pipes (not functioning yet)
+			### Fixed
+			* Machine recipes showing their items in the recipe book [#77]
+			* Crash in WireNetworkManager [#75]
+			* Blaze rod duplication [#64]
+			## [0.7.0] - 2020-02-04
+			Ported to Minecraft 1.15.2
+			## [0.6.13] - 2020-02-04
+			### Changed
+			* Updated more textures (futurenp)
+			### Fixed
+			* Wires not connecting to some blocks (more work needed) [#62]
+			* Drying rack not interacting with some item transfer methods (missing item handler capability) [#55]
+			## [0.6.12] - 2020-01-21
+			### Removed
+			* Some old recipes leftover from earlier versions. These were left in-place because ores were added later on.
+			### Changed
+			* Many textures (machines and crafting items mostly) by Futurenp
+			## [0.6.11] - 2019-12-31
+			### Added
+			* Temporary texture for hand pump
+			* Russian translation (Smollet777)
+			### Removed
+			* "Inventory" text from machine screens [#41]
+			### Changed
+			* Increased zinc and bismuth defaults to 4 veins per chunk and vein size of 8 (you will need to update your config file to get these changes) [#58]
+			* Fluid fuel generators (lava, diesel) now consume 100 mB (configurable) of fuel at once. This will reduce lag, but will decrease fuel efficiency when power demand is low. [#48]
+			* Consider using CC Tweaked computers to control generators for better efficiency.
+			* Mixer will no longer put the same fluid in different tanks [#24]
+			### Fixed
+			* Ethane and polyethylene buckets missing fluid capability (not working with Refined Storage) [#49, #41]
+			* Pump not allowing fluids to be extracted [#43]
+			* Fluid machines allowing extraction from input tanks [#41]
+			* Water color in machine screens [#41]
+			## [0.6.10] - 2019-12-27
+			### Fixed
+			* Crash when getting energy capabilities of removed blocks [#57]
+			* Platinum ore missing block tags [#52]
+			* Wire model incorrect when connecting to block below [#51]
+			* Ethane and polyethylene are now properly flagged as gaseous (I think) [#49]
+			* Ore gen master switch config being ignored
+			## [0.6.9] - 2019-11-20
+			### Added
+			* Ethane and polyethylene buckets, for compatibility reasons. These buckets cannot place these fluids as blocks, as the blocks do not exist. [#49, #41]
+			### Fixed
+			* Upgrades affecting comparator output level on machines [#47]
+			* Lava generator not accepting lava canisters via hoppers [#46]
+			* Machine frame blocks rendering oddly underwater [#32]
+			## [0.6.8] - 2019-11-04
+			### Added
+			* Config to set chance of oil lakes (can be disabled by setting to 0)
+			### Changed
+			* Machines no longer lose progress when out of power (Vaelzan) [#42]
+			### Fixed
+			* Possibly fixed a wire-related crash [#38, #45?]
+			## [0.6.7] - 2019-10-25
+			### Added
+			* New textures for diesel/lava generators, refinery, mixer, and solidifier (oitsjustjose) [#39]
+			### Changed
+			* Updated German translation (pandory-network) [#34]
+			### Fixed
+			* Battery box bottom texture [#40]
+			## [0.6.6] - 2019-10-20
+			Significant rewrite of wire code to fix several issues. Watch for bugs!
+			### Added
+			* Crusher recipes to create dusts from ingots
+			### Changed
+			* Wires now store a small amount of energy (related to [#35, #36])
+			### Fixed
+			* Wires creating stack overflows when interacting with Useless Mod energy cables [#35, #36]
+			* Lava and diesel generators eating buckets [#33]
+			## [0.6.5] - 2019-10-12
+			### Added
+			* Crusher recipe for RF Tools Base's dimensional ore
+			* Advancement translations (thanks xMGZx) [#31, #17]
+			* Drying racks occasionally emit smoke particles when working
+			### Changed
+			* Wires are slightly more intelligent with their connections, reducing the amount of wrenching needed. Energy producing and storing blocks will default to an "in" connections, while machines will default to "out".
+			* Standard tier machine speed to 2.0x (up from 1.5x)
+			* Drying rack can be waterlogged (will not function when waterlogged)
+			* Set minimum Forge version to 28.1.5
+			### Fixed
+			* Drying racks interacting weirdly with hoppers (duplicating items, not updating on client) [#30]
+			* Single wires not functioning [#11]
+			## [0.6.4] - 2019-10-10
+			### Added
+			* Diesel generator. Produces 120 FE/t, 10 ticks/mB (1.2M FE per bucket).
+			### Fixed
+			* Added missing electrum recipes [#27]
+			* Added missing textures for new metal blocks
+			## [0.6.3] - 2019-10-05
+			This update finally completes the plastic production process! All recipes are visible in JEI, as always.
+			### Added
+			* Solidifier, a machine that takes one liquid and outputs items. Recipes can be added with data packs.
+			* Recipe to make plastic pellets from polyethylene (solidifier)
+			* Recipe to make ice from water (solidifier)
+			* Recipes to upgrade basic alloy smelters and crushers
+			* Recipes for most machine upgrades (may change)
+			* Platinum (with ore), enderium, signalum, and lumium (support for Solar Generation)
+			### Changed
+			* Oil lakes are now slightly more common in desert biomes
+			### Fixed
+			* Lava generator missing its loot table [#26]
+			* Other missing loot tables (also added a warning system so the game will yell at me when I forget more in the future)
+			* Might fix another wire-related crash [#23]
+			## [0.6.2] - 2019-10-01
+			### Added
+			* Mixer, combines up to four fluids into one. Recipes can be added via data packs, as with all other machines.
+			### Fixed
+			* Possibly fixed wire placing crash [#23]
+			* Divide by zero crashes [#22]
+			* Silent Lib not being correctly listed as a dependency in the mods.toml
+			## [0.6.1] - 2019-09-27
+			### Added
+			* Canisters, stackable fluid containers (64 per slot). This will hold any fluid, but probably won't be recognized by other mods.
+			* Fluid color is currently pulled from some JEI code until I write my own solution. If you report colorless fluids in canisters I will make fun of you :p
+			* Pump, picks up fluids from the world. Can fill buckets or canisters. Requires some FE to work
+			* Refinery is working
+			* Refinery can fill buckets or fluid canisters
+			* Temporary refinery textures
+			* Plastic pellets and sheets (not craftable yet, we're getting there...)
+			## [0.6.0] - 2019-09-23
+			Even more recipe work!
+			### Added
+			* Machine upgrades. Not craftable yet, but 3 of the 4 are functioning. Most machines (except basic ones) will have upgrade slots. Only one upgrade is allowed in each slot, but they can stack elsewhere.
+			* Oil, generates in "lakes", usually underground. No function at the moment.
+			* Diesel, will be one product of refining oil. Currently no way to produce it.
+			* Refinery, not functional. Will refine oil into other fluids. Has a "recipe" system which will allow mods or datapacks to use it.
+			### Changed
+			* Coal generator now also accepts `forge:nuggets/coal` [#18]
+			### Fixed
+			* Ores generating in wrong generation stage [#19]
+			* Add loot table for basic crusher
+			## [0.5.2] - 2019-09-08
+			More recipe progression/rebalancing, more to come
+			### Added
+			* Basic crusher
+			* Coal dust
+			* Advancements (names and descriptions missing)
+			### Changed
+			* Steel-like ingot recipes now require coal dust (meaning you need a basic crusher)
+			### Fixed
+			* Crash when opening machines [#14]
+			* Coal generator being uncraftable with new recipe progression [#13]
+			* Lava generator not accepting lava if output slot is empty [#12]
+			* Add loot table for basic alloy smelter
+			## [0.5.1] - 2019-09-07
+			### Added
+			* Basic alloy smelter
+			* ComputerCraft computers can now get and set the redstone mode on machines
+			### Changed
+			* Rebalanced some recipes, more to come
+			### Fixed
+			* Actually added steel recipe this time
+			* Lava generator consuming lava buckets when full
+			## [0.5.0] - 2019-08-30
+			Updated for Forge 28.0.74+
+			### Added
+			* Lava Generator. Creates Forge Energy from lava (anything in the `minecraft:lava` fluid tag). Should interact with fluid pipes from other mods (not tested yet), or you can place lava buckets into its input slot.
+			* Yes, the model is broken and the textures are temporary!
+			* Currently generates 500K FE per lava bucket (feedback appreciated)
+			* Steel recipe [#9]
+			* ComputerCraft (CC Tweaked) computers can now read energy levels of machines and generators
+			### Changed
+			* Generators can now be controlled by redstone like machines (defaults to ignore redstone)
+			* Coal generator now accepts only coal and charcoal (`minecraft:coals`) and coal blocks (`forge:storage_blocks/coal`) by default. Override the `silents_mechanisms:coal_generator_fuels` item tag if you need to change this.
+			## [0.4.2] - 2019-08-24
+			### Added
+			* Machines can now be controlled by redstone (defaults to ignore redstone). Does not work on generators yet, expect it next update.
+			* Machine frames (no use yet), Electrum
+			### Changed
+			* Machines are now set to their inactive state (and lose progress) when they run out of power
+			### Fixed
+			* Alloy smelter matching the wrong recipes
+			## [0.4.1] - 2019-08-23
+			### Added
+			* Wrench item. Rotates some blocks and sets the connection type of wires
+			* Wires are now implemented. They still require some work, but are usable.
+			### Changed
+			* Updated Polish translation (Dolores_McDoodle)
+			### Fixed
+			* Blocks losing their inventory when broken [#4]
+			## [0.4.0] - 2019-08-22
+			* Big thanks to EnbyChu for making all the textures for this update!
+			* This is a very large update (over 400 JSON files) because of the addition of ores. Expect recipes to be changes to use the new metals.
+			### Added
+			* Metal ores (with configs, including a convenient "master switch" to disable them all at once)
+			* Metal blocks and nuggets
+			* Zinc, bismuth, brass, bismuth brass, aluminum (bauxite), and uranium
+			### Changed
+			* Machine textures redone
+			## [0.3.5] - 2019-08-19
+			### Added
+			* Missing crushing recipes for silver and lead
+			* Blaze rod crushing recipe (double the powder)
+			* Polish translation (Dolores_McDoodle)
+			## [0.3.4] - 2019-08-18
+			### Added
+			* Crushing recipes for remaining vanilla ores and Useless Mod ores
+			### Fixed
+			* Machine energy values displaying incorrectly when playing on a server [#2]
+			* Invalidate energy capabilities on removed tile entities [#3]
+			## [0.3.3] - 2019-08-17
+			### Fixed
+			* Server crash [#1]
+			## [0.3.2] - 2019-08-17
+			### Fixed
+			* Compressor and electric furnace not dropping when broken (missing loot tables)
+			## [0.3.1] - 2019-08-16
+			### Added
+			* JEI support for drying rack
+			### Changed
+			* Tweaked display of some recipes in JEI (cut empty space on crusher category, fix clipping on compressor category)
+			## [0.3.0] - 2019-08-06
+			Updated for Forge 28.0.45
+			### Added
+			* Drying racks. These have their own recipes, so mods or data packs can add recipes.
+			* Bronze and invar (made in the alloy smelter)
+			* Recipe for alloy smelter
+			* JEI support for alloy smelter
+			* Some missing models, textures, and localized names
+			### Changed
+			* Some item textures (EnbyChu)
+			## [0.2.0] - 2019-07-22
+			### Added
+			* Ore chunks, dusts, and ingots for copper, tin, silver, lead, and nickel. This does NOT add ores! The recipes will load if another mod defines an ore with the correct tag.
+			* Alloy smelter. Currently not craftable and missing textures, but it works.
+			## Removed
+			* Debug text from coal generator and battery box GUI
+			### Changed
+			* Coal generator now creates 60 FE/tick (from 25)
+			* Machines now use 30 FE/tick (from 25)
+			## [0.1.0] - 2019-07-06
+			* First release
+
+	The One Probe (theoneprobe-1.15-2.0.2.jar --> theoneprobe-1.15-2.0.3.jar):
+		theoneprobe-1.15-2.0.3.jar:
+			* Fixed a problem when looking at certain entities (like paintings). There would be massive console spam
+			* Fixed a small problem with IProbeHitEntityData not doing what it promised
+
+	Vampirism - Become a vampire! (Vampirism-1.15.2-1.6.0-beta.2 --> Vampirism-1.15.2-1.6.0-beta.4):
+		Vampirism-1.15.2-1.6.0-beta.4:
+			* Rework blood vision
+			* Fix enchantment description keys
+			* Remove potentially unsafe (crashy) code
+			* Fix server side crash with the sanguinare injection item
+			* Nerf fire damage
+			* Remove blood from blood container on harvest if less than 1 food unit
+			* add cloak to hunter trainer and advanced hunter
+			* Allow breaking neutral totem
+
+	Woot (woot-1.0.0.0.jar --> woot-1.15.2-1.1.0.0.jar):
+		woot-1.15.2-1.1.0.0.jar:
+			Added
+			* Mod version now includes the Minecraft version
+			* Datapack support for custom mob ingredients both items and fluids
+			* Datapack support for custom mob drops
+			[](https://github.com/Ipsis/Woot/blob/1.15.x/CHANGELOG.md#changed)Changed
+			* Fixed dual cerulean essence VAT recipe [#428]
+			* Fixed Anvil JEI recipe not showing controller recipe [#429]
+			* Override of mob specific configuration (policy.mob) has been made more user friendly
+			* Changed controller recipe to use SI plate not cobblestone
+
+	XNet (xnet-1.15-2.1.3-beta.jar --> xnet-1.15-2.1.4-beta.jar):
+		xnet-1.15-2.1.4-beta.jar:
+			* Fixed the item model for XNet facades
+			* 'kyleedwardsny' fixed various things related to the facades:
+			* Fixed some rendering issues when breaking facades
+			* Fixed the cable blocks being solid
+			* Consolidate all cable/facade rendering into GenericCableBakedModel and remove the redundant FacadeBakedModel and everything related to it. This reduces the amount of code that has to be maintained.
+			* Fix a possible performance regression in #414 that was pointed out on Discord. Now, the cable quads only get returned in the solid rendering layer, and quads for the mimicked block only get returned if the mimicked block's canRenderInLayer() is true.
+			* Allow facade/cable rendering in all layers, ensuring that translucency works in addition to cutouts and solids.
+			* Always render the cable even if there is also a facade, so that translucent and cutout blocks show the cable inside.
+
+	🥝 Kiwi (Kiwi-1.15.2-2.7.1.jar --> Kiwi-1.15.2-2.7.2.jar):
+		Kiwi-1.15.2-2.7.2.jar:
+			Rewrite item tooltips
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
