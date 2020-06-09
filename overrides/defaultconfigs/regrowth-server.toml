@@ -1,0 +1,13 @@
+
+["Regrowth Control Values"]
+	#Eating Heals: 0-No, 1-yes
+	#Range: 0.0 ~ 1.0
+	eatingHeals = 0.99
+	#Debug Level: 0 = Off, 1 = Log, 2 = Chat+Log
+	#Range: 0 ~ 2
+	debugLevel = 0
+
+["Regrowth Mobs 6464"]
+	#RegrowthMobs String 6464
+	defaultRegrowthMobsActual = ""
+
