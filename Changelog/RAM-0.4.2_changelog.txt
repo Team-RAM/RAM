@@ -465,4 +465,7 @@ Updated:
 			=========
 			The complete changelog with previous versions can be found at [https://minecraft.natamus.com/softer-hay-bales/changelog/]().
 
+Removed:
+- project-357366
+
 Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
