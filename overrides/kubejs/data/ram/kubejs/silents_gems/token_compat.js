@@ -64,7 +64,7 @@ function createEnchantmentsTokenLegacy(event, enchants) {
 }
 
 function createEnchantmentTokenLegacy(event, enchant, ingred1, qty1, ingred2, qty2) {
-    console.info('enchant: ' + enchant + ' item1: ' + ingred1 + ' qty1: ' + qty1 + ' item2: ' + ingred2 + ' qty2: ' + qty2);
+    //console.info('enchant: ' + enchant + ' item1: ' + ingred1 + ' qty1: ' + qty1 + ' item2: ' + ingred2 + ' qty2: ' + qty2);
 
     var forgeRecipe = {
         chaosGenerated: 250,
@@ -102,7 +102,7 @@ function createEnchantmentsToken(event, enchants) {
 }
 
 function createEnchantmentToken(event, enchant, ingredients, costs) {
-    console.info('enchant: ' + enchant);
+    //console.info('enchant: ' + enchant);
 
     //Prepare ingredients
     var ingredientsString = '[';

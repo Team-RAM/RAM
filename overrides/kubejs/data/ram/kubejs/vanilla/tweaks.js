@@ -39,22 +39,11 @@ function recipesFunction(e) {
         L: logs
     });
 
-    //Logs to Chests
-    e.shaped(item.of('minecraft:chest', 4), ['LLL', 'L L', 'LLL'], {
-        L: logs
-    });
-
     //Logs to Barrels
     e.shaped(item.of('minecraft:barrel', 4), [' L ', 'LLL', 'LLL'], {
         L: logs
     });
 
-    //Redstone Repeater Alt
-    e.shaped('minecraft:repeater', ['R R', 'WRW', 'SSS'], {
-        R: redst,
-        W: rods,
-        S: stone
-    });
 
     //Redstone Comparator Alt
     e.shaped('minecraft:comparator', ['RRR', 'WQW', 'SSS'], {
