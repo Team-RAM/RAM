@@ -20,7 +20,7 @@
 	maxRfAdvancedConnector = 500000
 	#Power usage for the controller per active channel
 	#Range: 0 ~ 1000000000
-	controllerChannelRFT = 1
+	controllerChannelRFT = 0
 	#Maximum fluid per operation that a normal connector can input or output
 	#Range: 1 ~ 1000000000
 	maxFluidRateNormal = 1000
