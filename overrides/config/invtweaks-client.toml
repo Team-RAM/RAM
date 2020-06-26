@@ -9,8 +9,8 @@
 	#Exs. POS = D3 means 3rd slot of hotbar
 	#     POS = B means 2nd row, left to right
 	#     POS = 9 means 9th column, bottom to top
-	#     POS = A1-C9 means slots A1,A2,…,A9,B1,…,B9,C1,…,C9
-	#     POS = A9-C1 means slots A9,A8,…,A1,B9,…,B1,C9,…,C1
+	#     POS = A1-C9 means slots A1,A2,â€¦,A9,B1,â€¦,B9,C1,â€¦,C9
+	#     POS = A9-C1 means slots A9,A8,â€¦,A1,B9,â€¦,B1,C9,â€¦,C1
 	#Append v to POS of the form A1-C9 to move in columns instead of rows
 	#Append r to POS of the form B or 9 to reverse slot order
 	#CATEGORY is the item category to designate the slots to
@@ -160,6 +160,10 @@
 
 	[[sorting.containerOverrides]]
 		containerClass = "com.raoulvdberge.refinedstorage.container.FilterContainer"
+		sortRange = ""
+	
+	[[sorting.containerOverrides]]
+		containerClass = "mcjty.rftoolsutility.modules.crafter.blocks.CrafterContainer"
 		sortRange = ""
 
 	#Categor(y/ies) for sorting
