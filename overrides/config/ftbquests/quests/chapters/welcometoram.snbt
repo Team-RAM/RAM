@@ -148,7 +148,6 @@
 		},
 		{
 			title: "Welcome to Really Awesome Mods!",
-			icon: "tombstone:impregnated_diamond",
 			x: 2.0d,
 			y: -3.0d,
 			shape: "hexagon",
@@ -161,7 +160,6 @@
 				id: 298,
 				type: "dimension",
 				title: "Welcome to RAM",
-				icon: "tombstone:impregnated_diamond",
 				dimension: "minecraft:overworld"
 			}],
 			rewards: [
@@ -287,20 +285,103 @@
 			}]
 		},
 		{
-			title: "Grave's Soul",
-			icon: "tombstone:decorative_grave_simple",
+			title: "Craft the RAM Manual Collection",
+			icon: "akashictome:tome",
 			x: 4.0d,
 			y: -1.0d,
 			description: [
-				"Upon death, you will recieve a key. You can enchant this key to go back to your grave instantly. To enchant the key you may either craft it with an enderpearl or use a grave's soul.",
-				"Grave souls will appear at a placed grave over time.",
-				"You should place this grave near your home so you have an easy way back to your death location."
+				"Use a piece of dirt in the crafting table to craft an akashic tome with all manuals inside.",
+				" Right click to select a manual. Left click into the air to deselect. "
 			],
-			id: 602,
-			rewards: [{
-				id: 604,
+			id: 1145,
+			tasks: [{
+				id: 1148,
 				type: "item",
-				item: "tombstone:decorative_grave_simple"
+				item: {
+					id: "akashictome:tome",
+					Count: 1,
+					tag: {
+						"akashictome:is_morphing": 1,
+						"akashictome:data": {
+							powah: {
+								id: "powah:book",
+								Count: 1
+							},
+							ftbquests: {
+								id: "ftbquests:book",
+								Count: 1
+							},
+							pneumaticcraft: {
+								id: "patchouli:guide_book",
+								Count: 1,
+								tag: {
+									"patchouli:book": "pneumaticcraft:book"
+								}
+							},
+							immersiveengineering: {
+								id: "immersiveengineering:manual",
+								Count: 1
+							},
+							psi: {
+								id: "patchouli:guide_book",
+								Count: 1,
+								tag: {
+									"akashictome:displayName": '{"translate":"psi.book.name"}',
+									"patchouli:book": "psi:encyclopaedia_psionica",
+									"akashictome:is_morphing": 1,
+									display: {
+										Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","translate":"psi.book.name"}]}'
+									}
+								}
+							},
+							naturesaura: {
+								id: "patchouli:guide_book",
+								Count: 1,
+								tag: {
+									"patchouli:book": "naturesaura:book"
+								}
+							},
+							woot: {
+								id: "patchouli:guide_book",
+								Count: 1,
+								tag: {
+									"patchouli:book": "woot:wootguide"
+								}
+							},
+							valkyrielib: {
+								id: "valkyrielib:guide",
+								Count: 1
+							},
+							transport: {
+								id: "patchouli:guide_book",
+								Count: 1,
+								tag: {
+									"patchouli:book": "transport:guide"
+								}
+							},
+							vampirism: {
+								id: "guideapi-vp:vampirism-guidebook",
+								Count: 1
+							},
+							botania: {
+								id: "botania:lexicon",
+								Count: 1,
+								tag: {}
+							},
+							rftoolsbase: {
+								id: "rftoolsbase:manual",
+								Count: 1
+							},
+							mysticalagriculture: {
+								id: "patchouli:guide_book",
+								Count: 1,
+								tag: {
+									"patchouli:book": "mysticalagriculture:guide"
+								}
+							}
+						}
+					}
+				}
 			}]
 		}
 	]
