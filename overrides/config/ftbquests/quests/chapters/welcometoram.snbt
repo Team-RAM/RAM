@@ -148,6 +148,7 @@
 		},
 		{
 			title: "Welcome to Really Awesome Mods!",
+			icon: "rftoolsbase:infused_diamond",
 			x: 2.0d,
 			y: -3.0d,
 			shape: "hexagon",
